@@ -1,0 +1,37 @@
+name: Update AI FX Signal
+
+on:
+  schedule:
+    # 毎時0分に実行（例：0:00, 1:00, 2:00 UTC...）。
+    # USD/JPYの価格・回帰チャネルは毎回更新されるが、米10年債・WTIは
+    # 元データが日足のため1日1回しか実際にはAPIを呼ばない（スクリプト側で制御）。
+    - cron: "0 * * * *"
+  workflow_dispatch: {}  # GitHubの画面から手動実行もできるようにする
+
+permissions:
+  contents: write
+
+jobs:
+  update-signal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compute signal
+        env:
+          ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
+        run: python scripts/compute_signal.py
+
+      - name: Commit signal.json
+        run: |
+          git config user.name "aifx-signal-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add signal.json
+          git diff --cached --quiet && echo "変更なし。コミットをスキップします。" || git commit -m "chore: update signal.json ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git push
