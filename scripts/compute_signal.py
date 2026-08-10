@@ -1,52 +1,51 @@
 #!/usr/bin/env python3
 """
-AI FX研究所 - 本日のAIシグナル 自動計算スクリプト
+AI BTC研究所 - 本日のAIシグナル 自動計算スクリプト
 
 やっていること（概要）:
-  1. Yahoo Finance の公開チャートAPI（無料・キー不要）から
-     USD/JPY の価格（5分足・15分足・1時間足）を取得する。毎回実行時に取得。
-  2. Alpha Vantage（無料枠）から米10年債利回り・WTI原油（いずれも日足）を取得する。
-     ただし元データが日足のため、当日分をすでに取得済みなら再取得せず使い回す
-    （無料枠が1日25回までのため、頻繁な実行でも枠を消費しないようにするため）。
+  1. Binance の公開API（無料・キー不要・公式）から
+     BTC/USDT の価格（5分足・15分足・1時間足・4時間足）を取得する。毎回実行時に取得。
+  2. Binance Futuresの資金調達率（レバレッジ過熱度の指標）、
+     Fear & Greed Index（市場心理指数）、CoinGeckoのBTCドミナンス（市場内シェア）を
+     補助データとして取得する（いずれも無料・キー不要）。
   3. 各時間足について「線形回帰チャネル」を計算し、直近の価格が
      チャネルのどこに位置するかで SELL / BUY / WAIT / GATE を判定する。
   4. 4つの時間足の判定を集計して、総合バイアス・信頼度・相場モードを決める。
   5. Entry / Take Profit / Stop Loss を、直近のチャネル（1時間足）から算出する。
   6. 結果を signal.json として書き出す（GitHub Actionsがコミットし、
-     jsDelivr経由でWordPress側から読み込む）。
+     WordPress側からraw.githubusercontent.com経由で読み込む）。
 
 設計方針:
   - ブラックボックスなAI予測ではなく、「なぜその判定になったか」を
     誰でも追える単純な統計ルール（回帰チャネル）にしている。
   - 実際のトレード成績を保証するものではない。あくまで
     「参考情報を自動更新する」ためのツール。
-  - 為替の分足・時間足データは、Alpha Vantageの無料枠が2026年時点で
-    「historical intraday」を有料化してしまったため、Yahoo Financeの
-    非公式だが広く使われているチャートAPI（yfinance等でも使われているもの）
-    を利用している。公式サポートのAPIではないため、将来URLの仕様が
-    変わって取得できなくなる可能性はゼロではない（その場合はエラーとして
-    検知され、既存の静的表示のまま維持される）。
-  - 米10年債・WTIはAlpha Vantageの無料枠（日足データ）で取得。1日1回だけ
-    実際にAPIを呼び、それ以外の実行では前回のsignal.jsonの値を使い回す。
-    JP10Y・DXY・GOLDはAlpha Vantage無料枠では取得できないため、
-    このスクリプトの計算には使っていない
-    （サイト上ではTradingViewのライブティッカーで別途表示のみ）。
-  - 経済指標カレンダー（今夜の重要指標）は無料で信頼できる自動取得先が
-    見つからなかったため、今回は自動化していない（手動更新のまま）。
+  - 使用しているAPI（Binance公式API・CoinGecko・alternative.me）はいずれも無料枠に
+    キー登録不要で使えるため、AI FX研究所（USD/JPY版）と違ってAPIキー管理が不要。
+  - 仮想通貨は24時間365日取引されるため、FX版にあった「週末は市場が閉まっていて
+    データが止まる」という事象は基本的に発生しない。
+  - ローソク足データは api.binance.com ではなく data-api.binance.vision を使っている。
+    api.binance.com はアメリカ等一部地域からのアクセスを地域制限（451エラー）で
+    拒否することがあり、GitHub Actionsの実行環境（海外クラウド）から失敗する
+    ことがあったため。data-api.binance.vision はBinanceが市場データの自動取得・
+    Bot用途向けに公式に用意している地域制限を受けにくいミラーで、認証不要・
+    レスポンス形式もapi.binance.comと同一。
 """
 
 import json
 import os
 import statistics
 import sys
-import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
 
-ALPHA_VANTAGE_KEY = os.environ.get("ALPHA_VANTAGE_KEY", "").strip()
-BASE_URL = "https://www.alphavantage.co/query"
-YAHOO_CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/JPY=X"
+BINANCE_KLINES_URL = "https://data-api.binance.vision/api/v3/klines"
+BINANCE_FUNDING_URL = "https://fapi.binance.com/fapi/v1/fundingRate"
+FEAR_GREED_URL = "https://api.alternative.me/fng/"
+COINGECKO_GLOBAL_URL = "https://api.coingecko.com/api/v3/global"
+
+SYMBOL = "BTCUSDT"
 
 # 回帰チャネル計算に使う直近バーの本数
 LOOKBACK = 50
@@ -57,112 +56,67 @@ EDGE_THRESHOLD = 1.3   # これを超えたら「SELL」または「BUY」（バ
 # それ未満は「WAIT」（中央付近、方向感なし）
 
 
-def http_get_json(params, retries=3, wait_sec=15):
-    """Alpha Vantage APIを呼び出してJSONを返す。レート制限時は少し待って再試行する。"""
-    query = "&".join(f"{k}={v}" for k, v in params.items())
-    url = f"{BASE_URL}?{query}&apikey={ALPHA_VANTAGE_KEY}"
+def http_get_json(url, retries=3, wait_sec=5, headers=None):
+    req = urllib.request.Request(url, headers=headers or {"User-Agent": "Mozilla/5.0"})
     last_err = None
     for attempt in range(retries):
         try:
-            with urllib.request.urlopen(url, timeout=30) as res:
-                data = json.loads(res.read().decode("utf-8"))
-            if "Note" in data or "Information" in data:
-                # レート制限メッセージ。少し待って再試行。
-                last_err = RuntimeError(data.get("Note") or data.get("Information"))
-                time.sleep(wait_sec)
-                continue
-            return data
+            with urllib.request.urlopen(req, timeout=30) as res:
+                return json.loads(res.read().decode("utf-8"))
         except (urllib.error.URLError, TimeoutError) as e:
             last_err = e
+            import time
             time.sleep(wait_sec)
-    raise RuntimeError(f"API呼び出しに失敗しました: {params.get('function')} ({last_err})")
+    raise RuntimeError(f"取得に失敗しました: {url} ({last_err})")
 
 
-def fetch_fx_intraday(interval, range_):
+def fetch_klines(interval, limit):
     """
-    Yahoo Financeの公開チャートAPIからUSD/JPYの分足・時間足データ（ローソク足）を取得し、
-    [{"t":timestamp,"o":始値,"h":高値,"l":安値,"c":終値}, ...] を古い順（null値を除く）で返す。
-    interval例: "5m" "15m" "60m" / range例: "5d" "60d"
+    Binance公式APIからBTC/USDTのローソク足を取得し、
+    [{"t":timestamp,"o":始値,"h":高値,"l":安値,"c":終値}, ...] を古い順で返す。
+    interval例: "5m" "15m" "1h" "4h"
     """
-    url = f"{YAHOO_CHART_URL}?interval={interval}&range={range_}"
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    last_err = None
-    for attempt in range(3):
-        try:
-            with urllib.request.urlopen(req, timeout=30) as res:
-                data = json.loads(res.read().decode("utf-8"))
-            result = data.get("chart", {}).get("result")
-            if not result:
-                raise RuntimeError(f"USD/JPY {interval} のデータが取得できませんでした: {data.get('chart', {}).get('error')}")
-            r = result[0]
-            timestamps = r.get("timestamp") or []
-            quote = r["indicators"]["quote"][0]
-            opens = quote.get("open") or []
-            highs = quote.get("high") or []
-            lows = quote.get("low") or []
-            closes = quote.get("close") or []
-            bars = []
-            for i, ts in enumerate(timestamps):
-                c = closes[i] if i < len(closes) else None
-                if c is None:
-                    continue
-                o = opens[i] if i < len(opens) and opens[i] is not None else c
-                h = highs[i] if i < len(highs) and highs[i] is not None else max(o, c)
-                low = lows[i] if i < len(lows) and lows[i] is not None else min(o, c)
-                bars.append({"t": ts, "o": o, "h": h, "l": low, "c": c})
-            if not bars:
-                raise RuntimeError(f"USD/JPY {interval} のデータが空でした")
-            return bars
-        except (urllib.error.URLError, TimeoutError, RuntimeError) as e:
-            last_err = e
-            time.sleep(5)
-    raise RuntimeError(f"Yahoo Financeからの取得に失敗しました: {interval} ({last_err})")
+    url = f"{BINANCE_KLINES_URL}?symbol={SYMBOL}&interval={interval}&limit={limit}"
+    data = http_get_json(url)
+    if not isinstance(data, list) or not data:
+        raise RuntimeError(f"BTC/USDT {interval} のデータが取得できませんでした: {data}")
+    bars = []
+    for row in data:
+        bars.append({
+            "t": row[0],
+            "o": float(row[1]),
+            "h": float(row[2]),
+            "l": float(row[3]),
+            "c": float(row[4]),
+        })
+    return bars
 
 
-def fetch_treasury_yield_10y():
-    data = http_get_json({
-        "function": "TREASURY_YIELD",
-        "interval": "daily",
-        "maturity": "10year",
-    })
+def fetch_funding_rate():
+    """直近の資金調達率（%換算前の小数値）。正値=ロング優勢（過熱）、負値=ショート優勢。"""
+    data = http_get_json(f"{BINANCE_FUNDING_URL}?symbol={SYMBOL}&limit=1")
+    if not data:
+        raise RuntimeError("資金調達率が取得できませんでした")
+    return float(data[0]["fundingRate"])
+
+
+def fetch_fear_greed():
+    """Fear & Greed Index（0-100、0に近いほど恐怖、100に近いほど強欲）を返す。"""
+    data = http_get_json(FEAR_GREED_URL + "?limit=1")
     series = data.get("data")
     if not series:
-        raise RuntimeError(f"米10年債利回りが取得できませんでした: {data}")
-    # 新しい順で返ってくる想定。値が "." のことがあるので除外。
-    values = [(row["date"], row["value"]) for row in series if row.get("value") not in (None, ".")]
-    values = [(d, float(v)) for d, v in values]
-    values.sort()  # 古い順に
-    return values
+        raise RuntimeError(f"Fear & Greed Indexが取得できませんでした: {data}")
+    row = series[0]
+    return int(row["value"]), row.get("value_classification", "")
 
 
-def fetch_wti_daily():
-    data = http_get_json({
-        "function": "WTI",
-        "interval": "daily",
-    })
-    series = data.get("data")
-    if not series:
-        raise RuntimeError(f"WTI原油が取得できませんでした: {data}")
-    values = [(row["date"], row["value"]) for row in series if row.get("value") not in (None, ".")]
-    values = [(d, float(v)) for d, v in values]
-    values.sort()
-    return values
-
-
-def aggregate_to_4h(hourly_bars):
-    """1時間足のローソク足リストから、4本ごとにまとめた4時間足のローソク足リストを作る。"""
-    grouped = []
-    for i in range(0, len(hourly_bars), 4):
-        chunk = hourly_bars[i:i + 4]
-        if chunk:
-            grouped.append({
-                "t": chunk[0]["t"],
-                "o": chunk[0]["o"],
-                "h": max(b["h"] for b in chunk),
-                "l": min(b["l"] for b in chunk),
-                "c": chunk[-1]["c"],
-            })
-    return grouped
+def fetch_btc_dominance():
+    """暗号資産市場全体に占めるBTCの時価総額シェア（%）。"""
+    data = http_get_json(COINGECKO_GLOBAL_URL)
+    pct = data.get("data", {}).get("market_cap_percentage", {})
+    if "btc" not in pct:
+        raise RuntimeError(f"BTCドミナンスが取得できませんでした: {data}")
+    return float(pct["btc"])
 
 
 def linear_regression_channel(closes, lookback=LOOKBACK):
@@ -216,36 +170,15 @@ def classify_state(position):
     return "WAIT"
 
 
-def trend_direction(values, days=5):
-    """直近days件の値から単純な向き（up/down/flat）を判定する。"""
-    if len(values) < 2:
-        return "flat"
-    recent = [v for _, v in values[-days:]]
-    if len(recent) < 2:
-        return "flat"
-    change = recent[-1] - recent[0]
-    span = max(abs(v) for v in recent) or 1.0
-    if abs(change) / span < 0.01:
-        return "flat"
-    return "up" if change > 0 else "down"
-
-
-TREND_JA = {"up": "上昇", "down": "低下", "flat": "横ばい"}
-
-
 def build_market_context(bias, sell_count, buy_count, gate_count, latest_price,
-                          day_change_pct, us10y_trend, wti_trend):
+                          day_change_pct, fear_greed_value, fear_greed_label,
+                          funding_rate_pct, btc_dominance_pct):
     """
-    「直近の指標・報道まとめ」欄用の文章を、その時点の実データから自動生成する。
+    「今の相場環境」欄用の文章を、その時点の実データから自動生成する。
     固定文ではなく、価格・トレンドという生きた数値を毎回埋め込むため、
     時間が経っても内容が古びない（＝手動更新が要らない）設計にしている。
-    ここでは経済ニュースの見出しそのものは扱わず、あくまで「今の数値が
-    何を示しているか」の解説にとどめている（ニュース自体の自動取得は
-    別途 経済指標カレンダーAPIの導入が必要で、現状は未対応）。
     """
     change_txt = f"{day_change_pct:+.2f}%"
-    y = TREND_JA.get(us10y_trend, "横ばい")
-    w = TREND_JA.get(wti_trend, "横ばい")
 
     if bias == "SELL":
         stance = f"{sell_count}個の時間足が上値の重さを示しており、戻り売りが優勢な地合い"
@@ -257,75 +190,63 @@ def build_market_context(bias, sell_count, buy_count, gate_count, latest_price,
         stance = f"時間足ごとの判定が割れており（SELL {sell_count}／BUY {buy_count}／GATE {gate_count}）、方向感に乏しいレンジ地合い"
         outlook = "明確なブレイクが出るまでは、無理に取りにいかず様子見が無難な局面。"
 
+    macro_parts = []
+    if fear_greed_value is not None:
+        macro_parts.append(f"市場心理は「{fear_greed_label}」（{fear_greed_value}/100）")
+    if funding_rate_pct is not None:
+        funding_note = "レバレッジロングがやや過熱気味" if funding_rate_pct >= 0.01 else (
+            "レバレッジショートがやや優勢" if funding_rate_pct <= -0.01 else "レバレッジは中立圏"
+        )
+        macro_parts.append(f"資金調達率は{funding_rate_pct:+.3f}%で{funding_note}")
+    if btc_dominance_pct is not None:
+        macro_parts.append(f"BTCドミナンスは{btc_dominance_pct:.1f}%")
+    macro_txt = "、".join(macro_parts) + "。" if macro_parts else ""
+
     return (
-        f"USD/JPYは現在{latest_price:.2f}円付近で推移（直近1時間比{change_txt}）。{stance}。"
-        f"米10年債利回りは{y}基調、WTI原油は{w}基調で推移している。{outlook}"
-        "※このまとめは実データから自動生成された定型解説です。個別の経済指標発表や"
-        "ニュース速報の内容までは反映していません。"
+        f"BTC/USDTは現在${latest_price:,.0f}付近で推移（直近1時間比{change_txt}）。{stance}。"
+        f"{macro_txt}{outlook}"
+        "※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。"
     )
 
 
-def load_previous_signal(out_path):
-    """前回書き出したsignal.jsonを読む（無ければNone）。"""
-    try:
-        with open(out_path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError, OSError):
-        return None
-
-
-def is_same_utc_date(iso_ts, now):
-    """iso_ts（ISO形式の日時文字列）がnowと同じUTC日付かどうか。"""
-    if not iso_ts:
-        return False
-    try:
-        dt = datetime.fromisoformat(iso_ts)
-    except ValueError:
-        return False
-    return dt.date() == now.date()
-
-
-def build_signal(out_path=None):
-    if not ALPHA_VANTAGE_KEY:
-        raise RuntimeError("環境変数 ALPHA_VANTAGE_KEY が設定されていません")
-
+def build_signal():
     now = datetime.now(timezone.utc)
 
-    # --- 為替データ: Yahoo Finance（無料・キー不要・毎回取得） ---
-    m5 = fetch_fx_intraday("5m", "5d")
-    m15 = fetch_fx_intraday("15m", "5d")
-    h1 = fetch_fx_intraday("60m", "60d")
+    # --- BTC/USDT価格データ: Binance公式API（無料・キー不要・毎回取得） ---
+    m5 = fetch_klines("5m", LOOKBACK)
+    m15 = fetch_klines("15m", LOOKBACK)
+    h1 = fetch_klines("1h", LOOKBACK)
+    h4 = fetch_klines("4h", 30)
 
-    # --- 米10年債・WTI: Alpha Vantage（無料枠 25回/日のため、1日1回だけ取得して使い回す） ---
-    # そもそもTREASURY_YIELD/WTIは日足データなので、1日に何度呼んでも値は変わらない。
-    prev = load_previous_signal(out_path) if out_path else None
-    prev_macro = (prev or {}).get("macro", {})
-    reuse_macro = prev and is_same_utc_date(prev.get("generated_at_utc"), now) and prev_macro.get("us10y_latest") is not None
-
-    if reuse_macro:
-        yield_trend = prev_macro.get("us10y_trend", "flat")
-        us10y_latest = prev_macro.get("us10y_latest")
-        wti_trend = prev_macro.get("wti_trend", "flat")
-    else:
-        us10y = fetch_treasury_yield_10y()
-        time.sleep(13)
-        wti = fetch_wti_daily()
-        yield_trend = trend_direction(us10y)
-        us10y_latest = us10y[-1][1] if us10y else None
-        wti_trend = trend_direction(wti)
-
-    bars_4h = aggregate_to_4h(h1)
+    # --- 補助データ: すべて無料・キー不要なので毎回取得する。
+    #     ただし価格・チャート本体（上記）の更新を止めないよう、
+    #     いずれか1つが取得失敗してもここではエラーにせずNoneのまま続行する。
+    try:
+        funding_rate_pct = fetch_funding_rate() * 100
+    except Exception as e:  # noqa: BLE001
+        print(f"[WARN] 資金調達率の取得に失敗しました（続行します）: {e}", file=sys.stderr)
+        funding_rate_pct = None
+    try:
+        fear_greed_value, fear_greed_label = fetch_fear_greed()
+    except Exception as e:  # noqa: BLE001
+        print(f"[WARN] Fear & Greed Indexの取得に失敗しました（続行します）: {e}", file=sys.stderr)
+        fear_greed_value, fear_greed_label = None, None
+    try:
+        btc_dominance_pct = fetch_btc_dominance()
+    except Exception as e:  # noqa: BLE001
+        print(f"[WARN] BTCドミナンスの取得に失敗しました（続行します）: {e}", file=sys.stderr)
+        btc_dominance_pct = None
 
     ch_5m = linear_regression_channel([b["c"] for b in m5])
     ch_15m = linear_regression_channel([b["c"] for b in m15])
     ch_1h = linear_regression_channel([b["c"] for b in h1])
-    ch_4h = linear_regression_channel([b["c"] for b in bars_4h], lookback=30)
+    ch_4h = linear_regression_channel([b["c"] for b in h4], lookback=30)
 
     timeframes = [
         {"label": "5分足", "key": "m5", "channel": ch_5m, "bars": m5, "lookback": LOOKBACK},
         {"label": "15分足", "key": "m15", "channel": ch_15m, "bars": m15, "lookback": LOOKBACK},
         {"label": "1時間足", "key": "h1", "channel": ch_1h, "bars": h1, "lookback": LOOKBACK},
-        {"label": "4時間足", "key": "h4", "channel": ch_4h, "bars": bars_4h, "lookback": 30},
+        {"label": "4時間足", "key": "h4", "channel": ch_4h, "bars": h4, "lookback": 30},
     ]
     for tf in timeframes:
         tf["state"] = classify_state(tf["channel"]["position"])
@@ -370,9 +291,10 @@ def build_signal(out_path=None):
         if base:
             day_change_pct = (latest_price - base) / base * 100
 
-    intervention_risk = "HIGH" if (latest_price >= 158.5 and day_change_pct >= 0.7) else (
-        "MID" if latest_price >= 155.0 else "LOW"
-    )
+    # 仮想通貨はFXよりも値動きが大きいため、しきい値はFX版より広めに設定
+    # （急変動リスク＝短時間で大きく動いてロスカットが連鎖しやすい状況の目安）
+    abs_change = abs(day_change_pct)
+    volatility_risk = "HIGH" if abs_change >= 5.0 else ("MID" if abs_change >= 2.5 else "LOW")
 
     ref_channel = ch_1h
     if bias == "SELL":
@@ -406,13 +328,13 @@ def build_signal(out_path=None):
     commentary = comments.get(bias, comments["WAIT"])[0]
     market_context = build_market_context(
         bias, sell_count, buy_count, gate_count, latest_price, day_change_pct,
-        yield_trend, wti_trend,
+        fear_greed_value, fear_greed_label, funding_rate_pct, btc_dominance_pct,
     )
 
     return {
         "generated_at_utc": now.isoformat(),
-        "pair": "USD/JPY",
-        "latest_price": round(latest_price, 3),
+        "pair": "BTC/USDT",
+        "latest_price": round(latest_price, 2),
         "day_change_pct": round(day_change_pct, 2),
         "signal": {
             "bias": bias,
@@ -420,14 +342,14 @@ def build_signal(out_path=None):
             "stars": stars,
             "confidence": confidence,
         },
-        "intervention_risk": intervention_risk,
+        "volatility_risk": volatility_risk,
         "market_mode": market_mode,
         "market_mode_note": market_mode_note,
         "priority_trade": {
             "lead": trade_lead,
-            "entry": round(entry, 3) if entry is not None else None,
-            "take_profit": round(tp, 3) if tp is not None else None,
-            "stop_loss": round(sl, 3) if sl is not None else None,
+            "entry": round(entry, 2) if entry is not None else None,
+            "take_profit": round(tp, 2) if tp is not None else None,
+            "stop_loss": round(sl, 2) if sl is not None else None,
         },
         "regression_channels": [
             {
@@ -443,8 +365,8 @@ def build_signal(out_path=None):
                 "state": tf["state"],
                 "bars": [
                     {
-                        "o": round(b["o"], 3), "h": round(b["h"], 3),
-                        "l": round(b["l"], 3), "c": round(b["c"], 3),
+                        "o": round(b["o"], 2), "h": round(b["h"], 2),
+                        "l": round(b["l"], 2), "c": round(b["c"], 2),
                     }
                     for b in tf["bars"][-tf["lookback"]:]
                 ],
@@ -457,9 +379,10 @@ def build_signal(out_path=None):
             for tf in timeframes
         ],
         "macro": {
-            "us10y_trend": yield_trend,
-            "us10y_latest": round(us10y_latest, 2) if us10y_latest is not None else None,
-            "wti_trend": wti_trend,
+            "fear_greed_value": fear_greed_value,
+            "fear_greed_label": fear_greed_label,
+            "funding_rate_pct": round(funding_rate_pct, 4) if funding_rate_pct is not None else None,
+            "btc_dominance_pct": round(btc_dominance_pct, 2) if btc_dominance_pct is not None else None,
         },
         "commentary": commentary,
         "market_context": market_context,
@@ -472,7 +395,7 @@ def main():
     out_path = os.path.abspath(out_path)
 
     try:
-        signal = build_signal(out_path=out_path)
+        signal = build_signal()
     except Exception as e:  # noqa: BLE001
         print(f"[ERROR] シグナル計算に失敗しました: {e}", file=sys.stderr)
         sys.exit(1)
