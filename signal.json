@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-08-18T09:36:44.346415+00:00",
+  "generated_at_utc": "2026-08-18T09:47:13.657944+00:00",
   "pair": "BTC/USDT",
-  "latest_price": 64164.84,
+  "latest_price": 64164.66,
   "day_change_pct": 0.74,
   "signal": {
     "bias": "WAIT",
@@ -23,29 +23,29 @@
     {
       "key": "m5",
       "label": "5分足",
-      "position_sigma": -1.22,
+      "position_sigma": -1.26,
       "trend": "FLAT",
-      "mid": 64253.21,
-      "upper": 64397.77,
-      "lower": 64108.65
+      "mid": 64253.06,
+      "upper": 64393.79,
+      "lower": 64112.33
     },
     {
       "key": "m15",
       "label": "15分足",
-      "position_sigma": -1.42,
+      "position_sigma": -1.36,
       "trend": "FLAT",
-      "mid": 64495.08,
-      "upper": 64961.83,
-      "lower": 64028.33
+      "mid": 64483.09,
+      "upper": 64950.5,
+      "lower": 64015.68
     },
     {
       "key": "h1",
       "label": "1時間足",
       "position_sigma": 0.4,
       "trend": "UP",
-      "mid": 64050.85,
-      "upper": 64614.75,
-      "lower": 63486.95
+      "mid": 64050.84,
+      "upper": 64614.74,
+      "lower": 63486.94
     }
   ],
   "macro": {
@@ -96,39 +96,39 @@
   ],
   "disclaimer": "本データはルールベースの参考情報であり、投資成果を保証するものではありません。",
   "daily_analysis": {
-    "generated_at_utc": "2026-08-18T09:36:44.346415+00:00",
+    "generated_at_utc": "2026-08-18T09:47:13.657944+00:00",
     "title": "今日のBTC/USDT分析",
     "conclusion": "方向一致が出るまで見送り。休むも相場を優先。",
     "market_context": "BTC/USDTは現在$64,165付近で推移（直近1時間比+0.74%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Fear」（41/100）、BTCドミナンスは56.5%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
-    "support": 63486.95,
-    "resistance": 64614.75,
+    "support": 63486.94,
+    "resistance": 64614.74,
     "timeframes": [
       {
         "key": "m5",
         "label": "5分足",
-        "position_sigma": -1.22,
+        "position_sigma": -1.26,
         "trend": "FLAT",
-        "mid": 64253.21,
-        "upper": 64397.77,
-        "lower": 64108.65
+        "mid": 64253.06,
+        "upper": 64393.79,
+        "lower": 64112.33
       },
       {
         "key": "m15",
         "label": "15分足",
-        "position_sigma": -1.42,
+        "position_sigma": -1.36,
         "trend": "FLAT",
-        "mid": 64495.08,
-        "upper": 64961.83,
-        "lower": 64028.33
+        "mid": 64483.09,
+        "upper": 64950.5,
+        "lower": 64015.68
       },
       {
         "key": "h1",
         "label": "1時間足",
         "position_sigma": 0.4,
         "trend": "UP",
-        "mid": 64050.85,
-        "upper": 64614.75,
-        "lower": 63486.95
+        "mid": 64050.84,
+        "upper": 64614.74,
+        "lower": 63486.94
       }
     ],
     "scenarios": [
