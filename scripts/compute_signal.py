@@ -865,7 +865,14 @@ def build_signal(out_path=None):
             "1分足のタイミングを待つのが賢明。",
         ],
     }
-    commentary = comments.get(bias, comments["WAIT"])[0]
+    if bias in ("SELL", "BUY"):
+        commentary = comments[bias][0]
+    elif candidate == "BUY":
+        commentary = "上位足は上向き。焦らず、1分足の押し目からの反発を待つ。"
+    elif candidate == "SELL":
+        commentary = "上位足は下向き。焦らず、1分足の戻りからの反落を待つ。"
+    else:
+        commentary = comments["WAIT"][0]
     market_context = build_market_context(
         bias, candidate, latest_price, day_change_pct,
         fear_greed_value, fear_greed_label, funding_rate_pct, btc_dominance_pct,
