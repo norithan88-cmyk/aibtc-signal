@@ -1,0 +1,119 @@
+{
+  "events": [
+    {
+      "title": "韓国当局、ポリマーケット接続遮断を議決　違法賭博と判断",
+      "link": "https://coinpost.jp/?p=731628",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-18T08:05:02+00:00",
+      "detected_at_utc": "2026-08-18T14:19:48.741496+00:00",
+      "baseline": {
+        "t": "2026-08-18T14:19:48.741496+00:00",
+        "price": 64460.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 41,
+        "volume_1h": 83193713.13
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "仮想通貨市場デレバレッジ、2022年と異なる秩序ある減少＝ギャラクシー・リサーチ",
+      "link": "https://coinpost.jp/?p=731617",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-18T07:30:15+00:00",
+      "detected_at_utc": "2026-08-18T14:19:48.741496+00:00",
+      "baseline": {
+        "t": "2026-08-18T14:19:48.741496+00:00",
+        "price": 64460.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 41,
+        "volume_1h": 83193713.13
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "イーサリアム財団、「グラムステルダム」のガス上限変更でツール破損を警告",
+      "link": "https://coinpost.jp/?p=731604",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-18T06:37:13+00:00",
+      "detected_at_utc": "2026-08-18T14:19:48.741496+00:00",
+      "baseline": {
+        "t": "2026-08-18T14:19:48.741496+00:00",
+        "price": 64460.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 41,
+        "volume_1h": 83193713.13
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "イーサリアム次期大型アプデ「Hegotá」、プライバシー強化を焦点に66提案を絞り込み",
+      "link": "https://coinpost.jp/?p=731571",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-18T05:42:29+00:00",
+      "detected_at_utc": "2026-08-18T14:19:48.741496+00:00",
+      "baseline": {
+        "t": "2026-08-18T14:19:48.741496+00:00",
+        "price": 64460.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 41,
+        "volume_1h": 83193713.13
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "リップル、全北銀行と提携　韓国地銀初のRipple Payments導入",
+      "link": "https://coinpost.jp/?p=731584",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-18T05:29:55+00:00",
+      "detected_at_utc": "2026-08-18T14:19:48.741496+00:00",
+      "baseline": {
+        "t": "2026-08-18T14:19:48.741496+00:00",
+        "price": 64460.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 41,
+        "volume_1h": 83193713.13
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "トヨタファイナンス、10億円のトークン社債で募集開始",
+      "link": "https://coinpost.jp/?p=731568",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-18T05:00:33+00:00",
+      "detected_at_utc": "2026-08-18T14:19:48.741496+00:00",
+      "baseline": {
+        "t": "2026-08-18T14:19:48.741496+00:00",
+        "price": 64460.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 41,
+        "volume_1h": 83193713.13
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    }
+  ],
+  "updated_at_utc": "2026-08-18T14:19:48.741496+00:00"
+}
