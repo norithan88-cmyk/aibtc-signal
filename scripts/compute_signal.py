@@ -4,22 +4,28 @@ AI BTC研究所 - 本日のAIシグナル 自動計算スクリプト
 
 やっていること（概要）:
   1. Binance の公開API（無料・キー不要・公式）から
-     BTC/USDT の価格（5分足・15分足・1時間足・4時間足）を取得する。毎回実行時に取得。
+     BTC/USDT の価格（1分足・5分足・15分足・1時間足）を取得する。毎回実行時に取得。
   2. Binance Futuresの資金調達率（レバレッジ過熱度の指標）、
      Fear & Greed Index（市場心理指数）、CoinGeckoのBTCドミナンス（市場内シェア）を
      補助データとして取得する（いずれも無料・キー不要）。
-  3. 各時間足について「線形回帰チャネル」を計算し、直近の価格が
-     チャネルのどこに位置するかで SELL / BUY / WAIT / GATE を判定する。
-  4. 4つの時間足の判定を集計して、総合バイアス・信頼度・相場モードを決める。
-  5. Entry / Take Profit / Stop Loss を、直近のチャネル（1時間足）から算出する。
+  3. 5分・15分・1時間足の3つで線形回帰チャネルを計算し、3つとも「チャネル中心から
+     ±1.3σ以上その方向に偏っている」状態(momentum_direction)が一致した時だけ、
+     上位足の方向（押し目買い/戻り売りの候補方向）を確定する。
+  4. その方向候補が確定している時だけ、1分足がその方向に逆行してチャネル際まで
+     達し、そこから戻り始めたタイミング(detect_reversal_setup)を検出し、
+     検出できた瞬間だけ実際のSELL/BUYシグナルとして確定する（それ以外はWAIT）。
+  5. Entry = 直近1分足終値。TP/SLは、1分足の逆行の谷/山（測定値幅）を基準に算出する。
   6. 結果を signal.json として書き出す（GitHub Actionsがコミットし、
      WordPress側からraw.githubusercontent.com経由で読み込む）。
 
 設計方針:
   - ブラックボックスなAI予測ではなく、「なぜその判定になったか」を
     誰でも追える単純な統計ルール（回帰チャネル）にしている。
-  - 実際のトレード成績を保証するものではない。あくまで
-    「参考情報を自動更新する」ためのツール。
+  - このロジック（5分・15分・1時間足の方向一致＋1分足の逆行からの戻り）は、
+    AI FX研究所（USD/JPY版）で2025-01〜2026-07の19ヶ月・実データバックテストにより
+    検証済み（勝率70.3%・PF1.88）のものをBTC/USDTに移植している。ただしバックテストは
+    USD/JPYで行ったものであり、値動きの性質が異なる暗号資産で同等の成績が出るとは
+    限らない点に留意（値動きが荒い・ボラティリティが高い等の違いがある）。
   - 使用しているAPI（Binance公式API・CoinGecko・alternative.me）はいずれも無料枠に
     キー登録不要で使えるため、AI FX研究所（USD/JPY版）と違ってAPIキー管理が不要。
   - 仮想通貨は24時間365日取引されるため、FX版にあった「週末は市場が閉まっていて
@@ -36,6 +42,7 @@ import json
 import os
 import statistics
 import sys
+import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
@@ -48,12 +55,21 @@ COINGECKO_GLOBAL_URL = "https://api.coingecko.com/api/v3/global"
 SYMBOL = "BTCUSDT"
 
 # 回帰チャネル計算に使う直近バーの本数
-LOOKBACK = 50
+LOOKBACK = 100
 
-# チャネル内での位置（sigma単位）による状態判定のしきい値
-GATE_THRESHOLD = 2.2   # これを超えたら「GATE」（チャネルを突破。継続か反転か見極め）
-EDGE_THRESHOLD = 1.3   # これを超えたら「SELL」または「BUY」（バンド際、逆張り優勢）
-# それ未満は「WAIT」（中央付近、方向感なし）
+# チャネル内での位置（sigma単位）がこれを超えたら「その方向に強く偏っている」とみなす
+EDGE_THRESHOLD = 1.3
+
+# 1分足の「逆行からの戻り」判定パラメータ（USD/JPY版のバックテストで検証済みの値をそのまま採用）
+REVERT_WINDOW = 10       # 直近何本(分)以内に逆行の谷/山を探すか
+REVERT_MIN_PIPS = 3.0    # 「戻り出した」とみなす最低反発幅
+SL_BUFFER_PIPS = 2.0     # 逆行の谷/山からSLまでの余白
+
+# USD/JPYは1pips=0.01円だが、BTC/USDTは価格スケールが全く異なる（数万〜数十万ドル）ため、
+# 固定pips幅ではなくドル建ての固定幅を使う。BTC/USDTの通常の値動き（1分足で数十ドル単位）を
+# 踏まえ、REVERT_MIN_USDT・SL_BUFFER_USDTという名前で同じ役割の定数を別途持つ。
+REVERT_MIN_USDT = 15.0
+SL_BUFFER_USDT = 10.0
 
 
 def http_get_json(url, retries=3, wait_sec=5, headers=None):
@@ -65,7 +81,6 @@ def http_get_json(url, retries=3, wait_sec=5, headers=None):
                 return json.loads(res.read().decode("utf-8"))
         except (urllib.error.URLError, TimeoutError) as e:
             last_err = e
-            import time
             time.sleep(wait_sec)
     raise RuntimeError(f"取得に失敗しました: {url} ({last_err})")
 
@@ -74,7 +89,7 @@ def fetch_klines(interval, limit):
     """
     Binance公式APIからBTC/USDTのローソク足を取得し、
     [{"t":timestamp,"o":始値,"h":高値,"l":安値,"c":終値}, ...] を古い順で返す。
-    interval例: "5m" "15m" "1h" "4h"
+    interval例: "1m" "5m" "15m" "1h"
     """
     url = f"{BINANCE_KLINES_URL}?symbol={SYMBOL}&interval={interval}&limit={limit}"
     data = http_get_json(url)
@@ -158,37 +173,110 @@ def linear_regression_channel(closes, lookback=LOOKBACK):
     }
 
 
-def classify_state(position):
-    if position >= GATE_THRESHOLD:
-        return "GATE"
-    if position >= EDGE_THRESHOLD:
-        return "SELL"
-    if position <= -GATE_THRESHOLD:
-        return "GATE"
-    if position <= -EDGE_THRESHOLD:
-        return "BUY"
-    return "WAIT"
+def momentum_direction(ch):
+    """
+    5分・15分・1時間足それぞれについて、「チャネル中心から何σ離れているか」(position)が
+    ±EDGE_THRESHOLD(1.3σ)を超えていれば、その方向に強く偏っている(継続方向)とみなす。
+    3つの時間足がこの判定で全て同じ方向になった時だけ、上位足の方向候補が確定する
+    （build_signal参照）。
+    """
+    pos = ch["position"]
+    if pos >= EDGE_THRESHOLD:
+        return "UP"
+    if pos <= -EDGE_THRESHOLD:
+        return "DOWN"
+    return "FLAT"
 
 
-def build_market_context(bias, sell_count, buy_count, gate_count, latest_price,
-                          day_change_pct, fear_greed_value, fear_greed_label,
+def detect_reversal_setup(bars, ch, direction):
+    """
+    directionは上位3時間足が一致した方向候補("BUY"/"SELL")。1分足がこの方向とは
+    逆に振れてチャネル際(±EDGE_THRESHOLD)まで達し、そこから戻り始めていれば、
+    その谷(BUYの場合)/山(SELLの場合)の価格を返す。まだ戻り始めていない・戻り幅が
+    REVERT_MIN_USDT未満・そもそもチャネル際まで達していない場合はNoneを返す。
+    """
+    if len(bars) < REVERT_WINDOW:
+        return None
+    recent = bars[-REVERT_WINDOW:]
+    closes = [b["c"] for b in recent]
+    latest = closes[-1]
+    sigma = ch["sigma"]
+    mid = ch["mid"]
+
+    if direction == "BUY":
+        trough_idx = min(range(len(closes)), key=lambda i: closes[i])
+        trough = closes[trough_idx]
+        if trough_idx == len(closes) - 1:
+            return None  # 最新バーがまだ谷=反発が始まっていない
+        trough_position = (trough - mid) / sigma
+        if trough_position > -EDGE_THRESHOLD:
+            return None  # チャネル下限際まで到達していない
+        if (latest - trough) < REVERT_MIN_USDT:
+            return None  # 戻り幅が不十分(ノイズ)
+        return trough
+    else:
+        peak_idx = max(range(len(closes)), key=lambda i: closes[i])
+        peak = closes[peak_idx]
+        if peak_idx == len(closes) - 1:
+            return None
+        peak_position = (peak - mid) / sigma
+        if peak_position < EDGE_THRESHOLD:
+            return None
+        if (peak - latest) < REVERT_MIN_USDT:
+            return None
+        return peak
+
+
+def moving_average_trend(closes, short=10, long=30):
+    """
+    短期・長期の単純移動平均のクロスからトレンド方向を判定する（参考表示用）。
+    差が0.05%未満なら方向感なし（FLAT）扱い。売買判定には使用しない。
+    """
+    if len(closes) < long:
+        return "FLAT"
+    short_ma = sum(closes[-short:]) / short
+    long_ma = sum(closes[-long:]) / long
+    if not long_ma:
+        return "FLAT"
+    diff_ratio = (short_ma - long_ma) / long_ma
+    if diff_ratio > 0.0005:
+        return "UP"
+    if diff_ratio < -0.0005:
+        return "DOWN"
+    return "FLAT"
+
+
+def build_market_context(bias, candidate, latest_price, day_change_pct,
+                          fear_greed_value, fear_greed_label,
                           funding_rate_pct, btc_dominance_pct):
     """
     「今の相場環境」欄用の文章を、その時点の実データから自動生成する。
     固定文ではなく、価格・トレンドという生きた数値を毎回埋め込むため、
     時間が経っても内容が古びない（＝手動更新が要らない）設計にしている。
+
+    bias: 最終的なシグナル("SELL"/"BUY"/"WAIT")
+    candidate: 5分・15分・1時間足の方向一致だけで見た候補方向(一致していなければNone)。
+      biasがWAITでもcandidateがある場合、「上位足は方向一致しているが1分足の
+      反発シグナルがまだ点灯していない」ことを示せるため、単なるWAITより
+      具体的な状況説明ができる。
     """
     change_txt = f"{day_change_pct:+.2f}%"
 
     if bias == "SELL":
-        stance = f"{sell_count}個の時間足が上値の重さを示しており、戻り売りが優勢な地合い"
+        stance = "5分・15分・1時間足が揃って上値の重さを示す中、1分足が短期的な戻りから反落したタイミング"
         outlook = "目先は上値の重い展開が想定され、高値を追わず戻りを待つスタンスが機能しやすい局面。"
     elif bias == "BUY":
-        stance = f"{buy_count}個の時間足が下値の堅さを示しており、押し目買いが優勢な地合い"
+        stance = "5分・15分・1時間足が揃って下値の堅さを示す中、1分足が短期的な押し目から反発したタイミング"
         outlook = "目先は下値の堅い展開が想定され、押し目を焦らず拾うスタンスが機能しやすい局面。"
+    elif candidate == "SELL":
+        stance = "5分・15分・1時間足は戻り売り方向で揃っているが、1分足の反落シグナルはまだ点灯していない"
+        outlook = "上位足の方向感は出ているため、1分足が戻り高値から反落するタイミングを待ちたい局面。"
+    elif candidate == "BUY":
+        stance = "5分・15分・1時間足は押し目買い方向で揃っているが、1分足の反発シグナルはまだ点灯していない"
+        outlook = "上位足の方向感は出ているため、1分足が押し目安値から反発するタイミングを待ちたい局面。"
     else:
-        stance = f"時間足ごとの判定が割れており（SELL {sell_count}／BUY {buy_count}／GATE {gate_count}）、方向感に乏しいレンジ地合い"
-        outlook = "明確なブレイクが出るまでは、無理に取りにいかず様子見が無難な局面。"
+        stance = "5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い"
+        outlook = "明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。"
 
     macro_parts = []
     if fear_greed_value is not None:
@@ -213,10 +301,10 @@ def build_signal():
     now = datetime.now(timezone.utc)
 
     # --- BTC/USDT価格データ: Binance公式API（無料・キー不要・毎回取得） ---
+    m1 = fetch_klines("1m", LOOKBACK)
     m5 = fetch_klines("5m", LOOKBACK)
     m15 = fetch_klines("15m", LOOKBACK)
     h1 = fetch_klines("1h", LOOKBACK)
-    h4 = fetch_klines("4h", 30)
 
     # --- 補助データ: すべて無料・キー不要なので毎回取得する。
     #     ただし価格・チャート本体（上記）の更新を止めないよう、
@@ -237,54 +325,53 @@ def build_signal():
         print(f"[WARN] BTCドミナンスの取得に失敗しました（続行します）: {e}", file=sys.stderr)
         btc_dominance_pct = None
 
+    # --- 回帰チャネル: 5分・15分・1時間足で方向一致を判定、1分足で反発を検出 ---
+    ch_1m = linear_regression_channel([b["c"] for b in m1])
     ch_5m = linear_regression_channel([b["c"] for b in m5])
     ch_15m = linear_regression_channel([b["c"] for b in m15])
     ch_1h = linear_regression_channel([b["c"] for b in h1])
-    ch_4h = linear_regression_channel([b["c"] for b in h4], lookback=30)
 
     timeframes = [
-        {"label": "5分足", "key": "m5", "channel": ch_5m, "bars": m5, "lookback": LOOKBACK},
-        {"label": "15分足", "key": "m15", "channel": ch_15m, "bars": m15, "lookback": LOOKBACK},
-        {"label": "1時間足", "key": "h1", "channel": ch_1h, "bars": h1, "lookback": LOOKBACK},
-        {"label": "4時間足", "key": "h4", "channel": ch_4h, "bars": h4, "lookback": 30},
+        {"label": "5分足", "key": "m5", "channel": ch_5m, "bars": m5},
+        {"label": "15分足", "key": "m15", "channel": ch_15m, "bars": m15},
+        {"label": "1時間足", "key": "h1", "channel": ch_1h, "bars": h1},
     ]
     for tf in timeframes:
-        tf["state"] = classify_state(tf["channel"]["position"])
+        tf["trend"] = moving_average_trend([b["c"] for b in tf["bars"]])
+        tf["momentum"] = momentum_direction(tf["channel"])
 
-    sell_count = sum(1 for tf in timeframes if tf["state"] == "SELL")
-    buy_count = sum(1 for tf in timeframes if tf["state"] == "BUY")
-    gate_count = sum(1 for tf in timeframes if tf["state"] == "GATE")
-
-    if sell_count >= 2 and sell_count >= buy_count:
-        bias = "SELL"
-    elif buy_count >= 2 and buy_count > sell_count:
-        bias = "BUY"
+    dirs = [tf["momentum"] for tf in timeframes]
+    if dirs[0] == "UP" and dirs[1] == "UP" and dirs[2] == "UP":
+        candidate = "BUY"
+    elif dirs[0] == "DOWN" and dirs[1] == "DOWN" and dirs[2] == "DOWN":
+        candidate = "SELL"
     else:
-        bias = "WAIT"
+        candidate = None
 
-    agreeing = [tf for tf in timeframes if tf["state"] == bias] if bias in ("SELL", "BUY") else []
-    if agreeing:
-        avg_abs_pos = sum(abs(tf["channel"]["position"]) for tf in agreeing) / len(agreeing)
-        agreement_ratio = len(agreeing) / len(timeframes)
-        confidence = 50 + agreement_ratio * 30 + min(avg_abs_pos, 3.0) * 5
+    # 上位3時間足の方向が一致している時だけ、1分足の逆行からの戻りを調べる。
+    extreme = detect_reversal_setup(m1, ch_1m, candidate) if candidate else None
+    bias = candidate if (candidate and extreme is not None) else "WAIT"
+
+    if bias in ("SELL", "BUY"):
+        # 5分・15分・1時間足が全て一致している時しかbiasは確定しないため、
+        # 一致度合いは常に3/3固定。代わりに、3時間足のチャネル際からの
+        # 平均乖離度(avg_abs_pos)が大きいほど「強い一致」とみなして加点する。
+        avg_abs_pos = sum(abs(tf["channel"]["position"]) for tf in timeframes) / len(timeframes)
+        confidence = 50 + 30 + min(avg_abs_pos, 3.0) * 5
         confidence = max(50, min(95, round(confidence)))
         stars = max(1, min(5, round(confidence / 20)))
     else:
         confidence = 50
         stars = 2
 
-    directional_tfs = sell_count + buy_count
-    if directional_tfs >= 3:
+    if candidate is not None:
         market_mode = "TREND"
-        market_mode_note = "複数の時間足でチャネル際まで到達しており、方向感のある地合い。"
-    elif gate_count >= 1:
-        market_mode = "EVENT DRIVEN"
-        market_mode_note = "回帰チャネルの突破が見られ、材料次第で振れやすい局面。"
+        market_mode_note = "5分・15分・1時間足の方向が揃っており、方向感のある地合い。"
     else:
         market_mode = "RANGE"
-        market_mode_note = "多くの時間足が中央付近で推移しており、方向感に乏しいレンジ地合い。"
+        market_mode_note = "時間足ごとに方向が割れており、方向感に乏しいレンジ地合い。"
 
-    latest_price = m5[-1]["c"] if m5 else ch_1h["latest"]
+    latest_price = m1[-1]["c"] if m1 else ch_1h["latest"]
     day_change_pct = 0.0
     if len(h1) >= 24:
         base = h1[-24]["c"]
@@ -296,20 +383,34 @@ def build_signal():
     abs_change = abs(day_change_pct)
     volatility_risk = "HIGH" if abs_change >= 5.0 else ("MID" if abs_change >= 2.5 else "LOW")
 
-    ref_channel = ch_1h
+    # Entry/TP/SLは、1分足の逆行の谷/山(extreme)を基準にした「測定値幅」で算出する。
+    # SLはextremeの少し外側（このセットアップの前提が崩れる水準）、
+    # TPはentryからextremeまでの距離を反対方向に伸ばした幅。
     if bias == "SELL":
         entry = latest_price
-        tp = ref_channel["mid"]
-        sl = ref_channel["upper"] + 0.5 * ref_channel["sigma"]
-        trade_lead = "戻り売り ― ただし押し目を深追いしない"
+        move = abs(entry - extreme)
+        sl = extreme + SL_BUFFER_USDT
+        tp = entry - move
+        trade_lead = "戻り売り ― 上位足の下降方向一致＋1分足の戻りからの反落"
     elif bias == "BUY":
         entry = latest_price
-        tp = ref_channel["mid"]
-        sl = ref_channel["lower"] - 0.5 * ref_channel["sigma"]
-        trade_lead = "押し目買い ― ただし高値を深追いしない"
+        move = abs(entry - extreme)
+        sl = extreme - SL_BUFFER_USDT
+        tp = entry + move
+        trade_lead = "押し目買い ― 上位足の上昇方向一致＋1分足の押し目からの反発"
     else:
         entry = tp = sl = None
-        trade_lead = "様子見 ― チャネル中央で方向感なし"
+        if candidate == "SELL":
+            trade_lead = "様子見 ― 上位足は戻り売り方向で一致、1分足の反落シグナル待ち"
+        elif candidate == "BUY":
+            trade_lead = "様子見 ― 上位足は押し目買い方向で一致、1分足の反発シグナル待ち"
+        else:
+            trade_lead = "様子見 ― 5分・15分・1時間足の方向が一致していない"
+
+    reversal_setup = None
+    if bias in ("SELL", "BUY"):
+        reverted_amount = round((entry - extreme), 2) if bias == "BUY" else round((extreme - entry), 2)
+        reversal_setup = {"extreme": round(extreme, 2), "reverted_usdt": reverted_amount}
 
     comments = {
         "SELL": [
@@ -322,12 +423,12 @@ def build_signal():
         ],
         "WAIT": [
             "方向感のない日は、休むも相場。無理に取りにいかない。",
-            "チャネルの中央は様子見。ブレイクを待つのが賢明。",
+            "1分足のタイミングを待つのが賢明。",
         ],
     }
     commentary = comments.get(bias, comments["WAIT"])[0]
     market_context = build_market_context(
-        bias, sell_count, buy_count, gate_count, latest_price, day_change_pct,
+        bias, candidate, latest_price, day_change_pct,
         fear_greed_value, fear_greed_label, funding_rate_pct, btc_dominance_pct,
     )
 
@@ -351,30 +452,16 @@ def build_signal():
             "take_profit": round(tp, 2) if tp is not None else None,
             "stop_loss": round(sl, 2) if sl is not None else None,
         },
+        "reversal_setup": reversal_setup,
         "regression_channels": [
             {
+                "key": tf["key"],
                 "label": tf["label"],
-                "state": tf["state"],
                 "position_sigma": round(tf["channel"]["position"], 2),
-            }
-            for tf in timeframes
-        ],
-        "charts": [
-            {
-                "label": tf["label"],
-                "state": tf["state"],
-                "bars": [
-                    {
-                        "o": round(b["o"], 2), "h": round(b["h"], 2),
-                        "l": round(b["l"], 2), "c": round(b["c"], 2),
-                    }
-                    for b in tf["bars"][-tf["lookback"]:]
-                ],
-                "channel": {
-                    "intercept": round(tf["channel"]["intercept"], 4),
-                    "slope": round(tf["channel"]["slope"], 6),
-                    "sigma": round(tf["channel"]["sigma"], 4),
-                },
+                "trend": tf["trend"],
+                "mid": round(tf["channel"]["mid"], 2),
+                "upper": round(tf["channel"]["upper"], 2),
+                "lower": round(tf["channel"]["lower"], 2),
             }
             for tf in timeframes
         ],
