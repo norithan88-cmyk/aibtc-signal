@@ -114,8 +114,18 @@ def fetch_klines(interval, limit):
             "h": float(row[2]),
             "l": float(row[3]),
             "c": float(row[4]),
+            "v": float(row[5]),
         })
     return bars
+
+
+def recent_volume_usdt(bars_m5, hours=1.0):
+    """直近hours時間分の出来高をUSDT建て概算（各バーの出来高×終値の合計）で返す。"""
+    n = int(hours * 60 / 5)
+    recent = bars_m5[-n:] if len(bars_m5) >= n else bars_m5
+    if not recent:
+        return None
+    return sum(b["v"] * b["c"] for b in recent)
 
 
 def fetch_funding_rate():
@@ -497,6 +507,191 @@ def compute_trade_stats(trades):
     }
 
 
+# --- ニュース影響分析（market_events.json） ---
+# ニュース見出し検出時点の相場スナップショット(price/funding_rate/fear_greed)を基準(baseline)として
+# 記録し、30分/1時間/2時間/4時間経過ごとに現在値と比較する。「因果関係の証明」ではなく、
+# あくまで数値の変化を機械的に並べて見せるだけの設計（断定表現を避けるため、要約文は
+# 実測値をf-stringに埋め込むだけのテンプレート生成にし、AIに文章を書かせない＝
+# ハルシネーションが原理的に発生しない構成にしている）。
+MARKET_EVENT_CHECKPOINTS = [("30m", 30 * 60), ("1h", 60 * 60), ("2h", 2 * 60 * 60), ("4h", 4 * 60 * 60)]
+MARKET_EVENT_CHECKPOINT_LABEL_JA = {"30m": "30分", "1h": "1時間", "2h": "2時間", "4h": "4時間"}
+MARKET_EVENTS_MAX_KEEP = 60  # 保持する最大イベント数（4時間分の決着を待つ間は必ず残し、それ以外は新しい順に間引く）
+
+# 「急変」とみなすしきい値。BTCはFXよりボラティリティが高いため、資金調達率・Fear&Greedとも
+# やや広めに設定している。
+FUNDING_SPIKE_ABS = 0.02      # この水準以上でロング過熱とみなす（%、絶対水準）
+FUNDING_SPIKE_DELTA = 0.005   # baselineからこれ以上変化したら「急上昇/急低下」とみなす（%ポイント、変化幅）
+FUNDING_DROP_ABS = -0.005     # この水準以下でショート優勢とみなす（%、絶対水準）
+FEAR_GREED_SWING = 8          # baselineからこれ以上変化したら「大幅変化」とみなす（ポイント）
+PRICE_SWING_PCT = 1.5         # baselineからこれ以上変化したら「価格急変」とみなす（%）
+VOLUME_SWING_PCT = 50.0       # baselineからこれ以上変化したら「出来高急増」とみなす（%）
+
+
+def load_market_events(base_dir):
+    """
+    market_events.json（リポジトリ直下、signal.jsonと同じ階層）を読み込む。
+    trade_log.jsonと同様、signal.jsonとは別ファイルにして肥大化を防いでいる。
+    """
+    path = os.path.join(base_dir, "market_events.json")
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if not isinstance(data.get("events"), list):
+            raise ValueError("market_events.jsonの形式が不正です")
+        return data
+    except (FileNotFoundError, json.JSONDecodeError, OSError, ValueError, AttributeError):
+        return {"events": []}
+
+
+def classify_funding_flag(before, after):
+    if before is None or after is None:
+        return None
+    if after >= FUNDING_SPIKE_ABS or (after - before) >= FUNDING_SPIKE_DELTA:
+        return "ロング過熱（資金調達率急上昇）"
+    if after <= FUNDING_DROP_ABS or (after - before) <= -FUNDING_SPIKE_DELTA:
+        return "ショート優勢（資金調達率急低下）"
+    return None
+
+
+def classify_fear_greed_flag(before, after):
+    if before is None or after is None:
+        return None
+    delta = after - before
+    if delta >= FEAR_GREED_SWING:
+        return "市場心理の好転（Fear & Greed急上昇）"
+    if delta <= -FEAR_GREED_SWING:
+        return "市場心理の悪化（Fear & Greed急低下）"
+    return None
+
+
+def classify_price_flag(before, after):
+    if not before or after is None:
+        return None
+    pct = (after - before) / before * 100
+    if abs(pct) >= PRICE_SWING_PCT:
+        return f"価格急変（{pct:+.1f}%）"
+    return None
+
+
+def classify_volume_flag(before, after):
+    if not before or after is None:
+        return None
+    pct = (after - before) / before * 100
+    if pct >= VOLUME_SWING_PCT:
+        return f"出来高急増（{pct:+.0f}%）"
+    return None
+
+
+def build_event_summary(event, label, checkpoint):
+    """
+    実測値だけをf-stringに埋め込んだ定型文を生成する（LLMを使わないため、数値の
+    捏造や過度な断定が原理的に起こらない）。ユーザー提示の表示例と同じ形式:
+    「(見出し)後、BTCは(経過時間)で(価格変化)%。Funding Rateは(前)%から(後)%へ(方向)、
+      Fear & Greedも(前)から(後)へ(方向)。(所見)。ただし因果関係は確定できません。」
+    """
+    baseline = event["baseline"]
+    elapsed_ja = MARKET_EVENT_CHECKPOINT_LABEL_JA[label]
+    parts = [f"「{event['title']}」の報道後、BTCは{elapsed_ja}で{checkpoint['delta_price_pct']:+.1f}%。"]
+
+    bf, af = baseline.get("funding_rate_pct"), checkpoint.get("funding_rate_pct")
+    if bf is not None and af is not None:
+        trend = "上昇" if af > bf else ("低下" if af < bf else "横ばい")
+        parts.append(f"Funding Rateは{bf:+.3f}%から{af:+.3f}%へ{trend}、")
+
+    bg, ag = baseline.get("fear_greed_value"), checkpoint.get("fear_greed_value")
+    if bg is not None and ag is not None:
+        trend2 = "改善" if ag > bg else ("悪化" if ag < bg else "横ばい")
+        parts.append(f"Fear & Greedも{bg}から{ag}へ{trend2}。")
+
+    if event.get("flags"):
+        parts.append("、".join(event["flags"]) + "の兆候が見られます。")
+
+    parts.append("ただし相関の一致であり、因果関係は確定できません。")
+    return "".join(parts)
+
+
+def update_market_events(events_data, now, snapshot, news_headlines):
+    """
+    ①未追跡のニュース見出しを新規イベントとして登録（検出時点のsnapshotをbaselineに）。
+    ②追跡中の各イベントについて、経過時間がチェックポイント(30分/1時間/2時間/4時間)を
+      超えていれば、現在のsnapshotとbaselineを比較してdelta・флаグ・要約文を更新する。
+    ③4時間チェックポイントまで埋まったイベントはfinalizedとし、保持件数の上限を超えた分は
+      古いfinalized済みイベントから間引く（未決着のイベントは常に残す）。
+    """
+    events = events_data.get("events", [])
+    known_links = {e["link"] for e in events}
+    for item in news_headlines:
+        if item["link"] in known_links:
+            continue
+        events.append({
+            "title": item["title"],
+            "link": item["link"],
+            "source": item["source"],
+            "published_at_utc": item["published_at_utc"],
+            "detected_at_utc": now.isoformat(),
+            "baseline": snapshot,
+            "checkpoints": {},
+            "flags": [],
+            "relevance": "unknown",
+            "summary": None,
+            "finalized": False,
+        })
+
+    for event in events:
+        if event.get("finalized"):
+            continue
+        detected_at = datetime.fromisoformat(event["detected_at_utc"])
+        elapsed_sec = (now - detected_at).total_seconds()
+        baseline = event["baseline"]
+
+        for label, threshold_sec in MARKET_EVENT_CHECKPOINTS:
+            if label in event["checkpoints"] or elapsed_sec < threshold_sec:
+                continue
+            checkpoint = dict(snapshot)
+            if baseline.get("price") and snapshot.get("price") is not None:
+                checkpoint["delta_price_pct"] = round((snapshot["price"] - baseline["price"]) / baseline["price"] * 100, 2)
+            else:
+                checkpoint["delta_price_pct"] = None
+            event["checkpoints"][label] = checkpoint
+
+            flags = []
+            for flag in (
+                classify_funding_flag(baseline.get("funding_rate_pct"), snapshot.get("funding_rate_pct")),
+                classify_fear_greed_flag(baseline.get("fear_greed_value"), snapshot.get("fear_greed_value")),
+                classify_price_flag(baseline.get("price"), snapshot.get("price")),
+                classify_volume_flag(baseline.get("volume_1h"), snapshot.get("volume_1h")),
+            ):
+                if flag:
+                    flags.append(flag)
+            if flags:
+                event["flags"] = list(dict.fromkeys(event.get("flags", []) + flags))
+
+            if len(event["flags"]) >= 2:
+                event["relevance"] = "high"
+            elif len(event["flags"]) == 1:
+                event["relevance"] = "medium"
+            else:
+                event["relevance"] = event.get("relevance") if event.get("relevance") != "unknown" else "low"
+
+            if checkpoint["delta_price_pct"] is not None:
+                event["summary"] = build_event_summary(event, label, checkpoint)
+
+        if "4h" in event["checkpoints"]:
+            event["finalized"] = True
+
+    pending = [e for e in events if not e.get("finalized")]
+    finalized = sorted(
+        (e for e in events if e.get("finalized")),
+        key=lambda e: e["detected_at_utc"], reverse=True,
+    )
+    keep_finalized = finalized[: max(0, MARKET_EVENTS_MAX_KEEP - len(pending))]
+    events = pending + keep_finalized
+    events.sort(key=lambda e: e["detected_at_utc"], reverse=True)
+
+    events_data["events"] = events
+    return events_data
+
+
 def build_signal(out_path=None):
     now = datetime.now(timezone.utc)
 
@@ -686,8 +881,8 @@ def build_signal(out_path=None):
     # trade_log.json（実績ページ用の履歴）はsignal.jsonとは別ファイルに直接書き出す。
     # ここで失敗しても、シグナル本体の計算・書き出しには影響させない。
     if out_path:
+        base_dir = os.path.dirname(out_path)
         try:
-            base_dir = os.path.dirname(out_path)
             trade_log = load_trade_log(base_dir)
             trade_log, _newly_opened = update_trade_log(
                 trade_log, bias, result["priority_trade"], latest_price, confidence, now.isoformat(),
@@ -698,6 +893,23 @@ def build_signal(out_path=None):
                 json.dump(trade_log, f, ensure_ascii=False, indent=2)
         except Exception as e:  # noqa: BLE001
             print(f"[WARN] trade_log.jsonの更新に失敗しました（シグナル本体は継続します）: {e}", file=sys.stderr)
+
+        # market_events.json（ニュース影響分析の履歴）も同様に、失敗してもシグナル本体には影響させない。
+        try:
+            snapshot = {
+                "t": now.isoformat(),
+                "price": round(latest_price, 2),
+                "funding_rate_pct": round(funding_rate_pct, 4) if funding_rate_pct is not None else None,
+                "fear_greed_value": fear_greed_value,
+                "volume_1h": round(recent_volume_usdt(m5), 2) if m5 else None,
+            }
+            events_data = load_market_events(base_dir)
+            events_data = update_market_events(events_data, now, snapshot, news_headlines)
+            events_data["updated_at_utc"] = now.isoformat()
+            with open(os.path.join(base_dir, "market_events.json"), "w", encoding="utf-8") as f:
+                json.dump(events_data, f, ensure_ascii=False, indent=2)
+        except Exception as e:  # noqa: BLE001
+            print(f"[WARN] market_events.jsonの更新に失敗しました（シグナル本体は継続します）: {e}", file=sys.stderr)
 
     return result
 
