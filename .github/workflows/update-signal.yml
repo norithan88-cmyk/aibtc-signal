@@ -1,11 +1,15 @@
-name: Update AI FX Signal
+name: Update AI BTC Signal
 
 on:
   schedule:
-    # 毎時0分に実行（例：0:00, 1:00, 2:00 UTC...）。
-    # USD/JPYの価格・回帰チャネルは毎回更新されるが、米10年債・WTIは
-    # 元データが日足のため1日1回しか実際にはAPIを呼ばない（スクリプト側で制御）。
-    - cron: "0 * * * *"
+    # 5分おきに実行。パターン4(1分足の反発検出)導入に伴い、バックテスト時の
+    # 判定精度(1分単位)により近づけるため毎時1回から短縮した。Binance公式APIは
+    # Yahoo Finance非公式APIと違いレート制限が緩いため、AI FX研究所側で懸念した
+    # 「頻繁な呼び出しでブロックされるリスク」は低いと判断している。ただし
+    # GitHub Actions側のスケジュール実行は指定間隔を厳密には守らない
+    # （実行遅延が起きることがある、既知の仕様）。
+    # BTCは24時間365日取引されるため、FX版と違って週末に止まることはない。
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}  # GitHubの画面から手動実行もできるようにする
 
 permissions:
@@ -24,14 +28,13 @@ jobs:
           python-version: "3.12"
 
       - name: Compute signal
-        env:
-          ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
         run: python scripts/compute_signal.py
 
       - name: Commit signal.json
         run: |
-          git config user.name "aifx-signal-bot"
+          git config user.name "aibtc-signal-bot"
           git config user.email "actions@users.noreply.github.com"
           git add signal.json
           git diff --cached --quiet && echo "変更なし。コミットをスキップします。" || git commit -m "chore: update signal.json ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git pull --rebase origin main || { echo "::warning::別の実行と競合したため、今回の更新はスキップします（次回の実行で自動的に解消されます）"; git rebase --abort; exit 0; }
           git push
