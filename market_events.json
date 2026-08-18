@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "米シティ、次世代カストディ基盤始動｜ビットコインカストディも年内開始",
+      "link": "https://coinpost.jp/?p=731649",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-18T20:00:51+00:00",
+      "detected_at_utc": "2026-08-18T20:35:30.840500+00:00",
+      "baseline": {
+        "t": "2026-08-18T20:35:30.840500+00:00",
+        "price": 64627.23,
+        "funding_rate_pct": null,
+        "fear_greed_value": 41,
+        "volume_1h": 11791649.91
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコインマイナーのハイブ、550億円超のAIクラウドサービス契約を締結",
       "link": "https://coinpost.jp/?p=731496",
       "source": "CoinPost",
@@ -469,5 +488,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-18T19:59:54.586781+00:00"
+  "updated_at_utc": "2026-08-18T20:35:30.840500+00:00"
 }
