@@ -37,12 +37,20 @@
           "fear_greed_value": 41,
           "volume_1h": 27790483.11,
           "delta_price_pct": -0.11
+        },
+        "4h": {
+          "t": "2026-08-18T19:40:02.506445+00:00",
+          "price": 64717.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 10099549.47,
+          "delta_price_pct": -0.09
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコインマイナーのハイブ、550億円超のAIクラウドサービス契約を締結」の報道後、BTCは2時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ビットコインマイナーのハイブ、550億円超のAIクラウドサービス契約を締結」の報道後、BTCは4時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン取引高、2019年以来の低水準に　株市場に出遅れ＝ビットフィネックス分析",
@@ -81,12 +89,20 @@
           "fear_greed_value": 41,
           "volume_1h": 27790483.11,
           "delta_price_pct": -0.11
+        },
+        "4h": {
+          "t": "2026-08-18T19:40:02.506445+00:00",
+          "price": 64717.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 10099549.47,
+          "delta_price_pct": -0.09
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン取引高、2019年以来の低水準に　株市場に出遅れ＝ビットフィネックス分析」の報道後、BTCは2時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ビットコイン取引高、2019年以来の低水準に　株市場に出遅れ＝ビットフィネックス分析」の報道後、BTCは4時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、2023年夏に似た停滞とグレースケール指摘",
@@ -125,12 +141,20 @@
           "fear_greed_value": 41,
           "volume_1h": 27790483.11,
           "delta_price_pct": -0.11
+        },
+        "4h": {
+          "t": "2026-08-18T19:40:02.506445+00:00",
+          "price": 64717.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 10099549.47,
+          "delta_price_pct": -0.09
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン、2023年夏に似た停滞とグレースケール指摘」の報道後、BTCは2時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ビットコイン、2023年夏に似た停滞とグレースケール指摘」の報道後、BTCは4時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "韓国当局、ポリマーケット接続遮断を議決　違法賭博と判断",
@@ -445,5 +469,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-18T19:06:27.272749+00:00"
+  "updated_at_utc": "2026-08-18T19:40:02.506445+00:00"
 }
