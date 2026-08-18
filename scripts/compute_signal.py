@@ -54,11 +54,12 @@ BINANCE_FUNDING_URL = "https://fapi.binance.com/fapi/v1/fundingRate"
 FEAR_GREED_URL = "https://api.alternative.me/fng/"
 COINGECKO_GLOBAL_URL = "https://api.coingecko.com/api/v3/global"
 
-# 「LAST KEY EVENT」欄用。CoinGecko Newsは有料プラン限定のため使えず、代わりに
+# 「LATEST NEWS」欄用。CoinGecko Newsは有料プラン限定のため使えず、代わりに
 # 無料・キー不要のRSSフィードから見出しをそのまま拾う（重要度でのフィルタリングはしない）。
+# 日本語サイトなので、英語のCoinDesk・CointelegraphではなくCoinPost（国内最大手の
+# 仮想通貨メディア）に切り替えた。
 NEWS_FEEDS = [
-    ("CoinDesk", "https://www.coindesk.com/arc/outboundfeeds/rss/"),
-    ("Cointelegraph", "https://cointelegraph.com/rss"),
+    ("CoinPost", "https://coinpost.jp/?feed=rss2"),
 ]
 MAX_NEWS_AGE_HOURS = 24  # これより古い見出しは「今日のニュース」として不適切なので除外する
 
