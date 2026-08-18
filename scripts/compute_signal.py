@@ -188,11 +188,26 @@ def fetch_one_news_feed(source, url):
     return items
 
 
+# CoinPostは国内取引所全般のニュースを扱うため、アルトコイン上場情報など
+# BTCと直接関係しない見出しが混ざることがある。見出しにこれらのキーワードを
+# 含むものだけに絞り込み、ノイズを減らす（日本語は大文字小文字の区別が無いため、
+# .lower()で英語表記だけ小文字化すれば一括で判定できる）。
+NEWS_KEYWORDS = ("btc", "bitcoin", "ビットコイン")
+
+
+def is_btc_related(title):
+    lowered = title.lower()
+    for kw in NEWS_KEYWORDS:
+        if kw in lowered:
+            return True
+    return False
+
+
 def fetch_news_headlines(limit=6):
     """
-    CoinDesk・CointelegraphのRSSフィードから最新見出しをまとめて取得する。
-    片方が失敗してももう片方だけで続行し、両方失敗した場合は空リストを返す
-    （本体のシグナル計算は止めない設計）。MAX_NEWS_AGE_HOURSより古い見出しは除外する。
+    CoinPostのRSSフィードから最新見出しをまとめて取得する。取得に失敗した場合は
+    空リストを返す（本体のシグナル計算は止めない設計）。MAX_NEWS_AGE_HOURSより
+    古い見出し、およびBTCに直接関係しない見出し（NEWS_KEYWORDSを含まないもの）は除外する。
     """
     all_items = []
     for source, url in NEWS_FEEDS:
@@ -205,6 +220,8 @@ def fetch_news_headlines(limit=6):
     fresh = []
     for it in all_items:
         if not it["published_at_utc"]:
+            continue
+        if not is_btc_related(it["title"]):
             continue
         published_at = datetime.fromisoformat(it["published_at_utc"])
         if (now - published_at).total_seconds() <= MAX_NEWS_AGE_HOURS * 3600:
