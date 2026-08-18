@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-08-18T02:27:34.609466+00:00",
+  "generated_at_utc": "2026-08-18T03:24:32.220199+00:00",
   "pair": "BTC/USDT",
-  "latest_price": 64178.03,
-  "day_change_pct": 1.18,
+  "latest_price": 64121.82,
+  "day_change_pct": 0.93,
   "signal": {
     "bias": "WAIT",
     "bias_label": "方向感なし",
@@ -23,38 +23,38 @@
     {
       "key": "m5",
       "label": "5分足",
-      "position_sigma": -1.82,
+      "position_sigma": -1.32,
       "trend": "DOWN",
-      "mid": 64319.35,
-      "upper": 64474.73,
-      "lower": 64163.97
+      "mid": 64242.61,
+      "upper": 64425.25,
+      "lower": 64059.97
     },
     {
       "key": "m15",
       "label": "15分足",
-      "position_sigma": -2.09,
+      "position_sigma": -2.06,
       "trend": "DOWN",
-      "mid": 64536.09,
-      "upper": 64878.18,
-      "lower": 64194.0
+      "mid": 64513.15,
+      "upper": 64892.78,
+      "lower": 64133.53
     },
     {
       "key": "h1",
       "label": "1時間足",
-      "position_sigma": 1.19,
+      "position_sigma": 0.94,
       "trend": "UP",
-      "mid": 63775.44,
-      "upper": 64451.18,
-      "lower": 63099.7
+      "mid": 63810.13,
+      "upper": 64471.48,
+      "lower": 63148.77
     }
   ],
   "macro": {
     "fear_greed_value": 41,
     "fear_greed_label": "Fear",
     "funding_rate_pct": null,
-    "btc_dominance_pct": 56.53
+    "btc_dominance_pct": 56.55
   },
   "commentary": "方向感のない日は、休むも相場。無理に取りにいかない。",
-  "market_context": "BTC/USDTは現在$64,178付近で推移（直近1時間比+1.18%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Fear」（41/100）、BTCドミナンスは56.5%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
+  "market_context": "BTC/USDTは現在$64,122付近で推移（直近1時間比+0.93%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Fear」（41/100）、BTCドミナンスは56.5%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
   "disclaimer": "本データはルールベースの参考情報であり、投資成果を保証するものではありません。"
 }
