@@ -45,12 +45,21 @@ import sys
 import time
 import urllib.request
 import urllib.error
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 
 BINANCE_KLINES_URL = "https://data-api.binance.vision/api/v3/klines"
 BINANCE_FUNDING_URL = "https://fapi.binance.com/fapi/v1/fundingRate"
 FEAR_GREED_URL = "https://api.alternative.me/fng/"
 COINGECKO_GLOBAL_URL = "https://api.coingecko.com/api/v3/global"
+
+# 「LAST KEY EVENT」欄用。CoinGecko Newsは有料プラン限定のため使えず、代わりに
+# 無料・キー不要のRSSフィードから見出しをそのまま拾う（重要度でのフィルタリングはしない）。
+NEWS_FEEDS = [
+    ("CoinDesk", "https://www.coindesk.com/arc/outboundfeeds/rss/"),
+    ("Cointelegraph", "https://cointelegraph.com/rss"),
+]
 
 SYMBOL = "BTCUSDT"
 
@@ -132,6 +141,55 @@ def fetch_btc_dominance():
     if "btc" not in pct:
         raise RuntimeError(f"BTCドミナンスが取得できませんでした: {data}")
     return float(pct["btc"])
+
+
+def fetch_one_news_feed(source, url):
+    """
+    1つのRSSフィードを取得し、[{"source","title","link","published_at_utc"}, ...]を返す。
+    重要度による絞り込みはせず、フィードに載っている見出しをそのまま使う。
+    """
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=15) as res:
+        raw = res.read()
+    root = ET.fromstring(raw)
+    items = []
+    for item in root.findall(".//item"):
+        title_el = item.find("title")
+        link_el = item.find("link")
+        pubdate_el = item.find("pubDate")
+        if title_el is None or not title_el.text or link_el is None or not link_el.text:
+            continue
+        published_at = None
+        if pubdate_el is not None and pubdate_el.text:
+            try:
+                published_at = parsedate_to_datetime(pubdate_el.text)
+                if published_at.tzinfo is None:
+                    published_at = published_at.replace(tzinfo=timezone.utc)
+            except (TypeError, ValueError):
+                published_at = None
+        items.append({
+            "source": source,
+            "title": title_el.text.strip(),
+            "link": link_el.text.strip(),
+            "published_at_utc": published_at.astimezone(timezone.utc).isoformat() if published_at else None,
+        })
+    return items
+
+
+def fetch_news_headlines(limit=6):
+    """
+    CoinDesk・CointelegraphのRSSフィードから最新見出しをまとめて取得する。
+    片方が失敗してももう片方だけで続行し、両方失敗した場合は空リストを返す
+    （本体のシグナル計算は止めない設計）。
+    """
+    all_items = []
+    for source, url in NEWS_FEEDS:
+        try:
+            all_items.extend(fetch_one_news_feed(source, url))
+        except Exception as e:  # noqa: BLE001
+            print(f"[WARN] {source}のRSS取得に失敗しました（続行します）: {e}", file=sys.stderr)
+    all_items.sort(key=lambda it: it["published_at_utc"] or "", reverse=True)
+    return all_items[:limit]
 
 
 def linear_regression_channel(closes, lookback=LOOKBACK):
@@ -456,6 +514,11 @@ def build_signal(out_path=None):
     except Exception as e:  # noqa: BLE001
         print(f"[WARN] BTCドミナンスの取得に失敗しました（続行します）: {e}", file=sys.stderr)
         btc_dominance_pct = None
+    try:
+        news_headlines = fetch_news_headlines()
+    except Exception as e:  # noqa: BLE001
+        print(f"[WARN] ニュース見出しの取得に失敗しました（続行します）: {e}", file=sys.stderr)
+        news_headlines = []
 
     # --- 回帰チャネル: 5分・15分・1時間足で方向一致を判定、1分足で反発を検出 ---
     ch_1m = linear_regression_channel([b["c"] for b in m1])
@@ -605,6 +668,7 @@ def build_signal(out_path=None):
         },
         "commentary": commentary,
         "market_context": market_context,
+        "news": news_headlines,
         "disclaimer": "本データはルールベースの参考情報であり、投資成果を保証するものではありません。",
     }
     result["daily_analysis"] = build_daily_analysis(result, timeframes)
