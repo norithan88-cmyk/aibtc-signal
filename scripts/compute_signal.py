@@ -60,6 +60,7 @@ NEWS_FEEDS = [
     ("CoinDesk", "https://www.coindesk.com/arc/outboundfeeds/rss/"),
     ("Cointelegraph", "https://cointelegraph.com/rss"),
 ]
+MAX_NEWS_AGE_HOURS = 24  # これより古い見出しは「今日のニュース」として不適切なので除外する
 
 SYMBOL = "BTCUSDT"
 
@@ -180,7 +181,7 @@ def fetch_news_headlines(limit=6):
     """
     CoinDesk・CointelegraphのRSSフィードから最新見出しをまとめて取得する。
     片方が失敗してももう片方だけで続行し、両方失敗した場合は空リストを返す
-    （本体のシグナル計算は止めない設計）。
+    （本体のシグナル計算は止めない設計）。MAX_NEWS_AGE_HOURSより古い見出しは除外する。
     """
     all_items = []
     for source, url in NEWS_FEEDS:
@@ -189,7 +190,15 @@ def fetch_news_headlines(limit=6):
         except Exception as e:  # noqa: BLE001
             print(f"[WARN] {source}のRSS取得に失敗しました（続行します）: {e}", file=sys.stderr)
     all_items.sort(key=lambda it: it["published_at_utc"] or "", reverse=True)
-    return all_items[:limit]
+    now = datetime.now(timezone.utc)
+    fresh = []
+    for it in all_items:
+        if not it["published_at_utc"]:
+            continue
+        published_at = datetime.fromisoformat(it["published_at_utc"])
+        if (now - published_at).total_seconds() <= MAX_NEWS_AGE_HOURS * 3600:
+            fresh.append(it)
+    return fresh[:limit]
 
 
 def linear_regression_channel(closes, lookback=LOOKBACK):
