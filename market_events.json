@@ -21,11 +21,19 @@
           "fear_greed_value": 41,
           "volume_1h": 11397742.49,
           "delta_price_pct": -0.03
+        },
+        "1h": {
+          "t": "2026-08-18T22:57:39.569294+00:00",
+          "price": 64624.98,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 12023009.18,
+          "delta_price_pct": 0.02
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「メタプラネット、2100BTC出資で米スーパーリーグをビットコイントレジャリー化」の報道後、BTCは30分で-0.0%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「メタプラネット、2100BTC出資で米スーパーリーグをビットコイントレジャリー化」の報道後、BTCは1時間で+0.0%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -57,11 +65,19 @@
           "fear_greed_value": 41,
           "volume_1h": 11462008.99,
           "delta_price_pct": -0.06
+        },
+        "2h": {
+          "t": "2026-08-18T22:57:39.569294+00:00",
+          "price": 64624.98,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 12023009.18,
+          "delta_price_pct": -0.0
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「米シティ、次世代カストディ基盤始動｜ビットコインカストディも年内開始」の報道後、BTCは1時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「米シティ、次世代カストディ基盤始動｜ビットコインカストディも年内開始」の報道後、BTCは2時間で-0.0%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -533,5 +549,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-18T22:32:50.869930+00:00"
+  "updated_at_utc": "2026-08-18T22:57:39.569294+00:00"
 }
