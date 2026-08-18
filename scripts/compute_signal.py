@@ -341,6 +341,28 @@ def moving_average_trend(closes, short=10, long=30):
     return "FLAT"
 
 
+MOMENTUM_LABEL_JA = {"UP": "上方向", "DOWN": "下方向", "FLAT": "中央"}
+
+
+def build_confidence_breakdown(bias, candidate, timeframes, confidence):
+    """
+    「信頼度が何%で、星いくつか」だけでは根拠が見えないため、5分・15分・1時間足
+    それぞれの方向(momentum_direction)と、確信度の計算根拠を短い文章にして返す。
+    ユーザー向けに「なぜその数字か」を可視化する目的の、表示専用の補助データ。
+    """
+    tf_line = " / ".join(f"{tf['label']}:{MOMENTUM_LABEL_JA[tf['momentum']]}" for tf in timeframes)
+    if bias in ("SELL", "BUY"):
+        align_note = tf_line + " → 3時間足すべて一致、1分足の反発シグナルも確認済み"
+        calc_note = f"基本50% + 3時間足一致30% + チャネル際からの乖離度ボーナス = {confidence}%（上限95%）"
+    elif candidate is not None:
+        align_note = tf_line + " → 3時間足は一致していますが、1分足の反発シグナルはまだ点灯していません"
+        calc_note = "3時間足の方向一致のみでは確信度は上がらず、1分足の反発確認まで基本値50%のままです。"
+    else:
+        align_note = tf_line + " → 3時間足の方向が一致していません"
+        calc_note = "3時間足の方向が揃っていないため、基本値50%のままです。"
+    return {"timeframes_note": align_note, "calc_note": calc_note}
+
+
 def build_market_context(bias, candidate, latest_price, day_change_pct,
                           fear_greed_value, fear_greed_label,
                           funding_rate_pct, btc_dominance_pct):
@@ -859,6 +881,7 @@ def build_signal(out_path=None):
             "bias_label": {"SELL": "戻り売り優勢", "BUY": "押し目買い優勢", "WAIT": "方向感なし"}[bias],
             "stars": stars,
             "confidence": confidence,
+            "confidence_breakdown": build_confidence_breakdown(bias, candidate, timeframes, confidence),
         },
         "volatility_risk": volatility_risk,
         "market_mode": market_mode,
@@ -876,6 +899,7 @@ def build_signal(out_path=None):
                 "label": tf["label"],
                 "position_sigma": round(tf["channel"]["position"], 2),
                 "trend": tf["trend"],
+                "momentum": tf["momentum"],
                 "mid": round(tf["channel"]["mid"], 2),
                 "upper": round(tf["channel"]["upper"], 2),
                 "lower": round(tf["channel"]["lower"], 2),
