@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "ビットコインマイナーのハイブ、550億円超のAIクラウドサービス契約を締結",
+      "link": "https://coinpost.jp/?p=731496",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-18T02:15:06+00:00",
+      "detected_at_utc": "2026-08-18T15:20:25.948801+00:00",
+      "baseline": {
+        "t": "2026-08-18T15:20:25.948801+00:00",
+        "price": 64773.82,
+        "funding_rate_pct": null,
+        "fear_greed_value": 41,
+        "volume_1h": 90080734.27
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン取引高、2019年以来の低水準に　株市場に出遅れ＝ビットフィネックス分析",
+      "link": "https://coinpost.jp/?p=731445",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-18T00:45:28+00:00",
+      "detected_at_utc": "2026-08-18T15:20:25.948801+00:00",
+      "baseline": {
+        "t": "2026-08-18T15:20:25.948801+00:00",
+        "price": 64773.82,
+        "funding_rate_pct": null,
+        "fear_greed_value": 41,
+        "volume_1h": 90080734.27
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン、2023年夏に似た停滞とグレースケール指摘",
+      "link": "https://coinpost.jp/?p=731416",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-17T22:05:07+00:00",
+      "detected_at_utc": "2026-08-18T15:20:25.948801+00:00",
+      "baseline": {
+        "t": "2026-08-18T15:20:25.948801+00:00",
+        "price": 64773.82,
+        "funding_rate_pct": null,
+        "fear_greed_value": 41,
+        "volume_1h": 90080734.27
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "韓国当局、ポリマーケット接続遮断を議決　違法賭博と判断",
       "link": "https://coinpost.jp/?p=731628",
       "source": "CoinPost",
@@ -21,11 +78,19 @@
           "fear_greed_value": 41,
           "volume_1h": 111959099.58,
           "delta_price_pct": 0.35
+        },
+        "1h": {
+          "t": "2026-08-18T15:20:25.948801+00:00",
+          "price": 64773.82,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 90080734.27,
+          "delta_price_pct": 0.49
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「韓国当局、ポリマーケット接続遮断を議決　違法賭博と判断」の報道後、BTCは30分で+0.3%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「韓国当局、ポリマーケット接続遮断を議決　違法賭博と判断」の報道後、BTCは1時間で+0.5%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -49,11 +114,19 @@
           "fear_greed_value": 41,
           "volume_1h": 111959099.58,
           "delta_price_pct": 0.35
+        },
+        "1h": {
+          "t": "2026-08-18T15:20:25.948801+00:00",
+          "price": 64773.82,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 90080734.27,
+          "delta_price_pct": 0.49
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「仮想通貨市場デレバレッジ、2022年と異なる秩序ある減少＝ギャラクシー・リサーチ」の報道後、BTCは30分で+0.3%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「仮想通貨市場デレバレッジ、2022年と異なる秩序ある減少＝ギャラクシー・リサーチ」の報道後、BTCは1時間で+0.5%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -77,11 +150,19 @@
           "fear_greed_value": 41,
           "volume_1h": 111959099.58,
           "delta_price_pct": 0.35
+        },
+        "1h": {
+          "t": "2026-08-18T15:20:25.948801+00:00",
+          "price": 64773.82,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 90080734.27,
+          "delta_price_pct": 0.49
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「イーサリアム財団、「グラムステルダム」のガス上限変更でツール破損を警告」の報道後、BTCは30分で+0.3%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「イーサリアム財団、「グラムステルダム」のガス上限変更でツール破損を警告」の報道後、BTCは1時間で+0.5%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -105,11 +186,19 @@
           "fear_greed_value": 41,
           "volume_1h": 111959099.58,
           "delta_price_pct": 0.35
+        },
+        "1h": {
+          "t": "2026-08-18T15:20:25.948801+00:00",
+          "price": 64773.82,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 90080734.27,
+          "delta_price_pct": 0.49
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「イーサリアム次期大型アプデ「Hegotá」、プライバシー強化を焦点に66提案を絞り込み」の報道後、BTCは30分で+0.3%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「イーサリアム次期大型アプデ「Hegotá」、プライバシー強化を焦点に66提案を絞り込み」の報道後、BTCは1時間で+0.5%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -133,11 +222,19 @@
           "fear_greed_value": 41,
           "volume_1h": 111959099.58,
           "delta_price_pct": 0.35
+        },
+        "1h": {
+          "t": "2026-08-18T15:20:25.948801+00:00",
+          "price": 64773.82,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 90080734.27,
+          "delta_price_pct": 0.49
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「リップル、全北銀行と提携　韓国地銀初のRipple Payments導入」の報道後、BTCは30分で+0.3%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「リップル、全北銀行と提携　韓国地銀初のRipple Payments導入」の報道後、BTCは1時間で+0.5%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -161,13 +258,21 @@
           "fear_greed_value": 41,
           "volume_1h": 111959099.58,
           "delta_price_pct": 0.35
+        },
+        "1h": {
+          "t": "2026-08-18T15:20:25.948801+00:00",
+          "price": 64773.82,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 90080734.27,
+          "delta_price_pct": 0.49
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「トヨタファイナンス、10億円のトークン社債で募集開始」の報道後、BTCは30分で+0.3%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「トヨタファイナンス、10億円のトークン社債で募集開始」の報道後、BTCは1時間で+0.5%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     }
   ],
-  "updated_at_utc": "2026-08-18T14:53:43.270901+00:00"
+  "updated_at_utc": "2026-08-18T15:20:25.948801+00:00"
 }
