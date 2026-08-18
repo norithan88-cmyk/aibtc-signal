@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-08-18T09:04:15.567311+00:00",
+  "generated_at_utc": "2026-08-18T09:33:31.898535+00:00",
   "pair": "BTC/USDT",
-  "latest_price": 64240.71,
-  "day_change_pct": 0.86,
+  "latest_price": 64164.91,
+  "day_change_pct": 0.74,
   "signal": {
     "bias": "WAIT",
     "bias_label": "方向感なし",
@@ -23,128 +23,128 @@
     {
       "key": "m5",
       "label": "5分足",
-      "position_sigma": -0.05,
+      "position_sigma": -1.21,
       "trend": "FLAT",
-      "mid": 64245.02,
-      "upper": 64406.85,
-      "lower": 64083.19
+      "mid": 64253.0,
+      "upper": 64399.05,
+      "lower": 64106.96
     },
     {
       "key": "m15",
       "label": "15分足",
-      "position_sigma": -1.19,
-      "trend": "UP",
-      "mid": 64515.64,
-      "upper": 64978.25,
-      "lower": 64053.03
+      "position_sigma": -1.41,
+      "trend": "FLAT",
+      "mid": 64495.08,
+      "upper": 64961.83,
+      "lower": 64028.33
     },
     {
       "key": "h1",
       "label": "1時間足",
-      "position_sigma": 0.66,
+      "position_sigma": 0.4,
       "trend": "UP",
-      "mid": 64053.84,
-      "upper": 64618.54,
-      "lower": 63489.13
+      "mid": 64050.85,
+      "upper": 64614.75,
+      "lower": 63486.95
     }
   ],
   "macro": {
     "fear_greed_value": 41,
     "fear_greed_label": "Fear",
     "funding_rate_pct": null,
-    "btc_dominance_pct": 56.56
+    "btc_dominance_pct": 56.54
   },
   "commentary": "方向感のない日は、休むも相場。無理に取りにいかない。",
-  "market_context": "BTC/USDTは現在$64,241付近で推移（直近1時間比+0.86%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Fear」（41/100）、BTCドミナンスは56.6%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
+  "market_context": "BTC/USDTは現在$64,165付近で推移（直近1時間比+0.74%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Fear」（41/100）、BTCドミナンスは56.5%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
   "news": [
     {
-      "source": "Cointelegraph",
-      "title": "China adds 8 banks to digital yuan network as operator count hits 30",
-      "link": "https://cointelegraph.com/news/china-adds-8-banks-to-digital-yuan-network-as-operator-count-hits-30?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at_utc": "2026-08-18T08:48:51+00:00"
+      "source": "CoinPost",
+      "title": "韓国当局、ポリマーケット接続遮断を議決　違法賭博と判断",
+      "link": "https://coinpost.jp/?p=731628",
+      "published_at_utc": "2026-08-18T08:05:02+00:00"
     },
     {
-      "source": "Cointelegraph",
-      "title": "South Korea moves to block Polymarket over gambling concerns",
-      "link": "https://cointelegraph.com/news/south-korea-block-polymarket-gambling-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at_utc": "2026-08-18T08:39:57+00:00"
+      "source": "CoinPost",
+      "title": "仮想通貨市場デレバレッジ、2022年と異なる秩序ある減少＝ギャラクシー・リサーチ",
+      "link": "https://coinpost.jp/?p=731617",
+      "published_at_utc": "2026-08-18T07:30:15+00:00"
     },
     {
-      "source": "CoinDesk",
-      "title": "Live updates: Bitcoin holds $64,000 as surging yields and oil drain risk appetite",
-      "link": "https://www.coindesk.com/tech/2026/08/18/live-updates-bitcoin-holds-usd64-000-as-surging-yields-and-oil-drain-risk-appetite",
-      "published_at_utc": "2026-08-18T08:16:11+00:00"
+      "source": "CoinPost",
+      "title": "イーサリアム財団、「グラムステルダム」のガス上限変更でツール破損を警告",
+      "link": "https://coinpost.jp/?p=731604",
+      "published_at_utc": "2026-08-18T06:37:13+00:00"
     },
     {
-      "source": "Cointelegraph",
-      "title": "BitBox patches ‘severe’ wallet flaws that could put funds at risk",
-      "link": "https://cointelegraph.com/news/bitbox-patches-severe-wallet-firmware-flaws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at_utc": "2026-08-18T08:07:04+00:00"
+      "source": "CoinPost",
+      "title": "イーサリアム次期大型アプデ「Hegotá」、プライバシー強化を焦点に66提案を絞り込み",
+      "link": "https://coinpost.jp/?p=731571",
+      "published_at_utc": "2026-08-18T05:42:29+00:00"
     },
     {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at_utc": "2026-08-18T06:09:35+00:00"
+      "source": "CoinPost",
+      "title": "リップル、全北銀行と提携　韓国地銀初のRipple Payments導入",
+      "link": "https://coinpost.jp/?p=731584",
+      "published_at_utc": "2026-08-18T05:29:55+00:00"
     },
     {
-      "source": "CoinDesk",
-      "title": "The bitcoin price level where leveraged bulls could get whacked",
-      "link": "https://www.coindesk.com/markets/2026/08/18/the-bitcoin-price-level-where-leveraged-bulls-could-get-whacked",
-      "published_at_utc": "2026-08-18T05:55:43+00:00"
+      "source": "CoinPost",
+      "title": "トヨタファイナンス、10億円のトークン社債で募集開始",
+      "link": "https://coinpost.jp/?p=731568",
+      "published_at_utc": "2026-08-18T05:00:33+00:00"
     }
   ],
   "disclaimer": "本データはルールベースの参考情報であり、投資成果を保証するものではありません。",
   "daily_analysis": {
-    "generated_at_utc": "2026-08-18T09:04:15.567311+00:00",
+    "generated_at_utc": "2026-08-18T09:33:31.898535+00:00",
     "title": "今日のBTC/USDT分析",
     "conclusion": "方向一致が出るまで見送り。休むも相場を優先。",
-    "market_context": "BTC/USDTは現在$64,241付近で推移（直近1時間比+0.86%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Fear」（41/100）、BTCドミナンスは56.6%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
-    "support": 63489.13,
-    "resistance": 64618.54,
+    "market_context": "BTC/USDTは現在$64,165付近で推移（直近1時間比+0.74%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Fear」（41/100）、BTCドミナンスは56.5%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
+    "support": 63486.95,
+    "resistance": 64614.75,
     "timeframes": [
       {
         "key": "m5",
         "label": "5分足",
-        "position_sigma": -0.05,
+        "position_sigma": -1.21,
         "trend": "FLAT",
-        "mid": 64245.02,
-        "upper": 64406.85,
-        "lower": 64083.19
+        "mid": 64253.0,
+        "upper": 64399.05,
+        "lower": 64106.96
       },
       {
         "key": "m15",
         "label": "15分足",
-        "position_sigma": -1.19,
-        "trend": "UP",
-        "mid": 64515.64,
-        "upper": 64978.25,
-        "lower": 64053.03
+        "position_sigma": -1.41,
+        "trend": "FLAT",
+        "mid": 64495.08,
+        "upper": 64961.83,
+        "lower": 64028.33
       },
       {
         "key": "h1",
         "label": "1時間足",
-        "position_sigma": 0.66,
+        "position_sigma": 0.4,
         "trend": "UP",
-        "mid": 64053.84,
-        "upper": 64618.54,
-        "lower": 63489.13
+        "mid": 64050.85,
+        "upper": 64614.75,
+        "lower": 63486.95
       }
     ],
     "scenarios": [
       {
         "name": "上昇",
-        "condition": "$64,619を明確に上抜けて定着",
+        "condition": "$64,615を明確に上抜けて定着",
         "action": "押し目を待って買いを検討。高値への飛び乗りは避ける。"
       },
       {
         "name": "レンジ",
-        "condition": "$63,489〜$64,619で往来",
+        "condition": "$63,487〜$64,615で往来",
         "action": "中央では見送り、上下限で反発確認後のみ検討。"
       },
       {
         "name": "下落",
-        "condition": "$63,489を明確に下抜け",
+        "condition": "$63,487を明確に下抜け",
         "action": "戻りを待って売りを検討。急落後の安値追いは避ける。"
       }
     ],
@@ -153,7 +153,7 @@
       "label": "Fear"
     },
     "funding_rate_pct": null,
-    "btc_dominance_pct": 56.56,
+    "btc_dominance_pct": 56.54,
     "priority_trade": {
       "lead": "様子見 ― 5分・15分・1時間足の方向が一致していない",
       "entry": null,
