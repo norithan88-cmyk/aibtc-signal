@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "メタプラネット、2100BTC出資で米スーパーリーグをビットコイントレジャリー化",
+      "link": "https://coinpost.jp/?p=731658",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-18T21:00:08+00:00",
+      "detected_at_utc": "2026-08-18T21:34:19.926292+00:00",
+      "baseline": {
+        "t": "2026-08-18T21:34:19.926292+00:00",
+        "price": 64612.38,
+        "funding_rate_pct": null,
+        "fear_greed_value": 41,
+        "volume_1h": 12043817.21
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米シティ、次世代カストディ基盤始動｜ビットコインカストディも年内開始",
       "link": "https://coinpost.jp/?p=731649",
       "source": "CoinPost",
@@ -13,10 +32,19 @@
         "fear_greed_value": 41,
         "volume_1h": 11791649.91
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-18T21:34:19.926292+00:00",
+          "price": 64612.38,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 12043817.21,
+          "delta_price_pct": -0.02
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「米シティ、次世代カストディ基盤始動｜ビットコインカストディも年内開始」の報道後、BTCは30分で-0.0%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -488,5 +516,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-18T20:59:38.976934+00:00"
+  "updated_at_utc": "2026-08-18T21:34:19.926292+00:00"
 }
