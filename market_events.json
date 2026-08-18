@@ -13,10 +13,19 @@
         "fear_greed_value": 41,
         "volume_1h": 83193713.13
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-18T14:53:43.270901+00:00",
+          "price": 64685.88,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 111959099.58,
+          "delta_price_pct": 0.35
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「韓国当局、ポリマーケット接続遮断を議決　違法賭博と判断」の報道後、BTCは30分で+0.3%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -32,10 +41,19 @@
         "fear_greed_value": 41,
         "volume_1h": 83193713.13
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-18T14:53:43.270901+00:00",
+          "price": 64685.88,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 111959099.58,
+          "delta_price_pct": 0.35
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「仮想通貨市場デレバレッジ、2022年と異なる秩序ある減少＝ギャラクシー・リサーチ」の報道後、BTCは30分で+0.3%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -51,10 +69,19 @@
         "fear_greed_value": 41,
         "volume_1h": 83193713.13
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-18T14:53:43.270901+00:00",
+          "price": 64685.88,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 111959099.58,
+          "delta_price_pct": 0.35
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「イーサリアム財団、「グラムステルダム」のガス上限変更でツール破損を警告」の報道後、BTCは30分で+0.3%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -70,10 +97,19 @@
         "fear_greed_value": 41,
         "volume_1h": 83193713.13
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-18T14:53:43.270901+00:00",
+          "price": 64685.88,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 111959099.58,
+          "delta_price_pct": 0.35
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「イーサリアム次期大型アプデ「Hegotá」、プライバシー強化を焦点に66提案を絞り込み」の報道後、BTCは30分で+0.3%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -89,10 +125,19 @@
         "fear_greed_value": 41,
         "volume_1h": 83193713.13
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-18T14:53:43.270901+00:00",
+          "price": 64685.88,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 111959099.58,
+          "delta_price_pct": 0.35
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「リップル、全北銀行と提携　韓国地銀初のRipple Payments導入」の報道後、BTCは30分で+0.3%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -108,12 +153,21 @@
         "fear_greed_value": 41,
         "volume_1h": 83193713.13
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-18T14:53:43.270901+00:00",
+          "price": 64685.88,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 111959099.58,
+          "delta_price_pct": 0.35
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「トヨタファイナンス、10億円のトークン社債で募集開始」の報道後、BTCは30分で+0.3%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     }
   ],
-  "updated_at_utc": "2026-08-18T14:19:48.741496+00:00"
+  "updated_at_utc": "2026-08-18T14:53:43.270901+00:00"
 }
