@@ -29,11 +29,19 @@
           "fear_greed_value": 41,
           "volume_1h": 25173013.7,
           "delta_price_pct": 0.03
+        },
+        "2h": {
+          "t": "2026-08-18T17:48:36.094918+00:00",
+          "price": 64700.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 27790483.11,
+          "delta_price_pct": -0.11
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコインマイナーのハイブ、550億円超のAIクラウドサービス契約を締結」の報道後、BTCは1時間で+0.0%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ビットコインマイナーのハイブ、550億円超のAIクラウドサービス契約を締結」の報道後、BTCは2時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -65,11 +73,19 @@
           "fear_greed_value": 41,
           "volume_1h": 25173013.7,
           "delta_price_pct": 0.03
+        },
+        "2h": {
+          "t": "2026-08-18T17:48:36.094918+00:00",
+          "price": 64700.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 27790483.11,
+          "delta_price_pct": -0.11
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン取引高、2019年以来の低水準に　株市場に出遅れ＝ビットフィネックス分析」の報道後、BTCは1時間で+0.0%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ビットコイン取引高、2019年以来の低水準に　株市場に出遅れ＝ビットフィネックス分析」の報道後、BTCは2時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -101,11 +117,19 @@
           "fear_greed_value": 41,
           "volume_1h": 25173013.7,
           "delta_price_pct": 0.03
+        },
+        "2h": {
+          "t": "2026-08-18T17:48:36.094918+00:00",
+          "price": 64700.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 27790483.11,
+          "delta_price_pct": -0.11
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン、2023年夏に似た停滞とグレースケール指摘」の報道後、BTCは1時間で+0.0%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ビットコイン、2023年夏に似た停滞とグレースケール指摘」の報道後、BTCは2時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -373,5 +397,5 @@
       "finalized": false
     }
   ],
-  "updated_at_utc": "2026-08-18T17:14:26.460151+00:00"
+  "updated_at_utc": "2026-08-18T17:48:36.094918+00:00"
 }
