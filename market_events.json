@@ -13,10 +13,19 @@
         "fear_greed_value": 41,
         "volume_1h": 90080734.27
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-18T16:02:20.075028+00:00",
+          "price": 64889.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 31780081.78,
+          "delta_price_pct": 0.18
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ビットコインマイナーのハイブ、550億円超のAIクラウドサービス契約を締結」の報道後、BTCは30分で+0.2%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -32,10 +41,19 @@
         "fear_greed_value": 41,
         "volume_1h": 90080734.27
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-18T16:02:20.075028+00:00",
+          "price": 64889.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 31780081.78,
+          "delta_price_pct": 0.18
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ビットコイン取引高、2019年以来の低水準に　株市場に出遅れ＝ビットフィネックス分析」の報道後、BTCは30分で+0.2%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -51,10 +69,19 @@
         "fear_greed_value": 41,
         "volume_1h": 90080734.27
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-18T16:02:20.075028+00:00",
+          "price": 64889.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 41,
+          "volume_1h": 31780081.78,
+          "delta_price_pct": 0.18
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ビットコイン、2023年夏に似た停滞とグレースケール指摘」の報道後、BTCは30分で+0.2%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -274,5 +301,5 @@
       "finalized": false
     }
   ],
-  "updated_at_utc": "2026-08-18T15:34:53.366199+00:00"
+  "updated_at_utc": "2026-08-18T16:02:20.075028+00:00"
 }
