@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "トランプ大統領、「仮想通貨業界への逆風に完全に終止符を打った」と発言　ビットコインは6月以来の高値",
+      "link": "https://coinpost.jp/?p=731836",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-19T20:50:27+00:00",
+      "detected_at_utc": "2026-08-19T21:14:13.460360+00:00",
+      "baseline": {
+        "t": "2026-08-19T21:14:13.460360+00:00",
+        "price": 69400.76,
+        "funding_rate_pct": null,
+        "fear_greed_value": 46,
+        "volume_1h": 143858779.1
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "SkyBridge創業者、弱気相場でもビットコイン底堅さ指摘",
       "link": "https://coinpost.jp/?p=731797",
       "source": "CoinPost",
@@ -897,5 +916,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-19T20:47:53.291367+00:00"
+  "updated_at_utc": "2026-08-19T21:14:13.460360+00:00"
 }
