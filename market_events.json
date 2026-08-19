@@ -21,11 +21,19 @@
           "fear_greed_value": 46,
           "volume_1h": 23698283.25,
           "delta_price_pct": 0.25
+        },
+        "1h": {
+          "t": "2026-08-19T09:22:45.364569+00:00",
+          "price": 64407.77,
+          "funding_rate_pct": null,
+          "fear_greed_value": 46,
+          "volume_1h": 22924316.67,
+          "delta_price_pct": 0.16
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「SkyBridge創業者、弱気相場でもビットコイン底堅さ指摘」の報道後、BTCは30分で+0.2%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「SkyBridge創業者、弱気相場でもビットコイン底堅さ指摘」の報道後、BTCは1時間で+0.2%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -57,11 +65,19 @@
           "fear_greed_value": 46,
           "volume_1h": 23698283.25,
           "delta_price_pct": 0.18
+        },
+        "2h": {
+          "t": "2026-08-19T09:22:45.364569+00:00",
+          "price": 64407.77,
+          "funding_rate_pct": null,
+          "fear_greed_value": 46,
+          "volume_1h": 22924316.67,
+          "delta_price_pct": 0.08
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットバンク、ビットコイン入出金一時停止　eCash分岐へ対応」の報道後、BTCは1時間で+0.2%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ビットバンク、ビットコイン入出金一時停止　eCash分岐へ対応」の報道後、BTCは2時間で+0.1%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -149,12 +165,20 @@
           "fear_greed_value": 46,
           "volume_1h": 34887529.66,
           "delta_price_pct": 0.06
+        },
+        "4h": {
+          "t": "2026-08-19T09:22:45.364569+00:00",
+          "price": 64407.77,
+          "funding_rate_pct": null,
+          "fear_greed_value": 46,
+          "volume_1h": 22924316.67,
+          "delta_price_pct": 0.14
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「15年間休眠8.54BTCのビットコイン始動、含み益4000倍超」の報道後、BTCは2時間で+0.1%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「15年間休眠8.54BTCのビットコイン始動、含み益4000倍超」の報道後、BTCは4時間で+0.1%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ブラックロック、ビットコイン下落でも分散効果健在と分析",
@@ -841,5 +865,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-19T08:48:42.229044+00:00"
+  "updated_at_utc": "2026-08-19T09:22:45.364569+00:00"
 }
