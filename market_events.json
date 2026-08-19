@@ -13,10 +13,19 @@
         "fear_greed_value": 46,
         "volume_1h": 22898354.15
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-19T04:20:37.615802+00:00",
+          "price": 64372.77,
+          "funding_rate_pct": null,
+          "fear_greed_value": 46,
+          "volume_1h": 9838854.58,
+          "delta_price_pct": 0.02
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ブラックロック、ビットコイン下落でも分散効果健在と分析」の報道後、BTCは30分で+0.0%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -48,13 +57,21 @@
           "fear_greed_value": 46,
           "volume_1h": 30117761.85,
           "delta_price_pct": -0.11
+        },
+        "2h": {
+          "t": "2026-08-19T04:20:37.615802+00:00",
+          "price": 64372.77,
+          "funding_rate_pct": null,
+          "fear_greed_value": 46,
+          "volume_1h": 9838854.58,
+          "delta_price_pct": -0.14
         }
       },
       "flags": [
         "出来高急増（+54%）"
       ],
       "relevance": "medium",
-      "summary": "「ヴァンエック、ビットコインの降伏指標12中8点灯と分析」の報道後、BTCは1時間で-0.1%。Fear & Greedも46から46へ横ばい。出来高急増（+54%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ヴァンエック、ビットコインの降伏指標12中8点灯と分析」の報道後、BTCは2時間で-0.1%。Fear & Greedも46から46へ横ばい。出来高急増（+54%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -634,5 +651,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-19T03:33:44.442828+00:00"
+  "updated_at_utc": "2026-08-19T04:20:37.615802+00:00"
 }
