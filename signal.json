@@ -1,71 +1,68 @@
 {
-  "generated_at_utc": "2026-08-19T16:28:32.637984+00:00",
+  "generated_at_utc": "2026-08-19T16:58:51.867014+00:00",
   "pair": "BTC/USDT",
-  "latest_price": 68908.16,
-  "day_change_pct": 6.55,
+  "latest_price": 68430.36,
+  "day_change_pct": 5.81,
   "signal": {
-    "bias": "BUY",
-    "bias_label": "押し目買い優勢",
-    "stars": 5,
-    "confidence": 95,
+    "bias": "WAIT",
+    "bias_label": "方向感なし",
+    "stars": 2,
+    "confidence": 50,
     "confidence_breakdown": {
-      "timeframes_note": "5分足:上方向 / 15分足:上方向 / 1時間足:上方向 → 3時間足すべて一致、1分足の反発シグナルも確認済み",
-      "calc_note": "基本50% + 3時間足一致30% + チャネル際からの乖離度ボーナス = 95%（上限95%）"
+      "timeframes_note": "5分足:中央 / 15分足:上方向 / 1時間足:上方向 → 3時間足の方向が一致していません",
+      "calc_note": "3時間足の方向が揃っていないため、基本値50%のままです。"
     }
   },
   "volatility_risk": "HIGH",
-  "market_mode": "TREND",
-  "market_mode_note": "5分・15分・1時間足の方向が揃っており、方向感のある地合い。",
+  "market_mode": "RANGE",
+  "market_mode_note": "時間足ごとに方向が割れており、方向感に乏しいレンジ地合い。",
   "priority_trade": {
-    "lead": "押し目買い ― 上位足の上昇方向一致＋1分足の押し目からの反発",
-    "entry": 68908.16,
-    "take_profit": 69167.19,
-    "stop_loss": 68639.13
+    "lead": "様子見 ― 5分・15分・1時間足の方向が一致していない",
+    "entry": null,
+    "take_profit": null,
+    "stop_loss": null
   },
-  "reversal_setup": {
-    "extreme": 68649.13,
-    "reverted_usdt": 259.03
-  },
+  "reversal_setup": null,
   "regression_channels": [
     {
       "key": "m5",
       "label": "5分足",
-      "position_sigma": 2.03,
+      "position_sigma": 0.7,
       "trend": "UP",
-      "momentum": "UP",
-      "mid": 67211.45,
-      "upper": 68886.32,
-      "lower": 65536.59
+      "momentum": "FLAT",
+      "mid": 67840.49,
+      "upper": 69525.37,
+      "lower": 66155.6
     },
     {
       "key": "m15",
       "label": "15分足",
-      "position_sigma": 4.03,
+      "position_sigma": 2.85,
       "trend": "UP",
       "momentum": "UP",
-      "mid": 65440.8,
-      "upper": 67164.85,
-      "lower": 63716.75
+      "mid": 65729.95,
+      "upper": 67628.37,
+      "lower": 63831.53
     },
     {
       "key": "h1",
       "label": "1時間足",
-      "position_sigma": 6.23,
+      "position_sigma": 5.73,
       "trend": "UP",
       "momentum": "UP",
-      "mid": 65218.36,
-      "upper": 66404.79,
-      "lower": 64031.92
+      "mid": 65199.29,
+      "upper": 66327.83,
+      "lower": 64070.76
     }
   ],
   "macro": {
     "fear_greed_value": 46,
     "fear_greed_label": "Fear",
     "funding_rate_pct": null,
-    "btc_dominance_pct": 57.16
+    "btc_dominance_pct": 57.1
   },
-  "commentary": "押し目は焦らず拾う。飛び乗りより、待つ勇気を。",
-  "market_context": "BTC/USDTは現在$68,908付近で推移（直近1時間比+6.55%）。5分・15分・1時間足が揃って下値の堅さを示す中、1分足が短期的な押し目から反発したタイミング。市場心理は「Fear」（46/100）、BTCドミナンスは57.2%。目先は下値の堅い展開が想定され、押し目を焦らず拾うスタンスが機能しやすい局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
+  "commentary": "方向感のない日は、休むも相場。無理に取りにいかない。",
+  "market_context": "BTC/USDTは現在$68,430付近で推移（直近1時間比+5.81%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Fear」（46/100）、BTCドミナンスは57.1%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
   "news": [
     {
       "source": "CoinPost",
@@ -106,58 +103,58 @@
   ],
   "disclaimer": "本データはルールベースの参考情報であり、投資成果を保証するものではありません。",
   "daily_analysis": {
-    "generated_at_utc": "2026-08-19T16:28:32.637984+00:00",
+    "generated_at_utc": "2026-08-19T16:58:51.867014+00:00",
     "title": "今日のBTC/USDT分析",
-    "conclusion": "押し目買い候補。ただし飛び乗らず、1分足の反発確認を優先。",
-    "market_context": "BTC/USDTは現在$68,908付近で推移（直近1時間比+6.55%）。5分・15分・1時間足が揃って下値の堅さを示す中、1分足が短期的な押し目から反発したタイミング。市場心理は「Fear」（46/100）、BTCドミナンスは57.2%。目先は下値の堅い展開が想定され、押し目を焦らず拾うスタンスが機能しやすい局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
-    "support": 64031.92,
-    "resistance": 68908.16,
+    "conclusion": "方向一致が出るまで見送り。休むも相場を優先。",
+    "market_context": "BTC/USDTは現在$68,430付近で推移（直近1時間比+5.81%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Fear」（46/100）、BTCドミナンスは57.1%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
+    "support": 64070.76,
+    "resistance": 68430.36,
     "timeframes": [
       {
         "key": "m5",
         "label": "5分足",
-        "position_sigma": 2.03,
+        "position_sigma": 0.7,
         "trend": "UP",
-        "momentum": "UP",
-        "mid": 67211.45,
-        "upper": 68886.32,
-        "lower": 65536.59
+        "momentum": "FLAT",
+        "mid": 67840.49,
+        "upper": 69525.37,
+        "lower": 66155.6
       },
       {
         "key": "m15",
         "label": "15分足",
-        "position_sigma": 4.03,
+        "position_sigma": 2.85,
         "trend": "UP",
         "momentum": "UP",
-        "mid": 65440.8,
-        "upper": 67164.85,
-        "lower": 63716.75
+        "mid": 65729.95,
+        "upper": 67628.37,
+        "lower": 63831.53
       },
       {
         "key": "h1",
         "label": "1時間足",
-        "position_sigma": 6.23,
+        "position_sigma": 5.73,
         "trend": "UP",
         "momentum": "UP",
-        "mid": 65218.36,
-        "upper": 66404.79,
-        "lower": 64031.92
+        "mid": 65199.29,
+        "upper": 66327.83,
+        "lower": 64070.76
       }
     ],
     "scenarios": [
       {
         "name": "上昇",
-        "condition": "$68,908を明確に上抜けて定着",
+        "condition": "$68,430を明確に上抜けて定着",
         "action": "押し目を待って買いを検討。高値への飛び乗りは避ける。"
       },
       {
         "name": "レンジ",
-        "condition": "$64,032〜$68,908で往来",
+        "condition": "$64,071〜$68,430で往来",
         "action": "中央では見送り、上下限で反発確認後のみ検討。"
       },
       {
         "name": "下落",
-        "condition": "$64,032を明確に下抜け",
+        "condition": "$64,071を明確に下抜け",
         "action": "戻りを待って売りを検討。急落後の安値追いは避ける。"
       }
     ],
@@ -166,12 +163,12 @@
       "label": "Fear"
     },
     "funding_rate_pct": null,
-    "btc_dominance_pct": 57.16,
+    "btc_dominance_pct": 57.1,
     "priority_trade": {
-      "lead": "押し目買い ― 上位足の上昇方向一致＋1分足の押し目からの反発",
-      "entry": 68908.16,
-      "take_profit": 69167.19,
-      "stop_loss": 68639.13
+      "lead": "様子見 ― 5分・15分・1時間足の方向が一致していない",
+      "entry": null,
+      "take_profit": null,
+      "stop_loss": null
     },
     "risk_note": "暗号資産は24時間取引され、短時間で大きく変動します。損切り水準と許容損失額を先に決めてください。"
   }
