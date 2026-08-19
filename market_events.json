@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ブラックロック、ビットコイン下落でも分散効果健在と分析",
+      "link": "https://coinpost.jp/?p=731701",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-19T02:15:47+00:00",
+      "detected_at_utc": "2026-08-19T03:33:44.442828+00:00",
+      "baseline": {
+        "t": "2026-08-19T03:33:44.442828+00:00",
+        "price": 64361.78,
+        "funding_rate_pct": null,
+        "fear_greed_value": 46,
+        "volume_1h": 22898354.15
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ヴァンエック、ビットコインの降伏指標12中8点灯と分析",
       "link": "https://coinpost.jp/?p=731691",
       "source": "CoinPost",
@@ -615,5 +634,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-19T02:43:54.258081+00:00"
+  "updated_at_utc": "2026-08-19T03:33:44.442828+00:00"
 }
