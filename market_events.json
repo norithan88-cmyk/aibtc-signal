@@ -13,10 +13,19 @@
         "fear_greed_value": 46,
         "volume_1h": 25080105.83
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-19T05:42:37.156274+00:00",
+          "price": 64319.18,
+          "funding_rate_pct": null,
+          "fear_greed_value": 46,
+          "volume_1h": 13915178.32,
+          "delta_price_pct": 0.0
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「15年間休眠8.54BTCのビットコイン始動、含み益4000倍超」の報道後、BTCは30分で+0.0%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -48,11 +57,19 @@
           "fear_greed_value": 46,
           "volume_1h": 25080105.83,
           "delta_price_pct": -0.07
+        },
+        "2h": {
+          "t": "2026-08-19T05:42:37.156274+00:00",
+          "price": 64319.18,
+          "funding_rate_pct": null,
+          "fear_greed_value": 46,
+          "volume_1h": 13915178.32,
+          "delta_price_pct": -0.07
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ブラックロック、ビットコイン下落でも分散効果健在と分析」の報道後、BTCは1時間で-0.1%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ブラックロック、ビットコイン下落でも分散効果健在と分析」の報道後、BTCは2時間で-0.1%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -92,14 +109,22 @@
           "fear_greed_value": 46,
           "volume_1h": 9838854.58,
           "delta_price_pct": -0.14
+        },
+        "4h": {
+          "t": "2026-08-19T05:42:37.156274+00:00",
+          "price": 64319.18,
+          "funding_rate_pct": null,
+          "fear_greed_value": 46,
+          "volume_1h": 13915178.32,
+          "delta_price_pct": -0.22
         }
       },
       "flags": [
         "出来高急増（+54%）"
       ],
       "relevance": "medium",
-      "summary": "「ヴァンエック、ビットコインの降伏指標12中8点灯と分析」の報道後、BTCは2時間で-0.1%。Fear & Greedも46から46へ横ばい。出来高急増（+54%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ヴァンエック、ビットコインの降伏指標12中8点灯と分析」の報道後、BTCは4時間で-0.2%。Fear & Greedも46から46へ横ばい。出来高急増（+54%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "メタプラネット、2100BTC出資で米スーパーリーグをビットコイントレジャリー化",
@@ -678,5 +703,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-19T05:01:20.633821+00:00"
+  "updated_at_utc": "2026-08-19T05:42:37.156274+00:00"
 }
