@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "SkyBridge創業者、弱気相場でもビットコイン底堅さ指摘",
+      "link": "https://coinpost.jp/?p=731797",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-19T07:55:55+00:00",
+      "detected_at_utc": "2026-08-19T07:56:37.767989+00:00",
+      "baseline": {
+        "t": "2026-08-19T07:56:37.767989+00:00",
+        "price": 64308.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 46,
+        "volume_1h": 40194395.93
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットバンク、ビットコイン入出金一時停止　eCash分岐へ対応",
       "link": "https://coinpost.jp/?p=731789",
       "source": "CoinPost",
@@ -13,10 +32,19 @@
         "fear_greed_value": 46,
         "volume_1h": 34887529.66
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-19T07:56:37.767989+00:00",
+          "price": 64308.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 46,
+          "volume_1h": 40194395.93,
+          "delta_price_pct": -0.07
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ビットバンク、ビットコイン入出金一時停止　eCash分岐へ対応」の報道後、BTCは30分で-0.1%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -40,13 +68,22 @@
           "fear_greed_value": 46,
           "volume_1h": 34887529.66,
           "delta_price_pct": 0.19
+        },
+        "1h": {
+          "t": "2026-08-19T07:56:37.767989+00:00",
+          "price": 64308.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 46,
+          "volume_1h": 40194395.93,
+          "delta_price_pct": 0.11
         }
       },
       "flags": [
-        "出来高急増（+124%）"
+        "出来高急増（+124%）",
+        "出来高急増（+158%）"
       ],
-      "relevance": "medium",
-      "summary": "「ビットコイン小口投資家の需要、2年ぶり高水準に接近＝アナリスト」の報道後、BTCは30分で+0.2%。Fear & Greedも46から46へ横ばい。出来高急増（+124%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "relevance": "high",
+      "summary": "「ビットコイン小口投資家の需要、2年ぶり高水準に接近＝アナリスト」の報道後、BTCは1時間で+0.1%。Fear & Greedも46から46へ横ばい。出来高急増（+124%）、出来高急増（+158%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -130,12 +167,22 @@
           "fear_greed_value": 46,
           "volume_1h": 13915178.32,
           "delta_price_pct": -0.07
+        },
+        "4h": {
+          "t": "2026-08-19T07:56:37.767989+00:00",
+          "price": 64308.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 46,
+          "volume_1h": 40194395.93,
+          "delta_price_pct": -0.08
         }
       },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ブラックロック、ビットコイン下落でも分散効果健在と分析」の報道後、BTCは2時間で-0.1%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "flags": [
+        "出来高急増（+76%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ブラックロック、ビットコイン下落でも分散効果健在と分析」の報道後、BTCは4時間で-0.1%。Fear & Greedも46から46へ横ばい。出来高急増（+76%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ヴァンエック、ビットコインの降伏指標12中8点灯と分析",
@@ -768,5 +815,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-19T07:12:21.489382+00:00"
+  "updated_at_utc": "2026-08-19T07:56:37.767989+00:00"
 }
