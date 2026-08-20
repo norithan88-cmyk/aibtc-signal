@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン・トレジャリー企業H100、上半期決算　BTC含み損40億円超計上",
+      "link": "https://coinpost.jp/?p=731983",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-20T04:15:23+00:00",
+      "detected_at_utc": "2026-08-20T05:03:09.049775+00:00",
+      "baseline": {
+        "t": "2026-08-20T05:03:09.049775+00:00",
+        "price": 69505.4,
+        "funding_rate_pct": null,
+        "fear_greed_value": 62,
+        "volume_1h": 46563227.59
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン急伸、米仮想通貨関連株も全面高",
       "link": "https://coinpost.jp/?p=731950",
       "source": "CoinPost",
@@ -29,11 +48,19 @@
           "fear_greed_value": 62,
           "volume_1h": 51966669.23,
           "delta_price_pct": 0.03
+        },
+        "2h": {
+          "t": "2026-08-20T05:03:09.049775+00:00",
+          "price": 69505.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 46563227.59,
+          "delta_price_pct": 0.27
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン急伸、米仮想通貨関連株も全面高」の報道後、BTCは1時間で+0.0%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ビットコイン急伸、米仮想通貨関連株も全面高」の報道後、BTCは2時間で+0.3%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -65,11 +92,19 @@
           "fear_greed_value": 62,
           "volume_1h": 51966669.23,
           "delta_price_pct": 0.03
+        },
+        "2h": {
+          "t": "2026-08-20T05:03:09.049775+00:00",
+          "price": 69505.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 46563227.59,
+          "delta_price_pct": 0.27
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン6万9000ドル台へ急伸、10カ月ぶり200日移動平均線上抜け　国債買い戻し倍増が起点」の報道後、BTCは1時間で+0.0%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ビットコイン6万9000ドル台へ急伸、10カ月ぶり200日移動平均線上抜け　国債買い戻し倍増が起点」の報道後、BTCは2時間で+0.3%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -1067,5 +1102,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-20T04:20:32.217554+00:00"
+  "updated_at_utc": "2026-08-20T05:03:09.049775+00:00"
 }
