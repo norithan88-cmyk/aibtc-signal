@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン急騰、米国の金利介入が大規模ショート清算を誘発｜仮想NISHI",
+      "link": "https://coinpost.jp/?p=731856",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-20T00:35:42+00:00",
+      "detected_at_utc": "2026-08-20T01:48:10.060193+00:00",
+      "baseline": {
+        "t": "2026-08-20T01:48:10.060193+00:00",
+        "price": 69777.69,
+        "funding_rate_pct": null,
+        "fear_greed_value": 62,
+        "volume_1h": 57570589.89
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "トランプ大統領、「仮想通貨業界への逆風に完全に終止符を打った」と発言　ビットコインは6月以来の高値",
       "link": "https://coinpost.jp/?p=731836",
       "source": "CoinPost",
@@ -37,12 +56,22 @@
           "fear_greed_value": 46,
           "volume_1h": 66546649.51,
           "delta_price_pct": -0.13
+        },
+        "4h": {
+          "t": "2026-08-20T01:48:10.060193+00:00",
+          "price": 69777.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 57570589.89,
+          "delta_price_pct": 0.54
         }
       },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「トランプ大統領、「仮想通貨業界への逆風に完全に終止符を打った」と発言　ビットコインは6月以来の高値」の報道後、BTCは2時間で-0.1%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "flags": [
+        "市場心理の好転（Fear & Greed急上昇）"
+      ],
+      "relevance": "medium",
+      "summary": "「トランプ大統領、「仮想通貨業界への逆風に完全に終止符を打った」と発言　ビットコインは6月以来の高値」の報道後、BTCは4時間で+0.5%。Fear & Greedも46から62へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "SkyBridge創業者、弱気相場でもビットコイン底堅さ指摘",
@@ -941,5 +970,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-20T00:00:27.689083+00:00"
+  "updated_at_utc": "2026-08-20T01:48:10.060193+00:00"
 }
