@@ -21,11 +21,19 @@
           "fear_greed_value": 62,
           "volume_1h": 63588677.34,
           "delta_price_pct": -0.34
+        },
+        "1h": {
+          "t": "2026-08-20T04:20:32.217554+00:00",
+          "price": 69342.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 51966669.23,
+          "delta_price_pct": 0.03
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン急伸、米仮想通貨関連株も全面高」の報道後、BTCは30分で-0.3%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ビットコイン急伸、米仮想通貨関連株も全面高」の報道後、BTCは1時間で+0.0%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -49,11 +57,19 @@
           "fear_greed_value": 62,
           "volume_1h": 63588677.34,
           "delta_price_pct": -0.34
+        },
+        "1h": {
+          "t": "2026-08-20T04:20:32.217554+00:00",
+          "price": 69342.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 51966669.23,
+          "delta_price_pct": 0.03
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン6万9000ドル台へ急伸、10カ月ぶり200日移動平均線上抜け　国債買い戻し倍増が起点」の報道後、BTCは30分で-0.3%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ビットコイン6万9000ドル台へ急伸、10カ月ぶり200日移動平均線上抜け　国債買い戻し倍増が起点」の報道後、BTCは1時間で+0.0%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -85,11 +101,19 @@
           "fear_greed_value": 62,
           "volume_1h": 63588677.34,
           "delta_price_pct": -1.0
+        },
+        "2h": {
+          "t": "2026-08-20T04:20:32.217554+00:00",
+          "price": 69342.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 51966669.23,
+          "delta_price_pct": -0.62
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン急騰、米国の金利介入が大規模ショート清算を誘発｜仮想NISHI」の報道後、BTCは1時間で-1.0%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ビットコイン急騰、米国の金利介入が大規模ショート清算を誘発｜仮想NISHI」の報道後、BTCは2時間で-0.6%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -1043,5 +1067,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-20T03:34:48.666421+00:00"
+  "updated_at_utc": "2026-08-20T04:20:32.217554+00:00"
 }
