@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ビットコイン急伸、米仮想通貨関連株も全面高",
+      "link": "https://coinpost.jp/?p=731950",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-20T02:23:31+00:00",
+      "detected_at_utc": "2026-08-20T02:46:55.919364+00:00",
+      "baseline": {
+        "t": "2026-08-20T02:46:55.919364+00:00",
+        "price": 69318.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 62,
+        "volume_1h": 64147404.94
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン6万9000ドル台へ急伸、10カ月ぶり200日移動平均線上抜け　国債買い戻し倍増が起点",
+      "link": "https://coinpost.jp/?p=731917",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-20T01:53:21+00:00",
+      "detected_at_utc": "2026-08-20T02:46:55.919364+00:00",
+      "baseline": {
+        "t": "2026-08-20T02:46:55.919364+00:00",
+        "price": 69318.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 62,
+        "volume_1h": 64147404.94
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン急騰、米国の金利介入が大規模ショート清算を誘発｜仮想NISHI",
       "link": "https://coinpost.jp/?p=731856",
       "source": "CoinPost",
@@ -13,10 +51,19 @@
         "fear_greed_value": 62,
         "volume_1h": 57570589.89
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-20T02:46:55.919364+00:00",
+          "price": 69318.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 64147404.94,
+          "delta_price_pct": -0.66
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ビットコイン急騰、米国の金利介入が大規模ショート清算を誘発｜仮想NISHI」の報道後、BTCは30分で-0.7%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -970,5 +1017,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-20T01:48:10.060193+00:00"
+  "updated_at_utc": "2026-08-20T02:46:55.919364+00:00"
 }
