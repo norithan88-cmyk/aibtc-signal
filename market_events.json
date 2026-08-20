@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン急騰、短期保有者が年初来最大利確＝アナリスト",
+      "link": "https://coinpost.jp/?p=732138",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-20T07:37:00+00:00",
+      "detected_at_utc": "2026-08-20T08:00:43.906983+00:00",
+      "baseline": {
+        "t": "2026-08-20T08:00:43.906983+00:00",
+        "price": 69806.34,
+        "funding_rate_pct": null,
+        "fear_greed_value": 62,
+        "volume_1h": 144613990.01
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン・トレジャリー企業H100、上半期決算　BTC含み損40億円超計上",
       "link": "https://coinpost.jp/?p=731983",
       "source": "CoinPost",
@@ -1156,5 +1175,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-20T07:14:30.272152+00:00"
+  "updated_at_utc": "2026-08-20T08:00:43.906983+00:00"
 }
