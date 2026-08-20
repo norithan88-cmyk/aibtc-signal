@@ -21,11 +21,21 @@
           "fear_greed_value": 62,
           "volume_1h": 57635860.66,
           "delta_price_pct": 0.08
+        },
+        "1h": {
+          "t": "2026-08-20T06:18:54.455861+00:00",
+          "price": 69384.62,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 122938267.98,
+          "delta_price_pct": -0.17
         }
       },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン・トレジャリー企業H100、上半期決算　BTC含み損40億円超計上」の報道後、BTCは30分で+0.1%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "flags": [
+        "出来高急増（+164%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン・トレジャリー企業H100、上半期決算　BTC含み損40億円超計上」の報道後、BTCは1時間で-0.2%。Fear & Greedも62から62へ横ばい。出来高急増（+164%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -153,12 +163,22 @@
           "fear_greed_value": 62,
           "volume_1h": 51966669.23,
           "delta_price_pct": -0.62
+        },
+        "4h": {
+          "t": "2026-08-20T06:18:54.455861+00:00",
+          "price": 69384.62,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 122938267.98,
+          "delta_price_pct": -0.56
         }
       },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン急騰、米国の金利介入が大規模ショート清算を誘発｜仮想NISHI」の報道後、BTCは2時間で-0.6%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "flags": [
+        "出来高急増（+114%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン急騰、米国の金利介入が大規模ショート清算を誘発｜仮想NISHI」の報道後、BTCは4時間で-0.6%。Fear & Greedも62から62へ横ばい。出来高急増（+114%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "トランプ大統領、「仮想通貨業界への逆風に完全に終止符を打った」と発言　ビットコインは6月以来の高値",
@@ -1111,5 +1131,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-20T05:43:37.751414+00:00"
+  "updated_at_utc": "2026-08-20T06:18:54.455861+00:00"
 }
