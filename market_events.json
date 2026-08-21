@@ -13,10 +13,19 @@
         "fear_greed_value": 72,
         "volume_1h": 84311916.99
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-21T20:37:07.562117+00:00",
+          "price": 77488.37,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 84420840.47,
+          "delta_price_pct": 0.68
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ストラテジーの84万ビットコイン、含み損から一転し2420億円超の含み益に」の報道後、BTCは30分で+0.7%。Fear & Greedも72から72へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -1569,5 +1578,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-21T20:02:35.278453+00:00"
+  "updated_at_utc": "2026-08-21T20:37:07.562117+00:00"
 }
