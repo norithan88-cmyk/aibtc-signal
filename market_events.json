@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン続伸、仮想通貨関連株も軒並み高",
+      "link": "https://coinpost.jp/?p=732355",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-21T03:21:05+00:00",
+      "detected_at_utc": "2026-08-21T04:06:39.032824+00:00",
+      "baseline": {
+        "t": "2026-08-21T04:06:39.032824+00:00",
+        "price": 74706.24,
+        "funding_rate_pct": null,
+        "fear_greed_value": 72,
+        "volume_1h": 71622922.25
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン7.3万ドル突破、米規制進展とショート清算が上昇を加速｜仮想NISHI",
       "link": "https://coinpost.jp/?p=732243",
       "source": "CoinPost",
@@ -1342,5 +1361,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-21T03:17:39.906643+00:00"
+  "updated_at_utc": "2026-08-21T04:06:39.032824+00:00"
 }
