@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ビットコイン7.3万ドル突破、米規制進展とショート清算が上昇を加速｜仮想NISHI",
+      "link": "https://coinpost.jp/?p=732243",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-21T01:12:30+00:00",
+      "detected_at_utc": "2026-08-21T02:09:50.955934+00:00",
+      "baseline": {
+        "t": "2026-08-21T02:09:50.955934+00:00",
+        "price": 74935.84,
+        "funding_rate_pct": null,
+        "fear_greed_value": 72,
+        "volume_1h": 256912455.59
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン現物ETF、19日に820億円超が純流入　5月5日以降最大規模",
+      "link": "https://coinpost.jp/?p=732257",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-21T00:45:48+00:00",
+      "detected_at_utc": "2026-08-21T02:09:50.955934+00:00",
+      "baseline": {
+        "t": "2026-08-21T02:09:50.955934+00:00",
+        "price": 74935.84,
+        "funding_rate_pct": null,
+        "fear_greed_value": 72,
+        "volume_1h": 256912455.59
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン反発、利益確定が最高値時上回る規模に",
       "link": "https://coinpost.jp/?p=732217",
       "source": "CoinPost",
@@ -13,10 +51,29 @@
         "fear_greed_value": 72,
         "volume_1h": 102374563.19
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-21T02:09:50.955934+00:00",
+          "price": 74935.84,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 256912455.59,
+          "delta_price_pct": 1.48
+        },
+        "1h": {
+          "t": "2026-08-21T02:09:50.955934+00:00",
+          "price": 74935.84,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 256912455.59,
+          "delta_price_pct": 1.48
+        }
+      },
+      "flags": [
+        "出来高急増（+151%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン反発、利益確定が最高値時上回る規模に」の報道後、BTCは1時間で+1.5%。Fear & Greedも72から72へ横ばい。出来高急増（+151%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -1243,5 +1300,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-21T00:26:59.335387+00:00"
+  "updated_at_utc": "2026-08-21T02:09:50.955934+00:00"
 }
