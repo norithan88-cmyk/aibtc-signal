@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン反発、利益確定が最高値時上回る規模に",
+      "link": "https://coinpost.jp/?p=732217",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-20T23:10:49+00:00",
+      "detected_at_utc": "2026-08-21T00:26:59.335387+00:00",
+      "baseline": {
+        "t": "2026-08-21T00:26:59.335387+00:00",
+        "price": 73842.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 72,
+        "volume_1h": 102374563.19
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン急騰、短期保有者が年初来最大利確＝アナリスト",
       "link": "https://coinpost.jp/?p=732138",
       "source": "CoinPost",
@@ -1224,5 +1243,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-20T23:46:07.784747+00:00"
+  "updated_at_utc": "2026-08-21T00:26:59.335387+00:00"
 }
