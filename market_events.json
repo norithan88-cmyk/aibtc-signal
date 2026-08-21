@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "「先物上場が転換点」中国著名エコノミストが語るビットコイン資産化の本質",
+      "link": "https://coinpost.jp/?p=732109",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-21T06:00:24+00:00",
+      "detected_at_utc": "2026-08-21T08:51:17.557198+00:00",
+      "baseline": {
+        "t": "2026-08-21T08:51:17.557198+00:00",
+        "price": 78328.97,
+        "funding_rate_pct": null,
+        "fear_greed_value": 72,
+        "volume_1h": 264666187.55
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコインの強気指数、10カ月ぶり60超え＝アナリスト",
       "link": "https://coinpost.jp/?p=732457",
       "source": "CoinPost",
@@ -13,10 +32,21 @@
         "fear_greed_value": 72,
         "volume_1h": 258220598.21
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-21T08:51:17.557198+00:00",
+          "price": 78328.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 264666187.55,
+          "delta_price_pct": 2.55
+        }
+      },
+      "flags": [
+        "価格急変（+2.6%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコインの強気指数、10カ月ぶり60超え＝アナリスト」の報道後、BTCは30分で+2.5%。Fear & Greedも72から72へ横ばい。価格急変（+2.6%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -56,12 +86,23 @@
           "fear_greed_value": 72,
           "volume_1h": 102515616.52,
           "delta_price_pct": 1.39
+        },
+        "4h": {
+          "t": "2026-08-21T08:51:17.557198+00:00",
+          "price": 78328.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 264666187.55,
+          "delta_price_pct": 4.85
         }
       },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン続伸、仮想通貨関連株も軒並み高」の報道後、BTCは2時間で+1.4%。Fear & Greedも72から72へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "flags": [
+        "価格急変（+4.8%）",
+        "出来高急増（+270%）"
+      ],
+      "relevance": "high",
+      "summary": "「ビットコイン続伸、仮想通貨関連株も軒並み高」の報道後、BTCは4時間で+4.8%。Fear & Greedも72から72へ横ばい。価格急変（+4.8%）、出来高急増（+270%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン7.3万ドル突破、米規制進展とショート清算が上昇を加速｜仮想NISHI",
@@ -1446,5 +1487,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-21T07:56:00.550623+00:00"
+  "updated_at_utc": "2026-08-21T08:51:17.557198+00:00"
 }
