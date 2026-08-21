@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ストラテジーの84万ビットコイン、含み損から一転し2420億円超の含み益に",
+      "link": "https://coinpost.jp/?p=732545",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-21T20:00:15+00:00",
+      "detected_at_utc": "2026-08-21T20:02:35.278453+00:00",
+      "baseline": {
+        "t": "2026-08-21T20:02:35.278453+00:00",
+        "price": 76961.99,
+        "funding_rate_pct": null,
+        "fear_greed_value": 72,
+        "volume_1h": 84311916.99
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "「先物上場が転換点」中国著名エコノミストが語るビットコイン資産化の本質",
       "link": "https://coinpost.jp/?p=732109",
       "source": "CoinPost",
@@ -1550,5 +1569,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-21T19:44:13.707146+00:00"
+  "updated_at_utc": "2026-08-21T20:02:35.278453+00:00"
 }
