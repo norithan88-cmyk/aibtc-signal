@@ -29,11 +29,19 @@
           "fear_greed_value": 72,
           "volume_1h": 75805742.46,
           "delta_price_pct": 0.69
+        },
+        "2h": {
+          "t": "2026-08-21T07:05:23.412974+00:00",
+          "price": 75744.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 102515616.52,
+          "delta_price_pct": 1.39
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン続伸、仮想通貨関連株も軒並み高」の報道後、BTCは1時間で+0.7%。Fear & Greedも72から72へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ビットコイン続伸、仮想通貨関連株も軒並み高」の報道後、BTCは2時間で+1.4%。Fear & Greedも72から72へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -73,12 +81,20 @@
           "fear_greed_value": 72,
           "volume_1h": 61304328.68,
           "delta_price_pct": 0.08
+        },
+        "4h": {
+          "t": "2026-08-21T07:05:23.412974+00:00",
+          "price": 75744.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 102515616.52,
+          "delta_price_pct": 1.08
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン7.3万ドル突破、米規制進展とショート清算が上昇を加速｜仮想NISHI」の報道後、BTCは2時間で+0.1%。Fear & Greedも72から72へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ビットコイン7.3万ドル突破、米規制進展とショート清算が上昇を加速｜仮想NISHI」の報道後、BTCは4時間で+1.1%。Fear & Greedも72から72へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン現物ETF、19日に820億円超が純流入　5月5日以降最大規模",
@@ -117,12 +133,20 @@
           "fear_greed_value": 72,
           "volume_1h": 61304328.68,
           "delta_price_pct": 0.08
+        },
+        "4h": {
+          "t": "2026-08-21T07:05:23.412974+00:00",
+          "price": 75744.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 102515616.52,
+          "delta_price_pct": 1.08
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン現物ETF、19日に820億円超が純流入　5月5日以降最大規模」の報道後、BTCは2時間で+0.1%。Fear & Greedも72から72へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ビットコイン現物ETF、19日に820億円超が純流入　5月5日以降最大規模」の報道後、BTCは4時間で+1.1%。Fear & Greedも72から72へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン反発、利益確定が最高値時上回る規模に",
@@ -1403,5 +1427,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-21T06:03:51.382331+00:00"
+  "updated_at_utc": "2026-08-21T07:05:23.412974+00:00"
 }
