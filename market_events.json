@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコインの強気指数、10カ月ぶり60超え＝アナリスト",
+      "link": "https://coinpost.jp/?p=732457",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-21T07:49:27+00:00",
+      "detected_at_utc": "2026-08-21T07:56:00.550623+00:00",
+      "baseline": {
+        "t": "2026-08-21T07:56:00.550623+00:00",
+        "price": 76378.31,
+        "funding_rate_pct": null,
+        "fear_greed_value": 72,
+        "volume_1h": 258220598.21
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン続伸、仮想通貨関連株も軒並み高",
       "link": "https://coinpost.jp/?p=732355",
       "source": "CoinPost",
@@ -1427,5 +1446,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-21T07:05:23.412974+00:00"
+  "updated_at_utc": "2026-08-21T07:56:00.550623+00:00"
 }
