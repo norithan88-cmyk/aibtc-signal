@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "英大手銀アナリスト分析、ビットコインが10万ドルを上回る可能性",
+      "link": "https://coinpost.jp/?p=732554",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-21T20:55:41+00:00",
+      "detected_at_utc": "2026-08-21T21:34:59.689580+00:00",
+      "baseline": {
+        "t": "2026-08-21T21:34:59.689580+00:00",
+        "price": 78426.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 72,
+        "volume_1h": 76617561.12
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ストラテジーの84万ビットコイン、含み損から一転し2420億円超の含み益に",
       "link": "https://coinpost.jp/?p=732545",
       "source": "CoinPost",
@@ -21,11 +40,21 @@
           "fear_greed_value": 72,
           "volume_1h": 84420840.47,
           "delta_price_pct": 0.68
+        },
+        "1h": {
+          "t": "2026-08-21T21:34:59.689580+00:00",
+          "price": 78426.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 76617561.12,
+          "delta_price_pct": 1.9
         }
       },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ストラテジーの84万ビットコイン、含み損から一転し2420億円超の含み益に」の報道後、BTCは30分で+0.7%。Fear & Greedも72から72へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "flags": [
+        "価格急変（+1.9%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ストラテジーの84万ビットコイン、含み損から一転し2420億円超の含み益に」の報道後、BTCは1時間で+1.9%。Fear & Greedも72から72へ横ばい。価格急変（+1.9%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -1578,5 +1607,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-21T21:00:14.457216+00:00"
+  "updated_at_utc": "2026-08-21T21:34:59.689580+00:00"
 }
