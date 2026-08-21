@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "レイ・ダリオ、米債務危機警告し金とビットコイン推奨",
+      "link": "https://coinpost.jp/?p=732556",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-21T21:40:11+00:00",
+      "detected_at_utc": "2026-08-21T21:58:35.096536+00:00",
+      "baseline": {
+        "t": "2026-08-21T21:58:35.096536+00:00",
+        "price": 78476.41,
+        "funding_rate_pct": null,
+        "fear_greed_value": 72,
+        "volume_1h": 103828962.72
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "英大手銀アナリスト分析、ビットコインが10万ドルを上回る可能性",
       "link": "https://coinpost.jp/?p=732554",
       "source": "CoinPost",
@@ -1607,5 +1626,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-21T21:34:59.689580+00:00"
+  "updated_at_utc": "2026-08-21T21:58:35.096536+00:00"
 }
