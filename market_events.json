@@ -13,10 +13,27 @@
         "fear_greed_value": 72,
         "volume_1h": 256912455.59
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-21T03:17:39.906643+00:00",
+          "price": 74498.1,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 94243149.71,
+          "delta_price_pct": -0.58
+        },
+        "1h": {
+          "t": "2026-08-21T03:17:39.906643+00:00",
+          "price": 74498.1,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 94243149.71,
+          "delta_price_pct": -0.58
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ビットコイン7.3万ドル突破、米規制進展とショート清算が上昇を加速｜仮想NISHI」の報道後、BTCは1時間で-0.6%。Fear & Greedも72から72へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -32,10 +49,27 @@
         "fear_greed_value": 72,
         "volume_1h": 256912455.59
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-21T03:17:39.906643+00:00",
+          "price": 74498.1,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 94243149.71,
+          "delta_price_pct": -0.58
+        },
+        "1h": {
+          "t": "2026-08-21T03:17:39.906643+00:00",
+          "price": 74498.1,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 94243149.71,
+          "delta_price_pct": -0.58
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ビットコイン現物ETF、19日に820億円超が純流入　5月5日以降最大規模」の報道後、BTCは1時間で-0.6%。Fear & Greedも72から72へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -67,13 +101,21 @@
           "fear_greed_value": 72,
           "volume_1h": 256912455.59,
           "delta_price_pct": 1.48
+        },
+        "2h": {
+          "t": "2026-08-21T03:17:39.906643+00:00",
+          "price": 74498.1,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 94243149.71,
+          "delta_price_pct": 0.89
         }
       },
       "flags": [
         "出来高急増（+151%）"
       ],
       "relevance": "medium",
-      "summary": "「ビットコイン反発、利益確定が最高値時上回る規模に」の報道後、BTCは1時間で+1.5%。Fear & Greedも72から72へ横ばい。出来高急増（+151%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ビットコイン反発、利益確定が最高値時上回る規模に」の報道後、BTCは2時間で+0.9%。Fear & Greedも72から72へ横ばい。出来高急増（+151%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -1300,5 +1342,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-21T02:09:50.955934+00:00"
+  "updated_at_utc": "2026-08-21T03:17:39.906643+00:00"
 }
