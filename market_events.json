@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "ビットコイン金融のバウンスビット、BBトークン不正流出でL1廃止",
+      "link": "https://coinpost.jp/?p=732576",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-22T02:12:55+00:00",
+      "detected_at_utc": "2026-08-22T03:28:28.688667+00:00",
+      "baseline": {
+        "t": "2026-08-22T03:28:28.688667+00:00",
+        "price": 78719.22,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 78614963.67
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン7.9万ドル突破、イラン制裁観測で逃避買い　オプション市場は9万ドルを意識｜仮想NISHI",
+      "link": "https://coinpost.jp/?p=732566",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-22T01:35:13+00:00",
+      "detected_at_utc": "2026-08-22T03:28:28.688667+00:00",
+      "baseline": {
+        "t": "2026-08-22T03:28:28.688667+00:00",
+        "price": 78719.22,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 78614963.67
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ハッキング被害のビットコイン専門ウォレット「コールドカード」、ファームウェアの更新を推奨",
+      "link": "https://coinpost.jp/?p=732568",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-22T00:30:13+00:00",
+      "detected_at_utc": "2026-08-22T03:28:28.688667+00:00",
+      "baseline": {
+        "t": "2026-08-22T03:28:28.688667+00:00",
+        "price": 78719.22,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 78614963.67
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン、8.2万ドルが強気相場転換の分岐点に＝ギャラクシー・リサーチ",
       "link": "https://coinpost.jp/?p=732564",
       "source": "CoinPost",
@@ -1805,5 +1862,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-22T02:42:49.270592+00:00"
+  "updated_at_utc": "2026-08-22T03:28:28.688667+00:00"
 }
