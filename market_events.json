@@ -29,11 +29,19 @@
           "fear_greed_value": 71,
           "volume_1h": 47530932.98,
           "delta_price_pct": -0.47
+        },
+        "2h": {
+          "t": "2026-08-22T02:42:49.270592+00:00",
+          "price": 78401.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 50769609.18,
+          "delta_price_pct": 0.1
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン、8.2万ドルが強気相場転換の分岐点に＝ギャラクシー・リサーチ」の報道後、BTCは1時間で-0.5%。Fear & Greedも72から71へ悪化。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ビットコイン、8.2万ドルが強気相場転換の分岐点に＝ギャラクシー・リサーチ」の報道後、BTCは2時間で+0.1%。Fear & Greedも72から71へ悪化。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -73,12 +81,20 @@
           "fear_greed_value": 71,
           "volume_1h": 47530932.98,
           "delta_price_pct": -0.46
+        },
+        "4h": {
+          "t": "2026-08-22T02:42:49.270592+00:00",
+          "price": 78401.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 50769609.18,
+          "delta_price_pct": 0.1
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン反発の主因をコインシェアーズが分析、次の材料は？」の報道後、BTCは2時間で-0.5%。Fear & Greedも72から71へ悪化。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ビットコイン反発の主因をコインシェアーズが分析、次の材料は？」の報道後、BTCは4時間で+0.1%。Fear & Greedも72から71へ悪化。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "レイ・ダリオ、米債務危機警告し金とビットコイン推奨",
@@ -117,12 +133,20 @@
           "fear_greed_value": 71,
           "volume_1h": 47530932.98,
           "delta_price_pct": -0.66
+        },
+        "4h": {
+          "t": "2026-08-22T02:42:49.270592+00:00",
+          "price": 78401.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 50769609.18,
+          "delta_price_pct": -0.1
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「レイ・ダリオ、米債務危機警告し金とビットコイン推奨」の報道後、BTCは2時間で-0.7%。Fear & Greedも72から71へ悪化。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「レイ・ダリオ、米債務危機警告し金とビットコイン推奨」の報道後、BTCは4時間で-0.1%。Fear & Greedも72から71へ悪化。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "英大手銀アナリスト分析、ビットコインが10万ドルを上回る可能性",
@@ -1781,5 +1805,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-22T01:45:21.612942+00:00"
+  "updated_at_utc": "2026-08-22T02:42:49.270592+00:00"
 }
