@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "週刊仮想通貨ニュース（8/21）｜相場上昇・米政府のBTC購入検討・米SECの新規則提案のまとめ",
+      "link": "https://coinpost.jp/?p=732315",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-23T00:25:32+00:00",
+      "detected_at_utc": "2026-08-23T01:09:10.371282+00:00",
+      "baseline": {
+        "t": "2026-08-23T01:09:10.371282+00:00",
+        "price": 77260.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 66,
+        "volume_1h": 34246427.95
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン金融のバウンスビット、BBトークン不正流出でL1廃止",
       "link": "https://coinpost.jp/?p=732576",
       "source": "CoinPost",
@@ -1981,5 +2000,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-22T23:51:28.503525+00:00"
+  "updated_at_utc": "2026-08-23T01:09:10.371282+00:00"
 }
