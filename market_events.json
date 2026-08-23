@@ -13,10 +13,27 @@
         "fear_greed_value": 66,
         "volume_1h": 34246427.95
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-23T02:38:02.250849+00:00",
+          "price": 77204.05,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 23217461.75,
+          "delta_price_pct": -0.07
+        },
+        "1h": {
+          "t": "2026-08-23T02:38:02.250849+00:00",
+          "price": 77204.05,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 23217461.75,
+          "delta_price_pct": -0.07
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「週刊仮想通貨ニュース（8/21）｜相場上昇・米政府のBTC購入検討・米SECの新規則提案のまとめ」の報道後、BTCは1時間で-0.1%。Fear & Greedも66から66へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -2000,5 +2017,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-23T01:09:10.371282+00:00"
+  "updated_at_utc": "2026-08-23T02:38:02.250849+00:00"
 }
