@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン米財政懸念で5月以来の高値、来週はGDP・PCEが焦点｜bitbankアナリスト寄稿",
+      "link": "https://coinpost.jp/?p=732405",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-23T02:30:23+00:00",
+      "detected_at_utc": "2026-08-23T03:36:13.723990+00:00",
+      "baseline": {
+        "t": "2026-08-23T03:36:13.723990+00:00",
+        "price": 76979.17,
+        "funding_rate_pct": null,
+        "fear_greed_value": 66,
+        "volume_1h": 31399834.29
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "週刊仮想通貨ニュース（8/21）｜相場上昇・米政府のBTC購入検討・米SECの新規則提案のまとめ",
       "link": "https://coinpost.jp/?p=732315",
       "source": "CoinPost",
@@ -29,11 +48,19 @@
           "fear_greed_value": 66,
           "volume_1h": 23217461.75,
           "delta_price_pct": -0.07
+        },
+        "2h": {
+          "t": "2026-08-23T03:36:13.723990+00:00",
+          "price": 76979.17,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 31399834.29,
+          "delta_price_pct": -0.36
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「週刊仮想通貨ニュース（8/21）｜相場上昇・米政府のBTC購入検討・米SECの新規則提案のまとめ」の報道後、BTCは1時間で-0.1%。Fear & Greedも66から66へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「週刊仮想通貨ニュース（8/21）｜相場上昇・米政府のBTC購入検討・米SECの新規則提案のまとめ」の報道後、BTCは2時間で-0.4%。Fear & Greedも66から66へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -2017,5 +2044,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-23T02:38:02.250849+00:00"
+  "updated_at_utc": "2026-08-23T03:36:13.723990+00:00"
 }
