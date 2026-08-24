@@ -21,11 +21,21 @@
           "fear_greed_value": 73,
           "volume_1h": 245548497.4,
           "delta_price_pct": 1.32
+        },
+        "1h": {
+          "t": "2026-08-24T15:36:34.918827+00:00",
+          "price": 79896.14,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 181870378.36,
+          "delta_price_pct": 1.96
         }
       },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ストラテジー、新設『USD Cash』で機動力強化　ビットコイン購入停止継続」の報道後、BTCは30分で+1.3%。Fear & Greedも73から73へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "flags": [
+        "価格急変（+2.0%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ストラテジー、新設『USD Cash』で機動力強化　ビットコイン購入停止継続」の報道後、BTCは1時間で+2.0%。Fear & Greedも73から73へ横ばい。価格急変（+2.0%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -2282,5 +2292,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-24T14:51:32.209531+00:00"
+  "updated_at_utc": "2026-08-24T15:36:34.918827+00:00"
 }
