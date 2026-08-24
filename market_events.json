@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン・イーサリアム現物ETFの純流入、昨年10月以来最大規模に",
+      "link": "https://coinpost.jp/?p=732638",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-24T00:34:26+00:00",
+      "detected_at_utc": "2026-08-24T00:45:31.152738+00:00",
+      "baseline": {
+        "t": "2026-08-24T00:45:31.152738+00:00",
+        "price": 77239.09,
+        "funding_rate_pct": null,
+        "fear_greed_value": 73,
+        "volume_1h": 42316377.82
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン週間26％急伸、底打ち型の反発か＝アナリスト",
       "link": "https://coinpost.jp/?p=732631",
       "source": "CoinPost",
@@ -13,10 +32,27 @@
         "fear_greed_value": 66,
         "volume_1h": 40055295.41
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-24T00:45:31.152738+00:00",
+          "price": 77239.09,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 42316377.82,
+          "delta_price_pct": -0.38
+        },
+        "1h": {
+          "t": "2026-08-24T00:45:31.152738+00:00",
+          "price": 77239.09,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 42316377.82,
+          "delta_price_pct": -0.38
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ビットコイン週間26％急伸、底打ち型の反発か＝アナリスト」の報道後、BTCは1時間で-0.4%。Fear & Greedも66から73へ改善。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -2110,5 +2146,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-23T23:49:19.746036+00:00"
+  "updated_at_utc": "2026-08-24T00:45:31.152738+00:00"
 }
