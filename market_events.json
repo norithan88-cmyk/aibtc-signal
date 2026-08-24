@@ -13,10 +13,27 @@
         "fear_greed_value": 73,
         "volume_1h": 71185940.69
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-24T03:27:05.888201+00:00",
+          "price": 77163.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 76413534.43,
+          "delta_price_pct": -0.14
+        },
+        "1h": {
+          "t": "2026-08-24T03:27:05.888201+00:00",
+          "price": 77163.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 76413534.43,
+          "delta_price_pct": -0.14
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ビットコイン保有企業ストライブCEO、弱気相場終了との見方」の報道後、BTCは1時間で-0.1%。Fear & Greedも73から73へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -48,13 +65,22 @@
           "fear_greed_value": 73,
           "volume_1h": 71185940.69,
           "delta_price_pct": 0.04
+        },
+        "2h": {
+          "t": "2026-08-24T03:27:05.888201+00:00",
+          "price": 77163.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 76413534.43,
+          "delta_price_pct": -0.1
         }
       },
       "flags": [
-        "出来高急増（+68%）"
+        "出来高急増（+68%）",
+        "出来高急増（+81%）"
       ],
-      "relevance": "medium",
-      "summary": "「ビットコイン・イーサリアム現物ETFの純流入、昨年10月以来最大規模に」の報道後、BTCは1時間で+0.0%。Fear & Greedも73から73へ横ばい。出来高急増（+68%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "relevance": "high",
+      "summary": "「ビットコイン・イーサリアム現物ETFの純流入、昨年10月以来最大規模に」の報道後、BTCは2時間で-0.1%。Fear & Greedも73から73へ横ばい。出来高急増（+68%）、出来高急増（+81%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -94,14 +120,23 @@
           "fear_greed_value": 73,
           "volume_1h": 71185940.69,
           "delta_price_pct": -0.34
+        },
+        "4h": {
+          "t": "2026-08-24T03:27:05.888201+00:00",
+          "price": 77163.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 76413534.43,
+          "delta_price_pct": -0.48
         }
       },
       "flags": [
-        "出来高急増（+78%）"
+        "出来高急増（+78%）",
+        "出来高急増（+91%）"
       ],
-      "relevance": "medium",
-      "summary": "「ビットコイン週間26％急伸、底打ち型の反発か＝アナリスト」の報道後、BTCは2時間で-0.3%。Fear & Greedも66から73へ改善。出来高急増（+78%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "relevance": "high",
+      "summary": "「ビットコイン週間26％急伸、底打ち型の反発か＝アナリスト」の報道後、BTCは4時間で-0.5%。Fear & Greedも66から73へ改善。出来高急増（+78%）、出来高急増（+91%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン米財政懸念で5月以来の高値、来週はGDP・PCEが焦点｜bitbankアナリスト寄稿",
@@ -2194,5 +2229,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-24T02:13:25.615442+00:00"
+  "updated_at_utc": "2026-08-24T03:27:05.888201+00:00"
 }
