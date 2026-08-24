@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "米財務省、150兆円相当TGA口座を国債買い戻しの原資に利用検討　ビットコインに恩恵か",
+      "link": "https://coinpost.jp/?p=732866",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-24T22:00:56+00:00",
+      "detected_at_utc": "2026-08-24T22:36:27.170246+00:00",
+      "baseline": {
+        "t": "2026-08-24T22:36:27.170246+00:00",
+        "price": 78854.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 73,
+        "volume_1h": 22788929.61
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ストラテジー、新設『USD Cash』で機動力強化　ビットコイン購入停止継続",
       "link": "https://coinpost.jp/?p=732849",
       "source": "CoinPost",
@@ -2309,5 +2328,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-24T21:57:06.394611+00:00"
+  "updated_at_utc": "2026-08-24T22:36:27.170246+00:00"
 }
