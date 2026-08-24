@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ストラテジー、新設『USD Cash』で機動力強化　ビットコイン購入停止継続",
+      "link": "https://coinpost.jp/?p=732849",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-24T12:40:57+00:00",
+      "detected_at_utc": "2026-08-24T13:55:51.305316+00:00",
+      "baseline": {
+        "t": "2026-08-24T13:55:51.305316+00:00",
+        "price": 78357.97,
+        "funding_rate_pct": null,
+        "fear_greed_value": 73,
+        "volume_1h": 252837114.87
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン保有企業ストライブCEO、弱気相場終了との見方",
       "link": "https://coinpost.jp/?p=732674",
       "source": "CoinPost",
@@ -2254,5 +2273,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-24T12:55:05.286673+00:00"
+  "updated_at_utc": "2026-08-24T13:55:51.305316+00:00"
 }
