@@ -29,11 +29,19 @@
           "fear_greed_value": 74,
           "volume_1h": 43050131.98,
           "delta_price_pct": 0.78
+        },
+        "2h": {
+          "t": "2026-08-25T23:10:38.014153+00:00",
+          "price": 78828.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 36905970.05,
+          "delta_price_pct": 0.78
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「グレースケール、ジーキャッシュがビットコインに対抗と見解」の報道後、BTCは1時間で+0.8%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「グレースケール、ジーキャッシュがビットコインに対抗と見解」の報道後、BTCは2時間で+0.8%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -2565,5 +2573,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-25T22:42:04.650720+00:00"
+  "updated_at_utc": "2026-08-25T23:10:38.014153+00:00"
 }
