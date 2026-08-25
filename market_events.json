@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "ビットコイン8万ドル目前、現物買いが上昇主導　対イラン制裁と米金利低下が追い風｜仮想NISHI",
+      "link": "https://coinpost.jp/?p=732880",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-25T01:25:36+00:00",
+      "detected_at_utc": "2026-08-25T01:36:49.788731+00:00",
+      "baseline": {
+        "t": "2026-08-25T01:36:49.788731+00:00",
+        "price": 79714.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 97812098.68
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ヘイズ氏、米財務省の国債買戻し拡大でビットコイン強気相場へと分析",
+      "link": "https://coinpost.jp/?p=732928",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-25T01:24:41+00:00",
+      "detected_at_utc": "2026-08-25T01:36:49.788731+00:00",
+      "baseline": {
+        "t": "2026-08-25T01:36:49.788731+00:00",
+        "price": 79714.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 97812098.68
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "コンヴァノ、ビットコイン売却資金81億円で社債償還・自社株買いへ",
+      "link": "https://coinpost.jp/?p=732912",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-25T00:43:31+00:00",
+      "detected_at_utc": "2026-08-25T01:36:49.788731+00:00",
+      "baseline": {
+        "t": "2026-08-25T01:36:49.788731+00:00",
+        "price": 79714.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 97812098.68
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米財務省、150兆円相当TGA口座を国債買い戻しの原資に利用検討　ビットコインに恩恵か",
       "link": "https://coinpost.jp/?p=732866",
       "source": "CoinPost",
@@ -29,14 +86,23 @@
           "fear_greed_value": 73,
           "volume_1h": 37215355.18,
           "delta_price_pct": -0.01
+        },
+        "2h": {
+          "t": "2026-08-25T01:36:49.788731+00:00",
+          "price": 79714.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 97812098.68,
+          "delta_price_pct": 1.09
         }
       },
       "flags": [
         "出来高急増（+64%）",
-        "出来高急増（+63%）"
+        "出来高急増（+63%）",
+        "出来高急増（+329%）"
       ],
       "relevance": "high",
-      "summary": "「米財務省、150兆円相当TGA口座を国債買い戻しの原資に利用検討　ビットコインに恩恵か」の報道後、BTCは1時間で-0.0%。Fear & Greedも73から73へ横ばい。出来高急増（+64%）、出来高急増（+63%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「米財務省、150兆円相当TGA口座を国債買い戻しの原資に利用検討　ビットコインに恩恵か」の報道後、BTCは2時間で+1.1%。Fear & Greedも73から74へ改善。出来高急増（+64%）、出来高急増（+63%）、出来高急増（+329%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -2348,5 +2414,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-24T23:54:26.462236+00:00"
+  "updated_at_utc": "2026-08-25T01:36:49.788731+00:00"
 }
