@@ -13,10 +13,29 @@
         "fear_greed_value": 74,
         "volume_1h": 97812098.68
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-25T02:44:32.233428+00:00",
+          "price": 80856.75,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 247349652.45,
+          "delta_price_pct": 1.43
+        },
+        "1h": {
+          "t": "2026-08-25T02:44:32.233428+00:00",
+          "price": 80856.75,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 247349652.45,
+          "delta_price_pct": 1.43
+        }
+      },
+      "flags": [
+        "出来高急増（+153%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン8万ドル目前、現物買いが上昇主導　対イラン制裁と米金利低下が追い風｜仮想NISHI」の報道後、BTCは1時間で+1.4%。Fear & Greedも74から74へ横ばい。出来高急増（+153%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -32,10 +51,29 @@
         "fear_greed_value": 74,
         "volume_1h": 97812098.68
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-25T02:44:32.233428+00:00",
+          "price": 80856.75,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 247349652.45,
+          "delta_price_pct": 1.43
+        },
+        "1h": {
+          "t": "2026-08-25T02:44:32.233428+00:00",
+          "price": 80856.75,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 247349652.45,
+          "delta_price_pct": 1.43
+        }
+      },
+      "flags": [
+        "出来高急増（+153%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ヘイズ氏、米財務省の国債買戻し拡大でビットコイン強気相場へと分析」の報道後、BTCは1時間で+1.4%。Fear & Greedも74から74へ横ばい。出来高急増（+153%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -51,10 +89,29 @@
         "fear_greed_value": 74,
         "volume_1h": 97812098.68
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-25T02:44:32.233428+00:00",
+          "price": 80856.75,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 247349652.45,
+          "delta_price_pct": 1.43
+        },
+        "1h": {
+          "t": "2026-08-25T02:44:32.233428+00:00",
+          "price": 80856.75,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 247349652.45,
+          "delta_price_pct": 1.43
+        }
+      },
+      "flags": [
+        "出来高急増（+153%）"
+      ],
+      "relevance": "medium",
+      "summary": "「コンヴァノ、ビットコイン売却資金81億円で社債償還・自社株買いへ」の報道後、BTCは1時間で+1.4%。Fear & Greedも74から74へ横ばい。出来高急増（+153%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -94,16 +151,26 @@
           "fear_greed_value": 74,
           "volume_1h": 97812098.68,
           "delta_price_pct": 1.09
+        },
+        "4h": {
+          "t": "2026-08-25T02:44:32.233428+00:00",
+          "price": 80856.75,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 247349652.45,
+          "delta_price_pct": 2.54
         }
       },
       "flags": [
         "出来高急増（+64%）",
         "出来高急増（+63%）",
-        "出来高急増（+329%）"
+        "出来高急増（+329%）",
+        "価格急変（+2.5%）",
+        "出来高急増（+985%）"
       ],
       "relevance": "high",
-      "summary": "「米財務省、150兆円相当TGA口座を国債買い戻しの原資に利用検討　ビットコインに恩恵か」の報道後、BTCは2時間で+1.1%。Fear & Greedも73から74へ改善。出来高急増（+64%）、出来高急増（+63%）、出来高急増（+329%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「米財務省、150兆円相当TGA口座を国債買い戻しの原資に利用検討　ビットコインに恩恵か」の報道後、BTCは4時間で+2.5%。Fear & Greedも73から74へ改善。出来高急増（+64%）、出来高急増（+63%）、出来高急増（+329%）、価格急変（+2.5%）、出来高急増（+985%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストラテジー、新設『USD Cash』で機動力強化　ビットコイン購入停止継続",
@@ -2414,5 +2481,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-25T01:36:49.788731+00:00"
+  "updated_at_utc": "2026-08-25T02:44:32.233428+00:00"
 }
