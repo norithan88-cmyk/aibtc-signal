@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "米国債買い戻しでドル安警戒、ビットコインETF「IBIT」急伸",
+      "link": "https://coinpost.jp/?p=733274",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-26T01:49:44+00:00",
+      "detected_at_utc": "2026-08-26T01:55:06.458980+00:00",
+      "baseline": {
+        "t": "2026-08-26T01:55:06.458980+00:00",
+        "price": 78795.28,
+        "funding_rate_pct": null,
+        "fear_greed_value": 65,
+        "volume_1h": 43909395.48
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン8万ドル突破後も底堅く推移　現物買い優勢で上昇基調を維持｜仮想NISHI",
+      "link": "https://coinpost.jp/?p=733210",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-26T00:20:17+00:00",
+      "detected_at_utc": "2026-08-26T01:55:06.458980+00:00",
+      "baseline": {
+        "t": "2026-08-26T01:55:06.458980+00:00",
+        "price": 78795.28,
+        "funding_rate_pct": null,
+        "fear_greed_value": 65,
+        "volume_1h": 43909395.48
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ストラテジー、ビットコイン下落より資金調達力にリスク＝レポート分析",
       "link": "https://coinpost.jp/?p=733212",
       "source": "CoinPost",
@@ -13,10 +51,37 @@
         "fear_greed_value": 74,
         "volume_1h": 43207123.06
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-26T01:55:06.458980+00:00",
+          "price": 78795.28,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43909395.48,
+          "delta_price_pct": 0.2
+        },
+        "1h": {
+          "t": "2026-08-26T01:55:06.458980+00:00",
+          "price": 78795.28,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43909395.48,
+          "delta_price_pct": 0.2
+        },
+        "2h": {
+          "t": "2026-08-26T01:55:06.458980+00:00",
+          "price": 78795.28,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43909395.48,
+          "delta_price_pct": 0.2
+        }
+      },
+      "flags": [
+        "市場心理の悪化（Fear & Greed急低下）"
+      ],
+      "relevance": "medium",
+      "summary": "「ストラテジー、ビットコイン下落より資金調達力にリスク＝レポート分析」の報道後、BTCは2時間で+0.2%。Fear & Greedも74から65へ悪化。市場心理の悪化（Fear & Greed急低下）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -56,12 +121,22 @@
           "fear_greed_value": 74,
           "volume_1h": 36905970.05,
           "delta_price_pct": 0.78
+        },
+        "4h": {
+          "t": "2026-08-26T01:55:06.458980+00:00",
+          "price": 78795.28,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43909395.48,
+          "delta_price_pct": 0.74
         }
       },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「グレースケール、ジーキャッシュがビットコインに対抗と見解」の報道後、BTCは2時間で+0.8%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "flags": [
+        "市場心理の悪化（Fear & Greed急低下）"
+      ],
+      "relevance": "medium",
+      "summary": "「グレースケール、ジーキャッシュがビットコインに対抗と見解」の報道後、BTCは4時間で+0.7%。Fear & Greedも74から65へ悪化。市場心理の悪化（Fear & Greed急低下）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン8万ドル目前、現物買いが上昇主導　対イラン制裁と米金利低下が追い風｜仮想NISHI",
@@ -2592,5 +2667,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-26T00:01:37.396182+00:00"
+  "updated_at_utc": "2026-08-26T01:55:06.458980+00:00"
 }
