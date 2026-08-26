@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "バーンスタイン、ビットコイン30万ドル予想維持　「ディベースメント・トレード」を追い風に",
+      "link": "https://coinpost.jp/?p=733508",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-26T20:00:20+00:00",
+      "detected_at_utc": "2026-08-26T22:19:16.695031+00:00",
+      "baseline": {
+        "t": "2026-08-26T22:19:16.695031+00:00",
+        "price": 78890.72,
+        "funding_rate_pct": 0.0071,
+        "fear_greed_value": 65,
+        "volume_1h": 50237643.74
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米国債買い戻しでドル安警戒、ビットコインETF「IBIT」急伸",
       "link": "https://coinpost.jp/?p=733274",
       "source": "CoinPost",
@@ -2741,5 +2760,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-26T19:14:32.450632+00:00"
+  "updated_at_utc": "2026-08-26T22:19:16.695031+00:00"
 }
