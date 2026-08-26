@@ -37,12 +37,20 @@
           "fear_greed_value": 65,
           "volume_1h": 38107871.04,
           "delta_price_pct": 0.35
+        },
+        "4h": {
+          "t": "2026-08-26T06:20:01.190669+00:00",
+          "price": 78874.01,
+          "funding_rate_pct": 0.0077,
+          "fear_greed_value": 65,
+          "volume_1h": 33131911.09,
+          "delta_price_pct": 0.1
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「米国債買い戻しでドル安警戒、ビットコインETF「IBIT」急伸」の報道後、BTCは2時間で+0.3%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「米国債買い戻しでドル安警戒、ビットコインETF「IBIT」急伸」の報道後、BTCは4時間で+0.1%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン8万ドル突破後も底堅く推移　現物買い優勢で上昇基調を維持｜仮想NISHI",
@@ -81,12 +89,20 @@
           "fear_greed_value": 65,
           "volume_1h": 38107871.04,
           "delta_price_pct": 0.35
+        },
+        "4h": {
+          "t": "2026-08-26T06:20:01.190669+00:00",
+          "price": 78874.01,
+          "funding_rate_pct": 0.0077,
+          "fear_greed_value": 65,
+          "volume_1h": 33131911.09,
+          "delta_price_pct": 0.1
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン8万ドル突破後も底堅く推移　現物買い優勢で上昇基調を維持｜仮想NISHI」の報道後、BTCは2時間で+0.3%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ビットコイン8万ドル突破後も底堅く推移　現物買い優勢で上昇基調を維持｜仮想NISHI」の報道後、BTCは4時間で+0.1%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストラテジー、ビットコイン下落より資金調達力にリスク＝レポート分析",
@@ -2725,5 +2741,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-26T05:41:12.587351+00:00"
+  "updated_at_utc": "2026-08-26T06:20:01.190669+00:00"
 }
