@@ -29,11 +29,19 @@
           "fear_greed_value": 65,
           "volume_1h": 40635201.78,
           "delta_price_pct": 0.36
+        },
+        "2h": {
+          "t": "2026-08-26T04:06:59.232729+00:00",
+          "price": 79074.13,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 38107871.04,
+          "delta_price_pct": 0.35
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「米国債買い戻しでドル安警戒、ビットコインETF「IBIT」急伸」の報道後、BTCは1時間で+0.4%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「米国債買い戻しでドル安警戒、ビットコインETF「IBIT」急伸」の報道後、BTCは2時間で+0.3%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -65,11 +73,19 @@
           "fear_greed_value": 65,
           "volume_1h": 40635201.78,
           "delta_price_pct": 0.36
+        },
+        "2h": {
+          "t": "2026-08-26T04:06:59.232729+00:00",
+          "price": 79074.13,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 38107871.04,
+          "delta_price_pct": 0.35
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン8万ドル突破後も底堅く推移　現物買い優勢で上昇基調を維持｜仮想NISHI」の報道後、BTCは1時間で+0.4%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "summary": "「ビットコイン8万ドル突破後も底堅く推移　現物買い優勢で上昇基調を維持｜仮想NISHI」の報道後、BTCは2時間で+0.3%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -109,14 +125,22 @@
           "fear_greed_value": 65,
           "volume_1h": 43909395.48,
           "delta_price_pct": 0.2
+        },
+        "4h": {
+          "t": "2026-08-26T04:06:59.232729+00:00",
+          "price": 79074.13,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 38107871.04,
+          "delta_price_pct": 0.55
         }
       },
       "flags": [
         "市場心理の悪化（Fear & Greed急低下）"
       ],
       "relevance": "medium",
-      "summary": "「ストラテジー、ビットコイン下落より資金調達力にリスク＝レポート分析」の報道後、BTCは2時間で+0.2%。Fear & Greedも74から65へ悪化。市場心理の悪化（Fear & Greed急低下）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ストラテジー、ビットコイン下落より資金調達力にリスク＝レポート分析」の報道後、BTCは4時間で+0.6%。Fear & Greedも74から65へ悪化。市場心理の悪化（Fear & Greed急低下）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "グレースケール、ジーキャッシュがビットコインに対抗と見解",
@@ -2701,5 +2725,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-26T03:12:52.697244+00:00"
+  "updated_at_utc": "2026-08-26T04:06:59.232729+00:00"
 }
