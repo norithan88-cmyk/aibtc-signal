@@ -1,6 +1,82 @@
 {
   "events": [
     {
+      "title": "ブラックロック幹部、米財政懸念でビットコイン強気論",
+      "link": "https://coinpost.jp/?p=733603",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-27T02:43:52+00:00",
+      "detected_at_utc": "2026-08-27T03:24:48.165930+00:00",
+      "baseline": {
+        "t": "2026-08-27T03:24:48.165930+00:00",
+        "price": 78960.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 41361845.36
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "量子耐性ビットコイン取引、メインネットで初承認",
+      "link": "https://coinpost.jp/?p=733517",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-27T02:05:16+00:00",
+      "detected_at_utc": "2026-08-27T03:24:48.165930+00:00",
+      "baseline": {
+        "t": "2026-08-27T03:24:48.165930+00:00",
+        "price": 78960.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 41361845.36
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン、新たな強気相場入りか　初期には波乱も予想＝クリプトクアント",
+      "link": "https://coinpost.jp/?p=733545",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-27T00:25:42+00:00",
+      "detected_at_utc": "2026-08-27T03:24:48.165930+00:00",
+      "baseline": {
+        "t": "2026-08-27T03:24:48.165930+00:00",
+        "price": 78960.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 41361845.36
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコインと現物ETFの交換が増加傾向に、ブラックロックの最低額引き下げなどが背景＝ブルームバーグ",
+      "link": "https://coinpost.jp/?p=733534",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-26T23:20:05+00:00",
+      "detected_at_utc": "2026-08-27T03:24:48.165930+00:00",
+      "baseline": {
+        "t": "2026-08-27T03:24:48.165930+00:00",
+        "price": 78960.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 41361845.36
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "バーンスタイン、ビットコイン30万ドル予想維持　「ディベースメント・トレード」を追い風に",
       "link": "https://coinpost.jp/?p=733508",
       "source": "CoinPost",
@@ -13,11 +89,44 @@
         "fear_greed_value": 65,
         "volume_1h": 50237643.74
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-27T03:24:48.165930+00:00",
+          "price": 78960.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 41361845.36,
+          "delta_price_pct": 0.09
+        },
+        "1h": {
+          "t": "2026-08-27T03:24:48.165930+00:00",
+          "price": 78960.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 41361845.36,
+          "delta_price_pct": 0.09
+        },
+        "2h": {
+          "t": "2026-08-27T03:24:48.165930+00:00",
+          "price": 78960.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 41361845.36,
+          "delta_price_pct": 0.09
+        },
+        "4h": {
+          "t": "2026-08-27T03:24:48.165930+00:00",
+          "price": 78960.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 41361845.36,
+          "delta_price_pct": 0.09
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「バーンスタイン、ビットコイン30万ドル予想維持　「ディベースメント・トレード」を追い風に」の報道後、BTCは4時間で+0.1%。Fear & Greedも65から71へ改善。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米国債買い戻しでドル安警戒、ビットコインETF「IBIT」急伸",
@@ -2760,5 +2869,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-26T22:19:16.695031+00:00"
+  "updated_at_utc": "2026-08-27T03:24:48.165930+00:00"
 }
