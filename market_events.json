@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ビットコイン実現損益比率、7月末以来のプラス圏＝アナリスト",
+      "link": "https://coinpost.jp/?p=733792",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-27T08:42:37+00:00",
+      "detected_at_utc": "2026-08-27T14:31:54.660487+00:00",
+      "baseline": {
+        "t": "2026-08-27T14:31:54.660487+00:00",
+        "price": 79949.99,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 113083135.33
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン相場、中立圏に回復　買い集め広がる＝グラスノード",
+      "link": "https://coinpost.jp/?p=733612",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-27T03:55:39+00:00",
+      "detected_at_utc": "2026-08-27T14:31:54.660487+00:00",
+      "baseline": {
+        "t": "2026-08-27T14:31:54.660487+00:00",
+        "price": 79949.99,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 113083135.33
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ブラックロック幹部、米財政懸念でビットコイン強気論",
       "link": "https://coinpost.jp/?p=733603",
       "source": "CoinPost",
@@ -13,11 +51,46 @@
         "fear_greed_value": 71,
         "volume_1h": 41361845.36
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        },
+        "1h": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        },
+        "2h": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        },
+        "4h": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        }
+      },
+      "flags": [
+        "出来高急増（+173%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ブラックロック幹部、米財政懸念でビットコイン強気論」の報道後、BTCは4時間で+1.2%。Fear & Greedも71から71へ横ばい。出来高急増（+173%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "量子耐性ビットコイン取引、メインネットで初承認",
@@ -32,11 +105,46 @@
         "fear_greed_value": 71,
         "volume_1h": 41361845.36
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        },
+        "1h": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        },
+        "2h": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        },
+        "4h": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        }
+      },
+      "flags": [
+        "出来高急増（+173%）"
+      ],
+      "relevance": "medium",
+      "summary": "「量子耐性ビットコイン取引、メインネットで初承認」の報道後、BTCは4時間で+1.2%。Fear & Greedも71から71へ横ばい。出来高急増（+173%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、新たな強気相場入りか　初期には波乱も予想＝クリプトクアント",
@@ -51,11 +159,46 @@
         "fear_greed_value": 71,
         "volume_1h": 41361845.36
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        },
+        "1h": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        },
+        "2h": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        },
+        "4h": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        }
+      },
+      "flags": [
+        "出来高急増（+173%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン、新たな強気相場入りか　初期には波乱も予想＝クリプトクアント」の報道後、BTCは4時間で+1.2%。Fear & Greedも71から71へ横ばい。出来高急増（+173%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインと現物ETFの交換が増加傾向に、ブラックロックの最低額引き下げなどが背景＝ブルームバーグ",
@@ -70,11 +213,46 @@
         "fear_greed_value": 71,
         "volume_1h": 41361845.36
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        },
+        "1h": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        },
+        "2h": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        },
+        "4h": {
+          "t": "2026-08-27T14:31:54.660487+00:00",
+          "price": 79949.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 113083135.33,
+          "delta_price_pct": 1.25
+        }
+      },
+      "flags": [
+        "出来高急増（+173%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコインと現物ETFの交換が増加傾向に、ブラックロックの最低額引き下げなどが背景＝ブルームバーグ」の報道後、BTCは4時間で+1.2%。Fear & Greedも71から71へ横ばい。出来高急増（+173%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "バーンスタイン、ビットコイン30万ドル予想維持　「ディベースメント・トレード」を追い風に",
@@ -2869,5 +3047,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-27T03:24:48.165930+00:00"
+  "updated_at_utc": "2026-08-27T14:31:54.660487+00:00"
 }
