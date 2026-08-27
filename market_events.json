@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "グレースケール、ビットコインの逃避資産化を分析",
+      "link": "https://coinpost.jp/?p=733839",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-27T22:15:42+00:00",
+      "detected_at_utc": "2026-08-27T23:57:23.506303+00:00",
+      "baseline": {
+        "t": "2026-08-27T23:57:23.506303+00:00",
+        "price": 80250.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 24160023.86
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "米上場ジーニアス・グループ、5年間で1300億円超のビットコイン準備金を構築へ",
+      "link": "https://coinpost.jp/?p=733840",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-27T21:40:45+00:00",
+      "detected_at_utc": "2026-08-27T23:57:23.506303+00:00",
+      "baseline": {
+        "t": "2026-08-27T23:57:23.506303+00:00",
+        "price": 80250.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 24160023.86
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "CZ氏、次の強気相場でビットコイン時価総額が金上回ると見解",
+      "link": "https://coinpost.jp/?p=733822",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-27T20:00:06+00:00",
+      "detected_at_utc": "2026-08-27T23:57:23.506303+00:00",
+      "baseline": {
+        "t": "2026-08-27T23:57:23.506303+00:00",
+        "price": 80250.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 24160023.86
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン実現損益比率、7月末以来のプラス圏＝アナリスト",
       "link": "https://coinpost.jp/?p=733792",
       "source": "CoinPost",
@@ -13,11 +70,44 @@
         "fear_greed_value": 71,
         "volume_1h": 113083135.33
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-27T23:57:23.506303+00:00",
+          "price": 80250.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 24160023.86,
+          "delta_price_pct": 0.38
+        },
+        "1h": {
+          "t": "2026-08-27T23:57:23.506303+00:00",
+          "price": 80250.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 24160023.86,
+          "delta_price_pct": 0.38
+        },
+        "2h": {
+          "t": "2026-08-27T23:57:23.506303+00:00",
+          "price": 80250.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 24160023.86,
+          "delta_price_pct": 0.38
+        },
+        "4h": {
+          "t": "2026-08-27T23:57:23.506303+00:00",
+          "price": 80250.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 24160023.86,
+          "delta_price_pct": 0.38
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン実現損益比率、7月末以来のプラス圏＝アナリスト」の報道後、BTCは4時間で+0.4%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン相場、中立圏に回復　買い集め広がる＝グラスノード",
@@ -32,11 +122,44 @@
         "fear_greed_value": 71,
         "volume_1h": 113083135.33
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-27T23:57:23.506303+00:00",
+          "price": 80250.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 24160023.86,
+          "delta_price_pct": 0.38
+        },
+        "1h": {
+          "t": "2026-08-27T23:57:23.506303+00:00",
+          "price": 80250.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 24160023.86,
+          "delta_price_pct": 0.38
+        },
+        "2h": {
+          "t": "2026-08-27T23:57:23.506303+00:00",
+          "price": 80250.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 24160023.86,
+          "delta_price_pct": 0.38
+        },
+        "4h": {
+          "t": "2026-08-27T23:57:23.506303+00:00",
+          "price": 80250.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 24160023.86,
+          "delta_price_pct": 0.38
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン相場、中立圏に回復　買い集め広がる＝グラスノード」の報道後、BTCは4時間で+0.4%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ブラックロック幹部、米財政懸念でビットコイン強気論",
@@ -2993,59 +3116,7 @@
       "relevance": "low",
       "summary": "「リップル、全北銀行と提携　韓国地銀初のRipple Payments導入」の報道後、BTCは4時間で+0.5%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "トヨタファイナンス、10億円のトークン社債で募集開始",
-      "link": "https://coinpost.jp/?p=731568",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-18T05:00:33+00:00",
-      "detected_at_utc": "2026-08-18T14:19:48.741496+00:00",
-      "baseline": {
-        "t": "2026-08-18T14:19:48.741496+00:00",
-        "price": 64460.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 41,
-        "volume_1h": 83193713.13
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-18T14:53:43.270901+00:00",
-          "price": 64685.88,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 111959099.58,
-          "delta_price_pct": 0.35
-        },
-        "1h": {
-          "t": "2026-08-18T15:20:25.948801+00:00",
-          "price": 64773.82,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 90080734.27,
-          "delta_price_pct": 0.49
-        },
-        "2h": {
-          "t": "2026-08-18T16:46:09.104415+00:00",
-          "price": 64794.82,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 25173013.7,
-          "delta_price_pct": 0.52
-        },
-        "4h": {
-          "t": "2026-08-18T18:21:10.240588+00:00",
-          "price": 64762.73,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 19373613.74,
-          "delta_price_pct": 0.47
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「トヨタファイナンス、10億円のトークン社債で募集開始」の報道後、BTCは4時間で+0.5%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-27T14:31:54.660487+00:00"
+  "updated_at_utc": "2026-08-27T23:57:23.506303+00:00"
 }
