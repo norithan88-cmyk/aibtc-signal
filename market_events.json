@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "米FRBウォーシュ議長のタカ派発言を受け、ビットコイン・米国株反落",
+      "link": "https://coinpost.jp/?p=734142",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-28T21:15:42+00:00",
+      "detected_at_utc": "2026-08-28T21:27:07.414994+00:00",
+      "baseline": {
+        "t": "2026-08-28T21:27:07.414994+00:00",
+        "price": 77432.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 73,
+        "volume_1h": 18243943.01
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン、1週間で23.5％高　金額ベースで史上最大＝ギャラクシー・リサーチ",
       "link": "https://coinpost.jp/?p=734066",
       "source": "CoinPost",
@@ -13,11 +32,46 @@
         "fear_greed_value": 73,
         "volume_1h": 29636708.5
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        },
+        "1h": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        },
+        "2h": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        },
+        "4h": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        }
+      },
+      "flags": [
+        "価格急変（-2.8%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン、1週間で23.5％高　金額ベースで史上最大＝ギャラクシー・リサーチ」の報道後、BTCは4時間で-2.8%。Fear & Greedも73から73へ横ばい。価格急変（-2.8%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビッサム、誤配布ビットコイン返還訴訟で1審勝訴",
@@ -32,11 +86,46 @@
         "fear_greed_value": 73,
         "volume_1h": 29636708.5
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        },
+        "1h": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        },
+        "2h": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        },
+        "4h": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        }
+      },
+      "flags": [
+        "価格急変（-2.8%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビッサム、誤配布ビットコイン返還訴訟で1審勝訴」の報道後、BTCは4時間で-2.8%。Fear & Greedも73から73へ横ばい。価格急変（-2.8%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインのCore Lightningに脆弱性、AI生成のセキュリティ報告から発覚",
@@ -51,11 +140,46 @@
         "fear_greed_value": 73,
         "volume_1h": 29636708.5
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        },
+        "1h": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        },
+        "2h": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        },
+        "4h": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        }
+      },
+      "flags": [
+        "価格急変（-2.8%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコインのCore Lightningに脆弱性、AI生成のセキュリティ報告から発覚」の報道後、BTCは4時間で-2.8%。Fear & Greedも73から73へ横ばい。価格急変（-2.8%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、9月の季節性下落を警戒＝アナリスト",
@@ -70,11 +194,46 @@
         "fear_greed_value": 73,
         "volume_1h": 29636708.5
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        },
+        "1h": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        },
+        "2h": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        },
+        "4h": {
+          "t": "2026-08-28T21:27:07.414994+00:00",
+          "price": 77432.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 18243943.01,
+          "delta_price_pct": -2.8
+        }
+      },
+      "flags": [
+        "価格急変（-2.8%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン、9月の季節性下落を警戒＝アナリスト」の報道後、BTCは4時間で-2.8%。Fear & Greedも73から73へ横ばい。価格急変（-2.8%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "グレースケール、ビットコインの逃避資産化を分析",
@@ -3031,59 +3190,7 @@
       "relevance": "low",
       "summary": "「ビットコイン、2023年夏に似た停滞とグレースケール指摘」の報道後、BTCは4時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "韓国当局、ポリマーケット接続遮断を議決　違法賭博と判断",
-      "link": "https://coinpost.jp/?p=731628",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-18T08:05:02+00:00",
-      "detected_at_utc": "2026-08-18T14:19:48.741496+00:00",
-      "baseline": {
-        "t": "2026-08-18T14:19:48.741496+00:00",
-        "price": 64460.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 41,
-        "volume_1h": 83193713.13
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-18T14:53:43.270901+00:00",
-          "price": 64685.88,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 111959099.58,
-          "delta_price_pct": 0.35
-        },
-        "1h": {
-          "t": "2026-08-18T15:20:25.948801+00:00",
-          "price": 64773.82,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 90080734.27,
-          "delta_price_pct": 0.49
-        },
-        "2h": {
-          "t": "2026-08-18T16:46:09.104415+00:00",
-          "price": 64794.82,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 25173013.7,
-          "delta_price_pct": 0.52
-        },
-        "4h": {
-          "t": "2026-08-18T18:21:10.240588+00:00",
-          "price": 64762.73,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 19373613.74,
-          "delta_price_pct": 0.47
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「韓国当局、ポリマーケット接続遮断を議決　違法賭博と判断」の報道後、BTCは4時間で+0.5%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-28T11:12:49.826941+00:00"
+  "updated_at_utc": "2026-08-28T21:27:07.414994+00:00"
 }
