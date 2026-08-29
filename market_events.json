@@ -13,11 +13,46 @@
         "fear_greed_value": 73,
         "volume_1h": 18243943.01
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-29T03:18:50.941713+00:00",
+          "price": 77654.16,
+          "funding_rate_pct": null,
+          "fear_greed_value": 68,
+          "volume_1h": 29316265.63,
+          "delta_price_pct": 0.29
+        },
+        "1h": {
+          "t": "2026-08-29T03:18:50.941713+00:00",
+          "price": 77654.16,
+          "funding_rate_pct": null,
+          "fear_greed_value": 68,
+          "volume_1h": 29316265.63,
+          "delta_price_pct": 0.29
+        },
+        "2h": {
+          "t": "2026-08-29T03:18:50.941713+00:00",
+          "price": 77654.16,
+          "funding_rate_pct": null,
+          "fear_greed_value": 68,
+          "volume_1h": 29316265.63,
+          "delta_price_pct": 0.29
+        },
+        "4h": {
+          "t": "2026-08-29T03:18:50.941713+00:00",
+          "price": 77654.16,
+          "funding_rate_pct": null,
+          "fear_greed_value": 68,
+          "volume_1h": 29316265.63,
+          "delta_price_pct": 0.29
+        }
+      },
+      "flags": [
+        "出来高急増（+61%）"
+      ],
+      "relevance": "medium",
+      "summary": "「米FRBウォーシュ議長のタカ派発言を受け、ビットコイン・米国株反落」の報道後、BTCは4時間で+0.3%。Fear & Greedも73から68へ悪化。出来高急増（+61%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、1週間で23.5％高　金額ベースで史上最大＝ギャラクシー・リサーチ",
@@ -3192,5 +3227,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-28T21:27:07.414994+00:00"
+  "updated_at_utc": "2026-08-29T03:18:50.941713+00:00"
 }
