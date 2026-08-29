@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "キャピタルB、38億円調達しビットコイン追加取得へ",
+      "link": "https://coinpost.jp/?p=734150",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-29T02:50:04+00:00",
+      "detected_at_utc": "2026-08-29T10:16:17.478116+00:00",
+      "baseline": {
+        "t": "2026-08-29T10:16:17.478116+00:00",
+        "price": 77658.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 68,
+        "volume_1h": 15112296.23
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ストライブ、優先株発行で1192BTC相当の資金を調達した可能性　ビットコイン蓄積続ける",
+      "link": "https://coinpost.jp/?p=734165",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-29T02:05:20+00:00",
+      "detected_at_utc": "2026-08-29T10:16:17.478116+00:00",
+      "baseline": {
+        "t": "2026-08-29T10:16:17.478116+00:00",
+        "price": 77658.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 68,
+        "volume_1h": 15112296.23
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ストラテジーのビットコイン売却懸念後退　ビットフィネックス分析",
+      "link": "https://coinpost.jp/?p=734149",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-29T00:50:02+00:00",
+      "detected_at_utc": "2026-08-29T10:16:17.478116+00:00",
+      "baseline": {
+        "t": "2026-08-29T10:16:17.478116+00:00",
+        "price": 77658.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 68,
+        "volume_1h": 15112296.23
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米FRBウォーシュ議長のタカ派発言を受け、ビットコイン・米国株反落",
       "link": "https://coinpost.jp/?p=734142",
       "source": "CoinPost",
@@ -3069,163 +3126,7 @@
       "relevance": "medium",
       "summary": "「米シティ、次世代カストディ基盤始動｜ビットコインカストディも年内開始」の報道後、BTCは4時間で-0.3%。Fear & Greedも41から46へ改善。出来高急増（+66%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコインマイナーのハイブ、550億円超のAIクラウドサービス契約を締結",
-      "link": "https://coinpost.jp/?p=731496",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-18T02:15:06+00:00",
-      "detected_at_utc": "2026-08-18T15:20:25.948801+00:00",
-      "baseline": {
-        "t": "2026-08-18T15:20:25.948801+00:00",
-        "price": 64773.82,
-        "funding_rate_pct": null,
-        "fear_greed_value": 41,
-        "volume_1h": 90080734.27
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-18T16:02:20.075028+00:00",
-          "price": 64889.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 31780081.78,
-          "delta_price_pct": 0.18
-        },
-        "1h": {
-          "t": "2026-08-18T16:46:09.104415+00:00",
-          "price": 64794.82,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 25173013.7,
-          "delta_price_pct": 0.03
-        },
-        "2h": {
-          "t": "2026-08-18T17:48:36.094918+00:00",
-          "price": 64700.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 27790483.11,
-          "delta_price_pct": -0.11
-        },
-        "4h": {
-          "t": "2026-08-18T19:40:02.506445+00:00",
-          "price": 64717.47,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 10099549.47,
-          "delta_price_pct": -0.09
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコインマイナーのハイブ、550億円超のAIクラウドサービス契約を締結」の報道後、BTCは4時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン取引高、2019年以来の低水準に　株市場に出遅れ＝ビットフィネックス分析",
-      "link": "https://coinpost.jp/?p=731445",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-18T00:45:28+00:00",
-      "detected_at_utc": "2026-08-18T15:20:25.948801+00:00",
-      "baseline": {
-        "t": "2026-08-18T15:20:25.948801+00:00",
-        "price": 64773.82,
-        "funding_rate_pct": null,
-        "fear_greed_value": 41,
-        "volume_1h": 90080734.27
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-18T16:02:20.075028+00:00",
-          "price": 64889.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 31780081.78,
-          "delta_price_pct": 0.18
-        },
-        "1h": {
-          "t": "2026-08-18T16:46:09.104415+00:00",
-          "price": 64794.82,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 25173013.7,
-          "delta_price_pct": 0.03
-        },
-        "2h": {
-          "t": "2026-08-18T17:48:36.094918+00:00",
-          "price": 64700.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 27790483.11,
-          "delta_price_pct": -0.11
-        },
-        "4h": {
-          "t": "2026-08-18T19:40:02.506445+00:00",
-          "price": 64717.47,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 10099549.47,
-          "delta_price_pct": -0.09
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン取引高、2019年以来の低水準に　株市場に出遅れ＝ビットフィネックス分析」の報道後、BTCは4時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン、2023年夏に似た停滞とグレースケール指摘",
-      "link": "https://coinpost.jp/?p=731416",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-17T22:05:07+00:00",
-      "detected_at_utc": "2026-08-18T15:20:25.948801+00:00",
-      "baseline": {
-        "t": "2026-08-18T15:20:25.948801+00:00",
-        "price": 64773.82,
-        "funding_rate_pct": null,
-        "fear_greed_value": 41,
-        "volume_1h": 90080734.27
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-18T16:02:20.075028+00:00",
-          "price": 64889.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 31780081.78,
-          "delta_price_pct": 0.18
-        },
-        "1h": {
-          "t": "2026-08-18T16:46:09.104415+00:00",
-          "price": 64794.82,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 25173013.7,
-          "delta_price_pct": 0.03
-        },
-        "2h": {
-          "t": "2026-08-18T17:48:36.094918+00:00",
-          "price": 64700.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 27790483.11,
-          "delta_price_pct": -0.11
-        },
-        "4h": {
-          "t": "2026-08-18T19:40:02.506445+00:00",
-          "price": 64717.47,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 10099549.47,
-          "delta_price_pct": -0.09
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン、2023年夏に似た停滞とグレースケール指摘」の報道後、BTCは4時間で-0.1%。Fear & Greedも41から41へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-29T03:18:50.941713+00:00"
+  "updated_at_utc": "2026-08-29T10:16:17.478116+00:00"
 }
