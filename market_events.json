@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン1300万円手前で上げ渋り、ジャクソンホール後のイールドカーブが焦点｜bitbankアナリスト寄稿",
+      "link": "https://coinpost.jp/?p=734100",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-30T02:30:49+00:00",
+      "detected_at_utc": "2026-08-30T07:19:20.608526+00:00",
+      "baseline": {
+        "t": "2026-08-30T07:19:20.608526+00:00",
+        "price": 78244.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 69,
+        "volume_1h": 14068475.26
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "週刊仮想通貨ニュース（8/28）｜BTC市場・量子脅威対策・日本政府と日銀の動向まとめ",
       "link": "https://coinpost.jp/?p=733914",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 69,
         "volume_1h": 18024801.65
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-30T07:19:20.608526+00:00",
+          "price": 78244.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 14068475.26,
+          "delta_price_pct": 0.28
+        },
+        "1h": {
+          "t": "2026-08-30T07:19:20.608526+00:00",
+          "price": 78244.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 14068475.26,
+          "delta_price_pct": 0.28
+        },
+        "2h": {
+          "t": "2026-08-30T07:19:20.608526+00:00",
+          "price": 78244.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 14068475.26,
+          "delta_price_pct": 0.28
+        },
+        "4h": {
+          "t": "2026-08-30T07:19:20.608526+00:00",
+          "price": 78244.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 14068475.26,
+          "delta_price_pct": 0.28
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「週刊仮想通貨ニュース（8/28）｜BTC市場・量子脅威対策・日本政府と日銀の動向まとめ」の報道後、BTCは4時間で+0.3%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "キャピタルB、38億円調達しビットコイン追加取得へ",
@@ -3142,61 +3194,7 @@
       "relevance": "medium",
       "summary": "「ヴァンエック、ビットコインの降伏指標12中8点灯と分析」の報道後、BTCは4時間で-0.2%。Fear & Greedも46から46へ横ばい。出来高急増（+54%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "メタプラネット、2100BTC出資で米スーパーリーグをビットコイントレジャリー化",
-      "link": "https://coinpost.jp/?p=731658",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-18T21:00:08+00:00",
-      "detected_at_utc": "2026-08-18T21:34:19.926292+00:00",
-      "baseline": {
-        "t": "2026-08-18T21:34:19.926292+00:00",
-        "price": 64612.38,
-        "funding_rate_pct": null,
-        "fear_greed_value": 41,
-        "volume_1h": 12043817.21
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-18T22:32:50.869930+00:00",
-          "price": 64596.08,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 11397742.49,
-          "delta_price_pct": -0.03
-        },
-        "1h": {
-          "t": "2026-08-18T22:57:39.569294+00:00",
-          "price": 64624.98,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 12023009.18,
-          "delta_price_pct": 0.02
-        },
-        "2h": {
-          "t": "2026-08-18T23:54:30.856218+00:00",
-          "price": 64744.82,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 15144070.88,
-          "delta_price_pct": 0.2
-        },
-        "4h": {
-          "t": "2026-08-19T01:38:00.561990+00:00",
-          "price": 64460.38,
-          "funding_rate_pct": null,
-          "fear_greed_value": 46,
-          "volume_1h": 19515302.99,
-          "delta_price_pct": -0.24
-        }
-      },
-      "flags": [
-        "出来高急増（+62%）"
-      ],
-      "relevance": "medium",
-      "summary": "「メタプラネット、2100BTC出資で米スーパーリーグをビットコイントレジャリー化」の報道後、BTCは4時間で-0.2%。Fear & Greedも41から46へ改善。出来高急増（+62%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-30T01:28:43.155929+00:00"
+  "updated_at_utc": "2026-08-30T07:19:20.608526+00:00"
 }
