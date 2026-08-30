@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "週刊仮想通貨ニュース（8/28）｜BTC市場・量子脅威対策・日本政府と日銀の動向まとめ",
+      "link": "https://coinpost.jp/?p=733914",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-30T00:25:36+00:00",
+      "detected_at_utc": "2026-08-30T01:28:43.155929+00:00",
+      "baseline": {
+        "t": "2026-08-30T01:28:43.155929+00:00",
+        "price": 78023.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 69,
+        "volume_1h": 18024801.65
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "キャピタルB、38億円調達しビットコイン追加取得へ",
       "link": "https://coinpost.jp/?p=734150",
       "source": "CoinPost",
@@ -3177,61 +3196,7 @@
       "relevance": "medium",
       "summary": "「メタプラネット、2100BTC出資で米スーパーリーグをビットコイントレジャリー化」の報道後、BTCは4時間で-0.2%。Fear & Greedも41から46へ改善。出来高急増（+62%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米シティ、次世代カストディ基盤始動｜ビットコインカストディも年内開始",
-      "link": "https://coinpost.jp/?p=731649",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-18T20:00:51+00:00",
-      "detected_at_utc": "2026-08-18T20:35:30.840500+00:00",
-      "baseline": {
-        "t": "2026-08-18T20:35:30.840500+00:00",
-        "price": 64627.23,
-        "funding_rate_pct": null,
-        "fear_greed_value": 41,
-        "volume_1h": 11791649.91
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-18T21:34:19.926292+00:00",
-          "price": 64612.38,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 12043817.21,
-          "delta_price_pct": -0.02
-        },
-        "1h": {
-          "t": "2026-08-18T21:56:04.096025+00:00",
-          "price": 64586.16,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 11462008.99,
-          "delta_price_pct": -0.06
-        },
-        "2h": {
-          "t": "2026-08-18T22:57:39.569294+00:00",
-          "price": 64624.98,
-          "funding_rate_pct": null,
-          "fear_greed_value": 41,
-          "volume_1h": 12023009.18,
-          "delta_price_pct": -0.0
-        },
-        "4h": {
-          "t": "2026-08-19T01:38:00.561990+00:00",
-          "price": 64460.38,
-          "funding_rate_pct": null,
-          "fear_greed_value": 46,
-          "volume_1h": 19515302.99,
-          "delta_price_pct": -0.26
-        }
-      },
-      "flags": [
-        "出来高急増（+66%）"
-      ],
-      "relevance": "medium",
-      "summary": "「米シティ、次世代カストディ基盤始動｜ビットコインカストディも年内開始」の報道後、BTCは4時間で-0.3%。Fear & Greedも41から46へ改善。出来高急増（+66%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-29T23:22:37.386462+00:00"
+  "updated_at_utc": "2026-08-30T01:28:43.155929+00:00"
 }
