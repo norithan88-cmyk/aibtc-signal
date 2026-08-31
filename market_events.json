@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン実現時価総額、週間約7360億円増　資金流入の兆候＝アナリスト",
+      "link": "https://coinpost.jp/?p=734227",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-30T22:23:19+00:00",
+      "detected_at_utc": "2026-08-31T00:53:56.881111+00:00",
+      "baseline": {
+        "t": "2026-08-31T00:53:56.881111+00:00",
+        "price": 78010.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 62,
+        "volume_1h": 61305401.83
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン1300万円手前で上げ渋り、ジャクソンホール後のイールドカーブが焦点｜bitbankアナリスト寄稿",
       "link": "https://coinpost.jp/?p=734100",
       "source": "CoinPost",
@@ -3175,61 +3194,7 @@
       "relevance": "medium",
       "summary": "「ブラックロック、ビットコイン下落でも分散効果健在と分析」の報道後、BTCは4時間で-0.1%。Fear & Greedも46から46へ横ばい。出来高急増（+76%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ヴァンエック、ビットコインの降伏指標12中8点灯と分析",
-      "link": "https://coinpost.jp/?p=731691",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-19T01:03:46+00:00",
-      "detected_at_utc": "2026-08-19T01:38:00.561990+00:00",
-      "baseline": {
-        "t": "2026-08-19T01:38:00.561990+00:00",
-        "price": 64460.38,
-        "funding_rate_pct": null,
-        "fear_greed_value": 46,
-        "volume_1h": 19515302.99
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-19T02:43:54.258081+00:00",
-          "price": 64390.67,
-          "funding_rate_pct": null,
-          "fear_greed_value": 46,
-          "volume_1h": 30117761.85,
-          "delta_price_pct": -0.11
-        },
-        "1h": {
-          "t": "2026-08-19T02:43:54.258081+00:00",
-          "price": 64390.67,
-          "funding_rate_pct": null,
-          "fear_greed_value": 46,
-          "volume_1h": 30117761.85,
-          "delta_price_pct": -0.11
-        },
-        "2h": {
-          "t": "2026-08-19T04:20:37.615802+00:00",
-          "price": 64372.77,
-          "funding_rate_pct": null,
-          "fear_greed_value": 46,
-          "volume_1h": 9838854.58,
-          "delta_price_pct": -0.14
-        },
-        "4h": {
-          "t": "2026-08-19T05:42:37.156274+00:00",
-          "price": 64319.18,
-          "funding_rate_pct": null,
-          "fear_greed_value": 46,
-          "volume_1h": 13915178.32,
-          "delta_price_pct": -0.22
-        }
-      },
-      "flags": [
-        "出来高急増（+54%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ヴァンエック、ビットコインの降伏指標12中8点灯と分析」の報道後、BTCは4時間で-0.2%。Fear & Greedも46から46へ横ばい。出来高急増（+54%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-30T22:41:12.767882+00:00"
+  "updated_at_utc": "2026-08-31T00:53:56.881111+00:00"
 }
