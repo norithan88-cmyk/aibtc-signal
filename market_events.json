@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ストラテジー、2カ月ぶりビットコイン購入再開　590億円相当",
+      "link": "https://coinpost.jp/?p=734476",
+      "source": "CoinPost",
+      "published_at_utc": "2026-08-31T12:20:45+00:00",
+      "detected_at_utc": "2026-08-31T14:36:05.257174+00:00",
+      "baseline": {
+        "t": "2026-08-31T14:36:05.257174+00:00",
+        "price": 78122.71,
+        "funding_rate_pct": null,
+        "fear_greed_value": 62,
+        "volume_1h": 84717049.2
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "enish、株主優待でBTC・SOLを抽選配布　SBI VCトレードと連携",
       "link": "https://coinpost.jp/?p=734343",
       "source": "CoinPost",
@@ -13,11 +32,46 @@
         "fear_greed_value": 62,
         "volume_1h": 48966913.67
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-31T14:36:05.257174+00:00",
+          "price": 78122.71,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 84717049.2,
+          "delta_price_pct": 0.04
+        },
+        "1h": {
+          "t": "2026-08-31T14:36:05.257174+00:00",
+          "price": 78122.71,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 84717049.2,
+          "delta_price_pct": 0.04
+        },
+        "2h": {
+          "t": "2026-08-31T14:36:05.257174+00:00",
+          "price": 78122.71,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 84717049.2,
+          "delta_price_pct": 0.04
+        },
+        "4h": {
+          "t": "2026-08-31T14:36:05.257174+00:00",
+          "price": 78122.71,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 84717049.2,
+          "delta_price_pct": 0.04
+        }
+      },
+      "flags": [
+        "出来高急増（+73%）"
+      ],
+      "relevance": "medium",
+      "summary": "「enish、株主優待でBTC・SOLを抽選配布　SBI VCトレードと連携」の報道後、BTCは4時間で+0.0%。Fear & Greedも62から62へ横ばい。出来高急増（+73%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、8月に30％高でも出来高3年ぶり低水準＝アナリスト",
@@ -32,11 +86,46 @@
         "fear_greed_value": 62,
         "volume_1h": 48966913.67
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-31T14:36:05.257174+00:00",
+          "price": 78122.71,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 84717049.2,
+          "delta_price_pct": 0.04
+        },
+        "1h": {
+          "t": "2026-08-31T14:36:05.257174+00:00",
+          "price": 78122.71,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 84717049.2,
+          "delta_price_pct": 0.04
+        },
+        "2h": {
+          "t": "2026-08-31T14:36:05.257174+00:00",
+          "price": 78122.71,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 84717049.2,
+          "delta_price_pct": 0.04
+        },
+        "4h": {
+          "t": "2026-08-31T14:36:05.257174+00:00",
+          "price": 78122.71,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 84717049.2,
+          "delta_price_pct": 0.04
+        }
+      },
+      "flags": [
+        "出来高急増（+73%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン、8月に30％高でも出来高3年ぶり低水準＝アナリスト」の報道後、BTCは4時間で+0.0%。Fear & Greedも62から62へ横ばい。出来高急増（+73%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン実現時価総額、週間約7360億円増　資金流入の兆候＝アナリスト",
@@ -3103,63 +3192,7 @@
       "relevance": "low",
       "summary": "「ビットバンク、ビットコイン入出金一時停止　eCash分岐へ対応」の報道後、BTCは4時間で+0.2%。Fear & Greedも46から46へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン小口投資家の需要、2年ぶり高水準に接近＝アナリスト",
-      "link": "https://coinpost.jp/?p=731757",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-19T05:51:44+00:00",
-      "detected_at_utc": "2026-08-19T06:17:59.583758+00:00",
-      "baseline": {
-        "t": "2026-08-19T06:17:59.583758+00:00",
-        "price": 64236.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 46,
-        "volume_1h": 15580772.24
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-19T07:12:21.489382+00:00",
-          "price": 64355.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 46,
-          "volume_1h": 34887529.66,
-          "delta_price_pct": 0.19
-        },
-        "1h": {
-          "t": "2026-08-19T07:56:37.767989+00:00",
-          "price": 64308.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 46,
-          "volume_1h": 40194395.93,
-          "delta_price_pct": 0.11
-        },
-        "2h": {
-          "t": "2026-08-19T08:48:42.229044+00:00",
-          "price": 64469.59,
-          "funding_rate_pct": null,
-          "fear_greed_value": 46,
-          "volume_1h": 23698283.25,
-          "delta_price_pct": 0.36
-        },
-        "4h": {
-          "t": "2026-08-19T10:38:47.852719+00:00",
-          "price": 64411.36,
-          "funding_rate_pct": null,
-          "fear_greed_value": 46,
-          "volume_1h": 10882623.08,
-          "delta_price_pct": 0.27
-        }
-      },
-      "flags": [
-        "出来高急増（+124%）",
-        "出来高急増（+158%）",
-        "出来高急増（+52%）"
-      ],
-      "relevance": "high",
-      "summary": "「ビットコイン小口投資家の需要、2年ぶり高水準に接近＝アナリスト」の報道後、BTCは4時間で+0.3%。Fear & Greedも46から46へ横ばい。出来高急増（+124%）、出来高急増（+158%）、出来高急増（+52%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-31T06:48:51.334596+00:00"
+  "updated_at_utc": "2026-08-31T14:36:05.257174+00:00"
 }
