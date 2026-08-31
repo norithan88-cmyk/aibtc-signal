@@ -13,11 +13,44 @@
         "fear_greed_value": 62,
         "volume_1h": 84717049.2
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-08-31T20:22:57.230924+00:00",
+          "price": 79057.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 29577321.32,
+          "delta_price_pct": 1.2
+        },
+        "1h": {
+          "t": "2026-08-31T20:22:57.230924+00:00",
+          "price": 79057.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 29577321.32,
+          "delta_price_pct": 1.2
+        },
+        "2h": {
+          "t": "2026-08-31T20:22:57.230924+00:00",
+          "price": 79057.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 29577321.32,
+          "delta_price_pct": 1.2
+        },
+        "4h": {
+          "t": "2026-08-31T20:22:57.230924+00:00",
+          "price": 79057.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 29577321.32,
+          "delta_price_pct": 1.2
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ストラテジー、2カ月ぶりビットコイン購入再開　590億円相当」の報道後、BTCは4時間で+1.2%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "enish、株主優待でBTC・SOLを抽選配布　SBI VCトレードと連携",
@@ -3194,5 +3227,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-08-31T14:36:05.257174+00:00"
+  "updated_at_utc": "2026-08-31T20:22:57.230924+00:00"
 }
