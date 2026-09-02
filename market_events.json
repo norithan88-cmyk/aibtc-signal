@@ -13,11 +13,44 @@
         "fear_greed_value": 63,
         "volume_1h": 77811888.0
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-02T14:32:14.462407+00:00",
+          "price": 77164.32,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 66282189.44,
+          "delta_price_pct": 0.76
+        },
+        "1h": {
+          "t": "2026-09-02T14:32:14.462407+00:00",
+          "price": 77164.32,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 66282189.44,
+          "delta_price_pct": 0.76
+        },
+        "2h": {
+          "t": "2026-09-02T14:32:14.462407+00:00",
+          "price": 77164.32,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 66282189.44,
+          "delta_price_pct": 0.76
+        },
+        "4h": {
+          "t": "2026-09-02T14:32:14.462407+00:00",
+          "price": 77164.32,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 66282189.44,
+          "delta_price_pct": 0.76
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「TDコーウェン、ビットコイン年末目標9万7500ドルに下方修正＝報道」の報道後、BTCは4時間で+0.8%。Fear & Greedも63から63へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、監査性・所有分布などで高評価　主要3銘柄の分散性調査",
@@ -3195,5 +3228,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-02T10:11:05.436776+00:00"
+  "updated_at_utc": "2026-09-02T14:32:14.462407+00:00"
 }
