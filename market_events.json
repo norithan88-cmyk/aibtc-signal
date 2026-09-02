@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "TDコーウェン、ビットコイン年末目標9万7500ドルに下方修正＝報道",
+      "link": "https://coinpost.jp/?p=735024",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-02T06:50:22+00:00",
+      "detected_at_utc": "2026-09-02T10:11:05.436776+00:00",
+      "baseline": {
+        "t": "2026-09-02T10:11:05.436776+00:00",
+        "price": 76584.85,
+        "funding_rate_pct": null,
+        "fear_greed_value": 63,
+        "volume_1h": 77811888.0
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン、監査性・所有分布などで高評価　主要3銘柄の分散性調査",
       "link": "https://coinpost.jp/?p=734974",
       "source": "CoinPost",
@@ -13,11 +32,47 @@
         "fear_greed_value": 63,
         "volume_1h": 19816547.61
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-02T10:11:05.436776+00:00",
+          "price": 76584.85,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 77811888.0,
+          "delta_price_pct": -1.5
+        },
+        "1h": {
+          "t": "2026-09-02T10:11:05.436776+00:00",
+          "price": 76584.85,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 77811888.0,
+          "delta_price_pct": -1.5
+        },
+        "2h": {
+          "t": "2026-09-02T10:11:05.436776+00:00",
+          "price": 76584.85,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 77811888.0,
+          "delta_price_pct": -1.5
+        },
+        "4h": {
+          "t": "2026-09-02T10:11:05.436776+00:00",
+          "price": 76584.85,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 77811888.0,
+          "delta_price_pct": -1.5
+        }
+      },
+      "flags": [
+        "価格急変（-1.5%）",
+        "出来高急増（+293%）"
+      ],
+      "relevance": "high",
+      "summary": "「ビットコイン、監査性・所有分布などで高評価　主要3銘柄の分散性調査」の報道後、BTCは4時間で-1.5%。Fear & Greedも63から63へ横ばい。価格急変（-1.5%）、出来高急増（+293%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン現物ETF、8月に35億ドル純流入　1年ぶり高水準",
@@ -3138,59 +3193,7 @@
       "relevance": "low",
       "summary": "「ビットコイン急伸、米仮想通貨関連株も全面高」の報道後、BTCは4時間で+0.7%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン6万9000ドル台へ急伸、10カ月ぶり200日移動平均線上抜け　国債買い戻し倍増が起点",
-      "link": "https://coinpost.jp/?p=731917",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-20T01:53:21+00:00",
-      "detected_at_utc": "2026-08-20T02:46:55.919364+00:00",
-      "baseline": {
-        "t": "2026-08-20T02:46:55.919364+00:00",
-        "price": 69318.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 62,
-        "volume_1h": 64147404.94
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-20T03:34:48.666421+00:00",
-          "price": 69082.79,
-          "funding_rate_pct": null,
-          "fear_greed_value": 62,
-          "volume_1h": 63588677.34,
-          "delta_price_pct": -0.34
-        },
-        "1h": {
-          "t": "2026-08-20T04:20:32.217554+00:00",
-          "price": 69342.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 62,
-          "volume_1h": 51966669.23,
-          "delta_price_pct": 0.03
-        },
-        "2h": {
-          "t": "2026-08-20T05:03:09.049775+00:00",
-          "price": 69505.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 62,
-          "volume_1h": 46563227.59,
-          "delta_price_pct": 0.27
-        },
-        "4h": {
-          "t": "2026-08-20T07:14:30.272152+00:00",
-          "price": 69815.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 62,
-          "volume_1h": 89941221.5,
-          "delta_price_pct": 0.72
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン6万9000ドル台へ急伸、10カ月ぶり200日移動平均線上抜け　国債買い戻し倍増が起点」の報道後、BTCは4時間で+0.7%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-02T05:48:54.239284+00:00"
+  "updated_at_utc": "2026-09-02T10:11:05.436776+00:00"
 }
