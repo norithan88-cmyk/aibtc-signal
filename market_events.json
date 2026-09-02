@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン現物ETF、8月に35億ドル純流入　1年ぶり高水準",
+      "link": "https://coinpost.jp/?p=734854",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-02T00:54:57+00:00",
+      "detected_at_utc": "2026-09-02T01:06:07.752981+00:00",
+      "baseline": {
+        "t": "2026-09-02T01:06:07.752981+00:00",
+        "price": 77185.08,
+        "funding_rate_pct": null,
+        "fear_greed_value": 63,
+        "volume_1h": 23391693.82
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "トム・リー氏、ビットコイン「15万ドル」視野に　機関マネー流入を指摘",
       "link": "https://coinpost.jp/?p=734756",
       "source": "CoinPost",
@@ -3173,61 +3192,7 @@
       "relevance": "medium",
       "summary": "「ビットコイン急騰、米国の金利介入が大規模ショート清算を誘発｜仮想NISHI」の報道後、BTCは4時間で-0.6%。Fear & Greedも62から62へ横ばい。出来高急増（+114%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "トランプ大統領、「仮想通貨業界への逆風に完全に終止符を打った」と発言　ビットコインは6月以来の高値",
-      "link": "https://coinpost.jp/?p=731836",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-19T20:50:27+00:00",
-      "detected_at_utc": "2026-08-19T21:14:13.460360+00:00",
-      "baseline": {
-        "t": "2026-08-19T21:14:13.460360+00:00",
-        "price": 69400.76,
-        "funding_rate_pct": null,
-        "fear_greed_value": 46,
-        "volume_1h": 143858779.1
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-19T21:45:01.846366+00:00",
-          "price": 69696.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 46,
-          "volume_1h": 162156689.25,
-          "delta_price_pct": 0.43
-        },
-        "1h": {
-          "t": "2026-08-19T22:44:01.702188+00:00",
-          "price": 69329.41,
-          "funding_rate_pct": null,
-          "fear_greed_value": 46,
-          "volume_1h": 110571457.74,
-          "delta_price_pct": -0.1
-        },
-        "2h": {
-          "t": "2026-08-19T23:39:34.018095+00:00",
-          "price": 69310.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 46,
-          "volume_1h": 66546649.51,
-          "delta_price_pct": -0.13
-        },
-        "4h": {
-          "t": "2026-08-20T01:48:10.060193+00:00",
-          "price": 69777.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 62,
-          "volume_1h": 57570589.89,
-          "delta_price_pct": 0.54
-        }
-      },
-      "flags": [
-        "市場心理の好転（Fear & Greed急上昇）"
-      ],
-      "relevance": "medium",
-      "summary": "「トランプ大統領、「仮想通貨業界への逆風に完全に終止符を打った」と発言　ビットコインは6月以来の高値」の報道後、BTCは4時間で+0.5%。Fear & Greedも46から62へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-01T23:14:36.808584+00:00"
+  "updated_at_utc": "2026-09-02T01:06:07.752981+00:00"
 }
