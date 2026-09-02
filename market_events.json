@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ストラテジーCEO、「ビットコイン売却は戦略的取引」と説明",
+      "link": "https://coinpost.jp/?p=735130",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-02T20:00:03+00:00",
+      "detected_at_utc": "2026-09-02T20:58:38.444674+00:00",
+      "baseline": {
+        "t": "2026-09-02T20:58:38.444674+00:00",
+        "price": 77436.49,
+        "funding_rate_pct": null,
+        "fear_greed_value": 63,
+        "volume_1h": 29026837.35
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "TDコーウェン、ビットコイン年末目標9万7500ドルに下方修正＝報道",
       "link": "https://coinpost.jp/?p=735024",
       "source": "CoinPost",
@@ -3174,59 +3193,7 @@
       "relevance": "high",
       "summary": "「ビットコイン・トレジャリー企業H100、上半期決算　BTC含み損40億円超計上」の報道後、BTCは4時間で+3.6%。Fear & Greedも62から62へ横ばい。出来高急増（+164%）、出来高急増（+93%）、価格急変（+3.6%）、出来高急増（+390%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン急伸、米仮想通貨関連株も全面高",
-      "link": "https://coinpost.jp/?p=731950",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-20T02:23:31+00:00",
-      "detected_at_utc": "2026-08-20T02:46:55.919364+00:00",
-      "baseline": {
-        "t": "2026-08-20T02:46:55.919364+00:00",
-        "price": 69318.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 62,
-        "volume_1h": 64147404.94
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-20T03:34:48.666421+00:00",
-          "price": 69082.79,
-          "funding_rate_pct": null,
-          "fear_greed_value": 62,
-          "volume_1h": 63588677.34,
-          "delta_price_pct": -0.34
-        },
-        "1h": {
-          "t": "2026-08-20T04:20:32.217554+00:00",
-          "price": 69342.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 62,
-          "volume_1h": 51966669.23,
-          "delta_price_pct": 0.03
-        },
-        "2h": {
-          "t": "2026-08-20T05:03:09.049775+00:00",
-          "price": 69505.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 62,
-          "volume_1h": 46563227.59,
-          "delta_price_pct": 0.27
-        },
-        "4h": {
-          "t": "2026-08-20T07:14:30.272152+00:00",
-          "price": 69815.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 62,
-          "volume_1h": 89941221.5,
-          "delta_price_pct": 0.72
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン急伸、米仮想通貨関連株も全面高」の報道後、BTCは4時間で+0.7%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-02T18:01:46.751396+00:00"
+  "updated_at_utc": "2026-09-02T20:58:38.444674+00:00"
 }
