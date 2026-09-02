@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン、監査性・所有分布などで高評価　主要3銘柄の分散性調査",
+      "link": "https://coinpost.jp/?p=734974",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-02T05:15:56+00:00",
+      "detected_at_utc": "2026-09-02T05:48:54.239284+00:00",
+      "baseline": {
+        "t": "2026-09-02T05:48:54.239284+00:00",
+        "price": 77751.9,
+        "funding_rate_pct": null,
+        "fear_greed_value": 63,
+        "volume_1h": 19816547.61
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン現物ETF、8月に35億ドル純流入　1年ぶり高水準",
       "link": "https://coinpost.jp/?p=734854",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 63,
         "volume_1h": 23391693.82
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-02T05:48:54.239284+00:00",
+          "price": 77751.9,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 19816547.61,
+          "delta_price_pct": 0.73
+        },
+        "1h": {
+          "t": "2026-09-02T05:48:54.239284+00:00",
+          "price": 77751.9,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 19816547.61,
+          "delta_price_pct": 0.73
+        },
+        "2h": {
+          "t": "2026-09-02T05:48:54.239284+00:00",
+          "price": 77751.9,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 19816547.61,
+          "delta_price_pct": 0.73
+        },
+        "4h": {
+          "t": "2026-09-02T05:48:54.239284+00:00",
+          "price": 77751.9,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 19816547.61,
+          "delta_price_pct": 0.73
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン現物ETF、8月に35億ドル純流入　1年ぶり高水準」の報道後、BTCは4時間で+0.7%。Fear & Greedも63から63へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "トム・リー氏、ビットコイン「15万ドル」視野に　機関マネー流入を指摘",
@@ -3138,61 +3190,7 @@
       "relevance": "low",
       "summary": "「ビットコイン6万9000ドル台へ急伸、10カ月ぶり200日移動平均線上抜け　国債買い戻し倍増が起点」の報道後、BTCは4時間で+0.7%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン急騰、米国の金利介入が大規模ショート清算を誘発｜仮想NISHI",
-      "link": "https://coinpost.jp/?p=731856",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-20T00:35:42+00:00",
-      "detected_at_utc": "2026-08-20T01:48:10.060193+00:00",
-      "baseline": {
-        "t": "2026-08-20T01:48:10.060193+00:00",
-        "price": 69777.69,
-        "funding_rate_pct": null,
-        "fear_greed_value": 62,
-        "volume_1h": 57570589.89
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-20T02:46:55.919364+00:00",
-          "price": 69318.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 62,
-          "volume_1h": 64147404.94,
-          "delta_price_pct": -0.66
-        },
-        "1h": {
-          "t": "2026-08-20T03:34:48.666421+00:00",
-          "price": 69082.79,
-          "funding_rate_pct": null,
-          "fear_greed_value": 62,
-          "volume_1h": 63588677.34,
-          "delta_price_pct": -1.0
-        },
-        "2h": {
-          "t": "2026-08-20T04:20:32.217554+00:00",
-          "price": 69342.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 62,
-          "volume_1h": 51966669.23,
-          "delta_price_pct": -0.62
-        },
-        "4h": {
-          "t": "2026-08-20T06:18:54.455861+00:00",
-          "price": 69384.62,
-          "funding_rate_pct": null,
-          "fear_greed_value": 62,
-          "volume_1h": 122938267.98,
-          "delta_price_pct": -0.56
-        }
-      },
-      "flags": [
-        "出来高急増（+114%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコイン急騰、米国の金利介入が大規模ショート清算を誘発｜仮想NISHI」の報道後、BTCは4時間で-0.6%。Fear & Greedも62から62へ横ばい。出来高急増（+114%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-02T01:06:07.752981+00:00"
+  "updated_at_utc": "2026-09-02T05:48:54.239284+00:00"
 }
