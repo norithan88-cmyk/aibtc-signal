@@ -13,10 +13,35 @@
         "fear_greed_value": 63,
         "volume_1h": 29026837.35
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-02T23:15:59.495938+00:00",
+          "price": 77190.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 15249750.34,
+          "delta_price_pct": -0.32
+        },
+        "1h": {
+          "t": "2026-09-02T23:15:59.495938+00:00",
+          "price": 77190.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 15249750.34,
+          "delta_price_pct": -0.32
+        },
+        "2h": {
+          "t": "2026-09-02T23:15:59.495938+00:00",
+          "price": 77190.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 15249750.34,
+          "delta_price_pct": -0.32
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ストラテジーCEO、「ビットコイン売却は戦略的取引」と説明」の報道後、BTCは2時間で-0.3%。Fear & Greedも63から63へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3195,5 +3220,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-02T20:58:38.444674+00:00"
+  "updated_at_utc": "2026-09-02T23:15:59.495938+00:00"
 }
