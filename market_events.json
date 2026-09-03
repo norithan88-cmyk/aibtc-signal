@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "コーネル大学調査、ビットコイン認知9割でも理解1割強",
+      "link": "https://coinpost.jp/?p=735341",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-03T05:14:31+00:00",
+      "detected_at_utc": "2026-09-03T05:54:09.799575+00:00",
+      "baseline": {
+        "t": "2026-09-03T05:54:09.799575+00:00",
+        "price": 77651.5,
+        "funding_rate_pct": null,
+        "fear_greed_value": 65,
+        "volume_1h": 43950375.69
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "「ビットコインが5年以内に25万〜84万ドル到達の可能性」リバー社が資金流入モデルで試算",
+      "link": "https://coinpost.jp/?p=735237",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-03T04:02:35+00:00",
+      "detected_at_utc": "2026-09-03T05:54:09.799575+00:00",
+      "baseline": {
+        "t": "2026-09-03T05:54:09.799575+00:00",
+        "price": 77651.5,
+        "funding_rate_pct": null,
+        "fear_greed_value": 65,
+        "volume_1h": 43950375.69
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン頭打ち、当面はレンジ相場か＝グラスノード",
       "link": "https://coinpost.jp/?p=735170",
       "source": "CoinPost",
@@ -13,11 +51,46 @@
         "fear_greed_value": 65,
         "volume_1h": 28380536.7
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-03T05:54:09.799575+00:00",
+          "price": 77651.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43950375.69,
+          "delta_price_pct": 0.37
+        },
+        "1h": {
+          "t": "2026-09-03T05:54:09.799575+00:00",
+          "price": 77651.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43950375.69,
+          "delta_price_pct": 0.37
+        },
+        "2h": {
+          "t": "2026-09-03T05:54:09.799575+00:00",
+          "price": 77651.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43950375.69,
+          "delta_price_pct": 0.37
+        },
+        "4h": {
+          "t": "2026-09-03T05:54:09.799575+00:00",
+          "price": 77651.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43950375.69,
+          "delta_price_pct": 0.37
+        }
+      },
+      "flags": [
+        "出来高急増（+55%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン頭打ち、当面はレンジ相場か＝グラスノード」の報道後、BTCは4時間で+0.4%。Fear & Greedも65から65へ横ばい。出来高急増（+55%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "「ビットコイン、初のハッシュレート弱気相場に」トゥエンティワンCEOが指摘",
@@ -32,11 +105,46 @@
         "fear_greed_value": 65,
         "volume_1h": 28380536.7
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-03T05:54:09.799575+00:00",
+          "price": 77651.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43950375.69,
+          "delta_price_pct": 0.37
+        },
+        "1h": {
+          "t": "2026-09-03T05:54:09.799575+00:00",
+          "price": 77651.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43950375.69,
+          "delta_price_pct": 0.37
+        },
+        "2h": {
+          "t": "2026-09-03T05:54:09.799575+00:00",
+          "price": 77651.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43950375.69,
+          "delta_price_pct": 0.37
+        },
+        "4h": {
+          "t": "2026-09-03T05:54:09.799575+00:00",
+          "price": 77651.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43950375.69,
+          "delta_price_pct": 0.37
+        }
+      },
+      "flags": [
+        "出来高急増（+55%）"
+      ],
+      "relevance": "medium",
+      "summary": "「「ビットコイン、初のハッシュレート弱気相場に」トゥエンティワンCEOが指摘」の報道後、BTCは4時間で+0.4%。Fear & Greedも65から65へ横ばい。出来高急増（+55%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "キャピタルB、アダム・バック引受で14億円増資　ビットコイン追加購入へ",
@@ -51,11 +159,46 @@
         "fear_greed_value": 65,
         "volume_1h": 28380536.7
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-03T05:54:09.799575+00:00",
+          "price": 77651.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43950375.69,
+          "delta_price_pct": 0.37
+        },
+        "1h": {
+          "t": "2026-09-03T05:54:09.799575+00:00",
+          "price": 77651.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43950375.69,
+          "delta_price_pct": 0.37
+        },
+        "2h": {
+          "t": "2026-09-03T05:54:09.799575+00:00",
+          "price": 77651.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43950375.69,
+          "delta_price_pct": 0.37
+        },
+        "4h": {
+          "t": "2026-09-03T05:54:09.799575+00:00",
+          "price": 77651.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 43950375.69,
+          "delta_price_pct": 0.37
+        }
+      },
+      "flags": [
+        "出来高急増（+55%）"
+      ],
+      "relevance": "medium",
+      "summary": "「キャピタルB、アダム・バック引受で14億円増資　ビットコイン追加購入へ」の報道後、BTCは4時間で+0.4%。Fear & Greedも65から65へ横ばい。出来高急増（+55%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストラテジーCEO、「ビットコイン売却は戦略的取引」と説明",
@@ -3009,111 +3152,7 @@
       "relevance": "high",
       "summary": "「ビットコイン続伸、仮想通貨関連株も軒並み高」の報道後、BTCは4時間で+4.8%。Fear & Greedも72から72へ横ばい。価格急変（+4.8%）、出来高急増（+270%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン7.3万ドル突破、米規制進展とショート清算が上昇を加速｜仮想NISHI",
-      "link": "https://coinpost.jp/?p=732243",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-21T01:12:30+00:00",
-      "detected_at_utc": "2026-08-21T02:09:50.955934+00:00",
-      "baseline": {
-        "t": "2026-08-21T02:09:50.955934+00:00",
-        "price": 74935.84,
-        "funding_rate_pct": null,
-        "fear_greed_value": 72,
-        "volume_1h": 256912455.59
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-21T03:17:39.906643+00:00",
-          "price": 74498.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 94243149.71,
-          "delta_price_pct": -0.58
-        },
-        "1h": {
-          "t": "2026-08-21T03:17:39.906643+00:00",
-          "price": 74498.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 94243149.71,
-          "delta_price_pct": -0.58
-        },
-        "2h": {
-          "t": "2026-08-21T04:53:57.676149+00:00",
-          "price": 74994.04,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 61304328.68,
-          "delta_price_pct": 0.08
-        },
-        "4h": {
-          "t": "2026-08-21T07:05:23.412974+00:00",
-          "price": 75744.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 102515616.52,
-          "delta_price_pct": 1.08
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン7.3万ドル突破、米規制進展とショート清算が上昇を加速｜仮想NISHI」の報道後、BTCは4時間で+1.1%。Fear & Greedも72から72へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン現物ETF、19日に820億円超が純流入　5月5日以降最大規模",
-      "link": "https://coinpost.jp/?p=732257",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-21T00:45:48+00:00",
-      "detected_at_utc": "2026-08-21T02:09:50.955934+00:00",
-      "baseline": {
-        "t": "2026-08-21T02:09:50.955934+00:00",
-        "price": 74935.84,
-        "funding_rate_pct": null,
-        "fear_greed_value": 72,
-        "volume_1h": 256912455.59
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-21T03:17:39.906643+00:00",
-          "price": 74498.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 94243149.71,
-          "delta_price_pct": -0.58
-        },
-        "1h": {
-          "t": "2026-08-21T03:17:39.906643+00:00",
-          "price": 74498.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 94243149.71,
-          "delta_price_pct": -0.58
-        },
-        "2h": {
-          "t": "2026-08-21T04:53:57.676149+00:00",
-          "price": 74994.04,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 61304328.68,
-          "delta_price_pct": 0.08
-        },
-        "4h": {
-          "t": "2026-08-21T07:05:23.412974+00:00",
-          "price": 75744.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 102515616.52,
-          "delta_price_pct": 1.08
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン現物ETF、19日に820億円超が純流入　5月5日以降最大規模」の報道後、BTCは4時間で+1.1%。Fear & Greedも72から72へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-03T01:12:36.679789+00:00"
+  "updated_at_utc": "2026-09-03T05:54:09.799575+00:00"
 }
