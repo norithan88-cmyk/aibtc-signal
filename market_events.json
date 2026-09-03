@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン8万ドル突破、米FRB高官発言で利上げ観測後退",
+      "link": "https://coinpost.jp/?p=735497",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-03T20:55:58+00:00",
+      "detected_at_utc": "2026-09-03T21:18:32.096221+00:00",
+      "baseline": {
+        "t": "2026-09-03T21:18:32.096221+00:00",
+        "price": 81622.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 65,
+        "volume_1h": 49599512.15
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "コーネル大学調査、ビットコイン認知9割でも理解1割強",
       "link": "https://coinpost.jp/?p=735341",
       "source": "CoinPost",
@@ -3163,62 +3182,7 @@
       "relevance": "high",
       "summary": "「ビットコインの強気指数、10カ月ぶり60超え＝アナリスト」の報道後、BTCは4時間で+0.6%。Fear & Greedも72から72へ横ばい。価格急変（+2.6%）、価格急変（+2.0%）、出来高急増（+71%）、価格急変（+1.7%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン続伸、仮想通貨関連株も軒並み高",
-      "link": "https://coinpost.jp/?p=732355",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-21T03:21:05+00:00",
-      "detected_at_utc": "2026-08-21T04:06:39.032824+00:00",
-      "baseline": {
-        "t": "2026-08-21T04:06:39.032824+00:00",
-        "price": 74706.24,
-        "funding_rate_pct": null,
-        "fear_greed_value": 72,
-        "volume_1h": 71622922.25
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-21T04:53:57.676149+00:00",
-          "price": 74994.04,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 61304328.68,
-          "delta_price_pct": 0.39
-        },
-        "1h": {
-          "t": "2026-08-21T05:36:31.139731+00:00",
-          "price": 75225.3,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 75805742.46,
-          "delta_price_pct": 0.69
-        },
-        "2h": {
-          "t": "2026-08-21T07:05:23.412974+00:00",
-          "price": 75744.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 102515616.52,
-          "delta_price_pct": 1.39
-        },
-        "4h": {
-          "t": "2026-08-21T08:51:17.557198+00:00",
-          "price": 78328.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 264666187.55,
-          "delta_price_pct": 4.85
-        }
-      },
-      "flags": [
-        "価格急変（+4.8%）",
-        "出来高急増（+270%）"
-      ],
-      "relevance": "high",
-      "summary": "「ビットコイン続伸、仮想通貨関連株も軒並み高」の報道後、BTCは4時間で+4.8%。Fear & Greedも72から72へ横ばい。価格急変（+4.8%）、出来高急増（+270%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-03T18:31:41.529437+00:00"
+  "updated_at_utc": "2026-09-03T21:18:32.096221+00:00"
 }
