@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ポケットビットコイン、顧客情報流出を報告　5000人以上に及ぶ",
+      "link": "https://coinpost.jp/?p=735494",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-03T22:12:51+00:00",
+      "detected_at_utc": "2026-09-03T23:22:32.876763+00:00",
+      "baseline": {
+        "t": "2026-09-03T23:22:32.876763+00:00",
+        "price": 81202.78,
+        "funding_rate_pct": null,
+        "fear_greed_value": 65,
+        "volume_1h": 49171629.43
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ポリマーケット、ビットコインやスペースXなど10銘柄の無期限先物取引を提供開始",
+      "link": "https://coinpost.jp/?p=735495",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-03T21:55:53+00:00",
+      "detected_at_utc": "2026-09-03T23:22:32.876763+00:00",
+      "baseline": {
+        "t": "2026-09-03T23:22:32.876763+00:00",
+        "price": 81202.78,
+        "funding_rate_pct": null,
+        "fear_greed_value": 65,
+        "volume_1h": 49171629.43
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン8万ドル突破、米FRB高官発言で利上げ観測後退",
       "link": "https://coinpost.jp/?p=735497",
       "source": "CoinPost",
@@ -13,10 +51,35 @@
         "fear_greed_value": 65,
         "volume_1h": 49599512.15
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-03T23:22:32.876763+00:00",
+          "price": 81202.78,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 49171629.43,
+          "delta_price_pct": -0.51
+        },
+        "1h": {
+          "t": "2026-09-03T23:22:32.876763+00:00",
+          "price": 81202.78,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 49171629.43,
+          "delta_price_pct": -0.51
+        },
+        "2h": {
+          "t": "2026-09-03T23:22:32.876763+00:00",
+          "price": 81202.78,
+          "funding_rate_pct": null,
+          "fear_greed_value": 65,
+          "volume_1h": 49171629.43,
+          "delta_price_pct": -0.51
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ビットコイン8万ドル突破、米FRB高官発言で利上げ観測後退」の報道後、BTCは2時間で-0.5%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3070,119 +3133,7 @@
       "relevance": "high",
       "summary": "「ストラテジーの84万ビットコイン、含み損から一転し2420億円超の含み益に」の報道後、BTCは4時間で+1.3%。Fear & Greedも72から71へ悪化。価格急変（+1.9%）、価格急変（+1.8%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "「先物上場が転換点」中国著名エコノミストが語るビットコイン資産化の本質",
-      "link": "https://coinpost.jp/?p=732109",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-21T06:00:24+00:00",
-      "detected_at_utc": "2026-08-21T08:51:17.557198+00:00",
-      "baseline": {
-        "t": "2026-08-21T08:51:17.557198+00:00",
-        "price": 78328.97,
-        "funding_rate_pct": null,
-        "fear_greed_value": 72,
-        "volume_1h": 264666187.55
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-21T09:32:48.757084+00:00",
-          "price": 77937.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 441555962.46,
-          "delta_price_pct": -0.5
-        },
-        "1h": {
-          "t": "2026-08-21T10:04:33.193598+00:00",
-          "price": 77713.52,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 257895509.2,
-          "delta_price_pct": -0.79
-        },
-        "2h": {
-          "t": "2026-08-21T11:12:46.484771+00:00",
-          "price": 77366.25,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 104139805.2,
-          "delta_price_pct": -1.23
-        },
-        "4h": {
-          "t": "2026-08-21T13:23:26.855281+00:00",
-          "price": 76921.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 155002559.03,
-          "delta_price_pct": -1.8
-        }
-      },
-      "flags": [
-        "出来高急増（+67%）",
-        "価格急変（-1.8%）"
-      ],
-      "relevance": "high",
-      "summary": "「「先物上場が転換点」中国著名エコノミストが語るビットコイン資産化の本質」の報道後、BTCは4時間で-1.8%。Fear & Greedも72から72へ横ばい。出来高急増（+67%）、価格急変（-1.8%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコインの強気指数、10カ月ぶり60超え＝アナリスト",
-      "link": "https://coinpost.jp/?p=732457",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-21T07:49:27+00:00",
-      "detected_at_utc": "2026-08-21T07:56:00.550623+00:00",
-      "baseline": {
-        "t": "2026-08-21T07:56:00.550623+00:00",
-        "price": 76378.31,
-        "funding_rate_pct": null,
-        "fear_greed_value": 72,
-        "volume_1h": 258220598.21
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-21T08:51:17.557198+00:00",
-          "price": 78328.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 264666187.55,
-          "delta_price_pct": 2.55
-        },
-        "1h": {
-          "t": "2026-08-21T09:32:48.757084+00:00",
-          "price": 77937.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 441555962.46,
-          "delta_price_pct": 2.04
-        },
-        "2h": {
-          "t": "2026-08-21T10:04:33.193598+00:00",
-          "price": 77713.52,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 257895509.2,
-          "delta_price_pct": 1.75
-        },
-        "4h": {
-          "t": "2026-08-21T12:17:38.255178+00:00",
-          "price": 76839.22,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 222997383.27,
-          "delta_price_pct": 0.6
-        }
-      },
-      "flags": [
-        "価格急変（+2.6%）",
-        "価格急変（+2.0%）",
-        "出来高急増（+71%）",
-        "価格急変（+1.7%）"
-      ],
-      "relevance": "high",
-      "summary": "「ビットコインの強気指数、10カ月ぶり60超え＝アナリスト」の報道後、BTCは4時間で+0.6%。Fear & Greedも72から72へ横ばい。価格急変（+2.6%）、価格急変（+2.0%）、出来高急増（+71%）、価格急変（+1.7%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-03T21:18:32.096221+00:00"
+  "updated_at_utc": "2026-09-03T23:22:32.876763+00:00"
 }
