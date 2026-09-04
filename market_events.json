@@ -13,11 +13,44 @@
         "fear_greed_value": 74,
         "volume_1h": 49732036.47
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-04T05:57:21.940347+00:00",
+          "price": 80950.94,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 46610582.31,
+          "delta_price_pct": -0.1
+        },
+        "1h": {
+          "t": "2026-09-04T05:57:21.940347+00:00",
+          "price": 80950.94,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 46610582.31,
+          "delta_price_pct": -0.1
+        },
+        "2h": {
+          "t": "2026-09-04T05:57:21.940347+00:00",
+          "price": 80950.94,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 46610582.31,
+          "delta_price_pct": -0.1
+        },
+        "4h": {
+          "t": "2026-09-04T05:57:21.940347+00:00",
+          "price": 80950.94,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 46610582.31,
+          "delta_price_pct": -0.1
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「メタプラネットなど株価上昇、ビットコイン8万ドル台回復で」の報道後、BTCは4時間で-0.1%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米ストライブCEO、ビットコイン保有で世界2位になる可能性に言及",
@@ -32,11 +65,44 @@
         "fear_greed_value": 74,
         "volume_1h": 49732036.47
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-04T05:57:21.940347+00:00",
+          "price": 80950.94,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 46610582.31,
+          "delta_price_pct": -0.1
+        },
+        "1h": {
+          "t": "2026-09-04T05:57:21.940347+00:00",
+          "price": 80950.94,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 46610582.31,
+          "delta_price_pct": -0.1
+        },
+        "2h": {
+          "t": "2026-09-04T05:57:21.940347+00:00",
+          "price": 80950.94,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 46610582.31,
+          "delta_price_pct": -0.1
+        },
+        "4h": {
+          "t": "2026-09-04T05:57:21.940347+00:00",
+          "price": 80950.94,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 46610582.31,
+          "delta_price_pct": -0.1
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米ストライブCEO、ビットコイン保有で世界2位になる可能性に言及」の報道後、BTCは4時間で-0.1%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ポケットビットコイン、顧客情報流出を報告　5000人以上に及ぶ",
@@ -67,14 +133,30 @@
           "fear_greed_value": 74,
           "volume_1h": 49732036.47,
           "delta_price_pct": -0.21
+        },
+        "2h": {
+          "t": "2026-09-04T05:57:21.940347+00:00",
+          "price": 80950.94,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 46610582.31,
+          "delta_price_pct": -0.31
+        },
+        "4h": {
+          "t": "2026-09-04T05:57:21.940347+00:00",
+          "price": 80950.94,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 46610582.31,
+          "delta_price_pct": -0.31
         }
       },
       "flags": [
         "市場心理の好転（Fear & Greed急上昇）"
       ],
       "relevance": "medium",
-      "summary": "「ポケットビットコイン、顧客情報流出を報告　5000人以上に及ぶ」の報道後、BTCは1時間で-0.2%。Fear & Greedも65から74へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ポケットビットコイン、顧客情報流出を報告　5000人以上に及ぶ」の報道後、BTCは4時間で-0.3%。Fear & Greedも65から74へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ポリマーケット、ビットコインやスペースXなど10銘柄の無期限先物取引を提供開始",
@@ -105,14 +187,30 @@
           "fear_greed_value": 74,
           "volume_1h": 49732036.47,
           "delta_price_pct": -0.21
+        },
+        "2h": {
+          "t": "2026-09-04T05:57:21.940347+00:00",
+          "price": 80950.94,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 46610582.31,
+          "delta_price_pct": -0.31
+        },
+        "4h": {
+          "t": "2026-09-04T05:57:21.940347+00:00",
+          "price": 80950.94,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 46610582.31,
+          "delta_price_pct": -0.31
         }
       },
       "flags": [
         "市場心理の好転（Fear & Greed急上昇）"
       ],
       "relevance": "medium",
-      "summary": "「ポリマーケット、ビットコインやスペースXなど10銘柄の無期限先物取引を提供開始」の報道後、BTCは1時間で-0.2%。Fear & Greedも65から74へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ポリマーケット、ビットコインやスペースXなど10銘柄の無期限先物取引を提供開始」の報道後、BTCは4時間で-0.3%。Fear & Greedも65から74へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン8万ドル突破、米FRB高官発言で利上げ観測後退",
@@ -151,12 +249,22 @@
           "fear_greed_value": 65,
           "volume_1h": 49171629.43,
           "delta_price_pct": -0.51
+        },
+        "4h": {
+          "t": "2026-09-04T05:57:21.940347+00:00",
+          "price": 80950.94,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 46610582.31,
+          "delta_price_pct": -0.82
         }
       },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン8万ドル突破、米FRB高官発言で利上げ観測後退」の報道後、BTCは2時間で-0.5%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "flags": [
+        "市場心理の好転（Fear & Greed急上昇）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン8万ドル突破、米FRB高官発言で利上げ観測後退」の報道後、BTCは4時間で-0.8%。Fear & Greedも65から74へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "コーネル大学調査、ビットコイン認知9割でも理解1割強",
@@ -3104,5 +3212,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-04T01:10:17.780312+00:00"
+  "updated_at_utc": "2026-09-04T05:57:21.940347+00:00"
 }
