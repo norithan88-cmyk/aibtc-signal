@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "メタプラネットなど株価上昇、ビットコイン8万ドル台回復で",
+      "link": "https://coinpost.jp/?p=735526",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-04T01:05:56+00:00",
+      "detected_at_utc": "2026-09-04T01:10:17.780312+00:00",
+      "baseline": {
+        "t": "2026-09-04T01:10:17.780312+00:00",
+        "price": 81032.69,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 49732036.47
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "米ストライブCEO、ビットコイン保有で世界2位になる可能性に言及",
+      "link": "https://coinpost.jp/?p=735492",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-04T00:40:47+00:00",
+      "detected_at_utc": "2026-09-04T01:10:17.780312+00:00",
+      "baseline": {
+        "t": "2026-09-04T01:10:17.780312+00:00",
+        "price": 81032.69,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 49732036.47
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ポケットビットコイン、顧客情報流出を報告　5000人以上に及ぶ",
       "link": "https://coinpost.jp/?p=735494",
       "source": "CoinPost",
@@ -13,10 +51,29 @@
         "fear_greed_value": 65,
         "volume_1h": 49171629.43
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-04T01:10:17.780312+00:00",
+          "price": 81032.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 49732036.47,
+          "delta_price_pct": -0.21
+        },
+        "1h": {
+          "t": "2026-09-04T01:10:17.780312+00:00",
+          "price": 81032.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 49732036.47,
+          "delta_price_pct": -0.21
+        }
+      },
+      "flags": [
+        "市場心理の好転（Fear & Greed急上昇）"
+      ],
+      "relevance": "medium",
+      "summary": "「ポケットビットコイン、顧客情報流出を報告　5000人以上に及ぶ」の報道後、BTCは1時間で-0.2%。Fear & Greedも65から74へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -32,10 +89,29 @@
         "fear_greed_value": 65,
         "volume_1h": 49171629.43
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-04T01:10:17.780312+00:00",
+          "price": 81032.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 49732036.47,
+          "delta_price_pct": -0.21
+        },
+        "1h": {
+          "t": "2026-09-04T01:10:17.780312+00:00",
+          "price": 81032.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 49732036.47,
+          "delta_price_pct": -0.21
+        }
+      },
+      "flags": [
+        "市場心理の好転（Fear & Greed急上昇）"
+      ],
+      "relevance": "medium",
+      "summary": "「ポリマーケット、ビットコインやスペースXなど10銘柄の無期限先物取引を提供開始」の報道後、BTCは1時間で-0.2%。Fear & Greedも65から74へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3026,114 +3102,7 @@
       "relevance": "low",
       "summary": "「レイ・ダリオ、米債務危機警告し金とビットコイン推奨」の報道後、BTCは4時間で-0.1%。Fear & Greedも72から71へ悪化。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "英大手銀アナリスト分析、ビットコインが10万ドルを上回る可能性",
-      "link": "https://coinpost.jp/?p=732554",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-21T20:55:41+00:00",
-      "detected_at_utc": "2026-08-21T21:34:59.689580+00:00",
-      "baseline": {
-        "t": "2026-08-21T21:34:59.689580+00:00",
-        "price": 78426.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 72,
-        "volume_1h": 76617561.12
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-21T22:35:29.377910+00:00",
-          "price": 78322.09,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 95886807.35,
-          "delta_price_pct": -0.13
-        },
-        "1h": {
-          "t": "2026-08-21T22:35:29.377910+00:00",
-          "price": 78322.09,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 95886807.35,
-          "delta_price_pct": -0.13
-        },
-        "2h": {
-          "t": "2026-08-21T23:57:58.497335+00:00",
-          "price": 78325.15,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 64033339.08,
-          "delta_price_pct": -0.13
-        },
-        "4h": {
-          "t": "2026-08-22T01:45:21.612942+00:00",
-          "price": 77958.63,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 47530932.98,
-          "delta_price_pct": -0.6
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「英大手銀アナリスト分析、ビットコインが10万ドルを上回る可能性」の報道後、BTCは4時間で-0.6%。Fear & Greedも72から71へ悪化。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ストラテジーの84万ビットコイン、含み損から一転し2420億円超の含み益に",
-      "link": "https://coinpost.jp/?p=732545",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-21T20:00:15+00:00",
-      "detected_at_utc": "2026-08-21T20:02:35.278453+00:00",
-      "baseline": {
-        "t": "2026-08-21T20:02:35.278453+00:00",
-        "price": 76961.99,
-        "funding_rate_pct": null,
-        "fear_greed_value": 72,
-        "volume_1h": 84311916.99
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-21T20:37:07.562117+00:00",
-          "price": 77488.37,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 84420840.47,
-          "delta_price_pct": 0.68
-        },
-        "1h": {
-          "t": "2026-08-21T21:34:59.689580+00:00",
-          "price": 78426.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 76617561.12,
-          "delta_price_pct": 1.9
-        },
-        "2h": {
-          "t": "2026-08-21T22:35:29.377910+00:00",
-          "price": 78322.09,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 95886807.35,
-          "delta_price_pct": 1.77
-        },
-        "4h": {
-          "t": "2026-08-22T01:45:21.612942+00:00",
-          "price": 77958.63,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 47530932.98,
-          "delta_price_pct": 1.29
-        }
-      },
-      "flags": [
-        "価格急変（+1.9%）",
-        "価格急変（+1.8%）"
-      ],
-      "relevance": "high",
-      "summary": "「ストラテジーの84万ビットコイン、含み損から一転し2420億円超の含み益に」の報道後、BTCは4時間で+1.3%。Fear & Greedも72から71へ悪化。価格急変（+1.9%）、価格急変（+1.8%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-03T23:22:32.876763+00:00"
+  "updated_at_utc": "2026-09-04T01:10:17.780312+00:00"
 }
