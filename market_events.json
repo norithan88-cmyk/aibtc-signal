@@ -13,10 +13,29 @@
         "fear_greed_value": 74,
         "volume_1h": 20894572.93
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-04T22:49:31.566070+00:00",
+          "price": 79637.03,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 50455652.61,
+          "delta_price_pct": -0.07
+        },
+        "1h": {
+          "t": "2026-09-04T22:49:31.566070+00:00",
+          "price": 79637.03,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 50455652.61,
+          "delta_price_pct": -0.07
+        }
+      },
+      "flags": [
+        "出来高急増（+141%）"
+      ],
+      "relevance": "medium",
+      "summary": "「IMF、エルサルバドルの25年6月以降のビットコイン購入は寄付のみ」の報道後、BTCは1時間で-0.1%。Fear & Greedも74から74へ横ばい。出来高急増（+141%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3179,5 +3198,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-04T20:52:56.440763+00:00"
+  "updated_at_utc": "2026-09-04T22:49:31.566070+00:00"
 }
