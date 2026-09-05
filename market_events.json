@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ビットコインと金の相関性が6年ぶり高水準に、ビットワイズ",
+      "link": "https://coinpost.jp/?p=735720",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-05T02:20:58+00:00",
+      "detected_at_utc": "2026-09-05T04:54:17.430249+00:00",
+      "baseline": {
+        "t": "2026-09-05T04:54:17.430249+00:00",
+        "price": 79534.39,
+        "funding_rate_pct": null,
+        "fear_greed_value": 73,
+        "volume_1h": 21410133.04
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコインが金と同様の値動きに、コインシェアーズ分析",
+      "link": "https://coinpost.jp/?p=735696",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-05T00:10:08+00:00",
+      "detected_at_utc": "2026-09-05T04:54:17.430249+00:00",
+      "baseline": {
+        "t": "2026-09-05T04:54:17.430249+00:00",
+        "price": 79534.39,
+        "funding_rate_pct": null,
+        "fear_greed_value": 73,
+        "volume_1h": 21410133.04
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "IMF、エルサルバドルの25年6月以降のビットコイン購入は寄付のみ",
       "link": "https://coinpost.jp/?p=735685",
       "source": "CoinPost",
@@ -37,14 +75,22 @@
           "fear_greed_value": 73,
           "volume_1h": 9805110.45,
           "delta_price_pct": -0.05
+        },
+        "4h": {
+          "t": "2026-09-05T04:54:17.430249+00:00",
+          "price": 79534.39,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 21410133.04,
+          "delta_price_pct": -0.2
         }
       },
       "flags": [
         "出来高急増（+141%）"
       ],
       "relevance": "medium",
-      "summary": "「IMF、エルサルバドルの25年6月以降のビットコイン購入は寄付のみ」の報道後、BTCは2時間で-0.1%。Fear & Greedも74から73へ悪化。出来高急増（+141%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「IMF、エルサルバドルの25年6月以降のビットコイン購入は寄付のみ」の報道後、BTCは4時間で-0.2%。Fear & Greedも74から73へ悪化。出来高急増（+141%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "メタプラネットなど株価上昇、ビットコイン8万ドル台回復で",
@@ -3100,111 +3146,7 @@
       "relevance": "high",
       "summary": "「ハッキング被害のビットコイン専門ウォレット「コールドカード」、ファームウェアの更新を推奨」の報道後、BTCは4時間で-1.8%。Fear & Greedも71から71へ横ばい。価格急変（-1.8%）、出来高急増（+271%）、価格急変（-1.7%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン、8.2万ドルが強気相場転換の分岐点に＝ギャラクシー・リサーチ",
-      "link": "https://coinpost.jp/?p=732564",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-21T23:40:08+00:00",
-      "detected_at_utc": "2026-08-21T23:57:58.497335+00:00",
-      "baseline": {
-        "t": "2026-08-21T23:57:58.497335+00:00",
-        "price": 78325.15,
-        "funding_rate_pct": null,
-        "fear_greed_value": 72,
-        "volume_1h": 64033339.08
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-22T01:45:21.612942+00:00",
-          "price": 77958.63,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 47530932.98,
-          "delta_price_pct": -0.47
-        },
-        "1h": {
-          "t": "2026-08-22T01:45:21.612942+00:00",
-          "price": 77958.63,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 47530932.98,
-          "delta_price_pct": -0.47
-        },
-        "2h": {
-          "t": "2026-08-22T02:42:49.270592+00:00",
-          "price": 78401.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 50769609.18,
-          "delta_price_pct": 0.1
-        },
-        "4h": {
-          "t": "2026-08-22T04:09:20.690356+00:00",
-          "price": 78290.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 57161662.11,
-          "delta_price_pct": -0.04
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン、8.2万ドルが強気相場転換の分岐点に＝ギャラクシー・リサーチ」の報道後、BTCは4時間で-0.0%。Fear & Greedも72から71へ悪化。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン反発の主因をコインシェアーズが分析、次の材料は？",
-      "link": "https://coinpost.jp/?p=732563",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-21T22:20:06+00:00",
-      "detected_at_utc": "2026-08-21T22:35:29.377910+00:00",
-      "baseline": {
-        "t": "2026-08-21T22:35:29.377910+00:00",
-        "price": 78322.09,
-        "funding_rate_pct": null,
-        "fear_greed_value": 72,
-        "volume_1h": 95886807.35
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-21T23:34:20.549674+00:00",
-          "price": 78385.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 65382896.97,
-          "delta_price_pct": 0.08
-        },
-        "1h": {
-          "t": "2026-08-21T23:57:58.497335+00:00",
-          "price": 78325.15,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 64033339.08,
-          "delta_price_pct": 0.0
-        },
-        "2h": {
-          "t": "2026-08-22T01:45:21.612942+00:00",
-          "price": 77958.63,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 47530932.98,
-          "delta_price_pct": -0.46
-        },
-        "4h": {
-          "t": "2026-08-22T02:42:49.270592+00:00",
-          "price": 78401.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 50769609.18,
-          "delta_price_pct": 0.1
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン反発の主因をコインシェアーズが分析、次の材料は？」の報道後、BTCは4時間で+0.1%。Fear & Greedも72から71へ悪化。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-05T00:30:17.429823+00:00"
+  "updated_at_utc": "2026-09-05T04:54:17.430249+00:00"
 }
