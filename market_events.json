@@ -37,12 +37,20 @@
           "fear_greed_value": 73,
           "volume_1h": 27449285.9,
           "delta_price_pct": 0.11
+        },
+        "4h": {
+          "t": "2026-09-05T12:29:14.831569+00:00",
+          "price": 79659.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 14895585.94,
+          "delta_price_pct": 0.16
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコインと金の相関性が6年ぶり高水準に、ビットワイズ」の報道後、BTCは2時間で+0.1%。Fear & Greedも73から73へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ビットコインと金の相関性が6年ぶり高水準に、ビットワイズ」の報道後、BTCは4時間で+0.2%。Fear & Greedも73から73へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインが金と同様の値動きに、コインシェアーズ分析",
@@ -81,12 +89,20 @@
           "fear_greed_value": 73,
           "volume_1h": 27449285.9,
           "delta_price_pct": 0.11
+        },
+        "4h": {
+          "t": "2026-09-05T12:29:14.831569+00:00",
+          "price": 79659.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 14895585.94,
+          "delta_price_pct": 0.16
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコインが金と同様の値動きに、コインシェアーズ分析」の報道後、BTCは2時間で+0.1%。Fear & Greedも73から73へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ビットコインが金と同様の値動きに、コインシェアーズ分析」の報道後、BTCは4時間で+0.2%。Fear & Greedも73から73へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "IMF、エルサルバドルの25年6月以降のビットコイン購入は寄付のみ",
@@ -3198,5 +3214,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-05T08:53:41.527767+00:00"
+  "updated_at_utc": "2026-09-05T12:29:14.831569+00:00"
 }
