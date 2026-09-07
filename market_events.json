@@ -13,11 +13,46 @@
         "fear_greed_value": 71,
         "volume_1h": 29712494.89
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-07T15:54:20.745018+00:00",
+          "price": 78830.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 61549214.43,
+          "delta_price_pct": -0.71
+        },
+        "1h": {
+          "t": "2026-09-07T15:54:20.745018+00:00",
+          "price": 78830.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 61549214.43,
+          "delta_price_pct": -0.71
+        },
+        "2h": {
+          "t": "2026-09-07T15:54:20.745018+00:00",
+          "price": 78830.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 61549214.43,
+          "delta_price_pct": -0.71
+        },
+        "4h": {
+          "t": "2026-09-07T15:54:20.745018+00:00",
+          "price": 78830.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 61549214.43,
+          "delta_price_pct": -0.71
+        }
+      },
+      "flags": [
+        "出来高急増（+107%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン現物ETFに先週約1539億円純流入、3週連続」の報道後、BTCは4時間で-0.7%。Fear & Greedも71から71へ横ばい。出来高急増（+107%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "イラン紛争でビットコインが中東の「リスク回避手段」に浮上＝BPI分析",
@@ -32,11 +67,46 @@
         "fear_greed_value": 71,
         "volume_1h": 29712494.89
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-07T15:54:20.745018+00:00",
+          "price": 78830.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 61549214.43,
+          "delta_price_pct": -0.71
+        },
+        "1h": {
+          "t": "2026-09-07T15:54:20.745018+00:00",
+          "price": 78830.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 61549214.43,
+          "delta_price_pct": -0.71
+        },
+        "2h": {
+          "t": "2026-09-07T15:54:20.745018+00:00",
+          "price": 78830.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 61549214.43,
+          "delta_price_pct": -0.71
+        },
+        "4h": {
+          "t": "2026-09-07T15:54:20.745018+00:00",
+          "price": 78830.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 61549214.43,
+          "delta_price_pct": -0.71
+        }
+      },
+      "flags": [
+        "出来高急増（+107%）"
+      ],
+      "relevance": "medium",
+      "summary": "「イラン紛争でビットコインが中東の「リスク回避手段」に浮上＝BPI分析」の報道後、BTCは4時間で-0.7%。Fear & Greedも71から71へ横ばい。出来高急増（+107%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "リキッド準備金ウォレットから約4000BTC流出",
@@ -51,11 +121,46 @@
         "fear_greed_value": 71,
         "volume_1h": 29712494.89
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-07T15:54:20.745018+00:00",
+          "price": 78830.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 61549214.43,
+          "delta_price_pct": -0.71
+        },
+        "1h": {
+          "t": "2026-09-07T15:54:20.745018+00:00",
+          "price": 78830.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 61549214.43,
+          "delta_price_pct": -0.71
+        },
+        "2h": {
+          "t": "2026-09-07T15:54:20.745018+00:00",
+          "price": 78830.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 61549214.43,
+          "delta_price_pct": -0.71
+        },
+        "4h": {
+          "t": "2026-09-07T15:54:20.745018+00:00",
+          "price": 78830.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 61549214.43,
+          "delta_price_pct": -0.71
+        }
+      },
+      "flags": [
+        "出来高急増（+107%）"
+      ],
+      "relevance": "medium",
+      "summary": "「リキッド準備金ウォレットから約4000BTC流出」の報道後、BTCは4時間で-0.7%。Fear & Greedも71から71へ横ばい。出来高急増（+107%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "2010年採掘の100ビットコイン、16年半ぶりに移動か",
@@ -3096,5 +3201,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-07T10:12:56.991098+00:00"
+  "updated_at_utc": "2026-09-07T15:54:20.745018+00:00"
 }
