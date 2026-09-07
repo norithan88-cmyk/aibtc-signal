@@ -13,11 +13,44 @@
         "fear_greed_value": 71,
         "volume_1h": 64943974.85
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-07T05:03:42.896126+00:00",
+          "price": 79729.09,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 48180722.06,
+          "delta_price_pct": -0.56
+        },
+        "1h": {
+          "t": "2026-09-07T05:03:42.896126+00:00",
+          "price": 79729.09,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 48180722.06,
+          "delta_price_pct": -0.56
+        },
+        "2h": {
+          "t": "2026-09-07T05:03:42.896126+00:00",
+          "price": 79729.09,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 48180722.06,
+          "delta_price_pct": -0.56
+        },
+        "4h": {
+          "t": "2026-09-07T05:03:42.896126+00:00",
+          "price": 79729.09,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 48180722.06,
+          "delta_price_pct": -0.56
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「2010年採掘の100ビットコイン、16年半ぶりに移動か」の報道後、BTCは4時間で-0.6%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン短期保有者、売却益が1年ぶりプラス圏へ＝アナリスト",
@@ -32,11 +65,44 @@
         "fear_greed_value": 71,
         "volume_1h": 64943974.85
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-07T05:03:42.896126+00:00",
+          "price": 79729.09,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 48180722.06,
+          "delta_price_pct": -0.56
+        },
+        "1h": {
+          "t": "2026-09-07T05:03:42.896126+00:00",
+          "price": 79729.09,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 48180722.06,
+          "delta_price_pct": -0.56
+        },
+        "2h": {
+          "t": "2026-09-07T05:03:42.896126+00:00",
+          "price": 79729.09,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 48180722.06,
+          "delta_price_pct": -0.56
+        },
+        "4h": {
+          "t": "2026-09-07T05:03:42.896126+00:00",
+          "price": 79729.09,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 48180722.06,
+          "delta_price_pct": -0.56
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン短期保有者、売却益が1年ぶりプラス圏へ＝アナリスト」の報道後、BTCは4時間で-0.6%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "週刊仮想通貨ニュース（9/4）｜相場分析・ストラテジーBTC戦略・金融庁の税制改正要望のまとめ",
@@ -3138,5 +3204,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-07T00:22:43.602940+00:00"
+  "updated_at_utc": "2026-09-07T05:03:42.896126+00:00"
 }
