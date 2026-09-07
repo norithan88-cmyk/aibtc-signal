@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "リキッドのビットコイン流出事件、自称ホワイトハットが3400BTC返還",
+      "link": "https://coinpost.jp/?p=736080",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-07T21:15:16+00:00",
+      "detected_at_utc": "2026-09-07T22:18:03.180019+00:00",
+      "baseline": {
+        "t": "2026-09-07T22:18:03.180019+00:00",
+        "price": 79079.85,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 17655366.06
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "キャピタルB、46億円相当ビットコインを追加取得　1年ぶりの大型購入に",
+      "link": "https://coinpost.jp/?p=736068",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-07T20:00:49+00:00",
+      "detected_at_utc": "2026-09-07T22:18:03.180019+00:00",
+      "baseline": {
+        "t": "2026-09-07T22:18:03.180019+00:00",
+        "price": 79079.85,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 17655366.06
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン現物ETFに先週約1539億円純流入、3週連続",
       "link": "https://coinpost.jp/?p=735999",
       "source": "CoinPost",
@@ -3091,115 +3129,7 @@
       "relevance": "high",
       "summary": "「ストラテジー、新設『USD Cash』で機動力強化　ビットコイン購入停止継続」の報道後、BTCは4時間で+0.8%。Fear & Greedも73から73へ横ばい。価格急変（+2.0%）、価格急変（+1.6%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン保有企業ストライブCEO、弱気相場終了との見方",
-      "link": "https://coinpost.jp/?p=732674",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-24T01:16:41+00:00",
-      "detected_at_utc": "2026-08-24T02:13:25.615442+00:00",
-      "baseline": {
-        "t": "2026-08-24T02:13:25.615442+00:00",
-        "price": 77270.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 73,
-        "volume_1h": 71185940.69
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-24T03:27:05.888201+00:00",
-          "price": 77163.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 76413534.43,
-          "delta_price_pct": -0.14
-        },
-        "1h": {
-          "t": "2026-08-24T03:27:05.888201+00:00",
-          "price": 77163.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 76413534.43,
-          "delta_price_pct": -0.14
-        },
-        "2h": {
-          "t": "2026-08-24T04:24:14.158718+00:00",
-          "price": 77181.32,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 103173951.16,
-          "delta_price_pct": -0.11
-        },
-        "4h": {
-          "t": "2026-08-24T07:16:10.813954+00:00",
-          "price": 77673.02,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 48101585.92,
-          "delta_price_pct": 0.52
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン保有企業ストライブCEO、弱気相場終了との見方」の報道後、BTCは4時間で+0.5%。Fear & Greedも73から73へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン・イーサリアム現物ETFの純流入、昨年10月以来最大規模に",
-      "link": "https://coinpost.jp/?p=732638",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-24T00:34:26+00:00",
-      "detected_at_utc": "2026-08-24T00:45:31.152738+00:00",
-      "baseline": {
-        "t": "2026-08-24T00:45:31.152738+00:00",
-        "price": 77239.09,
-        "funding_rate_pct": null,
-        "fear_greed_value": 73,
-        "volume_1h": 42316377.82
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-24T02:13:25.615442+00:00",
-          "price": 77270.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 71185940.69,
-          "delta_price_pct": 0.04
-        },
-        "1h": {
-          "t": "2026-08-24T02:13:25.615442+00:00",
-          "price": 77270.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 71185940.69,
-          "delta_price_pct": 0.04
-        },
-        "2h": {
-          "t": "2026-08-24T03:27:05.888201+00:00",
-          "price": 77163.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 76413534.43,
-          "delta_price_pct": -0.1
-        },
-        "4h": {
-          "t": "2026-08-24T05:19:19.571778+00:00",
-          "price": 77109.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 85503224.43,
-          "delta_price_pct": -0.17
-        }
-      },
-      "flags": [
-        "出来高急増（+68%）",
-        "出来高急増（+81%）",
-        "出来高急増（+102%）"
-      ],
-      "relevance": "high",
-      "summary": "「ビットコイン・イーサリアム現物ETFの純流入、昨年10月以来最大規模に」の報道後、BTCは4時間で-0.2%。Fear & Greedも73から73へ横ばい。出来高急増（+68%）、出来高急増（+81%）、出来高急増（+102%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-07T19:44:57.188399+00:00"
+  "updated_at_utc": "2026-09-07T22:18:03.180019+00:00"
 }
