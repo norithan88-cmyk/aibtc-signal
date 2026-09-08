@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-09-08T05:11:45.343443+00:00",
+  "generated_at_utc": "2026-09-08T09:47:34.247021+00:00",
   "pair": "BTC/USDT",
-  "latest_price": 78682.0,
-  "day_change_pct": -1.23,
+  "latest_price": 78734.25,
+  "day_change_pct": -0.79,
   "signal": {
     "bias": "WAIT",
     "bias_label": "方向感なし",
     "stars": 2,
     "confidence": 50,
     "confidence_breakdown": {
-      "timeframes_note": "5分足:下方向 / 15分足:中央 / 1時間足:中央 → 3時間足の方向が一致していません",
+      "timeframes_note": "5分足:上方向 / 15分足:中央 / 1時間足:中央 → 3時間足の方向が一致していません",
       "calc_note": "3時間足の方向が揃っていないため、基本値50%のままです。"
     }
   },
@@ -27,43 +27,55 @@
     {
       "key": "m5",
       "label": "5分足",
-      "position_sigma": -1.32,
-      "trend": "DOWN",
-      "momentum": "DOWN",
-      "mid": 78912.95,
-      "upper": 79259.37,
-      "lower": 78566.54
+      "position_sigma": 2.99,
+      "trend": "UP",
+      "momentum": "UP",
+      "mid": 78255.39,
+      "upper": 78575.78,
+      "lower": 77935.01
     },
     {
       "key": "m15",
       "label": "15分足",
-      "position_sigma": -1.12,
+      "position_sigma": 0.63,
       "trend": "DOWN",
       "momentum": "FLAT",
-      "mid": 78906.42,
-      "upper": 79270.95,
-      "lower": 78541.89
+      "mid": 78602.56,
+      "upper": 79018.4,
+      "lower": 78186.72
     },
     {
       "key": "h1",
       "label": "1時間足",
-      "position_sigma": -1.19,
+      "position_sigma": -0.89,
       "trend": "DOWN",
       "momentum": "FLAT",
-      "mid": 79200.84,
-      "upper": 80031.94,
-      "lower": 78369.74
+      "mid": 79102.35,
+      "upper": 79933.55,
+      "lower": 78271.14
     }
   ],
   "macro": {
     "fear_greed_value": 69,
     "fear_greed_label": "Greed",
     "funding_rate_pct": null,
-    "btc_dominance_pct": 59.01
+    "btc_dominance_pct": 58.88
   },
   "commentary": "方向感のない日は、休むも相場。無理に取りにいかない。",
-  "market_context": "BTC/USDTは現在$78,682付近で推移（直近1時間比-1.23%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Greed」（69/100）、BTCドミナンスは59.0%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
+  "market_context": "BTC/USDTは現在$78,734付近で推移（直近1時間比-0.79%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Greed」（69/100）、BTCドミナンスは58.9%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
   "news": [
+    {
+      "source": "CoinPost",
+      "title": "ビットコイン需給構造改善も現物需要が課題＝レポート",
+      "link": "https://coinpost.jp/?p=736325",
+      "published_at_utc": "2026-09-08T08:39:24+00:00"
+    },
+    {
+      "source": "CoinPost",
+      "title": "ビットコイン8月25％高、上位銘柄8割上昇＝CryptoRank",
+      "link": "https://coinpost.jp/?p=736308",
+      "published_at_utc": "2026-09-08T07:51:30+00:00"
+    },
     {
       "source": "CoinPost",
       "title": "リキッドのビットコイン流出事件、自称ホワイトハットが3400BTC返還",
@@ -75,74 +87,62 @@
       "title": "キャピタルB、46億円相当ビットコインを追加取得　1年ぶりの大型購入に",
       "link": "https://coinpost.jp/?p=736068",
       "published_at_utc": "2026-09-07T20:00:49+00:00"
-    },
-    {
-      "source": "CoinPost",
-      "title": "ビットコイン現物ETFに先週約1539億円純流入、3週連続",
-      "link": "https://coinpost.jp/?p=735999",
-      "published_at_utc": "2026-09-07T07:32:12+00:00"
-    },
-    {
-      "source": "CoinPost",
-      "title": "イラン紛争でビットコインが中東の「リスク回避手段」に浮上＝BPI分析",
-      "link": "https://coinpost.jp/?p=735943",
-      "published_at_utc": "2026-09-07T05:27:43+00:00"
     }
   ],
   "disclaimer": "本データはルールベースの参考情報であり、投資成果を保証するものではありません。",
   "daily_analysis": {
-    "generated_at_utc": "2026-09-08T05:11:45.343443+00:00",
+    "generated_at_utc": "2026-09-08T09:47:34.247021+00:00",
     "title": "今日のBTC/USDT分析",
     "conclusion": "方向一致が出るまで見送り。休むも相場を優先。",
-    "market_context": "BTC/USDTは現在$78,682付近で推移（直近1時間比-1.23%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Greed」（69/100）、BTCドミナンスは59.0%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
-    "support": 78369.74,
-    "resistance": 80031.94,
+    "market_context": "BTC/USDTは現在$78,734付近で推移（直近1時間比-0.79%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Greed」（69/100）、BTCドミナンスは58.9%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
+    "support": 78271.14,
+    "resistance": 79933.55,
     "timeframes": [
       {
         "key": "m5",
         "label": "5分足",
-        "position_sigma": -1.32,
-        "trend": "DOWN",
-        "momentum": "DOWN",
-        "mid": 78912.95,
-        "upper": 79259.37,
-        "lower": 78566.54
+        "position_sigma": 2.99,
+        "trend": "UP",
+        "momentum": "UP",
+        "mid": 78255.39,
+        "upper": 78575.78,
+        "lower": 77935.01
       },
       {
         "key": "m15",
         "label": "15分足",
-        "position_sigma": -1.12,
+        "position_sigma": 0.63,
         "trend": "DOWN",
         "momentum": "FLAT",
-        "mid": 78906.42,
-        "upper": 79270.95,
-        "lower": 78541.89
+        "mid": 78602.56,
+        "upper": 79018.4,
+        "lower": 78186.72
       },
       {
         "key": "h1",
         "label": "1時間足",
-        "position_sigma": -1.19,
+        "position_sigma": -0.89,
         "trend": "DOWN",
         "momentum": "FLAT",
-        "mid": 79200.84,
-        "upper": 80031.94,
-        "lower": 78369.74
+        "mid": 79102.35,
+        "upper": 79933.55,
+        "lower": 78271.14
       }
     ],
     "scenarios": [
       {
         "name": "上昇",
-        "condition": "$80,032を明確に上抜けて定着",
+        "condition": "$79,934を明確に上抜けて定着",
         "action": "押し目を待って買いを検討。高値への飛び乗りは避ける。"
       },
       {
         "name": "レンジ",
-        "condition": "$78,370〜$80,032で往来",
+        "condition": "$78,271〜$79,934で往来",
         "action": "中央では見送り、上下限で反発確認後のみ検討。"
       },
       {
         "name": "下落",
-        "condition": "$78,370を明確に下抜け",
+        "condition": "$78,271を明確に下抜け",
         "action": "戻りを待って売りを検討。急落後の安値追いは避ける。"
       }
     ],
@@ -151,7 +151,7 @@
       "label": "Greed"
     },
     "funding_rate_pct": null,
-    "btc_dominance_pct": 59.01,
+    "btc_dominance_pct": 58.88,
     "priority_trade": {
       "lead": "様子見 ― 5分・15分・1時間足の方向が一致していない",
       "entry": null,
