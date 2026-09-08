@@ -13,10 +13,37 @@
         "fear_greed_value": 71,
         "volume_1h": 17655366.06
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-08T00:32:37.129534+00:00",
+          "price": 79065.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 31207529.15,
+          "delta_price_pct": -0.02
+        },
+        "1h": {
+          "t": "2026-09-08T00:32:37.129534+00:00",
+          "price": 79065.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 31207529.15,
+          "delta_price_pct": -0.02
+        },
+        "2h": {
+          "t": "2026-09-08T00:32:37.129534+00:00",
+          "price": 79065.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 31207529.15,
+          "delta_price_pct": -0.02
+        }
+      },
+      "flags": [
+        "出来高急増（+77%）"
+      ],
+      "relevance": "medium",
+      "summary": "「リキッドのビットコイン流出事件、自称ホワイトハットが3400BTC返還」の報道後、BTCは2時間で-0.0%。Fear & Greedも71から69へ悪化。出来高急増（+77%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -32,10 +59,37 @@
         "fear_greed_value": 71,
         "volume_1h": 17655366.06
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-08T00:32:37.129534+00:00",
+          "price": 79065.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 31207529.15,
+          "delta_price_pct": -0.02
+        },
+        "1h": {
+          "t": "2026-09-08T00:32:37.129534+00:00",
+          "price": 79065.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 31207529.15,
+          "delta_price_pct": -0.02
+        },
+        "2h": {
+          "t": "2026-09-08T00:32:37.129534+00:00",
+          "price": 79065.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 31207529.15,
+          "delta_price_pct": -0.02
+        }
+      },
+      "flags": [
+        "出来高急増（+77%）"
+      ],
+      "relevance": "medium",
+      "summary": "「キャピタルB、46億円相当ビットコインを追加取得　1年ぶりの大型購入に」の報道後、BTCは2時間で-0.0%。Fear & Greedも71から69へ悪化。出来高急増（+77%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3131,5 +3185,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-07T22:18:03.180019+00:00"
+  "updated_at_utc": "2026-09-08T00:32:37.129534+00:00"
 }
