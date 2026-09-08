@@ -37,12 +37,20 @@
           "fear_greed_value": 69,
           "volume_1h": 25313800.14,
           "delta_price_pct": -0.08
+        },
+        "4h": {
+          "t": "2026-09-08T23:01:27.473464+00:00",
+          "price": 78567.26,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 24595906.17,
+          "delta_price_pct": -0.06
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ストラテジー、先週ビットコイン追加購入なし」の報道後、BTCは2時間で-0.1%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ストラテジー、先週ビットコイン追加購入なし」の報道後、BTCは4時間で-0.1%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン需給構造改善も現物需要が課題＝レポート",
@@ -3188,5 +3196,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-08T20:47:39.241757+00:00"
+  "updated_at_utc": "2026-09-08T23:01:27.473464+00:00"
 }
