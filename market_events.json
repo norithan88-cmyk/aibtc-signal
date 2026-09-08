@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ストラテジー、先週ビットコイン追加購入なし",
+      "link": "https://coinpost.jp/?p=736370",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-08T13:00:25+00:00",
+      "detected_at_utc": "2026-09-08T17:52:34.046332+00:00",
+      "baseline": {
+        "t": "2026-09-08T17:52:34.046332+00:00",
+        "price": 78611.99,
+        "funding_rate_pct": null,
+        "fear_greed_value": 69,
+        "volume_1h": 27421321.6
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン需給構造改善も現物需要が課題＝レポート",
       "link": "https://coinpost.jp/?p=736325",
       "source": "CoinPost",
@@ -3142,61 +3161,7 @@
       "relevance": "medium",
       "summary": "「ヘイズ氏、米財務省の国債買戻し拡大でビットコイン強気相場へと分析」の報道後、BTCは4時間で+1.3%。Fear & Greedも74から74へ横ばい。出来高急増（+153%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "コンヴァノ、ビットコイン売却資金81億円で社債償還・自社株買いへ",
-      "link": "https://coinpost.jp/?p=732912",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-25T00:43:31+00:00",
-      "detected_at_utc": "2026-08-25T01:36:49.788731+00:00",
-      "baseline": {
-        "t": "2026-08-25T01:36:49.788731+00:00",
-        "price": 79714.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 74,
-        "volume_1h": 97812098.68
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-25T02:44:32.233428+00:00",
-          "price": 80856.75,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 247349652.45,
-          "delta_price_pct": 1.43
-        },
-        "1h": {
-          "t": "2026-08-25T02:44:32.233428+00:00",
-          "price": 80856.75,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 247349652.45,
-          "delta_price_pct": 1.43
-        },
-        "2h": {
-          "t": "2026-08-25T04:22:50.570845+00:00",
-          "price": 80380.23,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 86873908.64,
-          "delta_price_pct": 0.84
-        },
-        "4h": {
-          "t": "2026-08-25T05:46:32.778776+00:00",
-          "price": 80735.64,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 59942328.29,
-          "delta_price_pct": 1.28
-        }
-      },
-      "flags": [
-        "出来高急増（+153%）"
-      ],
-      "relevance": "medium",
-      "summary": "「コンヴァノ、ビットコイン売却資金81億円で社債償還・自社株買いへ」の報道後、BTCは4時間で+1.3%。Fear & Greedも74から74へ横ばい。出来高急増（+153%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-08T13:56:09.103958+00:00"
+  "updated_at_utc": "2026-09-08T17:52:34.046332+00:00"
 }
