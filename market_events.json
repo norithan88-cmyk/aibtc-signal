@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ストラテジー、ビットコイン柄ジョーダン即完売　決済は仮想通貨非対応",
+      "link": "https://coinpost.jp/?p=736534",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-09T08:00:27+00:00",
+      "detected_at_utc": "2026-09-09T11:17:56.341190+00:00",
+      "baseline": {
+        "t": "2026-09-09T11:17:56.341190+00:00",
+        "price": 78824.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 66,
+        "volume_1h": 39041264.92
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン、7.9万ドル圏で横ばい　強弱材料で拮抗＝グラスノード",
       "link": "https://coinpost.jp/?p=736450",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 66,
         "volume_1h": 43081407.05
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-09T11:17:56.341190+00:00",
+          "price": 78824.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 39041264.92,
+          "delta_price_pct": -0.05
+        },
+        "1h": {
+          "t": "2026-09-09T11:17:56.341190+00:00",
+          "price": 78824.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 39041264.92,
+          "delta_price_pct": -0.05
+        },
+        "2h": {
+          "t": "2026-09-09T11:17:56.341190+00:00",
+          "price": 78824.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 39041264.92,
+          "delta_price_pct": -0.05
+        },
+        "4h": {
+          "t": "2026-09-09T11:17:56.341190+00:00",
+          "price": 78824.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 39041264.92,
+          "delta_price_pct": -0.05
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン、7.9万ドル圏で横ばい　強弱材料で拮抗＝グラスノード」の報道後、BTCは4時間で-0.1%。Fear & Greedも66から66へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "リキッド公式説明、検証機能の脆弱性で4000ビットコイン流出",
@@ -3107,59 +3159,7 @@
       "relevance": "low",
       "summary": "「米国債買い戻しでドル安警戒、ビットコインETF「IBIT」急伸」の報道後、BTCは4時間で+0.1%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン8万ドル突破後も底堅く推移　現物買い優勢で上昇基調を維持｜仮想NISHI",
-      "link": "https://coinpost.jp/?p=733210",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-26T00:20:17+00:00",
-      "detected_at_utc": "2026-08-26T01:55:06.458980+00:00",
-      "baseline": {
-        "t": "2026-08-26T01:55:06.458980+00:00",
-        "price": 78795.28,
-        "funding_rate_pct": null,
-        "fear_greed_value": 65,
-        "volume_1h": 43909395.48
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-26T03:12:52.697244+00:00",
-          "price": 79080.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 40635201.78,
-          "delta_price_pct": 0.36
-        },
-        "1h": {
-          "t": "2026-08-26T03:12:52.697244+00:00",
-          "price": 79080.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 40635201.78,
-          "delta_price_pct": 0.36
-        },
-        "2h": {
-          "t": "2026-08-26T04:06:59.232729+00:00",
-          "price": 79074.13,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 38107871.04,
-          "delta_price_pct": 0.35
-        },
-        "4h": {
-          "t": "2026-08-26T06:20:01.190669+00:00",
-          "price": 78874.01,
-          "funding_rate_pct": 0.0077,
-          "fear_greed_value": 65,
-          "volume_1h": 33131911.09,
-          "delta_price_pct": 0.1
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン8万ドル突破後も底堅く推移　現物買い優勢で上昇基調を維持｜仮想NISHI」の報道後、BTCは4時間で+0.1%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-09T06:04:30.759085+00:00"
+  "updated_at_utc": "2026-09-09T11:17:56.341190+00:00"
 }
