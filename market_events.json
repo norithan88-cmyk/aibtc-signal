@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン、7.9万ドル圏で横ばい　強弱材料で拮抗＝グラスノード",
+      "link": "https://coinpost.jp/?p=736450",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-09T01:40:33+00:00",
+      "detected_at_utc": "2026-09-09T06:04:30.759085+00:00",
+      "baseline": {
+        "t": "2026-09-09T06:04:30.759085+00:00",
+        "price": 78866.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 66,
+        "volume_1h": 43081407.05
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "リキッド公式説明、検証機能の脆弱性で4000ビットコイン流出",
       "link": "https://coinpost.jp/?p=736424",
       "source": "CoinPost",
@@ -13,11 +32,46 @@
         "fear_greed_value": 66,
         "volume_1h": 18055324.43
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-09T06:04:30.759085+00:00",
+          "price": 78866.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 43081407.05,
+          "delta_price_pct": 0.01
+        },
+        "1h": {
+          "t": "2026-09-09T06:04:30.759085+00:00",
+          "price": 78866.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 43081407.05,
+          "delta_price_pct": 0.01
+        },
+        "2h": {
+          "t": "2026-09-09T06:04:30.759085+00:00",
+          "price": 78866.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 43081407.05,
+          "delta_price_pct": 0.01
+        },
+        "4h": {
+          "t": "2026-09-09T06:04:30.759085+00:00",
+          "price": 78866.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 43081407.05,
+          "delta_price_pct": 0.01
+        }
+      },
+      "flags": [
+        "出来高急増（+139%）"
+      ],
+      "relevance": "medium",
+      "summary": "「リキッド公式説明、検証機能の脆弱性で4000ビットコイン流出」の報道後、BTCは4時間で+0.0%。Fear & Greedも66から66へ横ばい。出来高急増（+139%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米カースル、ストラテジー優先株配当をビットコインに自動転換する機能を提供",
@@ -32,11 +86,46 @@
         "fear_greed_value": 66,
         "volume_1h": 18055324.43
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-09T06:04:30.759085+00:00",
+          "price": 78866.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 43081407.05,
+          "delta_price_pct": 0.01
+        },
+        "1h": {
+          "t": "2026-09-09T06:04:30.759085+00:00",
+          "price": 78866.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 43081407.05,
+          "delta_price_pct": 0.01
+        },
+        "2h": {
+          "t": "2026-09-09T06:04:30.759085+00:00",
+          "price": 78866.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 43081407.05,
+          "delta_price_pct": 0.01
+        },
+        "4h": {
+          "t": "2026-09-09T06:04:30.759085+00:00",
+          "price": 78866.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 43081407.05,
+          "delta_price_pct": 0.01
+        }
+      },
+      "flags": [
+        "出来高急増（+139%）"
+      ],
+      "relevance": "medium",
+      "summary": "「米カースル、ストラテジー優先株配当をビットコインに自動転換する機能を提供」の報道後、BTCは4時間で+0.0%。Fear & Greedも66から66へ横ばい。出来高急増（+139%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストライブ、1375BTCを追加購入し保有2.4万ビットコインに拡大",
@@ -51,11 +140,46 @@
         "fear_greed_value": 66,
         "volume_1h": 18055324.43
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-09T06:04:30.759085+00:00",
+          "price": 78866.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 43081407.05,
+          "delta_price_pct": 0.01
+        },
+        "1h": {
+          "t": "2026-09-09T06:04:30.759085+00:00",
+          "price": 78866.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 43081407.05,
+          "delta_price_pct": 0.01
+        },
+        "2h": {
+          "t": "2026-09-09T06:04:30.759085+00:00",
+          "price": 78866.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 43081407.05,
+          "delta_price_pct": 0.01
+        },
+        "4h": {
+          "t": "2026-09-09T06:04:30.759085+00:00",
+          "price": 78866.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 66,
+          "volume_1h": 43081407.05,
+          "delta_price_pct": 0.01
+        }
+      },
+      "flags": [
+        "出来高急増（+139%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ストライブ、1375BTCを追加購入し保有2.4万ビットコインに拡大」の報道後、BTCは4時間で+0.0%。Fear & Greedも66から66へ横ばい。出来高急増（+139%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストラテジー、先週ビットコイン追加購入なし",
@@ -3035,61 +3159,7 @@
       "relevance": "low",
       "summary": "「ビットコイン8万ドル突破後も底堅く推移　現物買い優勢で上昇基調を維持｜仮想NISHI」の報道後、BTCは4時間で+0.1%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ストラテジー、ビットコイン下落より資金調達力にリスク＝レポート分析",
-      "link": "https://coinpost.jp/?p=733212",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-25T23:15:22+00:00",
-      "detected_at_utc": "2026-08-25T23:41:01.157626+00:00",
-      "baseline": {
-        "t": "2026-08-25T23:41:01.157626+00:00",
-        "price": 78638.43,
-        "funding_rate_pct": null,
-        "fear_greed_value": 74,
-        "volume_1h": 43207123.06
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-26T01:55:06.458980+00:00",
-          "price": 78795.28,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43909395.48,
-          "delta_price_pct": 0.2
-        },
-        "1h": {
-          "t": "2026-08-26T01:55:06.458980+00:00",
-          "price": 78795.28,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43909395.48,
-          "delta_price_pct": 0.2
-        },
-        "2h": {
-          "t": "2026-08-26T01:55:06.458980+00:00",
-          "price": 78795.28,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43909395.48,
-          "delta_price_pct": 0.2
-        },
-        "4h": {
-          "t": "2026-08-26T04:06:59.232729+00:00",
-          "price": 79074.13,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 38107871.04,
-          "delta_price_pct": 0.55
-        }
-      },
-      "flags": [
-        "市場心理の悪化（Fear & Greed急低下）"
-      ],
-      "relevance": "medium",
-      "summary": "「ストラテジー、ビットコイン下落より資金調達力にリスク＝レポート分析」の報道後、BTCは4時間で+0.6%。Fear & Greedも74から65へ悪化。市場心理の悪化（Fear & Greed急低下）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-09T01:12:45.579657+00:00"
+  "updated_at_utc": "2026-09-09T06:04:30.759085+00:00"
 }
