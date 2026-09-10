@@ -13,10 +13,35 @@
         "fear_greed_value": 69,
         "volume_1h": 63681882.14
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-10T15:03:18.307304+00:00",
+          "price": 77254.25,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 77711830.34,
+          "delta_price_pct": -0.95
+        },
+        "1h": {
+          "t": "2026-09-10T15:03:18.307304+00:00",
+          "price": 77254.25,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 77711830.34,
+          "delta_price_pct": -0.95
+        },
+        "2h": {
+          "t": "2026-09-10T15:03:18.307304+00:00",
+          "price": 77254.25,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 77711830.34,
+          "delta_price_pct": -0.95
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ビットコイン反発、現物より先物優勢　準備高は改善傾向＝アナリスト」の報道後、BTCは2時間で-0.9%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3165,5 +3190,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-10T11:17:28.823314+00:00"
+  "updated_at_utc": "2026-09-10T15:03:18.307304+00:00"
 }
