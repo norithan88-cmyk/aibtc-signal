@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン反発、現物より先物優勢　準備高は改善傾向＝アナリスト",
+      "link": "https://coinpost.jp/?p=736765",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-10T08:29:26+00:00",
+      "detected_at_utc": "2026-09-10T11:17:28.823314+00:00",
+      "baseline": {
+        "t": "2026-09-10T11:17:28.823314+00:00",
+        "price": 77997.57,
+        "funding_rate_pct": null,
+        "fear_greed_value": 69,
+        "volume_1h": 63681882.14
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン、8.3万〜8.6万ドル手前で足踏み＝Glassnode分析",
       "link": "https://coinpost.jp/?p=736687",
       "source": "CoinPost",
@@ -13,11 +32,46 @@
         "fear_greed_value": 69,
         "volume_1h": 42027275.05
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-10T11:17:28.823314+00:00",
+          "price": 77997.57,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 63681882.14,
+          "delta_price_pct": -0.54
+        },
+        "1h": {
+          "t": "2026-09-10T11:17:28.823314+00:00",
+          "price": 77997.57,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 63681882.14,
+          "delta_price_pct": -0.54
+        },
+        "2h": {
+          "t": "2026-09-10T11:17:28.823314+00:00",
+          "price": 77997.57,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 63681882.14,
+          "delta_price_pct": -0.54
+        },
+        "4h": {
+          "t": "2026-09-10T11:17:28.823314+00:00",
+          "price": 77997.57,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 63681882.14,
+          "delta_price_pct": -0.54
+        }
+      },
+      "flags": [
+        "出来高急増（+52%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン、8.3万〜8.6万ドル手前で足踏み＝Glassnode分析」の報道後、BTCは4時間で-0.5%。Fear & Greedも69から69へ横ばい。出来高急増（+52%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米老舗レストラン、加盟店売上19％増　ビットコイン決済効果",
@@ -32,11 +86,46 @@
         "fear_greed_value": 69,
         "volume_1h": 42027275.05
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-10T11:17:28.823314+00:00",
+          "price": 77997.57,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 63681882.14,
+          "delta_price_pct": -0.54
+        },
+        "1h": {
+          "t": "2026-09-10T11:17:28.823314+00:00",
+          "price": 77997.57,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 63681882.14,
+          "delta_price_pct": -0.54
+        },
+        "2h": {
+          "t": "2026-09-10T11:17:28.823314+00:00",
+          "price": 77997.57,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 63681882.14,
+          "delta_price_pct": -0.54
+        },
+        "4h": {
+          "t": "2026-09-10T11:17:28.823314+00:00",
+          "price": 77997.57,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 63681882.14,
+          "delta_price_pct": -0.54
+        }
+      },
+      "flags": [
+        "出来高急増（+52%）"
+      ],
+      "relevance": "medium",
+      "summary": "「米老舗レストラン、加盟店売上19％増　ビットコイン決済効果」の報道後、BTCは4時間で-0.5%。Fear & Greedも69から69へ横ばい。出来高急増（+52%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストラテジー、ビットコイン柄ジョーダン即完売　決済は仮想通貨非対応",
@@ -3074,61 +3163,7 @@
       "relevance": "medium",
       "summary": "「ビットコイン、新たな強気相場入りか　初期には波乱も予想＝クリプトクアント」の報道後、BTCは4時間で+1.2%。Fear & Greedも71から71へ横ばい。出来高急増（+173%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコインと現物ETFの交換が増加傾向に、ブラックロックの最低額引き下げなどが背景＝ブルームバーグ",
-      "link": "https://coinpost.jp/?p=733534",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-26T23:20:05+00:00",
-      "detected_at_utc": "2026-08-27T03:24:48.165930+00:00",
-      "baseline": {
-        "t": "2026-08-27T03:24:48.165930+00:00",
-        "price": 78960.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 41361845.36
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-27T14:31:54.660487+00:00",
-          "price": 79949.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 113083135.33,
-          "delta_price_pct": 1.25
-        },
-        "1h": {
-          "t": "2026-08-27T14:31:54.660487+00:00",
-          "price": 79949.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 113083135.33,
-          "delta_price_pct": 1.25
-        },
-        "2h": {
-          "t": "2026-08-27T14:31:54.660487+00:00",
-          "price": 79949.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 113083135.33,
-          "delta_price_pct": 1.25
-        },
-        "4h": {
-          "t": "2026-08-27T14:31:54.660487+00:00",
-          "price": 79949.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 113083135.33,
-          "delta_price_pct": 1.25
-        }
-      },
-      "flags": [
-        "出来高急増（+173%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコインと現物ETFの交換が増加傾向に、ブラックロックの最低額引き下げなどが背景＝ブルームバーグ」の報道後、BTCは4時間で+1.2%。Fear & Greedも71から71へ横ばい。出来高急増（+173%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-10T06:06:03.260405+00:00"
+  "updated_at_utc": "2026-09-10T11:17:28.823314+00:00"
 }
