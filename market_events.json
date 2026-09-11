@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "メタプラネットが香港子会社設立へ、ビットコイン資産運用体制を強化",
+      "link": "https://coinpost.jp/?p=737046",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-11T20:00:02+00:00",
+      "detected_at_utc": "2026-09-11T21:13:28.833369+00:00",
+      "baseline": {
+        "t": "2026-09-11T21:13:28.833369+00:00",
+        "price": 77346.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 56,
+        "volume_1h": 20263555.92
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン市場が弱含み、変わらねば調整局面も＝アナリスト",
       "link": "https://coinpost.jp/?p=737016",
       "source": "CoinPost",
@@ -3146,59 +3165,7 @@
       "relevance": "low",
       "summary": "「ビットコイン実現損益比率、7月末以来のプラス圏＝アナリスト」の報道後、BTCは4時間で+0.4%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン相場、中立圏に回復　買い集め広がる＝グラスノード",
-      "link": "https://coinpost.jp/?p=733612",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-27T03:55:39+00:00",
-      "detected_at_utc": "2026-08-27T14:31:54.660487+00:00",
-      "baseline": {
-        "t": "2026-08-27T14:31:54.660487+00:00",
-        "price": 79949.99,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 113083135.33
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-27T23:57:23.506303+00:00",
-          "price": 80250.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 24160023.86,
-          "delta_price_pct": 0.38
-        },
-        "1h": {
-          "t": "2026-08-27T23:57:23.506303+00:00",
-          "price": 80250.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 24160023.86,
-          "delta_price_pct": 0.38
-        },
-        "2h": {
-          "t": "2026-08-27T23:57:23.506303+00:00",
-          "price": 80250.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 24160023.86,
-          "delta_price_pct": 0.38
-        },
-        "4h": {
-          "t": "2026-08-27T23:57:23.506303+00:00",
-          "price": 80250.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 24160023.86,
-          "delta_price_pct": 0.38
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン相場、中立圏に回復　買い集め広がる＝グラスノード」の報道後、BTCは4時間で+0.4%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-11T18:28:09.220327+00:00"
+  "updated_at_utc": "2026-09-11T21:13:28.833369+00:00"
 }
