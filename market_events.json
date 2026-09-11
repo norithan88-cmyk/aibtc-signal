@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "米8月CPI、コア指数が予想上振れ｜ビットコインは急伸後反落",
+      "link": "https://coinpost.jp/?p=737057",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-11T21:50:41+00:00",
+      "detected_at_utc": "2026-09-11T23:20:58.284003+00:00",
+      "baseline": {
+        "t": "2026-09-11T23:20:58.284003+00:00",
+        "price": 77150.02,
+        "funding_rate_pct": null,
+        "fear_greed_value": 56,
+        "volume_1h": 90752628.48
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "メタプラネットが香港子会社設立へ、ビットコイン資産運用体制を強化",
       "link": "https://coinpost.jp/?p=737046",
       "source": "CoinPost",
@@ -13,10 +32,37 @@
         "fear_greed_value": 56,
         "volume_1h": 20263555.92
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-11T23:20:58.284003+00:00",
+          "price": 77150.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 90752628.48,
+          "delta_price_pct": -0.25
+        },
+        "1h": {
+          "t": "2026-09-11T23:20:58.284003+00:00",
+          "price": 77150.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 90752628.48,
+          "delta_price_pct": -0.25
+        },
+        "2h": {
+          "t": "2026-09-11T23:20:58.284003+00:00",
+          "price": 77150.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 90752628.48,
+          "delta_price_pct": -0.25
+        }
+      },
+      "flags": [
+        "出来高急増（+348%）"
+      ],
+      "relevance": "medium",
+      "summary": "「メタプラネットが香港子会社設立へ、ビットコイン資産運用体制を強化」の報道後、BTCは2時間で-0.2%。Fear & Greedも56から56へ横ばい。出来高急増（+348%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3113,59 +3159,7 @@
       "relevance": "low",
       "summary": "「CZ氏、次の強気相場でビットコイン時価総額が金上回ると見解」の報道後、BTCは4時間で-0.7%。Fear & Greedも71から73へ改善。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン実現損益比率、7月末以来のプラス圏＝アナリスト",
-      "link": "https://coinpost.jp/?p=733792",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-27T08:42:37+00:00",
-      "detected_at_utc": "2026-08-27T14:31:54.660487+00:00",
-      "baseline": {
-        "t": "2026-08-27T14:31:54.660487+00:00",
-        "price": 79949.99,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 113083135.33
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-27T23:57:23.506303+00:00",
-          "price": 80250.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 24160023.86,
-          "delta_price_pct": 0.38
-        },
-        "1h": {
-          "t": "2026-08-27T23:57:23.506303+00:00",
-          "price": 80250.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 24160023.86,
-          "delta_price_pct": 0.38
-        },
-        "2h": {
-          "t": "2026-08-27T23:57:23.506303+00:00",
-          "price": 80250.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 24160023.86,
-          "delta_price_pct": 0.38
-        },
-        "4h": {
-          "t": "2026-08-27T23:57:23.506303+00:00",
-          "price": 80250.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 24160023.86,
-          "delta_price_pct": 0.38
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン実現損益比率、7月末以来のプラス圏＝アナリスト」の報道後、BTCは4時間で+0.4%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-11T21:13:28.833369+00:00"
+  "updated_at_utc": "2026-09-11T23:20:58.284003+00:00"
 }
