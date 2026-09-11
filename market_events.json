@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "100人超の研究者ら、ビットコインとイーサリアムの量子攻撃計算量見積もりを半減",
+      "link": "https://coinpost.jp/?p=736806",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-10T22:10:27+00:00",
+      "detected_at_utc": "2026-09-11T05:59:58.166876+00:00",
+      "baseline": {
+        "t": "2026-09-11T05:59:58.166876+00:00",
+        "price": 77252.87,
+        "funding_rate_pct": null,
+        "fear_greed_value": 56,
+        "volume_1h": 21946993.36
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "コインベースCEO「ビットコイン底打ち」、40万ドル目標を維持",
+      "link": "https://coinpost.jp/?p=736805",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-10T21:40:24+00:00",
+      "detected_at_utc": "2026-09-11T05:59:58.166876+00:00",
+      "baseline": {
+        "t": "2026-09-11T05:59:58.166876+00:00",
+        "price": 77252.87,
+        "funding_rate_pct": null,
+        "fear_greed_value": 56,
+        "volume_1h": 21946993.36
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン反発、現物より先物優勢　準備高は改善傾向＝アナリスト",
       "link": "https://coinpost.jp/?p=736765",
       "source": "CoinPost",
@@ -3088,115 +3126,7 @@
       "relevance": "medium",
       "summary": "「ブラックロック幹部、米財政懸念でビットコイン強気論」の報道後、BTCは4時間で+1.2%。Fear & Greedも71から71へ横ばい。出来高急増（+173%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "量子耐性ビットコイン取引、メインネットで初承認",
-      "link": "https://coinpost.jp/?p=733517",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-27T02:05:16+00:00",
-      "detected_at_utc": "2026-08-27T03:24:48.165930+00:00",
-      "baseline": {
-        "t": "2026-08-27T03:24:48.165930+00:00",
-        "price": 78960.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 41361845.36
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-27T14:31:54.660487+00:00",
-          "price": 79949.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 113083135.33,
-          "delta_price_pct": 1.25
-        },
-        "1h": {
-          "t": "2026-08-27T14:31:54.660487+00:00",
-          "price": 79949.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 113083135.33,
-          "delta_price_pct": 1.25
-        },
-        "2h": {
-          "t": "2026-08-27T14:31:54.660487+00:00",
-          "price": 79949.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 113083135.33,
-          "delta_price_pct": 1.25
-        },
-        "4h": {
-          "t": "2026-08-27T14:31:54.660487+00:00",
-          "price": 79949.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 113083135.33,
-          "delta_price_pct": 1.25
-        }
-      },
-      "flags": [
-        "出来高急増（+173%）"
-      ],
-      "relevance": "medium",
-      "summary": "「量子耐性ビットコイン取引、メインネットで初承認」の報道後、BTCは4時間で+1.2%。Fear & Greedも71から71へ横ばい。出来高急増（+173%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン、新たな強気相場入りか　初期には波乱も予想＝クリプトクアント",
-      "link": "https://coinpost.jp/?p=733545",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-27T00:25:42+00:00",
-      "detected_at_utc": "2026-08-27T03:24:48.165930+00:00",
-      "baseline": {
-        "t": "2026-08-27T03:24:48.165930+00:00",
-        "price": 78960.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 41361845.36
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-27T14:31:54.660487+00:00",
-          "price": 79949.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 113083135.33,
-          "delta_price_pct": 1.25
-        },
-        "1h": {
-          "t": "2026-08-27T14:31:54.660487+00:00",
-          "price": 79949.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 113083135.33,
-          "delta_price_pct": 1.25
-        },
-        "2h": {
-          "t": "2026-08-27T14:31:54.660487+00:00",
-          "price": 79949.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 113083135.33,
-          "delta_price_pct": 1.25
-        },
-        "4h": {
-          "t": "2026-08-27T14:31:54.660487+00:00",
-          "price": 79949.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 113083135.33,
-          "delta_price_pct": 1.25
-        }
-      },
-      "flags": [
-        "出来高急増（+173%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコイン、新たな強気相場入りか　初期には波乱も予想＝クリプトクアント」の報道後、BTCは4時間で+1.2%。Fear & Greedも71から71へ横ばい。出来高急増（+173%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-11T01:07:27.886139+00:00"
+  "updated_at_utc": "2026-09-11T05:59:58.166876+00:00"
 }
