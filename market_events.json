@@ -29,12 +29,28 @@
           "fear_greed_value": 63,
           "volume_1h": 10730741.54,
           "delta_price_pct": 0.26
+        },
+        "2h": {
+          "t": "2026-09-12T06:06:46.244607+00:00",
+          "price": 77215.13,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 72546383.54,
+          "delta_price_pct": 0.08
+        },
+        "4h": {
+          "t": "2026-09-12T06:06:46.244607+00:00",
+          "price": 77215.13,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 72546383.54,
+          "delta_price_pct": 0.08
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「米8月CPI、コア指数が予想上振れ｜ビットコインは急伸後反落」の報道後、BTCは1時間で+0.3%。Fear & Greedも56から63へ改善。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「米8月CPI、コア指数が予想上振れ｜ビットコインは急伸後反落」の報道後、BTCは4時間で+0.1%。Fear & Greedも56から63へ改善。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "メタプラネットが香港子会社設立へ、ビットコイン資産運用体制を強化",
@@ -3186,5 +3202,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-12T01:20:28.940835+00:00"
+  "updated_at_utc": "2026-09-12T06:06:46.244607+00:00"
 }
