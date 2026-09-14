@@ -13,10 +13,35 @@
         "fear_greed_value": 57,
         "volume_1h": 50575527.3
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-14T20:44:08.574086+00:00",
+          "price": 79370.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 49402623.35,
+          "delta_price_pct": 0.64
+        },
+        "1h": {
+          "t": "2026-09-14T20:44:08.574086+00:00",
+          "price": 79370.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 49402623.35,
+          "delta_price_pct": 0.64
+        },
+        "2h": {
+          "t": "2026-09-14T20:44:08.574086+00:00",
+          "price": 79370.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 49402623.35,
+          "delta_price_pct": 0.64
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ストラテジー、2週連続ビットコイン購入見送り｜優先株買い戻しを継続」の報道後、BTCは2時間で+0.6%。Fear & Greedも57から57へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3167,5 +3192,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-14T16:51:43.418379+00:00"
+  "updated_at_utc": "2026-09-14T20:44:08.574086+00:00"
 }
