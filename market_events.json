@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン現物ETF、3週ぶりに流出転換",
+      "link": "https://coinpost.jp/?p=737281",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-14T05:52:48+00:00",
+      "detected_at_utc": "2026-09-14T10:53:49.502569+00:00",
+      "baseline": {
+        "t": "2026-09-14T10:53:49.502569+00:00",
+        "price": 77952.44,
+        "funding_rate_pct": null,
+        "fear_greed_value": 57,
+        "volume_1h": 31278287.42
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "レボリュート、偽の政府要求でビットコイン履歴など顧客情報開示",
       "link": "https://coinpost.jp/?p=737159",
       "source": "CoinPost",
@@ -3146,61 +3165,7 @@
       "relevance": "medium",
       "summary": "「ビットコインのCore Lightningに脆弱性、AI生成のセキュリティ報告から発覚」の報道後、BTCは4時間で-2.8%。Fear & Greedも73から73へ横ばい。価格急変（-2.8%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン、9月の季節性下落を警戒＝アナリスト",
-      "link": "https://coinpost.jp/?p=733935",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-28T01:50:34+00:00",
-      "detected_at_utc": "2026-08-28T11:12:49.826941+00:00",
-      "baseline": {
-        "t": "2026-08-28T11:12:49.826941+00:00",
-        "price": 79660.36,
-        "funding_rate_pct": null,
-        "fear_greed_value": 73,
-        "volume_1h": 29636708.5
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-28T21:27:07.414994+00:00",
-          "price": 77432.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 18243943.01,
-          "delta_price_pct": -2.8
-        },
-        "1h": {
-          "t": "2026-08-28T21:27:07.414994+00:00",
-          "price": 77432.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 18243943.01,
-          "delta_price_pct": -2.8
-        },
-        "2h": {
-          "t": "2026-08-28T21:27:07.414994+00:00",
-          "price": 77432.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 18243943.01,
-          "delta_price_pct": -2.8
-        },
-        "4h": {
-          "t": "2026-08-28T21:27:07.414994+00:00",
-          "price": 77432.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 18243943.01,
-          "delta_price_pct": -2.8
-        }
-      },
-      "flags": [
-        "価格急変（-2.8%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコイン、9月の季節性下落を警戒＝アナリスト」の報道後、BTCは4時間で-2.8%。Fear & Greedも73から73へ横ばい。価格急変（-2.8%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-14T05:22:59.736890+00:00"
+  "updated_at_utc": "2026-09-14T10:53:49.502569+00:00"
 }
