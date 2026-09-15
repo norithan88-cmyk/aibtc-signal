@@ -13,11 +13,44 @@
         "fear_greed_value": 69,
         "volume_1h": 35260804.44
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-15T12:46:33.008807+00:00",
+          "price": 76910.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 32585173.82,
+          "delta_price_pct": -0.51
+        },
+        "1h": {
+          "t": "2026-09-15T12:46:33.008807+00:00",
+          "price": 76910.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 32585173.82,
+          "delta_price_pct": -0.51
+        },
+        "2h": {
+          "t": "2026-09-15T12:46:33.008807+00:00",
+          "price": 76910.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 32585173.82,
+          "delta_price_pct": -0.51
+        },
+        "4h": {
+          "t": "2026-09-15T12:46:33.008807+00:00",
+          "price": 76910.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 32585173.82,
+          "delta_price_pct": -0.51
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコインの量子耐性、主要提案の全体像を整理　複数提案が連動へ＝レポート」の報道後、BTCは4時間で-0.5%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "上場ビットコインマイナー3社が8月の採掘実績を報告、明暗分かれる",
@@ -3163,5 +3196,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-15T07:20:41.705028+00:00"
+  "updated_at_utc": "2026-09-15T12:46:33.008807+00:00"
 }
