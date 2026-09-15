@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "上場ビットコインマイナー3社が8月の採掘実績を報告、明暗分かれる",
+      "link": "https://coinpost.jp/?p=737404",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-15T00:40:01+00:00",
+      "detected_at_utc": "2026-09-15T01:52:59.485168+00:00",
+      "baseline": {
+        "t": "2026-09-15T01:52:59.485168+00:00",
+        "price": 77990.29,
+        "funding_rate_pct": null,
+        "fear_greed_value": 69,
+        "volume_1h": 39103648.07
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米KULR、保有ビットコインを全て売却　財務運営の一環で",
       "link": "https://coinpost.jp/?p=737395",
       "source": "CoinPost",
@@ -13,10 +32,37 @@
         "fear_greed_value": 57,
         "volume_1h": 31319330.15
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-15T01:52:59.485168+00:00",
+          "price": 77990.29,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 39103648.07,
+          "delta_price_pct": -0.39
+        },
+        "1h": {
+          "t": "2026-09-15T01:52:59.485168+00:00",
+          "price": 77990.29,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 39103648.07,
+          "delta_price_pct": -0.39
+        },
+        "2h": {
+          "t": "2026-09-15T01:52:59.485168+00:00",
+          "price": 77990.29,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 39103648.07,
+          "delta_price_pct": -0.39
+        }
+      },
+      "flags": [
+        "市場心理の好転（Fear & Greed急上昇）"
+      ],
+      "relevance": "medium",
+      "summary": "「米KULR、保有ビットコインを全て売却　財務運営の一環で」の報道後、BTCは2時間で-0.4%。Fear & Greedも57から69へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -32,10 +78,37 @@
         "fear_greed_value": 57,
         "volume_1h": 31319330.15
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-15T01:52:59.485168+00:00",
+          "price": 77990.29,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 39103648.07,
+          "delta_price_pct": -0.39
+        },
+        "1h": {
+          "t": "2026-09-15T01:52:59.485168+00:00",
+          "price": 77990.29,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 39103648.07,
+          "delta_price_pct": -0.39
+        },
+        "2h": {
+          "t": "2026-09-15T01:52:59.485168+00:00",
+          "price": 77990.29,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 39103648.07,
+          "delta_price_pct": -0.39
+        }
+      },
+      "flags": [
+        "市場心理の好転（Fear & Greed急上昇）"
+      ],
+      "relevance": "medium",
+      "summary": "「米上場ストライブが469ビットコイン追加購入、保有量2.5万BTCに」の報道後、BTCは2時間で-0.4%。Fear & Greedも57から69へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3074,61 +3147,7 @@
       "relevance": "medium",
       "summary": "「ストラテジーのビットコイン売却懸念後退　ビットフィネックス分析」の報道後、BTCは4時間で+0.4%。Fear & Greedも68から68へ横ばい。出来高急増（+145%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米FRBウォーシュ議長のタカ派発言を受け、ビットコイン・米国株反落",
-      "link": "https://coinpost.jp/?p=734142",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-28T21:15:42+00:00",
-      "detected_at_utc": "2026-08-28T21:27:07.414994+00:00",
-      "baseline": {
-        "t": "2026-08-28T21:27:07.414994+00:00",
-        "price": 77432.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 73,
-        "volume_1h": 18243943.01
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-29T03:18:50.941713+00:00",
-          "price": 77654.16,
-          "funding_rate_pct": null,
-          "fear_greed_value": 68,
-          "volume_1h": 29316265.63,
-          "delta_price_pct": 0.29
-        },
-        "1h": {
-          "t": "2026-08-29T03:18:50.941713+00:00",
-          "price": 77654.16,
-          "funding_rate_pct": null,
-          "fear_greed_value": 68,
-          "volume_1h": 29316265.63,
-          "delta_price_pct": 0.29
-        },
-        "2h": {
-          "t": "2026-08-29T03:18:50.941713+00:00",
-          "price": 77654.16,
-          "funding_rate_pct": null,
-          "fear_greed_value": 68,
-          "volume_1h": 29316265.63,
-          "delta_price_pct": 0.29
-        },
-        "4h": {
-          "t": "2026-08-29T03:18:50.941713+00:00",
-          "price": 77654.16,
-          "funding_rate_pct": null,
-          "fear_greed_value": 68,
-          "volume_1h": 29316265.63,
-          "delta_price_pct": 0.29
-        }
-      },
-      "flags": [
-        "出来高急増（+61%）"
-      ],
-      "relevance": "medium",
-      "summary": "「米FRBウォーシュ議長のタカ派発言を受け、ビットコイン・米国株反落」の報道後、BTCは4時間で+0.3%。Fear & Greedも73から68へ悪化。出来高急増（+61%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-14T23:32:02.796129+00:00"
+  "updated_at_utc": "2026-09-15T01:52:59.485168+00:00"
 }
