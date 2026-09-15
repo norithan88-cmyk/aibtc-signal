@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "英スタックBTC、ビットコイン購入資金確保に向けて貴金属会社買収提案",
+      "link": "https://coinpost.jp/?p=737617",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-15T22:35:09+00:00",
+      "detected_at_utc": "2026-09-15T23:00:08.651760+00:00",
+      "baseline": {
+        "t": "2026-09-15T23:00:08.651760+00:00",
+        "price": 75675.58,
+        "funding_rate_pct": null,
+        "fear_greed_value": 69,
+        "volume_1h": 49767467.86
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコインの量子耐性、主要提案の全体像を整理　複数提案が連動へ＝レポート",
       "link": "https://coinpost.jp/?p=737465",
       "source": "CoinPost",
@@ -3140,61 +3159,7 @@
       "relevance": "medium",
       "summary": "「キャピタルB、38億円調達しビットコイン追加取得へ」の報道後、BTCは4時間で+0.4%。Fear & Greedも68から68へ横ばい。出来高急増（+145%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ストライブ、優先株発行で1192BTC相当の資金を調達した可能性　ビットコイン蓄積続ける",
-      "link": "https://coinpost.jp/?p=734165",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-29T02:05:20+00:00",
-      "detected_at_utc": "2026-08-29T10:16:17.478116+00:00",
-      "baseline": {
-        "t": "2026-08-29T10:16:17.478116+00:00",
-        "price": 77658.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 68,
-        "volume_1h": 15112296.23
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-29T15:07:56.977805+00:00",
-          "price": 77940.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 68,
-          "volume_1h": 36965202.97,
-          "delta_price_pct": 0.36
-        },
-        "1h": {
-          "t": "2026-08-29T15:07:56.977805+00:00",
-          "price": 77940.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 68,
-          "volume_1h": 36965202.97,
-          "delta_price_pct": 0.36
-        },
-        "2h": {
-          "t": "2026-08-29T15:07:56.977805+00:00",
-          "price": 77940.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 68,
-          "volume_1h": 36965202.97,
-          "delta_price_pct": 0.36
-        },
-        "4h": {
-          "t": "2026-08-29T15:07:56.977805+00:00",
-          "price": 77940.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 68,
-          "volume_1h": 36965202.97,
-          "delta_price_pct": 0.36
-        }
-      },
-      "flags": [
-        "出来高急増（+145%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ストライブ、優先株発行で1192BTC相当の資金を調達した可能性　ビットコイン蓄積続ける」の報道後、BTCは4時間で+0.4%。Fear & Greedも68から68へ横ばい。出来高急増（+145%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-15T20:20:28.802365+00:00"
+  "updated_at_utc": "2026-09-15T23:00:08.651760+00:00"
 }
