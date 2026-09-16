@@ -13,11 +13,44 @@
         "fear_greed_value": 51,
         "volume_1h": 38052924.02
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-16T16:43:42.451264+00:00",
+          "price": 75682.95,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 36246343.57,
+          "delta_price_pct": -0.74
+        },
+        "1h": {
+          "t": "2026-09-16T16:43:42.451264+00:00",
+          "price": 75682.95,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 36246343.57,
+          "delta_price_pct": -0.74
+        },
+        "2h": {
+          "t": "2026-09-16T16:43:42.451264+00:00",
+          "price": 75682.95,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 36246343.57,
+          "delta_price_pct": -0.74
+        },
+        "4h": {
+          "t": "2026-09-16T16:43:42.451264+00:00",
+          "price": 75682.95,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 36246343.57,
+          "delta_price_pct": -0.74
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ドイツ銀行、ビットコイン・イーサリアムのカストディサービス開始へ」の報道後、BTCは4時間で-0.7%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "マイニング大手MARA、1292ビットコイン購入＝Lookonchain",
@@ -32,11 +65,44 @@
         "fear_greed_value": 51,
         "volume_1h": 38052924.02
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-16T16:43:42.451264+00:00",
+          "price": 75682.95,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 36246343.57,
+          "delta_price_pct": -0.74
+        },
+        "1h": {
+          "t": "2026-09-16T16:43:42.451264+00:00",
+          "price": 75682.95,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 36246343.57,
+          "delta_price_pct": -0.74
+        },
+        "2h": {
+          "t": "2026-09-16T16:43:42.451264+00:00",
+          "price": 75682.95,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 36246343.57,
+          "delta_price_pct": -0.74
+        },
+        "4h": {
+          "t": "2026-09-16T16:43:42.451264+00:00",
+          "price": 75682.95,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 36246343.57,
+          "delta_price_pct": -0.74
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「マイニング大手MARA、1292ビットコイン購入＝Lookonchain」の報道後、BTCは4時間で-0.7%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン急落、クラリティー審議入り否決を受け｜仮想NISHI",
@@ -3126,5 +3192,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-16T11:57:00.710643+00:00"
+  "updated_at_utc": "2026-09-16T16:43:42.451264+00:00"
 }
