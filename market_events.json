@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン急落、クラリティー審議入り否決を受け｜仮想NISHI",
+      "link": "https://coinpost.jp/?p=737633",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-15T23:00:09+00:00",
+      "detected_at_utc": "2026-09-16T01:21:39.898362+00:00",
+      "baseline": {
+        "t": "2026-09-16T01:21:39.898362+00:00",
+        "price": 75853.84,
+        "funding_rate_pct": null,
+        "fear_greed_value": 51,
+        "volume_1h": 24373024.14
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "英スタックBTC、ビットコイン購入資金確保に向けて貴金属会社買収提案",
       "link": "https://coinpost.jp/?p=737617",
       "source": "CoinPost",
@@ -13,10 +32,37 @@
         "fear_greed_value": 69,
         "volume_1h": 49767467.86
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-16T01:21:39.898362+00:00",
+          "price": 75853.84,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 24373024.14,
+          "delta_price_pct": 0.24
+        },
+        "1h": {
+          "t": "2026-09-16T01:21:39.898362+00:00",
+          "price": 75853.84,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 24373024.14,
+          "delta_price_pct": 0.24
+        },
+        "2h": {
+          "t": "2026-09-16T01:21:39.898362+00:00",
+          "price": 75853.84,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 24373024.14,
+          "delta_price_pct": 0.24
+        }
+      },
+      "flags": [
+        "市場心理の悪化（Fear & Greed急低下）"
+      ],
+      "relevance": "medium",
+      "summary": "「英スタックBTC、ビットコイン購入資金確保に向けて貴金属会社買収提案」の報道後、BTCは2時間で+0.2%。Fear & Greedも69から51へ悪化。市場心理の悪化（Fear & Greed急低下）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3105,61 +3151,7 @@
       "relevance": "low",
       "summary": "「週刊仮想通貨ニュース（8/28）｜BTC市場・量子脅威対策・日本政府と日銀の動向まとめ」の報道後、BTCは4時間で+0.3%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "キャピタルB、38億円調達しビットコイン追加取得へ",
-      "link": "https://coinpost.jp/?p=734150",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-29T02:50:04+00:00",
-      "detected_at_utc": "2026-08-29T10:16:17.478116+00:00",
-      "baseline": {
-        "t": "2026-08-29T10:16:17.478116+00:00",
-        "price": 77658.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 68,
-        "volume_1h": 15112296.23
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-29T15:07:56.977805+00:00",
-          "price": 77940.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 68,
-          "volume_1h": 36965202.97,
-          "delta_price_pct": 0.36
-        },
-        "1h": {
-          "t": "2026-08-29T15:07:56.977805+00:00",
-          "price": 77940.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 68,
-          "volume_1h": 36965202.97,
-          "delta_price_pct": 0.36
-        },
-        "2h": {
-          "t": "2026-08-29T15:07:56.977805+00:00",
-          "price": 77940.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 68,
-          "volume_1h": 36965202.97,
-          "delta_price_pct": 0.36
-        },
-        "4h": {
-          "t": "2026-08-29T15:07:56.977805+00:00",
-          "price": 77940.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 68,
-          "volume_1h": 36965202.97,
-          "delta_price_pct": 0.36
-        }
-      },
-      "flags": [
-        "出来高急増（+145%）"
-      ],
-      "relevance": "medium",
-      "summary": "「キャピタルB、38億円調達しビットコイン追加取得へ」の報道後、BTCは4時間で+0.4%。Fear & Greedも68から68へ横ばい。出来高急増（+145%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-15T23:00:08.651760+00:00"
+  "updated_at_utc": "2026-09-16T01:21:39.898362+00:00"
 }
