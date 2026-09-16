@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ドイツ銀行、ビットコイン・イーサリアムのカストディサービス開始へ",
+      "link": "https://coinpost.jp/?p=737858",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-16T09:04:38+00:00",
+      "detected_at_utc": "2026-09-16T11:57:00.710643+00:00",
+      "baseline": {
+        "t": "2026-09-16T11:57:00.710643+00:00",
+        "price": 76248.67,
+        "funding_rate_pct": null,
+        "fear_greed_value": 51,
+        "volume_1h": 38052924.02
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "マイニング大手MARA、1292ビットコイン購入＝Lookonchain",
+      "link": "https://coinpost.jp/?p=737807",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-16T08:07:21+00:00",
+      "detected_at_utc": "2026-09-16T11:57:00.710643+00:00",
+      "baseline": {
+        "t": "2026-09-16T11:57:00.710643+00:00",
+        "price": 76248.67,
+        "funding_rate_pct": null,
+        "fear_greed_value": 51,
+        "volume_1h": 38052924.02
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン急落、クラリティー審議入り否決を受け｜仮想NISHI",
       "link": "https://coinpost.jp/?p=737633",
       "source": "CoinPost",
@@ -3086,113 +3124,7 @@
       "relevance": "low",
       "summary": "「ビットコイン実現時価総額、週間約7360億円増　資金流入の兆候＝アナリスト」の報道後、BTCは4時間で+0.1%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン1300万円手前で上げ渋り、ジャクソンホール後のイールドカーブが焦点｜bitbankアナリスト寄稿",
-      "link": "https://coinpost.jp/?p=734100",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-30T02:30:49+00:00",
-      "detected_at_utc": "2026-08-30T07:19:20.608526+00:00",
-      "baseline": {
-        "t": "2026-08-30T07:19:20.608526+00:00",
-        "price": 78244.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 69,
-        "volume_1h": 14068475.26
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-30T13:03:39.225258+00:00",
-          "price": 78717.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 65807726.45,
-          "delta_price_pct": 0.6
-        },
-        "1h": {
-          "t": "2026-08-30T13:03:39.225258+00:00",
-          "price": 78717.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 65807726.45,
-          "delta_price_pct": 0.6
-        },
-        "2h": {
-          "t": "2026-08-30T13:03:39.225258+00:00",
-          "price": 78717.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 65807726.45,
-          "delta_price_pct": 0.6
-        },
-        "4h": {
-          "t": "2026-08-30T13:03:39.225258+00:00",
-          "price": 78717.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 65807726.45,
-          "delta_price_pct": 0.6
-        }
-      },
-      "flags": [
-        "出来高急増（+368%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコイン1300万円手前で上げ渋り、ジャクソンホール後のイールドカーブが焦点｜bitbankアナリスト寄稿」の報道後、BTCは4時間で+0.6%。Fear & Greedも69から69へ横ばい。出来高急増（+368%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "週刊仮想通貨ニュース（8/28）｜BTC市場・量子脅威対策・日本政府と日銀の動向まとめ",
-      "link": "https://coinpost.jp/?p=733914",
-      "source": "CoinPost",
-      "published_at_utc": "2026-08-30T00:25:36+00:00",
-      "detected_at_utc": "2026-08-30T01:28:43.155929+00:00",
-      "baseline": {
-        "t": "2026-08-30T01:28:43.155929+00:00",
-        "price": 78023.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 69,
-        "volume_1h": 18024801.65
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-08-30T07:19:20.608526+00:00",
-          "price": 78244.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 14068475.26,
-          "delta_price_pct": 0.28
-        },
-        "1h": {
-          "t": "2026-08-30T07:19:20.608526+00:00",
-          "price": 78244.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 14068475.26,
-          "delta_price_pct": 0.28
-        },
-        "2h": {
-          "t": "2026-08-30T07:19:20.608526+00:00",
-          "price": 78244.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 14068475.26,
-          "delta_price_pct": 0.28
-        },
-        "4h": {
-          "t": "2026-08-30T07:19:20.608526+00:00",
-          "price": 78244.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 14068475.26,
-          "delta_price_pct": 0.28
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「週刊仮想通貨ニュース（8/28）｜BTC市場・量子脅威対策・日本政府と日銀の動向まとめ」の報道後、BTCは4時間で+0.3%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-16T06:24:29.728129+00:00"
+  "updated_at_utc": "2026-09-16T11:57:00.710643+00:00"
 }
