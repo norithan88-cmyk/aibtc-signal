@@ -13,11 +13,46 @@
         "fear_greed_value": 50,
         "volume_1h": 26569029.77
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        },
+        "1h": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        },
+        "2h": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        },
+        "4h": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        }
+      },
+      "flags": [
+        "出来高急増（+95%）"
+      ],
+      "relevance": "medium",
+      "summary": "「レボリュート攻撃者、6000モネロ要求　当初の1万ビットコイン要求は否認」の報道後、BTCは4時間で-0.0%。Fear & Greedも50から50へ横ばい。出来高急増（+95%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインコア、新版が最終テスト段階に　脆弱性2件も修正",
@@ -32,11 +67,46 @@
         "fear_greed_value": 50,
         "volume_1h": 26569029.77
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        },
+        "1h": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        },
+        "2h": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        },
+        "4h": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        }
+      },
+      "flags": [
+        "出来高急増（+95%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコインコア、新版が最終テスト段階に　脆弱性2件も修正」の報道後、BTCは4時間で-0.0%。Fear & Greedも50から50へ横ばい。出来高急増（+95%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、下落幅は限定的も需要は停滞　クラリティー法案否決後の現在地分析＝グラスノード",
@@ -51,11 +121,46 @@
         "fear_greed_value": 50,
         "volume_1h": 26569029.77
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        },
+        "1h": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        },
+        "2h": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        },
+        "4h": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        }
+      },
+      "flags": [
+        "出来高急増（+95%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン、下落幅は限定的も需要は停滞　クラリティー法案否決後の現在地分析＝グラスノード」の報道後、BTCは4時間で-0.0%。Fear & Greedも50から50へ横ばい。出来高急増（+95%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "クラリティー法案頓挫もビットコイン強気相場は継続、ビットワイズCIO分析",
@@ -70,11 +175,46 @@
         "fear_greed_value": 50,
         "volume_1h": 26569029.77
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        },
+        "1h": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        },
+        "2h": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        },
+        "4h": {
+          "t": "2026-09-17T15:16:02.194141+00:00",
+          "price": 76306.65,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 51842566.05,
+          "delta_price_pct": -0.04
+        }
+      },
+      "flags": [
+        "出来高急増（+95%）"
+      ],
+      "relevance": "medium",
+      "summary": "「クラリティー法案頓挫もビットコイン強気相場は継続、ビットワイズCIO分析」の報道後、BTCは4時間で-0.0%。Fear & Greedも50から50へ横ばい。出来高急増（+95%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米下院委員会、ビットコイン準備金法案を可決丨保有BTC20年凍結を規定",
@@ -3054,5 +3194,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-17T10:25:44.253782+00:00"
+  "updated_at_utc": "2026-09-17T15:16:02.194141+00:00"
 }
