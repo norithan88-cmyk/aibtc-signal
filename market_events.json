@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "ビットコインETFのヘッジ減れば、需要が金超えに＝JPモルガン",
+      "link": "https://coinpost.jp/?p=738242",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-18T01:15:54+00:00",
+      "detected_at_utc": "2026-09-18T05:00:56.473360+00:00",
+      "baseline": {
+        "t": "2026-09-18T05:00:56.473360+00:00",
+        "price": 77578.81,
+        "funding_rate_pct": null,
+        "fear_greed_value": 56,
+        "volume_1h": 54544110.14
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "グレースケール「米利上げは中期調整」ビットコインへの影響限定的",
+      "link": "https://coinpost.jp/?p=738295",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-18T00:45:22+00:00",
+      "detected_at_utc": "2026-09-18T05:00:56.473360+00:00",
+      "baseline": {
+        "t": "2026-09-18T05:00:56.473360+00:00",
+        "price": 77578.81,
+        "funding_rate_pct": null,
+        "fear_greed_value": 56,
+        "volume_1h": 54544110.14
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "「ビットコインは依然として強気圏内も勢い鈍化」＝クリプトクアント",
+      "link": "https://coinpost.jp/?p=738273",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-18T00:30:18+00:00",
+      "detected_at_utc": "2026-09-18T05:00:56.473360+00:00",
+      "baseline": {
+        "t": "2026-09-18T05:00:56.473360+00:00",
+        "price": 77578.81,
+        "funding_rate_pct": null,
+        "fear_greed_value": 56,
+        "volume_1h": 54544110.14
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "レボリュート攻撃者、6000モネロ要求　当初の1万ビットコイン要求は否認",
       "link": "https://coinpost.jp/?p=738095",
       "source": "CoinPost",
@@ -3033,166 +3090,7 @@
       "relevance": "low",
       "summary": "「TDコーウェン、ビットコイン年末目標9万7500ドルに下方修正＝報道」の報道後、BTCは4時間で+0.8%。Fear & Greedも63から63へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン、監査性・所有分布などで高評価　主要3銘柄の分散性調査",
-      "link": "https://coinpost.jp/?p=734974",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-02T05:15:56+00:00",
-      "detected_at_utc": "2026-09-02T05:48:54.239284+00:00",
-      "baseline": {
-        "t": "2026-09-02T05:48:54.239284+00:00",
-        "price": 77751.9,
-        "funding_rate_pct": null,
-        "fear_greed_value": 63,
-        "volume_1h": 19816547.61
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-02T10:11:05.436776+00:00",
-          "price": 76584.85,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 77811888.0,
-          "delta_price_pct": -1.5
-        },
-        "1h": {
-          "t": "2026-09-02T10:11:05.436776+00:00",
-          "price": 76584.85,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 77811888.0,
-          "delta_price_pct": -1.5
-        },
-        "2h": {
-          "t": "2026-09-02T10:11:05.436776+00:00",
-          "price": 76584.85,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 77811888.0,
-          "delta_price_pct": -1.5
-        },
-        "4h": {
-          "t": "2026-09-02T10:11:05.436776+00:00",
-          "price": 76584.85,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 77811888.0,
-          "delta_price_pct": -1.5
-        }
-      },
-      "flags": [
-        "価格急変（-1.5%）",
-        "出来高急増（+293%）"
-      ],
-      "relevance": "high",
-      "summary": "「ビットコイン、監査性・所有分布などで高評価　主要3銘柄の分散性調査」の報道後、BTCは4時間で-1.5%。Fear & Greedも63から63へ横ばい。価格急変（-1.5%）、出来高急増（+293%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン現物ETF、8月に35億ドル純流入　1年ぶり高水準",
-      "link": "https://coinpost.jp/?p=734854",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-02T00:54:57+00:00",
-      "detected_at_utc": "2026-09-02T01:06:07.752981+00:00",
-      "baseline": {
-        "t": "2026-09-02T01:06:07.752981+00:00",
-        "price": 77185.08,
-        "funding_rate_pct": null,
-        "fear_greed_value": 63,
-        "volume_1h": 23391693.82
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-02T05:48:54.239284+00:00",
-          "price": 77751.9,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 19816547.61,
-          "delta_price_pct": 0.73
-        },
-        "1h": {
-          "t": "2026-09-02T05:48:54.239284+00:00",
-          "price": 77751.9,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 19816547.61,
-          "delta_price_pct": 0.73
-        },
-        "2h": {
-          "t": "2026-09-02T05:48:54.239284+00:00",
-          "price": 77751.9,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 19816547.61,
-          "delta_price_pct": 0.73
-        },
-        "4h": {
-          "t": "2026-09-02T05:48:54.239284+00:00",
-          "price": 77751.9,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 19816547.61,
-          "delta_price_pct": 0.73
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン現物ETF、8月に35億ドル純流入　1年ぶり高水準」の報道後、BTCは4時間で+0.7%。Fear & Greedも63から63へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "トム・リー氏、ビットコイン「15万ドル」視野に　機関マネー流入を指摘",
-      "link": "https://coinpost.jp/?p=734756",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-01T09:09:43+00:00",
-      "detected_at_utc": "2026-09-01T09:58:34.543406+00:00",
-      "baseline": {
-        "t": "2026-09-01T09:58:34.543406+00:00",
-        "price": 77921.99,
-        "funding_rate_pct": null,
-        "fear_greed_value": 69,
-        "volume_1h": 73696721.89
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-01T14:45:57.646599+00:00",
-          "price": 78366.08,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 61519418.69,
-          "delta_price_pct": 0.57
-        },
-        "1h": {
-          "t": "2026-09-01T14:45:57.646599+00:00",
-          "price": 78366.08,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 61519418.69,
-          "delta_price_pct": 0.57
-        },
-        "2h": {
-          "t": "2026-09-01T14:45:57.646599+00:00",
-          "price": 78366.08,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 61519418.69,
-          "delta_price_pct": 0.57
-        },
-        "4h": {
-          "t": "2026-09-01T14:45:57.646599+00:00",
-          "price": 78366.08,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 61519418.69,
-          "delta_price_pct": 0.57
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「トム・リー氏、ビットコイン「15万ドル」視野に　機関マネー流入を指摘」の報道後、BTCは4時間で+0.6%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-18T00:23:06.342267+00:00"
+  "updated_at_utc": "2026-09-18T05:00:56.473360+00:00"
 }
