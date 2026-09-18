@@ -13,11 +13,46 @@
         "fear_greed_value": 56,
         "volume_1h": 54544110.14
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-18T09:40:12.397983+00:00",
+          "price": 78034.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 93880318.41,
+          "delta_price_pct": 0.59
+        },
+        "1h": {
+          "t": "2026-09-18T09:40:12.397983+00:00",
+          "price": 78034.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 93880318.41,
+          "delta_price_pct": 0.59
+        },
+        "2h": {
+          "t": "2026-09-18T09:40:12.397983+00:00",
+          "price": 78034.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 93880318.41,
+          "delta_price_pct": 0.59
+        },
+        "4h": {
+          "t": "2026-09-18T09:40:12.397983+00:00",
+          "price": 78034.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 93880318.41,
+          "delta_price_pct": 0.59
+        }
+      },
+      "flags": [
+        "出来高急増（+72%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコインETFのヘッジ減れば、需要が金超えに＝JPモルガン」の報道後、BTCは4時間で+0.6%。Fear & Greedも56から56へ横ばい。出来高急増（+72%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "グレースケール「米利上げは中期調整」ビットコインへの影響限定的",
@@ -32,11 +67,46 @@
         "fear_greed_value": 56,
         "volume_1h": 54544110.14
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-18T09:40:12.397983+00:00",
+          "price": 78034.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 93880318.41,
+          "delta_price_pct": 0.59
+        },
+        "1h": {
+          "t": "2026-09-18T09:40:12.397983+00:00",
+          "price": 78034.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 93880318.41,
+          "delta_price_pct": 0.59
+        },
+        "2h": {
+          "t": "2026-09-18T09:40:12.397983+00:00",
+          "price": 78034.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 93880318.41,
+          "delta_price_pct": 0.59
+        },
+        "4h": {
+          "t": "2026-09-18T09:40:12.397983+00:00",
+          "price": 78034.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 93880318.41,
+          "delta_price_pct": 0.59
+        }
+      },
+      "flags": [
+        "出来高急増（+72%）"
+      ],
+      "relevance": "medium",
+      "summary": "「グレースケール「米利上げは中期調整」ビットコインへの影響限定的」の報道後、BTCは4時間で+0.6%。Fear & Greedも56から56へ横ばい。出来高急増（+72%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "「ビットコインは依然として強気圏内も勢い鈍化」＝クリプトクアント",
@@ -51,11 +121,46 @@
         "fear_greed_value": 56,
         "volume_1h": 54544110.14
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-18T09:40:12.397983+00:00",
+          "price": 78034.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 93880318.41,
+          "delta_price_pct": 0.59
+        },
+        "1h": {
+          "t": "2026-09-18T09:40:12.397983+00:00",
+          "price": 78034.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 93880318.41,
+          "delta_price_pct": 0.59
+        },
+        "2h": {
+          "t": "2026-09-18T09:40:12.397983+00:00",
+          "price": 78034.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 93880318.41,
+          "delta_price_pct": 0.59
+        },
+        "4h": {
+          "t": "2026-09-18T09:40:12.397983+00:00",
+          "price": 78034.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 56,
+          "volume_1h": 93880318.41,
+          "delta_price_pct": 0.59
+        }
+      },
+      "flags": [
+        "出来高急増（+72%）"
+      ],
+      "relevance": "medium",
+      "summary": "「「ビットコインは依然として強気圏内も勢い鈍化」＝クリプトクアント」の報道後、BTCは4時間で+0.6%。Fear & Greedも56から56へ横ばい。出来高急増（+72%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "レボリュート攻撃者、6000モネロ要求　当初の1万ビットコイン要求は否認",
@@ -3092,5 +3197,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-18T05:00:56.473360+00:00"
+  "updated_at_utc": "2026-09-18T09:40:12.397983+00:00"
 }
