@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン急騰、8万ドル台回復　SEC・CFTCの制度整備を好感｜仮想NISHI",
+      "link": "https://coinpost.jp/?p=738612",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-19T02:05:04+00:00",
+      "detected_at_utc": "2026-09-19T05:03:40.772434+00:00",
+      "baseline": {
+        "t": "2026-09-19T05:03:40.772434+00:00",
+        "price": 81057.52,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 25730133.25
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "Bitcoin Japan、初のビットコイン購入へ　100万ドル上限",
       "link": "https://coinpost.jp/?p=738613",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 71,
         "volume_1h": 51548623.71
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-19T05:03:40.772434+00:00",
+          "price": 81057.52,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 25730133.25,
+          "delta_price_pct": -0.25
+        },
+        "1h": {
+          "t": "2026-09-19T05:03:40.772434+00:00",
+          "price": 81057.52,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 25730133.25,
+          "delta_price_pct": -0.25
+        },
+        "2h": {
+          "t": "2026-09-19T05:03:40.772434+00:00",
+          "price": 81057.52,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 25730133.25,
+          "delta_price_pct": -0.25
+        },
+        "4h": {
+          "t": "2026-09-19T05:03:40.772434+00:00",
+          "price": 81057.52,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 25730133.25,
+          "delta_price_pct": -0.25
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「Bitcoin Japan、初のビットコイン購入へ　100万ドル上限」の報道後、BTCは4時間で-0.2%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、8万ドル台定着は年内困難か｜コインシェアーズ分析",
@@ -56,14 +108,22 @@
           "fear_greed_value": 71,
           "volume_1h": 51548623.71,
           "delta_price_pct": 0.01
+        },
+        "4h": {
+          "t": "2026-09-19T05:03:40.772434+00:00",
+          "price": 81057.52,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 25730133.25,
+          "delta_price_pct": -0.24
         }
       },
       "flags": [
         "市場心理の好転（Fear & Greed急上昇）"
       ],
       "relevance": "medium",
-      "summary": "「ビットコイン、8万ドル台定着は年内困難か｜コインシェアーズ分析」の報道後、BTCは2時間で+0.0%。Fear & Greedも56から71へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ビットコイン、8万ドル台定着は年内困難か｜コインシェアーズ分析」の報道後、BTCは4時間で-0.2%。Fear & Greedも56から71へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインETFのヘッジ減れば、需要が金超えに＝JPモルガン",
@@ -3102,61 +3162,7 @@
       "relevance": "medium",
       "summary": "「「ビットコイン、初のハッシュレート弱気相場に」トゥエンティワンCEOが指摘」の報道後、BTCは4時間で+0.4%。Fear & Greedも65から65へ横ばい。出来高急増（+55%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "キャピタルB、アダム・バック引受で14億円増資　ビットコイン追加購入へ",
-      "link": "https://coinpost.jp/?p=735151",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-02T20:55:55+00:00",
-      "detected_at_utc": "2026-09-03T01:12:36.679789+00:00",
-      "baseline": {
-        "t": "2026-09-03T01:12:36.679789+00:00",
-        "price": 77367.76,
-        "funding_rate_pct": null,
-        "fear_greed_value": 65,
-        "volume_1h": 28380536.7
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-03T05:54:09.799575+00:00",
-          "price": 77651.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43950375.69,
-          "delta_price_pct": 0.37
-        },
-        "1h": {
-          "t": "2026-09-03T05:54:09.799575+00:00",
-          "price": 77651.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43950375.69,
-          "delta_price_pct": 0.37
-        },
-        "2h": {
-          "t": "2026-09-03T05:54:09.799575+00:00",
-          "price": 77651.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43950375.69,
-          "delta_price_pct": 0.37
-        },
-        "4h": {
-          "t": "2026-09-03T05:54:09.799575+00:00",
-          "price": 77651.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43950375.69,
-          "delta_price_pct": 0.37
-        }
-      },
-      "flags": [
-        "出来高急増（+55%）"
-      ],
-      "relevance": "medium",
-      "summary": "「キャピタルB、アダム・バック引受で14億円増資　ビットコイン追加購入へ」の報道後、BTCは4時間で+0.4%。Fear & Greedも65から65へ横ばい。出来高急増（+55%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-19T00:35:04.781906+00:00"
+  "updated_at_utc": "2026-09-19T05:03:40.772434+00:00"
 }
