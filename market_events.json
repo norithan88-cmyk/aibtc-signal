@@ -13,11 +13,44 @@
         "fear_greed_value": 71,
         "volume_1h": 25730133.25
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-19T09:27:02.966319+00:00",
+          "price": 81450.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 24547057.43,
+          "delta_price_pct": 0.48
+        },
+        "1h": {
+          "t": "2026-09-19T09:27:02.966319+00:00",
+          "price": 81450.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 24547057.43,
+          "delta_price_pct": 0.48
+        },
+        "2h": {
+          "t": "2026-09-19T09:27:02.966319+00:00",
+          "price": 81450.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 24547057.43,
+          "delta_price_pct": 0.48
+        },
+        "4h": {
+          "t": "2026-09-19T09:27:02.966319+00:00",
+          "price": 81450.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 24547057.43,
+          "delta_price_pct": 0.48
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン急騰、8万ドル台回復　SEC・CFTCの制度整備を好感｜仮想NISHI」の報道後、BTCは4時間で+0.5%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "Bitcoin Japan、初のビットコイン購入へ　100万ドル上限",
@@ -3164,5 +3197,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-19T05:03:40.772434+00:00"
+  "updated_at_utc": "2026-09-19T09:27:02.966319+00:00"
 }
