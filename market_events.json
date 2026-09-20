@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコインFOMC通過後も底堅く、米金利と中東情勢が焦点｜bitbankアナリスト寄稿",
+      "link": "https://coinpost.jp/?p=738574",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-20T02:30:52+00:00",
+      "detected_at_utc": "2026-09-20T06:56:02.703542+00:00",
+      "baseline": {
+        "t": "2026-09-20T06:56:02.703542+00:00",
+        "price": 80227.28,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 34130573.54
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "週刊仮想通貨ニュース（9/18）｜クラリティー法案・日本の分離課税・米BTC準備金法案の動向まとめ",
       "link": "https://coinpost.jp/?p=738323",
       "source": "CoinPost",
@@ -13,11 +32,46 @@
         "fear_greed_value": 71,
         "volume_1h": 21558579.74
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-20T06:56:02.703542+00:00",
+          "price": 80227.28,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 34130573.54,
+          "delta_price_pct": -1.1
+        },
+        "1h": {
+          "t": "2026-09-20T06:56:02.703542+00:00",
+          "price": 80227.28,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 34130573.54,
+          "delta_price_pct": -1.1
+        },
+        "2h": {
+          "t": "2026-09-20T06:56:02.703542+00:00",
+          "price": 80227.28,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 34130573.54,
+          "delta_price_pct": -1.1
+        },
+        "4h": {
+          "t": "2026-09-20T06:56:02.703542+00:00",
+          "price": 80227.28,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 34130573.54,
+          "delta_price_pct": -1.1
+        }
+      },
+      "flags": [
+        "出来高急増（+58%）"
+      ],
+      "relevance": "medium",
+      "summary": "「週刊仮想通貨ニュース（9/18）｜クラリティー法案・日本の分離課税・米BTC準備金法案の動向まとめ」の報道後、BTCは4時間で-1.1%。Fear & Greedも71から71へ横ばい。出来高急増（+58%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン急騰、8万ドル台回復　SEC・CFTCの制度整備を好感｜仮想NISHI",
@@ -3106,61 +3160,7 @@
       "relevance": "low",
       "summary": "「「ビットコインが5年以内に25万〜84万ドル到達の可能性」リバー社が資金流入モデルで試算」の報道後、BTCは4時間で+0.1%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン頭打ち、当面はレンジ相場か＝グラスノード",
-      "link": "https://coinpost.jp/?p=735170",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-03T00:40:39+00:00",
-      "detected_at_utc": "2026-09-03T01:12:36.679789+00:00",
-      "baseline": {
-        "t": "2026-09-03T01:12:36.679789+00:00",
-        "price": 77367.76,
-        "funding_rate_pct": null,
-        "fear_greed_value": 65,
-        "volume_1h": 28380536.7
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-03T05:54:09.799575+00:00",
-          "price": 77651.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43950375.69,
-          "delta_price_pct": 0.37
-        },
-        "1h": {
-          "t": "2026-09-03T05:54:09.799575+00:00",
-          "price": 77651.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43950375.69,
-          "delta_price_pct": 0.37
-        },
-        "2h": {
-          "t": "2026-09-03T05:54:09.799575+00:00",
-          "price": 77651.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43950375.69,
-          "delta_price_pct": 0.37
-        },
-        "4h": {
-          "t": "2026-09-03T05:54:09.799575+00:00",
-          "price": 77651.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43950375.69,
-          "delta_price_pct": 0.37
-        }
-      },
-      "flags": [
-        "出来高急増（+55%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコイン頭打ち、当面はレンジ相場か＝グラスノード」の報道後、BTCは4時間で+0.4%。Fear & Greedも65から65へ横ばい。出来高急増（+55%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-20T01:30:10.343039+00:00"
+  "updated_at_utc": "2026-09-20T06:56:02.703542+00:00"
 }
