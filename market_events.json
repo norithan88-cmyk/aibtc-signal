@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "週刊仮想通貨ニュース（9/18）｜クラリティー法案・日本の分離課税・米BTC準備金法案の動向まとめ",
+      "link": "https://coinpost.jp/?p=738323",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-20T00:25:46+00:00",
+      "detected_at_utc": "2026-09-20T01:30:10.343039+00:00",
+      "baseline": {
+        "t": "2026-09-20T01:30:10.343039+00:00",
+        "price": 81115.97,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 21558579.74
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン急騰、8万ドル台回復　SEC・CFTCの制度整備を好感｜仮想NISHI",
       "link": "https://coinpost.jp/?p=738612",
       "source": "CoinPost",
@@ -3141,61 +3160,7 @@
       "relevance": "medium",
       "summary": "「ビットコイン頭打ち、当面はレンジ相場か＝グラスノード」の報道後、BTCは4時間で+0.4%。Fear & Greedも65から65へ横ばい。出来高急増（+55%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "「ビットコイン、初のハッシュレート弱気相場に」トゥエンティワンCEOが指摘",
-      "link": "https://coinpost.jp/?p=735150",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-02T21:30:53+00:00",
-      "detected_at_utc": "2026-09-03T01:12:36.679789+00:00",
-      "baseline": {
-        "t": "2026-09-03T01:12:36.679789+00:00",
-        "price": 77367.76,
-        "funding_rate_pct": null,
-        "fear_greed_value": 65,
-        "volume_1h": 28380536.7
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-03T05:54:09.799575+00:00",
-          "price": 77651.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43950375.69,
-          "delta_price_pct": 0.37
-        },
-        "1h": {
-          "t": "2026-09-03T05:54:09.799575+00:00",
-          "price": 77651.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43950375.69,
-          "delta_price_pct": 0.37
-        },
-        "2h": {
-          "t": "2026-09-03T05:54:09.799575+00:00",
-          "price": 77651.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43950375.69,
-          "delta_price_pct": 0.37
-        },
-        "4h": {
-          "t": "2026-09-03T05:54:09.799575+00:00",
-          "price": 77651.5,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 43950375.69,
-          "delta_price_pct": 0.37
-        }
-      },
-      "flags": [
-        "出来高急増（+55%）"
-      ],
-      "relevance": "medium",
-      "summary": "「「ビットコイン、初のハッシュレート弱気相場に」トゥエンティワンCEOが指摘」の報道後、BTCは4時間で+0.4%。Fear & Greedも65から65へ横ばい。出来高急増（+55%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-19T23:25:09.776328+00:00"
+  "updated_at_utc": "2026-09-20T01:30:10.343039+00:00"
 }
