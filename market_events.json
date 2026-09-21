@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "OTC保有ビットコイン、5年で4分の1に減少＝アナリスト",
+      "link": "https://coinpost.jp/?p=738706",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-20T23:04:25+00:00",
+      "detected_at_utc": "2026-09-21T01:17:18.689769+00:00",
+      "baseline": {
+        "t": "2026-09-21T01:17:18.689769+00:00",
+        "price": 81783.71,
+        "funding_rate_pct": null,
+        "fear_greed_value": 70,
+        "volume_1h": 54582068.8
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコインFOMC通過後も底堅く、米金利と中東情勢が焦点｜bitbankアナリスト寄稿",
       "link": "https://coinpost.jp/?p=738574",
       "source": "CoinPost",
@@ -3141,59 +3160,7 @@
       "relevance": "low",
       "summary": "「コーネル大学調査、ビットコイン認知9割でも理解1割強」の報道後、BTCは4時間で+0.1%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "「ビットコインが5年以内に25万〜84万ドル到達の可能性」リバー社が資金流入モデルで試算",
-      "link": "https://coinpost.jp/?p=735237",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-03T04:02:35+00:00",
-      "detected_at_utc": "2026-09-03T05:54:09.799575+00:00",
-      "baseline": {
-        "t": "2026-09-03T05:54:09.799575+00:00",
-        "price": 77651.5,
-        "funding_rate_pct": null,
-        "fear_greed_value": 65,
-        "volume_1h": 43950375.69
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-03T10:56:51.654334+00:00",
-          "price": 77769.78,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 30391129.0,
-          "delta_price_pct": 0.15
-        },
-        "1h": {
-          "t": "2026-09-03T10:56:51.654334+00:00",
-          "price": 77769.78,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 30391129.0,
-          "delta_price_pct": 0.15
-        },
-        "2h": {
-          "t": "2026-09-03T10:56:51.654334+00:00",
-          "price": 77769.78,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 30391129.0,
-          "delta_price_pct": 0.15
-        },
-        "4h": {
-          "t": "2026-09-03T10:56:51.654334+00:00",
-          "price": 77769.78,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 30391129.0,
-          "delta_price_pct": 0.15
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「「ビットコインが5年以内に25万〜84万ドル到達の可能性」リバー社が資金流入モデルで試算」の報道後、BTCは4時間で+0.1%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-20T23:18:29.263279+00:00"
+  "updated_at_utc": "2026-09-21T01:17:18.689769+00:00"
 }
