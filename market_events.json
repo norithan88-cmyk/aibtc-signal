@@ -13,11 +13,47 @@
         "fear_greed_value": 70,
         "volume_1h": 38145894.42
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-21T13:19:59.419341+00:00",
+          "price": 85173.73,
+          "funding_rate_pct": null,
+          "fear_greed_value": 70,
+          "volume_1h": 130477659.09,
+          "delta_price_pct": 4.1
+        },
+        "1h": {
+          "t": "2026-09-21T13:19:59.419341+00:00",
+          "price": 85173.73,
+          "funding_rate_pct": null,
+          "fear_greed_value": 70,
+          "volume_1h": 130477659.09,
+          "delta_price_pct": 4.1
+        },
+        "2h": {
+          "t": "2026-09-21T13:19:59.419341+00:00",
+          "price": 85173.73,
+          "funding_rate_pct": null,
+          "fear_greed_value": 70,
+          "volume_1h": 130477659.09,
+          "delta_price_pct": 4.1
+        },
+        "4h": {
+          "t": "2026-09-21T13:19:59.419341+00:00",
+          "price": 85173.73,
+          "funding_rate_pct": null,
+          "fear_greed_value": 70,
+          "volume_1h": 130477659.09,
+          "delta_price_pct": 4.1
+        }
+      },
+      "flags": [
+        "価格急変（+4.1%）",
+        "出来高急増（+242%）"
+      ],
+      "relevance": "high",
+      "summary": "「ビットコイン、45週ぶり50週線奪還　底値確定のシグナルか＝アナリスト」の報道後、BTCは4時間で+4.1%。Fear & Greedも70から70へ横ばい。価格急変（+4.1%）、出来高急増（+242%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "OTC保有ビットコイン、5年で4分の1に減少＝アナリスト",
@@ -3162,5 +3198,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-21T06:33:42.202832+00:00"
+  "updated_at_utc": "2026-09-21T13:19:59.419341+00:00"
 }
