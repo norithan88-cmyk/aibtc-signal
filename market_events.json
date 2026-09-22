@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "ストライブ、先週1355BTCのビットコインを買い増し",
+      "link": "https://coinpost.jp/?p=738799",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-22T04:15:06+00:00",
+      "detected_at_utc": "2026-09-22T06:08:10.994175+00:00",
+      "baseline": {
+        "t": "2026-09-22T06:08:10.994175+00:00",
+        "price": 85319.13,
+        "funding_rate_pct": null,
+        "fear_greed_value": 78,
+        "volume_1h": 72602282.04
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ヘイズ氏、AI減速は業績隠しと主張　保険業界の穴がビットコイン材料に",
+      "link": "https://coinpost.jp/?p=738815",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-22T03:54:12+00:00",
+      "detected_at_utc": "2026-09-22T06:08:10.994175+00:00",
+      "baseline": {
+        "t": "2026-09-22T06:08:10.994175+00:00",
+        "price": 85319.13,
+        "funding_rate_pct": null,
+        "fear_greed_value": 78,
+        "volume_1h": 72602282.04
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン100万円幅上昇、原油5%安とショート清算が相場押し上げ｜仮想NISHI",
+      "link": "https://coinpost.jp/?p=738761",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-22T01:25:01+00:00",
+      "detected_at_utc": "2026-09-22T06:08:10.994175+00:00",
+      "baseline": {
+        "t": "2026-09-22T06:08:10.994175+00:00",
+        "price": 85319.13,
+        "funding_rate_pct": null,
+        "fear_greed_value": 78,
+        "volume_1h": 72602282.04
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ストラテジー、二週間ぶりにビットコイン買い増し　購入額は119億円相当",
       "link": "https://coinpost.jp/?p=738774",
       "source": "CoinPost",
@@ -13,11 +70,44 @@
         "fear_greed_value": 78,
         "volume_1h": 91645895.24
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-22T06:08:10.994175+00:00",
+          "price": 85319.13,
+          "funding_rate_pct": null,
+          "fear_greed_value": 78,
+          "volume_1h": 72602282.04,
+          "delta_price_pct": -0.68
+        },
+        "1h": {
+          "t": "2026-09-22T06:08:10.994175+00:00",
+          "price": 85319.13,
+          "funding_rate_pct": null,
+          "fear_greed_value": 78,
+          "volume_1h": 72602282.04,
+          "delta_price_pct": -0.68
+        },
+        "2h": {
+          "t": "2026-09-22T06:08:10.994175+00:00",
+          "price": 85319.13,
+          "funding_rate_pct": null,
+          "fear_greed_value": 78,
+          "volume_1h": 72602282.04,
+          "delta_price_pct": -0.68
+        },
+        "4h": {
+          "t": "2026-09-22T06:08:10.994175+00:00",
+          "price": 85319.13,
+          "funding_rate_pct": null,
+          "fear_greed_value": 78,
+          "volume_1h": 72602282.04,
+          "delta_price_pct": -0.68
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ストラテジー、二週間ぶりにビットコイン買い増し　購入額は119億円相当」の報道後、BTCは4時間で-0.7%。Fear & Greedも78から78へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、45週ぶり50週線奪還　底値確定のシグナルか＝アナリスト",
@@ -3001,167 +3091,7 @@
       "relevance": "low",
       "summary": "「メタプラネットなど株価上昇、ビットコイン8万ドル台回復で」の報道後、BTCは4時間で-0.1%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米ストライブCEO、ビットコイン保有で世界2位になる可能性に言及",
-      "link": "https://coinpost.jp/?p=735492",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-04T00:40:47+00:00",
-      "detected_at_utc": "2026-09-04T01:10:17.780312+00:00",
-      "baseline": {
-        "t": "2026-09-04T01:10:17.780312+00:00",
-        "price": 81032.69,
-        "funding_rate_pct": null,
-        "fear_greed_value": 74,
-        "volume_1h": 49732036.47
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-04T05:57:21.940347+00:00",
-          "price": 80950.94,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 46610582.31,
-          "delta_price_pct": -0.1
-        },
-        "1h": {
-          "t": "2026-09-04T05:57:21.940347+00:00",
-          "price": 80950.94,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 46610582.31,
-          "delta_price_pct": -0.1
-        },
-        "2h": {
-          "t": "2026-09-04T05:57:21.940347+00:00",
-          "price": 80950.94,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 46610582.31,
-          "delta_price_pct": -0.1
-        },
-        "4h": {
-          "t": "2026-09-04T05:57:21.940347+00:00",
-          "price": 80950.94,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 46610582.31,
-          "delta_price_pct": -0.1
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「米ストライブCEO、ビットコイン保有で世界2位になる可能性に言及」の報道後、BTCは4時間で-0.1%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ポケットビットコイン、顧客情報流出を報告　5000人以上に及ぶ",
-      "link": "https://coinpost.jp/?p=735494",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-03T22:12:51+00:00",
-      "detected_at_utc": "2026-09-03T23:22:32.876763+00:00",
-      "baseline": {
-        "t": "2026-09-03T23:22:32.876763+00:00",
-        "price": 81202.78,
-        "funding_rate_pct": null,
-        "fear_greed_value": 65,
-        "volume_1h": 49171629.43
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-04T01:10:17.780312+00:00",
-          "price": 81032.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 49732036.47,
-          "delta_price_pct": -0.21
-        },
-        "1h": {
-          "t": "2026-09-04T01:10:17.780312+00:00",
-          "price": 81032.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 49732036.47,
-          "delta_price_pct": -0.21
-        },
-        "2h": {
-          "t": "2026-09-04T05:57:21.940347+00:00",
-          "price": 80950.94,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 46610582.31,
-          "delta_price_pct": -0.31
-        },
-        "4h": {
-          "t": "2026-09-04T05:57:21.940347+00:00",
-          "price": 80950.94,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 46610582.31,
-          "delta_price_pct": -0.31
-        }
-      },
-      "flags": [
-        "市場心理の好転（Fear & Greed急上昇）"
-      ],
-      "relevance": "medium",
-      "summary": "「ポケットビットコイン、顧客情報流出を報告　5000人以上に及ぶ」の報道後、BTCは4時間で-0.3%。Fear & Greedも65から74へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ポリマーケット、ビットコインやスペースXなど10銘柄の無期限先物取引を提供開始",
-      "link": "https://coinpost.jp/?p=735495",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-03T21:55:53+00:00",
-      "detected_at_utc": "2026-09-03T23:22:32.876763+00:00",
-      "baseline": {
-        "t": "2026-09-03T23:22:32.876763+00:00",
-        "price": 81202.78,
-        "funding_rate_pct": null,
-        "fear_greed_value": 65,
-        "volume_1h": 49171629.43
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-04T01:10:17.780312+00:00",
-          "price": 81032.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 49732036.47,
-          "delta_price_pct": -0.21
-        },
-        "1h": {
-          "t": "2026-09-04T01:10:17.780312+00:00",
-          "price": 81032.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 49732036.47,
-          "delta_price_pct": -0.21
-        },
-        "2h": {
-          "t": "2026-09-04T05:57:21.940347+00:00",
-          "price": 80950.94,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 46610582.31,
-          "delta_price_pct": -0.31
-        },
-        "4h": {
-          "t": "2026-09-04T05:57:21.940347+00:00",
-          "price": 80950.94,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 46610582.31,
-          "delta_price_pct": -0.31
-        }
-      },
-      "flags": [
-        "市場心理の好転（Fear & Greed急上昇）"
-      ],
-      "relevance": "medium",
-      "summary": "「ポリマーケット、ビットコインやスペースXなど10銘柄の無期限先物取引を提供開始」の報道後、BTCは4時間で-0.3%。Fear & Greedも65から74へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-22T01:02:13.011580+00:00"
+  "updated_at_utc": "2026-09-22T06:08:10.994175+00:00"
 }
