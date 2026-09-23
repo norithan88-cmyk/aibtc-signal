@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン8.6万ドル、利上げとクラリティー法案頓挫を消化＝ウィンターミュート",
+      "link": "https://coinpost.jp/?p=738847",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-22T23:35:02+00:00",
+      "detected_at_utc": "2026-09-23T00:46:52.692633+00:00",
+      "baseline": {
+        "t": "2026-09-23T00:46:52.692633+00:00",
+        "price": 86469.42,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 53797054.48
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ストライブ、先週1355BTCのビットコインを買い増し",
       "link": "https://coinpost.jp/?p=738799",
       "source": "CoinPost",
@@ -3138,59 +3157,7 @@
       "relevance": "medium",
       "summary": "「IMF、エルサルバドルの25年6月以降のビットコイン購入は寄付のみ」の報道後、BTCは4時間で-0.2%。Fear & Greedも74から73へ悪化。出来高急増（+141%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "メタプラネットなど株価上昇、ビットコイン8万ドル台回復で",
-      "link": "https://coinpost.jp/?p=735526",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-04T01:05:56+00:00",
-      "detected_at_utc": "2026-09-04T01:10:17.780312+00:00",
-      "baseline": {
-        "t": "2026-09-04T01:10:17.780312+00:00",
-        "price": 81032.69,
-        "funding_rate_pct": null,
-        "fear_greed_value": 74,
-        "volume_1h": 49732036.47
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-04T05:57:21.940347+00:00",
-          "price": 80950.94,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 46610582.31,
-          "delta_price_pct": -0.1
-        },
-        "1h": {
-          "t": "2026-09-04T05:57:21.940347+00:00",
-          "price": 80950.94,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 46610582.31,
-          "delta_price_pct": -0.1
-        },
-        "2h": {
-          "t": "2026-09-04T05:57:21.940347+00:00",
-          "price": 80950.94,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 46610582.31,
-          "delta_price_pct": -0.1
-        },
-        "4h": {
-          "t": "2026-09-04T05:57:21.940347+00:00",
-          "price": 80950.94,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 46610582.31,
-          "delta_price_pct": -0.1
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「メタプラネットなど株価上昇、ビットコイン8万ドル台回復で」の報道後、BTCは4時間で-0.1%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-22T22:19:11.522155+00:00"
+  "updated_at_utc": "2026-09-23T00:46:52.692633+00:00"
 }
