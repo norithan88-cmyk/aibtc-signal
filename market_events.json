@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "CMEグループ、ビットコインキャッシュとユニスワップの先物上場へ",
+      "link": "https://coinpost.jp/?p=738868",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-23T03:02:52+00:00",
+      "detected_at_utc": "2026-09-23T05:17:39.529613+00:00",
+      "baseline": {
+        "t": "2026-09-23T05:17:39.529613+00:00",
+        "price": 86946.7,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 71370186.24
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "クリプトクアントCEO、ビットコイン上昇幅は過去より縮小と予想",
+      "link": "https://coinpost.jp/?p=738876",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-23T02:46:11+00:00",
+      "detected_at_utc": "2026-09-23T05:17:39.529613+00:00",
+      "baseline": {
+        "t": "2026-09-23T05:17:39.529613+00:00",
+        "price": 86946.7,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 71370186.24
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン8.6万ドル、利上げとクラリティー法案頓挫を消化＝ウィンターミュート",
       "link": "https://coinpost.jp/?p=738847",
       "source": "CoinPost",
@@ -13,11 +51,44 @@
         "fear_greed_value": 71,
         "volume_1h": 53797054.48
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-23T05:17:39.529613+00:00",
+          "price": 86946.7,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 71370186.24,
+          "delta_price_pct": 0.55
+        },
+        "1h": {
+          "t": "2026-09-23T05:17:39.529613+00:00",
+          "price": 86946.7,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 71370186.24,
+          "delta_price_pct": 0.55
+        },
+        "2h": {
+          "t": "2026-09-23T05:17:39.529613+00:00",
+          "price": 86946.7,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 71370186.24,
+          "delta_price_pct": 0.55
+        },
+        "4h": {
+          "t": "2026-09-23T05:17:39.529613+00:00",
+          "price": 86946.7,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 71370186.24,
+          "delta_price_pct": 0.55
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン8.6万ドル、利上げとクラリティー法案頓挫を消化＝ウィンターミュート」の報道後、BTCは4時間で+0.6%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストライブ、先週1355BTCのビットコインを買い増し",
@@ -3051,113 +3122,7 @@
       "relevance": "low",
       "summary": "「ビットコインと金の相関性が6年ぶり高水準に、ビットワイズ」の報道後、BTCは4時間で+0.2%。Fear & Greedも73から73へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコインが金と同様の値動きに、コインシェアーズ分析",
-      "link": "https://coinpost.jp/?p=735696",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-05T00:10:08+00:00",
-      "detected_at_utc": "2026-09-05T04:54:17.430249+00:00",
-      "baseline": {
-        "t": "2026-09-05T04:54:17.430249+00:00",
-        "price": 79534.39,
-        "funding_rate_pct": null,
-        "fear_greed_value": 73,
-        "volume_1h": 21410133.04
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-05T08:53:41.527767+00:00",
-          "price": 79622.21,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 27449285.9,
-          "delta_price_pct": 0.11
-        },
-        "1h": {
-          "t": "2026-09-05T08:53:41.527767+00:00",
-          "price": 79622.21,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 27449285.9,
-          "delta_price_pct": 0.11
-        },
-        "2h": {
-          "t": "2026-09-05T08:53:41.527767+00:00",
-          "price": 79622.21,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 27449285.9,
-          "delta_price_pct": 0.11
-        },
-        "4h": {
-          "t": "2026-09-05T12:29:14.831569+00:00",
-          "price": 79659.83,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 14895585.94,
-          "delta_price_pct": 0.16
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコインが金と同様の値動きに、コインシェアーズ分析」の報道後、BTCは4時間で+0.2%。Fear & Greedも73から73へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "IMF、エルサルバドルの25年6月以降のビットコイン購入は寄付のみ",
-      "link": "https://coinpost.jp/?p=735685",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-04T20:00:45+00:00",
-      "detected_at_utc": "2026-09-04T20:52:56.440763+00:00",
-      "baseline": {
-        "t": "2026-09-04T20:52:56.440763+00:00",
-        "price": 79696.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 74,
-        "volume_1h": 20894572.93
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-04T22:49:31.566070+00:00",
-          "price": 79637.03,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 50455652.61,
-          "delta_price_pct": -0.07
-        },
-        "1h": {
-          "t": "2026-09-04T22:49:31.566070+00:00",
-          "price": 79637.03,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 50455652.61,
-          "delta_price_pct": -0.07
-        },
-        "2h": {
-          "t": "2026-09-05T00:30:17.429823+00:00",
-          "price": 79652.72,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 9805110.45,
-          "delta_price_pct": -0.05
-        },
-        "4h": {
-          "t": "2026-09-05T04:54:17.430249+00:00",
-          "price": 79534.39,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 21410133.04,
-          "delta_price_pct": -0.2
-        }
-      },
-      "flags": [
-        "出来高急増（+141%）"
-      ],
-      "relevance": "medium",
-      "summary": "「IMF、エルサルバドルの25年6月以降のビットコイン購入は寄付のみ」の報道後、BTCは4時間で-0.2%。Fear & Greedも74から73へ悪化。出来高急増（+141%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-23T00:46:52.692633+00:00"
+  "updated_at_utc": "2026-09-23T05:17:39.529613+00:00"
 }
