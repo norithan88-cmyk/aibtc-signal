@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ビットコイン実現利益は週約8060億円、過去の高値圏に及ばず＝グラスノード",
+      "link": "https://coinpost.jp/?p=739092",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-24T08:12:05+00:00",
+      "detected_at_utc": "2026-09-24T10:25:38.403696+00:00",
+      "baseline": {
+        "t": "2026-09-24T10:25:38.403696+00:00",
+        "price": 83254.35,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 140005566.57
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン、オンチェーン指標が強気相場入りを示唆＝アナリスト",
+      "link": "https://coinpost.jp/?p=739036",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-24T06:48:57+00:00",
+      "detected_at_utc": "2026-09-24T10:25:38.403696+00:00",
+      "baseline": {
+        "t": "2026-09-24T10:25:38.403696+00:00",
+        "price": 83254.35,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 140005566.57
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "CMEグループ、ビットコインキャッシュとユニスワップの先物上場へ",
       "link": "https://coinpost.jp/?p=738868",
       "source": "CoinPost",
@@ -3082,113 +3120,7 @@
       "relevance": "low",
       "summary": "「ビットコイン短期保有者、売却益が1年ぶりプラス圏へ＝アナリスト」の報道後、BTCは4時間で-0.6%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "週刊仮想通貨ニュース（9/4）｜相場分析・ストラテジーBTC戦略・金融庁の税制改正要望のまとめ",
-      "link": "https://coinpost.jp/?p=735559",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-06T00:25:57+00:00",
-      "detected_at_utc": "2026-09-06T01:10:00.548978+00:00",
-      "baseline": {
-        "t": "2026-09-06T01:10:00.548978+00:00",
-        "price": 79976.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 73,
-        "volume_1h": 13821259.02
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-06T05:59:41.318178+00:00",
-          "price": 79968.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 51200518.42,
-          "delta_price_pct": -0.01
-        },
-        "1h": {
-          "t": "2026-09-06T05:59:41.318178+00:00",
-          "price": 79968.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 51200518.42,
-          "delta_price_pct": -0.01
-        },
-        "2h": {
-          "t": "2026-09-06T05:59:41.318178+00:00",
-          "price": 79968.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 51200518.42,
-          "delta_price_pct": -0.01
-        },
-        "4h": {
-          "t": "2026-09-06T05:59:41.318178+00:00",
-          "price": 79968.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 51200518.42,
-          "delta_price_pct": -0.01
-        }
-      },
-      "flags": [
-        "出来高急増（+270%）"
-      ],
-      "relevance": "medium",
-      "summary": "「週刊仮想通貨ニュース（9/4）｜相場分析・ストラテジーBTC戦略・金融庁の税制改正要望のまとめ」の報道後、BTCは4時間で-0.0%。Fear & Greedも73から73へ横ばい。出来高急増（+270%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコインと金の相関性が6年ぶり高水準に、ビットワイズ",
-      "link": "https://coinpost.jp/?p=735720",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-05T02:20:58+00:00",
-      "detected_at_utc": "2026-09-05T04:54:17.430249+00:00",
-      "baseline": {
-        "t": "2026-09-05T04:54:17.430249+00:00",
-        "price": 79534.39,
-        "funding_rate_pct": null,
-        "fear_greed_value": 73,
-        "volume_1h": 21410133.04
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-05T08:53:41.527767+00:00",
-          "price": 79622.21,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 27449285.9,
-          "delta_price_pct": 0.11
-        },
-        "1h": {
-          "t": "2026-09-05T08:53:41.527767+00:00",
-          "price": 79622.21,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 27449285.9,
-          "delta_price_pct": 0.11
-        },
-        "2h": {
-          "t": "2026-09-05T08:53:41.527767+00:00",
-          "price": 79622.21,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 27449285.9,
-          "delta_price_pct": 0.11
-        },
-        "4h": {
-          "t": "2026-09-05T12:29:14.831569+00:00",
-          "price": 79659.83,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 14895585.94,
-          "delta_price_pct": 0.16
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコインと金の相関性が6年ぶり高水準に、ビットワイズ」の報道後、BTCは4時間で+0.2%。Fear & Greedも73から73へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-24T05:25:15.287328+00:00"
+  "updated_at_utc": "2026-09-24T10:25:38.403696+00:00"
 }
