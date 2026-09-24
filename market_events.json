@@ -13,11 +13,44 @@
         "fear_greed_value": 71,
         "volume_1h": 140005566.57
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-24T15:27:07.619429+00:00",
+          "price": 84137.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 166058048.69,
+          "delta_price_pct": 1.06
+        },
+        "1h": {
+          "t": "2026-09-24T15:27:07.619429+00:00",
+          "price": 84137.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 166058048.69,
+          "delta_price_pct": 1.06
+        },
+        "2h": {
+          "t": "2026-09-24T15:27:07.619429+00:00",
+          "price": 84137.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 166058048.69,
+          "delta_price_pct": 1.06
+        },
+        "4h": {
+          "t": "2026-09-24T15:27:07.619429+00:00",
+          "price": 84137.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 166058048.69,
+          "delta_price_pct": 1.06
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン実現利益は週約8060億円、過去の高値圏に及ばず＝グラスノード」の報道後、BTCは4時間で+1.1%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、オンチェーン指標が強気相場入りを示唆＝アナリスト",
@@ -32,11 +65,44 @@
         "fear_greed_value": 71,
         "volume_1h": 140005566.57
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-24T15:27:07.619429+00:00",
+          "price": 84137.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 166058048.69,
+          "delta_price_pct": 1.06
+        },
+        "1h": {
+          "t": "2026-09-24T15:27:07.619429+00:00",
+          "price": 84137.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 166058048.69,
+          "delta_price_pct": 1.06
+        },
+        "2h": {
+          "t": "2026-09-24T15:27:07.619429+00:00",
+          "price": 84137.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 166058048.69,
+          "delta_price_pct": 1.06
+        },
+        "4h": {
+          "t": "2026-09-24T15:27:07.619429+00:00",
+          "price": 84137.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 71,
+          "volume_1h": 166058048.69,
+          "delta_price_pct": 1.06
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン、オンチェーン指標が強気相場入りを示唆＝アナリスト」の報道後、BTCは4時間で+1.1%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "CMEグループ、ビットコインキャッシュとユニスワップの先物上場へ",
@@ -3122,5 +3188,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-24T10:25:38.403696+00:00"
+  "updated_at_utc": "2026-09-24T15:27:07.619429+00:00"
 }
