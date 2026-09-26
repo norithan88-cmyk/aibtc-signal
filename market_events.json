@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "米上場シークアンスがビットコイン財務戦略を終了、残りの314BTCを売却",
+      "link": "https://coinpost.jp/?p=739412",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-25T22:40:59+00:00",
+      "detected_at_utc": "2026-09-26T01:41:48.927502+00:00",
+      "baseline": {
+        "t": "2026-09-26T01:41:48.927502+00:00",
+        "price": 84064.59,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 31694670.92
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ストライブ、ビットコイン保有企業のMSCI除外基準に明確性要求",
+      "link": "https://coinpost.jp/?p=739395",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-25T21:35:31+00:00",
+      "detected_at_utc": "2026-09-26T01:41:48.927502+00:00",
+      "baseline": {
+        "t": "2026-09-26T01:41:48.927502+00:00",
+        "price": 84064.59,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 31694670.92
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ストラテジー、優先株の日次配当化を提案｜ビットコイン調達強化狙い",
+      "link": "https://coinpost.jp/?p=739390",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-25T20:00:27+00:00",
+      "detected_at_utc": "2026-09-26T01:41:48.927502+00:00",
+      "baseline": {
+        "t": "2026-09-26T01:41:48.927502+00:00",
+        "price": 84064.59,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 31694670.92
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "バイナンスの1日のビットコイン純流出、2023年以来最大＝アナリスト",
       "link": "https://coinpost.jp/?p=739348",
       "source": "CoinPost",
@@ -3024,171 +3081,7 @@
       "relevance": "medium",
       "summary": "「ビットコイン8月25％高、上位銘柄8割上昇＝CryptoRank」の報道後、BTCは4時間で-1.0%。Fear & Greedも69から69へ横ばい。出来高急増（+235%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "リキッドのビットコイン流出事件、自称ホワイトハットが3400BTC返還",
-      "link": "https://coinpost.jp/?p=736080",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-07T21:15:16+00:00",
-      "detected_at_utc": "2026-09-07T22:18:03.180019+00:00",
-      "baseline": {
-        "t": "2026-09-07T22:18:03.180019+00:00",
-        "price": 79079.85,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 17655366.06
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-08T00:32:37.129534+00:00",
-          "price": 79065.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 31207529.15,
-          "delta_price_pct": -0.02
-        },
-        "1h": {
-          "t": "2026-09-08T00:32:37.129534+00:00",
-          "price": 79065.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 31207529.15,
-          "delta_price_pct": -0.02
-        },
-        "2h": {
-          "t": "2026-09-08T00:32:37.129534+00:00",
-          "price": 79065.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 31207529.15,
-          "delta_price_pct": -0.02
-        },
-        "4h": {
-          "t": "2026-09-08T05:11:45.343443+00:00",
-          "price": 78682.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 54101560.28,
-          "delta_price_pct": -0.5
-        }
-      },
-      "flags": [
-        "出来高急増（+77%）",
-        "出来高急増（+206%）"
-      ],
-      "relevance": "high",
-      "summary": "「リキッドのビットコイン流出事件、自称ホワイトハットが3400BTC返還」の報道後、BTCは4時間で-0.5%。Fear & Greedも71から69へ悪化。出来高急増（+77%）、出来高急増（+206%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "キャピタルB、46億円相当ビットコインを追加取得　1年ぶりの大型購入に",
-      "link": "https://coinpost.jp/?p=736068",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-07T20:00:49+00:00",
-      "detected_at_utc": "2026-09-07T22:18:03.180019+00:00",
-      "baseline": {
-        "t": "2026-09-07T22:18:03.180019+00:00",
-        "price": 79079.85,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 17655366.06
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-08T00:32:37.129534+00:00",
-          "price": 79065.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 31207529.15,
-          "delta_price_pct": -0.02
-        },
-        "1h": {
-          "t": "2026-09-08T00:32:37.129534+00:00",
-          "price": 79065.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 31207529.15,
-          "delta_price_pct": -0.02
-        },
-        "2h": {
-          "t": "2026-09-08T00:32:37.129534+00:00",
-          "price": 79065.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 31207529.15,
-          "delta_price_pct": -0.02
-        },
-        "4h": {
-          "t": "2026-09-08T05:11:45.343443+00:00",
-          "price": 78682.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 54101560.28,
-          "delta_price_pct": -0.5
-        }
-      },
-      "flags": [
-        "出来高急増（+77%）",
-        "出来高急増（+206%）"
-      ],
-      "relevance": "high",
-      "summary": "「キャピタルB、46億円相当ビットコインを追加取得　1年ぶりの大型購入に」の報道後、BTCは4時間で-0.5%。Fear & Greedも71から69へ悪化。出来高急増（+77%）、出来高急増（+206%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン現物ETFに先週約1539億円純流入、3週連続",
-      "link": "https://coinpost.jp/?p=735999",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-07T07:32:12+00:00",
-      "detected_at_utc": "2026-09-07T10:12:56.991098+00:00",
-      "baseline": {
-        "t": "2026-09-07T10:12:56.991098+00:00",
-        "price": 79393.19,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 29712494.89
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-07T15:54:20.745018+00:00",
-          "price": 78830.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 61549214.43,
-          "delta_price_pct": -0.71
-        },
-        "1h": {
-          "t": "2026-09-07T15:54:20.745018+00:00",
-          "price": 78830.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 61549214.43,
-          "delta_price_pct": -0.71
-        },
-        "2h": {
-          "t": "2026-09-07T15:54:20.745018+00:00",
-          "price": 78830.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 61549214.43,
-          "delta_price_pct": -0.71
-        },
-        "4h": {
-          "t": "2026-09-07T15:54:20.745018+00:00",
-          "price": 78830.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 61549214.43,
-          "delta_price_pct": -0.71
-        }
-      },
-      "flags": [
-        "出来高急増（+107%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコイン現物ETFに先週約1539億円純流入、3週連続」の報道後、BTCは4時間で-0.7%。Fear & Greedも71から71へ横ばい。出来高急増（+107%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-25T23:16:15.764722+00:00"
+  "updated_at_utc": "2026-09-26T01:41:48.927502+00:00"
 }
