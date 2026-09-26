@@ -13,11 +13,44 @@
         "fear_greed_value": 74,
         "volume_1h": 20676344.78
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-26T11:50:35.197841+00:00",
+          "price": 84185.64,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 15949584.77,
+          "delta_price_pct": 0.31
+        },
+        "1h": {
+          "t": "2026-09-26T11:50:35.197841+00:00",
+          "price": 84185.64,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 15949584.77,
+          "delta_price_pct": 0.31
+        },
+        "2h": {
+          "t": "2026-09-26T11:50:35.197841+00:00",
+          "price": 84185.64,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 15949584.77,
+          "delta_price_pct": 0.31
+        },
+        "4h": {
+          "t": "2026-09-26T11:50:35.197841+00:00",
+          "price": 84185.64,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 15949584.77,
+          "delta_price_pct": 0.31
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米ブロック社、AIエージェント決済規格「x402」にビットコイン・ライトニングを導入」の報道後、BTCは4時間で+0.3%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米上場シークアンスがビットコイン財務戦略を終了、残りの314BTCを売却",
@@ -3147,5 +3180,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-26T06:40:39.825020+00:00"
+  "updated_at_utc": "2026-09-26T11:50:35.197841+00:00"
 }
