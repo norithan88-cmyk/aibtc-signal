@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "週刊仮想通貨ニュース（9/25）｜BTC相場・ストラテジーの財務戦略・機関投資家の動向まとめ",
+      "link": "https://coinpost.jp/?p=739190",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-27T00:25:50+00:00",
+      "detected_at_utc": "2026-09-27T05:01:53.062543+00:00",
+      "baseline": {
+        "t": "2026-09-27T05:01:53.062543+00:00",
+        "price": 84325.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 70,
+        "volume_1h": 16863128.68
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米ブロック社、AIエージェント決済規格「x402」にビットコイン・ライトニングを導入",
       "link": "https://coinpost.jp/?p=739427",
       "source": "CoinPost",
@@ -3124,61 +3143,7 @@
       "relevance": "low",
       "summary": "「ストラテジー、先週ビットコイン追加購入なし」の報道後、BTCは4時間で-0.1%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン需給構造改善も現物需要が課題＝レポート",
-      "link": "https://coinpost.jp/?p=736325",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-08T08:39:24+00:00",
-      "detected_at_utc": "2026-09-08T09:47:34.247021+00:00",
-      "baseline": {
-        "t": "2026-09-08T09:47:34.247021+00:00",
-        "price": 78734.25,
-        "funding_rate_pct": null,
-        "fear_greed_value": 69,
-        "volume_1h": 49919068.8
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-08T13:56:09.103958+00:00",
-          "price": 77969.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 167023254.59,
-          "delta_price_pct": -0.97
-        },
-        "1h": {
-          "t": "2026-09-08T13:56:09.103958+00:00",
-          "price": 77969.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 167023254.59,
-          "delta_price_pct": -0.97
-        },
-        "2h": {
-          "t": "2026-09-08T13:56:09.103958+00:00",
-          "price": 77969.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 167023254.59,
-          "delta_price_pct": -0.97
-        },
-        "4h": {
-          "t": "2026-09-08T13:56:09.103958+00:00",
-          "price": 77969.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 167023254.59,
-          "delta_price_pct": -0.97
-        }
-      },
-      "flags": [
-        "出来高急増（+235%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコイン需給構造改善も現物需要が課題＝レポート」の報道後、BTCは4時間で-1.0%。Fear & Greedも69から69へ横ばい。出来高急増（+235%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-26T23:55:06.730722+00:00"
+  "updated_at_utc": "2026-09-27T05:01:53.062543+00:00"
 }
