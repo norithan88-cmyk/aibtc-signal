@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ストラテジー、224億円相当ビットコインを追加購入　二週連続で実施",
+      "link": "https://coinpost.jp/?p=739651",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-28T12:15:45+00:00",
+      "detected_at_utc": "2026-09-28T13:43:40.429483+00:00",
+      "baseline": {
+        "t": "2026-09-28T13:43:40.429483+00:00",
+        "price": 83795.8,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 100157271.86
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン需要、17.1万BTCのマイナス　価格上昇と乖離＝アナリスト",
+      "link": "https://coinpost.jp/?p=739620",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-28T07:05:35+00:00",
+      "detected_at_utc": "2026-09-28T13:43:40.429483+00:00",
+      "baseline": {
+        "t": "2026-09-28T13:43:40.429483+00:00",
+        "price": 83795.8,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 100157271.86
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン現物ETF、週間23.9億ドル流入　約1年ぶりの高水準",
       "link": "https://coinpost.jp/?p=739538",
       "source": "CoinPost",
@@ -13,11 +51,44 @@
         "fear_greed_value": 74,
         "volume_1h": 119577200.89
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-28T13:43:40.429483+00:00",
+          "price": 83795.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 100157271.86,
+          "delta_price_pct": 0.72
+        },
+        "1h": {
+          "t": "2026-09-28T13:43:40.429483+00:00",
+          "price": 83795.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 100157271.86,
+          "delta_price_pct": 0.72
+        },
+        "2h": {
+          "t": "2026-09-28T13:43:40.429483+00:00",
+          "price": 83795.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 100157271.86,
+          "delta_price_pct": 0.72
+        },
+        "4h": {
+          "t": "2026-09-28T13:43:40.429483+00:00",
+          "price": 83795.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 100157271.86,
+          "delta_price_pct": 0.72
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン現物ETF、週間23.9億ドル流入　約1年ぶりの高水準」の報道後、BTCは4時間で+0.7%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "フィデリティ幹部、ビットコイン強気相場入りを示唆　2029年30万ドル目標",
@@ -32,11 +103,44 @@
         "fear_greed_value": 74,
         "volume_1h": 119577200.89
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-09-28T13:43:40.429483+00:00",
+          "price": 83795.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 100157271.86,
+          "delta_price_pct": 0.72
+        },
+        "1h": {
+          "t": "2026-09-28T13:43:40.429483+00:00",
+          "price": 83795.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 100157271.86,
+          "delta_price_pct": 0.72
+        },
+        "2h": {
+          "t": "2026-09-28T13:43:40.429483+00:00",
+          "price": 83795.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 100157271.86,
+          "delta_price_pct": 0.72
+        },
+        "4h": {
+          "t": "2026-09-28T13:43:40.429483+00:00",
+          "price": 83795.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 74,
+          "volume_1h": 100157271.86,
+          "delta_price_pct": 0.72
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「フィデリティ幹部、ビットコイン強気相場入りを示唆　2029年30万ドル目標」の報道後、BTCは4時間で+0.7%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "週刊仮想通貨ニュース（9/25）｜BTC相場・ストラテジーの財務戦略・機関投資家の動向まとめ",
@@ -3002,115 +3106,7 @@
       "relevance": "low",
       "summary": "「ビットコイン、7.9万ドル圏で横ばい　強弱材料で拮抗＝グラスノード」の報道後、BTCは4時間で-0.1%。Fear & Greedも66から66へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "リキッド公式説明、検証機能の脆弱性で4000ビットコイン流出",
-      "link": "https://coinpost.jp/?p=736424",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-09T00:51:20+00:00",
-      "detected_at_utc": "2026-09-09T01:12:45.579657+00:00",
-      "baseline": {
-        "t": "2026-09-09T01:12:45.579657+00:00",
-        "price": 78854.29,
-        "funding_rate_pct": null,
-        "fear_greed_value": 66,
-        "volume_1h": 18055324.43
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-09T06:04:30.759085+00:00",
-          "price": 78866.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 66,
-          "volume_1h": 43081407.05,
-          "delta_price_pct": 0.01
-        },
-        "1h": {
-          "t": "2026-09-09T06:04:30.759085+00:00",
-          "price": 78866.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 66,
-          "volume_1h": 43081407.05,
-          "delta_price_pct": 0.01
-        },
-        "2h": {
-          "t": "2026-09-09T06:04:30.759085+00:00",
-          "price": 78866.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 66,
-          "volume_1h": 43081407.05,
-          "delta_price_pct": 0.01
-        },
-        "4h": {
-          "t": "2026-09-09T06:04:30.759085+00:00",
-          "price": 78866.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 66,
-          "volume_1h": 43081407.05,
-          "delta_price_pct": 0.01
-        }
-      },
-      "flags": [
-        "出来高急増（+139%）"
-      ],
-      "relevance": "medium",
-      "summary": "「リキッド公式説明、検証機能の脆弱性で4000ビットコイン流出」の報道後、BTCは4時間で+0.0%。Fear & Greedも66から66へ横ばい。出来高急増（+139%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "米カースル、ストラテジー優先株配当をビットコインに自動転換する機能を提供",
-      "link": "https://coinpost.jp/?p=736382",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-08T23:05:24+00:00",
-      "detected_at_utc": "2026-09-09T01:12:45.579657+00:00",
-      "baseline": {
-        "t": "2026-09-09T01:12:45.579657+00:00",
-        "price": 78854.29,
-        "funding_rate_pct": null,
-        "fear_greed_value": 66,
-        "volume_1h": 18055324.43
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-09T06:04:30.759085+00:00",
-          "price": 78866.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 66,
-          "volume_1h": 43081407.05,
-          "delta_price_pct": 0.01
-        },
-        "1h": {
-          "t": "2026-09-09T06:04:30.759085+00:00",
-          "price": 78866.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 66,
-          "volume_1h": 43081407.05,
-          "delta_price_pct": 0.01
-        },
-        "2h": {
-          "t": "2026-09-09T06:04:30.759085+00:00",
-          "price": 78866.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 66,
-          "volume_1h": 43081407.05,
-          "delta_price_pct": 0.01
-        },
-        "4h": {
-          "t": "2026-09-09T06:04:30.759085+00:00",
-          "price": 78866.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 66,
-          "volume_1h": 43081407.05,
-          "delta_price_pct": 0.01
-        }
-      },
-      "flags": [
-        "出来高急増（+139%）"
-      ],
-      "relevance": "medium",
-      "summary": "「米カースル、ストラテジー優先株配当をビットコインに自動転換する機能を提供」の報道後、BTCは4時間で+0.0%。Fear & Greedも66から66へ横ばい。出来高急増（+139%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-28T05:58:55.527953+00:00"
+  "updated_at_utc": "2026-09-28T13:43:40.429483+00:00"
 }
