@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ビットコイン現物ETF、週間23.9億ドル流入　約1年ぶりの高水準",
+      "link": "https://coinpost.jp/?p=739538",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-28T02:47:38+00:00",
+      "detected_at_utc": "2026-09-28T05:58:55.527953+00:00",
+      "baseline": {
+        "t": "2026-09-28T05:58:55.527953+00:00",
+        "price": 83195.18,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 119577200.89
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "フィデリティ幹部、ビットコイン強気相場入りを示唆　2029年30万ドル目標",
+      "link": "https://coinpost.jp/?p=739493",
+      "source": "CoinPost",
+      "published_at_utc": "2026-09-28T00:50:45+00:00",
+      "detected_at_utc": "2026-09-28T05:58:55.527953+00:00",
+      "baseline": {
+        "t": "2026-09-28T05:58:55.527953+00:00",
+        "price": 83195.18,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 119577200.89
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "週刊仮想通貨ニュース（9/25）｜BTC相場・ストラテジーの財務戦略・機関投資家の動向まとめ",
       "link": "https://coinpost.jp/?p=739190",
       "source": "CoinPost",
@@ -3072,113 +3110,7 @@
       "relevance": "medium",
       "summary": "「米カースル、ストラテジー優先株配当をビットコインに自動転換する機能を提供」の報道後、BTCは4時間で+0.0%。Fear & Greedも66から66へ横ばい。出来高急増（+139%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ストライブ、1375BTCを追加購入し保有2.4万ビットコインに拡大",
-      "link": "https://coinpost.jp/?p=736385",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-08T21:10:31+00:00",
-      "detected_at_utc": "2026-09-09T01:12:45.579657+00:00",
-      "baseline": {
-        "t": "2026-09-09T01:12:45.579657+00:00",
-        "price": 78854.29,
-        "funding_rate_pct": null,
-        "fear_greed_value": 66,
-        "volume_1h": 18055324.43
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-09T06:04:30.759085+00:00",
-          "price": 78866.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 66,
-          "volume_1h": 43081407.05,
-          "delta_price_pct": 0.01
-        },
-        "1h": {
-          "t": "2026-09-09T06:04:30.759085+00:00",
-          "price": 78866.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 66,
-          "volume_1h": 43081407.05,
-          "delta_price_pct": 0.01
-        },
-        "2h": {
-          "t": "2026-09-09T06:04:30.759085+00:00",
-          "price": 78866.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 66,
-          "volume_1h": 43081407.05,
-          "delta_price_pct": 0.01
-        },
-        "4h": {
-          "t": "2026-09-09T06:04:30.759085+00:00",
-          "price": 78866.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 66,
-          "volume_1h": 43081407.05,
-          "delta_price_pct": 0.01
-        }
-      },
-      "flags": [
-        "出来高急増（+139%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ストライブ、1375BTCを追加購入し保有2.4万ビットコインに拡大」の報道後、BTCは4時間で+0.0%。Fear & Greedも66から66へ横ばい。出来高急増（+139%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ストラテジー、先週ビットコイン追加購入なし",
-      "link": "https://coinpost.jp/?p=736370",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-08T13:00:25+00:00",
-      "detected_at_utc": "2026-09-08T17:52:34.046332+00:00",
-      "baseline": {
-        "t": "2026-09-08T17:52:34.046332+00:00",
-        "price": 78611.99,
-        "funding_rate_pct": null,
-        "fear_greed_value": 69,
-        "volume_1h": 27421321.6
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-08T20:47:39.241757+00:00",
-          "price": 78550.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 25313800.14,
-          "delta_price_pct": -0.08
-        },
-        "1h": {
-          "t": "2026-09-08T20:47:39.241757+00:00",
-          "price": 78550.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 25313800.14,
-          "delta_price_pct": -0.08
-        },
-        "2h": {
-          "t": "2026-09-08T20:47:39.241757+00:00",
-          "price": 78550.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 25313800.14,
-          "delta_price_pct": -0.08
-        },
-        "4h": {
-          "t": "2026-09-08T23:01:27.473464+00:00",
-          "price": 78567.26,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 24595906.17,
-          "delta_price_pct": -0.06
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ストラテジー、先週ビットコイン追加購入なし」の報道後、BTCは4時間で-0.1%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-09-28T00:46:18.014438+00:00"
+  "updated_at_utc": "2026-09-28T05:58:55.527953+00:00"
 }
