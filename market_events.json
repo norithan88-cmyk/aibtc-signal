@@ -13,11 +13,44 @@
         "fear_greed_value": 74,
         "volume_1h": 113925933.37
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        },
+        "1h": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        },
+        "2h": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        },
+        "4h": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン短期保有者の含み益、13.7％に縮小＝アナリスト」の報道後、BTCは4時間で+0.9%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン現物需要なお弱く　ETFは9月下旬から2.8万BTC増＝アナリスト",
@@ -32,11 +65,44 @@
         "fear_greed_value": 74,
         "volume_1h": 113925933.37
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        },
+        "1h": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        },
+        "2h": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        },
+        "4h": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン現物需要なお弱く　ETFは9月下旬から2.8万BTC増＝アナリスト」の報道後、BTCは4時間で+0.9%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン政策研究所、MSCIの指数除外案に撤回要求",
@@ -51,11 +117,44 @@
         "fear_greed_value": 74,
         "volume_1h": 113925933.37
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        },
+        "1h": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        },
+        "2h": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        },
+        "4h": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン政策研究所、MSCIの指数除外案に撤回要求」の報道後、BTCは4時間で+0.9%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "エルサルバドルでステーブルコイン送金アプリ始動、ビットコイン局は報道に反論",
@@ -70,11 +169,44 @@
         "fear_greed_value": 74,
         "volume_1h": 113925933.37
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        },
+        "1h": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        },
+        "2h": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        },
+        "4h": {
+          "t": "2026-10-01T16:18:06.159620+00:00",
+          "price": 84348.01,
+          "funding_rate_pct": 0.007,
+          "fear_greed_value": 74,
+          "volume_1h": 69210276.56,
+          "delta_price_pct": 0.92
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「エルサルバドルでステーブルコイン送金アプリ始動、ビットコイン局は報道に反論」の報道後、BTCは4時間で+0.9%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインに過熱の兆候、強気相場は維持＝クリプトクアント分析",
@@ -3034,5 +3166,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-01T08:56:46.947971+00:00"
+  "updated_at_utc": "2026-10-01T16:18:06.159620+00:00"
 }
