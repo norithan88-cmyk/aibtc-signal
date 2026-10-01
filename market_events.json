@@ -1,6 +1,82 @@
 {
   "events": [
     {
+      "title": "ビットコイン短期保有者の含み益、13.7％に縮小＝アナリスト",
+      "link": "https://coinpost.jp/?p=740477",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-01T08:41:17+00:00",
+      "detected_at_utc": "2026-10-01T08:56:46.947971+00:00",
+      "baseline": {
+        "t": "2026-10-01T08:56:46.947971+00:00",
+        "price": 83580.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 113925933.37
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン現物需要なお弱く　ETFは9月下旬から2.8万BTC増＝アナリスト",
+      "link": "https://coinpost.jp/?p=740420",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-01T06:41:30+00:00",
+      "detected_at_utc": "2026-10-01T08:56:46.947971+00:00",
+      "baseline": {
+        "t": "2026-10-01T08:56:46.947971+00:00",
+        "price": 83580.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 113925933.37
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン政策研究所、MSCIの指数除外案に撤回要求",
+      "link": "https://coinpost.jp/?p=740397",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-01T05:06:18+00:00",
+      "detected_at_utc": "2026-10-01T08:56:46.947971+00:00",
+      "baseline": {
+        "t": "2026-10-01T08:56:46.947971+00:00",
+        "price": 83580.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 113925933.37
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "エルサルバドルでステーブルコイン送金アプリ始動、ビットコイン局は報道に反論",
+      "link": "https://coinpost.jp/?p=740346",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-01T02:55:10+00:00",
+      "detected_at_utc": "2026-10-01T08:56:46.947971+00:00",
+      "baseline": {
+        "t": "2026-10-01T08:56:46.947971+00:00",
+        "price": 83580.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 74,
+        "volume_1h": 113925933.37
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコインに過熱の兆候、強気相場は維持＝クリプトクアント分析",
       "link": "https://coinpost.jp/?p=739996",
       "source": "CoinPost",
@@ -2956,221 +3032,7 @@
       "relevance": "medium",
       "summary": "「100人超の研究者ら、ビットコインとイーサリアムの量子攻撃計算量見積もりを半減」の報道後、BTCは4時間で-0.6%。Fear & Greedも56から56へ横ばい。出来高急増（+51%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "コインベースCEO「ビットコイン底打ち」、40万ドル目標を維持",
-      "link": "https://coinpost.jp/?p=736805",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-10T21:40:24+00:00",
-      "detected_at_utc": "2026-09-11T05:59:58.166876+00:00",
-      "baseline": {
-        "t": "2026-09-11T05:59:58.166876+00:00",
-        "price": 77252.87,
-        "funding_rate_pct": null,
-        "fear_greed_value": 56,
-        "volume_1h": 21946993.36
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-11T11:11:08.456517+00:00",
-          "price": 76816.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 33079305.02,
-          "delta_price_pct": -0.57
-        },
-        "1h": {
-          "t": "2026-09-11T11:11:08.456517+00:00",
-          "price": 76816.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 33079305.02,
-          "delta_price_pct": -0.57
-        },
-        "2h": {
-          "t": "2026-09-11T11:11:08.456517+00:00",
-          "price": 76816.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 33079305.02,
-          "delta_price_pct": -0.57
-        },
-        "4h": {
-          "t": "2026-09-11T11:11:08.456517+00:00",
-          "price": 76816.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 33079305.02,
-          "delta_price_pct": -0.57
-        }
-      },
-      "flags": [
-        "出来高急増（+51%）"
-      ],
-      "relevance": "medium",
-      "summary": "「コインベースCEO「ビットコイン底打ち」、40万ドル目標を維持」の報道後、BTCは4時間で-0.6%。Fear & Greedも56から56へ横ばい。出来高急増（+51%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン反発、現物より先物優勢　準備高は改善傾向＝アナリスト",
-      "link": "https://coinpost.jp/?p=736765",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-10T08:29:26+00:00",
-      "detected_at_utc": "2026-09-10T11:17:28.823314+00:00",
-      "baseline": {
-        "t": "2026-09-10T11:17:28.823314+00:00",
-        "price": 77997.57,
-        "funding_rate_pct": null,
-        "fear_greed_value": 69,
-        "volume_1h": 63681882.14
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-10T15:03:18.307304+00:00",
-          "price": 77254.25,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 77711830.34,
-          "delta_price_pct": -0.95
-        },
-        "1h": {
-          "t": "2026-09-10T15:03:18.307304+00:00",
-          "price": 77254.25,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 77711830.34,
-          "delta_price_pct": -0.95
-        },
-        "2h": {
-          "t": "2026-09-10T15:03:18.307304+00:00",
-          "price": 77254.25,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 77711830.34,
-          "delta_price_pct": -0.95
-        },
-        "4h": {
-          "t": "2026-09-10T18:23:45.100944+00:00",
-          "price": 77122.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 44928691.42,
-          "delta_price_pct": -1.12
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン反発、現物より先物優勢　準備高は改善傾向＝アナリスト」の報道後、BTCは4時間で-1.1%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン、8.3万〜8.6万ドル手前で足踏み＝Glassnode分析",
-      "link": "https://coinpost.jp/?p=736687",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-10T05:00:15+00:00",
-      "detected_at_utc": "2026-09-10T06:06:03.260405+00:00",
-      "baseline": {
-        "t": "2026-09-10T06:06:03.260405+00:00",
-        "price": 78420.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 69,
-        "volume_1h": 42027275.05
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-10T11:17:28.823314+00:00",
-          "price": 77997.57,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 63681882.14,
-          "delta_price_pct": -0.54
-        },
-        "1h": {
-          "t": "2026-09-10T11:17:28.823314+00:00",
-          "price": 77997.57,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 63681882.14,
-          "delta_price_pct": -0.54
-        },
-        "2h": {
-          "t": "2026-09-10T11:17:28.823314+00:00",
-          "price": 77997.57,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 63681882.14,
-          "delta_price_pct": -0.54
-        },
-        "4h": {
-          "t": "2026-09-10T11:17:28.823314+00:00",
-          "price": 77997.57,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 63681882.14,
-          "delta_price_pct": -0.54
-        }
-      },
-      "flags": [
-        "出来高急増（+52%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコイン、8.3万〜8.6万ドル手前で足踏み＝Glassnode分析」の報道後、BTCは4時間で-0.5%。Fear & Greedも69から69へ横ばい。出来高急増（+52%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "米老舗レストラン、加盟店売上19％増　ビットコイン決済効果",
-      "link": "https://coinpost.jp/?p=736635",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-10T01:15:02+00:00",
-      "detected_at_utc": "2026-09-10T06:06:03.260405+00:00",
-      "baseline": {
-        "t": "2026-09-10T06:06:03.260405+00:00",
-        "price": 78420.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 69,
-        "volume_1h": 42027275.05
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-10T11:17:28.823314+00:00",
-          "price": 77997.57,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 63681882.14,
-          "delta_price_pct": -0.54
-        },
-        "1h": {
-          "t": "2026-09-10T11:17:28.823314+00:00",
-          "price": 77997.57,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 63681882.14,
-          "delta_price_pct": -0.54
-        },
-        "2h": {
-          "t": "2026-09-10T11:17:28.823314+00:00",
-          "price": 77997.57,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 63681882.14,
-          "delta_price_pct": -0.54
-        },
-        "4h": {
-          "t": "2026-09-10T11:17:28.823314+00:00",
-          "price": 77997.57,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 63681882.14,
-          "delta_price_pct": -0.54
-        }
-      },
-      "flags": [
-        "出来高急増（+52%）"
-      ],
-      "relevance": "medium",
-      "summary": "「米老舗レストラン、加盟店売上19％増　ビットコイン決済効果」の報道後、BTCは4時間で-0.5%。Fear & Greedも69から69へ横ばい。出来高急増（+52%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-01T02:07:37.316934+00:00"
+  "updated_at_utc": "2026-10-01T08:56:46.947971+00:00"
 }
