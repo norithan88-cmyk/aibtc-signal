@@ -13,11 +13,46 @@
         "fear_greed_value": 72,
         "volume_1h": 70182683.83
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-02T06:22:17.714961+00:00",
+          "price": 86054.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 81490528.75,
+          "delta_price_pct": 1.51
+        },
+        "1h": {
+          "t": "2026-10-02T06:22:17.714961+00:00",
+          "price": 86054.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 81490528.75,
+          "delta_price_pct": 1.51
+        },
+        "2h": {
+          "t": "2026-10-02T06:22:17.714961+00:00",
+          "price": 86054.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 81490528.75,
+          "delta_price_pct": 1.51
+        },
+        "4h": {
+          "t": "2026-10-02T06:22:17.714961+00:00",
+          "price": 86054.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 81490528.75,
+          "delta_price_pct": 1.51
+        }
+      },
+      "flags": [
+        "価格急変（+1.5%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン、上昇の初期段階も売り注文の壁が上値抑制＝グラスノード」の報道後、BTCは4時間で+1.5%。Fear & Greedも72から72へ横ばい。価格急変（+1.5%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "シティ、ビットコイン価格目標を11.3万ドルへ上方修正──今後12カ月の見通し",
@@ -56,14 +91,24 @@
           "fear_greed_value": 72,
           "volume_1h": 70182683.83,
           "delta_price_pct": 0.15
+        },
+        "4h": {
+          "t": "2026-10-02T06:22:17.714961+00:00",
+          "price": 86054.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 72,
+          "volume_1h": 81490528.75,
+          "delta_price_pct": 1.66
         }
       },
       "flags": [
-        "出来高急増（+161%）"
+        "出来高急増（+161%）",
+        "価格急変（+1.7%）",
+        "出来高急増（+203%）"
       ],
-      "relevance": "medium",
-      "summary": "「シティ、ビットコイン価格目標を11.3万ドルへ上方修正──今後12カ月の見通し」の報道後、BTCは2時間で+0.1%。Fear & Greedも74から72へ悪化。出来高急増（+161%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "relevance": "high",
+      "summary": "「シティ、ビットコイン価格目標を11.3万ドルへ上方修正──今後12カ月の見通し」の報道後、BTCは4時間で+1.7%。Fear & Greedも74から72へ悪化。出来高急増（+161%）、価格急変（+1.7%）、出来高急増（+203%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン短期保有者の含み益、13.7％に縮小＝アナリスト",
@@ -3121,5 +3166,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-02T00:47:53.961075+00:00"
+  "updated_at_utc": "2026-10-02T06:22:17.714961+00:00"
 }
