@@ -13,11 +13,44 @@
         "fear_greed_value": 67,
         "volume_1h": 23361331.08
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-03T12:09:04.093953+00:00",
+          "price": 84690.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 67,
+          "volume_1h": 14495725.2,
+          "delta_price_pct": 0.07
+        },
+        "1h": {
+          "t": "2026-10-03T12:09:04.093953+00:00",
+          "price": 84690.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 67,
+          "volume_1h": 14495725.2,
+          "delta_price_pct": 0.07
+        },
+        "2h": {
+          "t": "2026-10-03T12:09:04.093953+00:00",
+          "price": 84690.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 67,
+          "volume_1h": 14495725.2,
+          "delta_price_pct": 0.07
+        },
+        "4h": {
+          "t": "2026-10-03T12:09:04.093953+00:00",
+          "price": 84690.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 67,
+          "volume_1h": 14495725.2,
+          "delta_price_pct": 0.07
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米SEC、ビットコインなど6資産の3倍レバレッジETFの上場を承認」の報道後、BTCは4時間で+0.1%。Fear & Greedも67から67へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "「10月のビットコイン、過去13年間で10回上昇」、米CNBCが強気相場入りの可能性を指摘",
@@ -3135,5 +3168,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-03T06:49:12.223045+00:00"
+  "updated_at_utc": "2026-10-03T12:09:04.093953+00:00"
 }
