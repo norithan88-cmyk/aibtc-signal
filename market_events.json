@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "「10月のビットコイン、過去13年間で10回上昇」、米CNBCが強気相場入りの可能性を指摘",
+      "link": "https://coinpost.jp/?p=740846",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-02T22:50:47+00:00",
+      "detected_at_utc": "2026-10-03T01:21:19.836449+00:00",
+      "baseline": {
+        "t": "2026-10-03T01:21:19.836449+00:00",
+        "price": 84625.24,
+        "funding_rate_pct": null,
+        "fear_greed_value": 67,
+        "volume_1h": 25207026.83
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "IMF、エルサルバドルに1.38億ドル　ビットコイン巡る基準未達を免除",
       "link": "https://coinpost.jp/?p=740725",
       "source": "CoinPost",
@@ -3114,59 +3133,7 @@
       "relevance": "low",
       "summary": "「ビットコイン、ATH未更新365日に接近　更新ペース加速の可能性＝アナリスト」の報道後、BTCは4時間で+1.1%。Fear & Greedも61から57へ悪化。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコインPPI上振れで1200万円割れ、FOMCと原油高が焦点｜bitbankアナリスト寄稿",
-      "link": "https://coinpost.jp/?p=737000",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-13T02:30:20+00:00",
-      "detected_at_utc": "2026-09-13T05:52:58.724529+00:00",
-      "baseline": {
-        "t": "2026-09-13T05:52:58.724529+00:00",
-        "price": 77322.75,
-        "funding_rate_pct": null,
-        "fear_greed_value": 61,
-        "volume_1h": 18557383.45
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-13T11:15:38.839552+00:00",
-          "price": 76568.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 61,
-          "volume_1h": 20998546.37,
-          "delta_price_pct": -0.98
-        },
-        "1h": {
-          "t": "2026-09-13T11:15:38.839552+00:00",
-          "price": 76568.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 61,
-          "volume_1h": 20998546.37,
-          "delta_price_pct": -0.98
-        },
-        "2h": {
-          "t": "2026-09-13T11:15:38.839552+00:00",
-          "price": 76568.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 61,
-          "volume_1h": 20998546.37,
-          "delta_price_pct": -0.98
-        },
-        "4h": {
-          "t": "2026-09-13T11:15:38.839552+00:00",
-          "price": 76568.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 61,
-          "volume_1h": 20998546.37,
-          "delta_price_pct": -0.98
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコインPPI上振れで1200万円割れ、FOMCと原油高が焦点｜bitbankアナリスト寄稿」の報道後、BTCは4時間で-1.0%。Fear & Greedも61から61へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-02T22:25:58.181169+00:00"
+  "updated_at_utc": "2026-10-03T01:21:19.836449+00:00"
 }
