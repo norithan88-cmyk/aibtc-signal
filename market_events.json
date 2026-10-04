@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン、8万5000ドルが分岐点　雇用統計後の焦点は｜bitbankアナリスト寄稿",
+      "link": "https://coinpost.jp/?p=740798",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-04T02:30:55+00:00",
+      "detected_at_utc": "2026-10-04T07:26:37.092204+00:00",
+      "baseline": {
+        "t": "2026-10-04T07:26:37.092204+00:00",
+        "price": 84980.64,
+        "funding_rate_pct": null,
+        "fear_greed_value": 65,
+        "volume_1h": 16149886.88
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米SEC、ビットコインなど6資産の3倍レバレッジETFの上場を承認",
       "link": "https://coinpost.jp/?p=740844",
       "source": "CoinPost",
@@ -3114,59 +3133,7 @@
       "relevance": "medium",
       "summary": "「ビットコイン現物ETF、3週ぶりに流出転換」の報道後、BTCは4時間で+1.2%。Fear & Greedも57から57へ横ばい。出来高急増（+62%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "レボリュート、偽の政府要求でビットコイン履歴など顧客情報開示",
-      "link": "https://coinpost.jp/?p=737159",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-14T00:18:29+00:00",
-      "detected_at_utc": "2026-09-14T00:28:58.290421+00:00",
-      "baseline": {
-        "t": "2026-09-14T00:28:58.290421+00:00",
-        "price": 76475.77,
-        "funding_rate_pct": null,
-        "fear_greed_value": 57,
-        "volume_1h": 48413425.02
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-14T05:22:59.736890+00:00",
-          "price": 77545.83,
-          "funding_rate_pct": 0.0072,
-          "fear_greed_value": 57,
-          "volume_1h": 39455203.93,
-          "delta_price_pct": 1.4
-        },
-        "1h": {
-          "t": "2026-09-14T05:22:59.736890+00:00",
-          "price": 77545.83,
-          "funding_rate_pct": 0.0072,
-          "fear_greed_value": 57,
-          "volume_1h": 39455203.93,
-          "delta_price_pct": 1.4
-        },
-        "2h": {
-          "t": "2026-09-14T05:22:59.736890+00:00",
-          "price": 77545.83,
-          "funding_rate_pct": 0.0072,
-          "fear_greed_value": 57,
-          "volume_1h": 39455203.93,
-          "delta_price_pct": 1.4
-        },
-        "4h": {
-          "t": "2026-09-14T05:22:59.736890+00:00",
-          "price": 77545.83,
-          "funding_rate_pct": 0.0072,
-          "fear_greed_value": 57,
-          "volume_1h": 39455203.93,
-          "delta_price_pct": 1.4
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「レボリュート、偽の政府要求でビットコイン履歴など顧客情報開示」の報道後、BTCは4時間で+1.4%。Fear & Greedも57から57へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-04T01:41:45.265301+00:00"
+  "updated_at_utc": "2026-10-04T07:26:37.092204+00:00"
 }
