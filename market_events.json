@@ -37,12 +37,20 @@
           "fear_greed_value": 70,
           "volume_1h": 68470204.47,
           "delta_price_pct": -0.05
+        },
+        "4h": {
+          "t": "2026-10-05T09:31:17.881618+00:00",
+          "price": 85888.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 70,
+          "volume_1h": 85522146.09,
+          "delta_price_pct": -0.84
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン現物出来高、約3年ぶり低水準から小幅回復＝アナリスト」の報道後、BTCは2時間で-0.1%。Fear & Greedも65から70へ改善。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ビットコイン現物出来高、約3年ぶり低水準から小幅回復＝アナリスト」の報道後、BTCは4時間で-0.8%。Fear & Greedも65から70へ改善。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン長期保有者、弱気相場でも含み益維持　2015年以降初＝グラスノード",
@@ -81,12 +89,20 @@
           "fear_greed_value": 70,
           "volume_1h": 68470204.47,
           "delta_price_pct": -0.05
+        },
+        "4h": {
+          "t": "2026-10-05T09:31:17.881618+00:00",
+          "price": 85888.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 70,
+          "volume_1h": 85522146.09,
+          "delta_price_pct": -0.84
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコイン長期保有者、弱気相場でも含み益維持　2015年以降初＝グラスノード」の報道後、BTCは2時間で-0.1%。Fear & Greedも65から70へ改善。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ビットコイン長期保有者、弱気相場でも含み益維持　2015年以降初＝グラスノード」の報道後、BTCは4時間で-0.8%。Fear & Greedも65から70へ改善。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、8万5000ドルが分岐点　雇用統計後の焦点は｜bitbankアナリスト寄稿",
@@ -3150,5 +3166,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-05T02:23:19.332607+00:00"
+  "updated_at_utc": "2026-10-05T09:31:17.881618+00:00"
 }
