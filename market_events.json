@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "メタプラネットが資本配分方針再改定、ビットコイン85〜90％・戦略投資10〜15％が目安",
+      "link": "https://coinpost.jp/?p=741161",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-05T12:35:30+00:00",
+      "detected_at_utc": "2026-10-05T18:48:18.798143+00:00",
+      "baseline": {
+        "t": "2026-10-05T18:48:18.798143+00:00",
+        "price": 85613.77,
+        "funding_rate_pct": null,
+        "fear_greed_value": 70,
+        "volume_1h": 33103473.62
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ストラテジー、3週連続でビットコイン追加取得　848000BTCに到達",
+      "link": "https://coinpost.jp/?p=741160",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-05T12:25:55+00:00",
+      "detected_at_utc": "2026-10-05T18:48:18.798143+00:00",
+      "baseline": {
+        "t": "2026-10-05T18:48:18.798143+00:00",
+        "price": 85613.77,
+        "funding_rate_pct": null,
+        "fear_greed_value": 70,
+        "volume_1h": 33103473.62
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン現物出来高、約3年ぶり低水準から小幅回復＝アナリスト",
       "link": "https://coinpost.jp/?p=740918",
       "source": "CoinPost",
@@ -3056,115 +3094,7 @@
       "relevance": "low",
       "summary": "「上場ビットコインマイナー3社が8月の採掘実績を報告、明暗分かれる」の報道後、BTCは4時間で-0.9%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米KULR、保有ビットコインを全て売却　財務運営の一環で",
-      "link": "https://coinpost.jp/?p=737395",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-14T23:05:23+00:00",
-      "detected_at_utc": "2026-09-14T23:32:02.796129+00:00",
-      "baseline": {
-        "t": "2026-09-14T23:32:02.796129+00:00",
-        "price": 78294.68,
-        "funding_rate_pct": null,
-        "fear_greed_value": 57,
-        "volume_1h": 31319330.15
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-15T01:52:59.485168+00:00",
-          "price": 77990.29,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 39103648.07,
-          "delta_price_pct": -0.39
-        },
-        "1h": {
-          "t": "2026-09-15T01:52:59.485168+00:00",
-          "price": 77990.29,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 39103648.07,
-          "delta_price_pct": -0.39
-        },
-        "2h": {
-          "t": "2026-09-15T01:52:59.485168+00:00",
-          "price": 77990.29,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 39103648.07,
-          "delta_price_pct": -0.39
-        },
-        "4h": {
-          "t": "2026-09-15T07:20:41.705028+00:00",
-          "price": 77307.39,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 35260804.44,
-          "delta_price_pct": -1.26
-        }
-      },
-      "flags": [
-        "市場心理の好転（Fear & Greed急上昇）"
-      ],
-      "relevance": "medium",
-      "summary": "「米KULR、保有ビットコインを全て売却　財務運営の一環で」の報道後、BTCは4時間で-1.3%。Fear & Greedも57から69へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "米上場ストライブが469ビットコイン追加購入、保有量2.5万BTCに",
-      "link": "https://coinpost.jp/?p=737378",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-14T21:55:08+00:00",
-      "detected_at_utc": "2026-09-14T23:32:02.796129+00:00",
-      "baseline": {
-        "t": "2026-09-14T23:32:02.796129+00:00",
-        "price": 78294.68,
-        "funding_rate_pct": null,
-        "fear_greed_value": 57,
-        "volume_1h": 31319330.15
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-15T01:52:59.485168+00:00",
-          "price": 77990.29,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 39103648.07,
-          "delta_price_pct": -0.39
-        },
-        "1h": {
-          "t": "2026-09-15T01:52:59.485168+00:00",
-          "price": 77990.29,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 39103648.07,
-          "delta_price_pct": -0.39
-        },
-        "2h": {
-          "t": "2026-09-15T01:52:59.485168+00:00",
-          "price": 77990.29,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 39103648.07,
-          "delta_price_pct": -0.39
-        },
-        "4h": {
-          "t": "2026-09-15T07:20:41.705028+00:00",
-          "price": 77307.39,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 35260804.44,
-          "delta_price_pct": -1.26
-        }
-      },
-      "flags": [
-        "市場心理の好転（Fear & Greed急上昇）"
-      ],
-      "relevance": "medium",
-      "summary": "「米上場ストライブが469ビットコイン追加購入、保有量2.5万BTCに」の報道後、BTCは4時間で-1.3%。Fear & Greedも57から69へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-05T09:31:17.881618+00:00"
+  "updated_at_utc": "2026-10-05T18:48:18.798143+00:00"
 }
