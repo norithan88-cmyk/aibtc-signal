@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "米上場ストライブ、266億円相当ビットコイン購入──世界5位に",
+      "link": "https://coinpost.jp/?p=741256",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-06T04:00:46+00:00",
+      "detected_at_utc": "2026-10-06T06:47:23.027891+00:00",
+      "baseline": {
+        "t": "2026-10-06T06:47:23.027891+00:00",
+        "price": 85383.97,
+        "funding_rate_pct": null,
+        "fear_greed_value": 73,
+        "volume_1h": 39636555.39
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン、上昇上位15日を除くと3年間11%の損失に＝グレースケール分析",
       "link": "https://coinpost.jp/?p=741170",
       "source": "CoinPost",
@@ -13,11 +32,46 @@
         "fear_greed_value": 73,
         "volume_1h": 21201602.82
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-06T06:47:23.027891+00:00",
+          "price": 85383.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 39636555.39,
+          "delta_price_pct": -0.58
+        },
+        "1h": {
+          "t": "2026-10-06T06:47:23.027891+00:00",
+          "price": 85383.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 39636555.39,
+          "delta_price_pct": -0.58
+        },
+        "2h": {
+          "t": "2026-10-06T06:47:23.027891+00:00",
+          "price": 85383.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 39636555.39,
+          "delta_price_pct": -0.58
+        },
+        "4h": {
+          "t": "2026-10-06T06:47:23.027891+00:00",
+          "price": 85383.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 39636555.39,
+          "delta_price_pct": -0.58
+        }
+      },
+      "flags": [
+        "出来高急増（+87%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン、上昇上位15日を除くと3年間11%の損失に＝グレースケール分析」の報道後、BTCは4時間で-0.6%。Fear & Greedも73から73へ横ばい。出来高急増（+87%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米CFTCとSEC、ビットコインやイーサリアム・XRPを原則証券でないと共同解釈",
@@ -32,11 +86,46 @@
         "fear_greed_value": 73,
         "volume_1h": 21201602.82
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-06T06:47:23.027891+00:00",
+          "price": 85383.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 39636555.39,
+          "delta_price_pct": -0.58
+        },
+        "1h": {
+          "t": "2026-10-06T06:47:23.027891+00:00",
+          "price": 85383.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 39636555.39,
+          "delta_price_pct": -0.58
+        },
+        "2h": {
+          "t": "2026-10-06T06:47:23.027891+00:00",
+          "price": 85383.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 39636555.39,
+          "delta_price_pct": -0.58
+        },
+        "4h": {
+          "t": "2026-10-06T06:47:23.027891+00:00",
+          "price": 85383.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 39636555.39,
+          "delta_price_pct": -0.58
+        }
+      },
+      "flags": [
+        "出来高急増（+87%）"
+      ],
+      "relevance": "medium",
+      "summary": "「米CFTCとSEC、ビットコインやイーサリアム・XRPを原則証券でないと共同解釈」の報道後、BTCは4時間で-0.6%。Fear & Greedも73から73へ横ばい。出来高急増（+87%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "メタプラネットが資本配分方針再改定、ビットコイン85〜90％・戦略投資10〜15％が目安",
@@ -3040,61 +3129,7 @@
       "relevance": "low",
       "summary": "「ビットコイン急落、クラリティー審議入り否決を受け｜仮想NISHI」の報道後、BTCは4時間で+0.1%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "英スタックBTC、ビットコイン購入資金確保に向けて貴金属会社買収提案",
-      "link": "https://coinpost.jp/?p=737617",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-15T22:35:09+00:00",
-      "detected_at_utc": "2026-09-15T23:00:08.651760+00:00",
-      "baseline": {
-        "t": "2026-09-15T23:00:08.651760+00:00",
-        "price": 75675.58,
-        "funding_rate_pct": null,
-        "fear_greed_value": 69,
-        "volume_1h": 49767467.86
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-16T01:21:39.898362+00:00",
-          "price": 75853.84,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 24373024.14,
-          "delta_price_pct": 0.24
-        },
-        "1h": {
-          "t": "2026-09-16T01:21:39.898362+00:00",
-          "price": 75853.84,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 24373024.14,
-          "delta_price_pct": 0.24
-        },
-        "2h": {
-          "t": "2026-09-16T01:21:39.898362+00:00",
-          "price": 75853.84,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 24373024.14,
-          "delta_price_pct": 0.24
-        },
-        "4h": {
-          "t": "2026-09-16T06:24:29.728129+00:00",
-          "price": 75921.24,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 31326723.53,
-          "delta_price_pct": 0.32
-        }
-      },
-      "flags": [
-        "市場心理の悪化（Fear & Greed急低下）"
-      ],
-      "relevance": "medium",
-      "summary": "「英スタックBTC、ビットコイン購入資金確保に向けて貴金属会社買収提案」の報道後、BTCは4時間で+0.3%。Fear & Greedも69から51へ悪化。市場心理の悪化（Fear & Greed急低下）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-06T00:26:57.966325+00:00"
+  "updated_at_utc": "2026-10-06T06:47:23.027891+00:00"
 }
