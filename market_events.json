@@ -13,11 +13,44 @@
         "fear_greed_value": 73,
         "volume_1h": 39636555.39
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-06T13:41:17.194666+00:00",
+          "price": 86301.21,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 51376066.21,
+          "delta_price_pct": 1.07
+        },
+        "1h": {
+          "t": "2026-10-06T13:41:17.194666+00:00",
+          "price": 86301.21,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 51376066.21,
+          "delta_price_pct": 1.07
+        },
+        "2h": {
+          "t": "2026-10-06T13:41:17.194666+00:00",
+          "price": 86301.21,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 51376066.21,
+          "delta_price_pct": 1.07
+        },
+        "4h": {
+          "t": "2026-10-06T13:41:17.194666+00:00",
+          "price": 86301.21,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 51376066.21,
+          "delta_price_pct": 1.07
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米上場ストライブ、266億円相当ビットコイン購入──世界5位に」の報道後、BTCは4時間で+1.1%。Fear & Greedも73から73へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、上昇上位15日を除くと3年間11%の損失に＝グレースケール分析",
@@ -3131,5 +3164,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-06T06:47:23.027891+00:00"
+  "updated_at_utc": "2026-10-06T13:41:17.194666+00:00"
 }
