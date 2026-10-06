@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ビットコイン、上昇上位15日を除くと3年間11%の損失に＝グレースケール分析",
+      "link": "https://coinpost.jp/?p=741170",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-06T00:10:29+00:00",
+      "detected_at_utc": "2026-10-06T00:26:57.966325+00:00",
+      "baseline": {
+        "t": "2026-10-06T00:26:57.966325+00:00",
+        "price": 85882.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 73,
+        "volume_1h": 21201602.82
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "米CFTCとSEC、ビットコインやイーサリアム・XRPを原則証券でないと共同解釈",
+      "link": "https://coinpost.jp/?p=741180",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-05T21:10:35+00:00",
+      "detected_at_utc": "2026-10-06T00:26:57.966325+00:00",
+      "baseline": {
+        "t": "2026-10-06T00:26:57.966325+00:00",
+        "price": 85882.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 73,
+        "volume_1h": 21201602.82
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "メタプラネットが資本配分方針再改定、ビットコイン85〜90％・戦略投資10〜15％が目安",
       "link": "https://coinpost.jp/?p=741161",
       "source": "CoinPost",
@@ -13,11 +51,44 @@
         "fear_greed_value": 70,
         "volume_1h": 33103473.62
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-06T00:26:57.966325+00:00",
+          "price": 85882.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 21201602.82,
+          "delta_price_pct": 0.31
+        },
+        "1h": {
+          "t": "2026-10-06T00:26:57.966325+00:00",
+          "price": 85882.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 21201602.82,
+          "delta_price_pct": 0.31
+        },
+        "2h": {
+          "t": "2026-10-06T00:26:57.966325+00:00",
+          "price": 85882.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 21201602.82,
+          "delta_price_pct": 0.31
+        },
+        "4h": {
+          "t": "2026-10-06T00:26:57.966325+00:00",
+          "price": 85882.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 21201602.82,
+          "delta_price_pct": 0.31
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「メタプラネットが資本配分方針再改定、ビットコイン85〜90％・戦略投資10〜15％が目安」の報道後、BTCは4時間で+0.3%。Fear & Greedも70から73へ改善。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストラテジー、3週連続でビットコイン追加取得　848000BTCに到達",
@@ -32,11 +103,44 @@
         "fear_greed_value": 70,
         "volume_1h": 33103473.62
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-06T00:26:57.966325+00:00",
+          "price": 85882.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 21201602.82,
+          "delta_price_pct": 0.31
+        },
+        "1h": {
+          "t": "2026-10-06T00:26:57.966325+00:00",
+          "price": 85882.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 21201602.82,
+          "delta_price_pct": 0.31
+        },
+        "2h": {
+          "t": "2026-10-06T00:26:57.966325+00:00",
+          "price": 85882.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 21201602.82,
+          "delta_price_pct": 0.31
+        },
+        "4h": {
+          "t": "2026-10-06T00:26:57.966325+00:00",
+          "price": 85882.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 73,
+          "volume_1h": 21201602.82,
+          "delta_price_pct": 0.31
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ストラテジー、3週連続でビットコイン追加取得　848000BTCに到達」の報道後、BTCは4時間で+0.3%。Fear & Greedも70から73へ改善。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン現物出来高、約3年ぶり低水準から小幅回復＝アナリスト",
@@ -2990,111 +3094,7 @@
       "relevance": "medium",
       "summary": "「英スタックBTC、ビットコイン購入資金確保に向けて貴金属会社買収提案」の報道後、BTCは4時間で+0.3%。Fear & Greedも69から51へ悪化。市場心理の悪化（Fear & Greed急低下）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコインの量子耐性、主要提案の全体像を整理　複数提案が連動へ＝レポート",
-      "link": "https://coinpost.jp/?p=737465",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-15T02:57:09+00:00",
-      "detected_at_utc": "2026-09-15T07:20:41.705028+00:00",
-      "baseline": {
-        "t": "2026-09-15T07:20:41.705028+00:00",
-        "price": 77307.39,
-        "funding_rate_pct": null,
-        "fear_greed_value": 69,
-        "volume_1h": 35260804.44
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-15T12:46:33.008807+00:00",
-          "price": 76910.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 32585173.82,
-          "delta_price_pct": -0.51
-        },
-        "1h": {
-          "t": "2026-09-15T12:46:33.008807+00:00",
-          "price": 76910.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 32585173.82,
-          "delta_price_pct": -0.51
-        },
-        "2h": {
-          "t": "2026-09-15T12:46:33.008807+00:00",
-          "price": 76910.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 32585173.82,
-          "delta_price_pct": -0.51
-        },
-        "4h": {
-          "t": "2026-09-15T12:46:33.008807+00:00",
-          "price": 76910.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 32585173.82,
-          "delta_price_pct": -0.51
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコインの量子耐性、主要提案の全体像を整理　複数提案が連動へ＝レポート」の報道後、BTCは4時間で-0.5%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "上場ビットコインマイナー3社が8月の採掘実績を報告、明暗分かれる",
-      "link": "https://coinpost.jp/?p=737404",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-15T00:40:01+00:00",
-      "detected_at_utc": "2026-09-15T01:52:59.485168+00:00",
-      "baseline": {
-        "t": "2026-09-15T01:52:59.485168+00:00",
-        "price": 77990.29,
-        "funding_rate_pct": null,
-        "fear_greed_value": 69,
-        "volume_1h": 39103648.07
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-15T07:20:41.705028+00:00",
-          "price": 77307.39,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 35260804.44,
-          "delta_price_pct": -0.88
-        },
-        "1h": {
-          "t": "2026-09-15T07:20:41.705028+00:00",
-          "price": 77307.39,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 35260804.44,
-          "delta_price_pct": -0.88
-        },
-        "2h": {
-          "t": "2026-09-15T07:20:41.705028+00:00",
-          "price": 77307.39,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 35260804.44,
-          "delta_price_pct": -0.88
-        },
-        "4h": {
-          "t": "2026-09-15T07:20:41.705028+00:00",
-          "price": 77307.39,
-          "funding_rate_pct": null,
-          "fear_greed_value": 69,
-          "volume_1h": 35260804.44,
-          "delta_price_pct": -0.88
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「上場ビットコインマイナー3社が8月の採掘実績を報告、明暗分かれる」の報道後、BTCは4時間で-0.9%。Fear & Greedも69から69へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-05T18:48:18.798143+00:00"
+  "updated_at_utc": "2026-10-06T00:26:57.966325+00:00"
 }
