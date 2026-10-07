@@ -1,23 +1,23 @@
 {
-  "generated_at_utc": "2026-10-06T23:03:31.879798+00:00",
+  "generated_at_utc": "2026-10-07T02:19:48.999243+00:00",
   "pair": "BTC/USDT",
-  "latest_price": 85536.8,
-  "day_change_pct": -0.43,
+  "latest_price": 84062.05,
+  "day_change_pct": -1.7,
   "signal": {
     "bias": "WAIT",
     "bias_label": "方向感なし",
     "stars": 2,
     "confidence": 50,
     "confidence_breakdown": {
-      "timeframes_note": "5分足:中央 / 15分足:中央 / 1時間足:下方向 → 3時間足の方向が一致していません",
-      "calc_note": "3時間足の方向が揃っていないため、基本値50%のままです。"
+      "timeframes_note": "5分足:下方向 / 15分足:下方向 / 1時間足:下方向 → 3時間足は一致していますが、1分足の反発シグナルはまだ点灯していません",
+      "calc_note": "3時間足の方向一致のみでは確信度は上がらず、1分足の反発確認まで基本値50%のままです。"
     }
   },
   "volatility_risk": "LOW",
-  "market_mode": "RANGE",
-  "market_mode_note": "時間足ごとに方向が割れており、方向感に乏しいレンジ地合い。",
+  "market_mode": "TREND",
+  "market_mode_note": "5分・15分・1時間足の方向が揃っており、方向感のある地合い。",
   "priority_trade": {
-    "lead": "様子見 ― 5分・15分・1時間足の方向が一致していない",
+    "lead": "様子見 ― 上位足は戻り売り方向で一致、1分足の反落シグナル待ち",
     "entry": null,
     "take_profit": null,
     "stop_loss": null
@@ -27,121 +27,108 @@
     {
       "key": "m5",
       "label": "5分足",
-      "position_sigma": 0.7,
-      "trend": "FLAT",
-      "momentum": "FLAT",
-      "mid": 85392.36,
-      "upper": 85806.14,
-      "lower": 84978.59
+      "position_sigma": -3.69,
+      "trend": "DOWN",
+      "momentum": "DOWN",
+      "mid": 85140.09,
+      "upper": 85724.18,
+      "lower": 84556.0
     },
     {
       "key": "m15",
       "label": "15分足",
-      "position_sigma": -0.81,
+      "position_sigma": -3.55,
       "trend": "DOWN",
-      "momentum": "FLAT",
-      "mid": 85783.84,
-      "upper": 86396.52,
-      "lower": 85171.17
+      "momentum": "DOWN",
+      "mid": 85507.54,
+      "upper": 86321.49,
+      "lower": 84693.59
     },
     {
       "key": "h1",
       "label": "1時間足",
-      "position_sigma": -1.63,
+      "position_sigma": -4.12,
       "trend": "DOWN",
       "momentum": "DOWN",
-      "mid": 86181.42,
-      "upper": 86971.51,
-      "lower": 85391.34
+      "mid": 86040.16,
+      "upper": 87000.95,
+      "lower": 85079.36
     }
   ],
   "macro": {
-    "fear_greed_value": 73,
+    "fear_greed_value": 71,
     "fear_greed_label": "Greed",
     "funding_rate_pct": null,
     "btc_dominance_pct": 58.73
   },
-  "commentary": "方向感のない日は、休むも相場。無理に取りにいかない。",
-  "market_context": "BTC/USDTは現在$85,537付近で推移（直近1時間比-0.43%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Greed」（73/100）、BTCドミナンスは58.7%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
-  "news": [
-    {
-      "source": "CoinPost",
-      "title": "米上場ストライブ、266億円相当ビットコイン購入──世界5位に",
-      "link": "https://coinpost.jp/?p=741256",
-      "published_at_utc": "2026-10-06T04:00:46+00:00"
-    },
-    {
-      "source": "CoinPost",
-      "title": "ビットコイン、上昇上位15日を除くと3年間11%の損失に＝グレースケール分析",
-      "link": "https://coinpost.jp/?p=741170",
-      "published_at_utc": "2026-10-06T00:10:29+00:00"
-    }
-  ],
+  "commentary": "上位足は下向き。焦らず、1分足の戻りからの反落を待つ。",
+  "market_context": "BTC/USDTは現在$84,062付近で推移（直近1時間比-1.70%）。5分・15分・1時間足は戻り売り方向で揃っているが、1分足の反落シグナルはまだ点灯していない。市場心理は「Greed」（71/100）、BTCドミナンスは58.7%。上位足の方向感は出ているため、1分足が戻り高値から反落するタイミングを待ちたい局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
+  "news": [],
   "disclaimer": "本データはルールベースの参考情報であり、投資成果を保証するものではありません。",
   "daily_analysis": {
-    "generated_at_utc": "2026-10-06T23:03:31.879798+00:00",
+    "generated_at_utc": "2026-10-07T02:19:48.999243+00:00",
     "title": "今日のBTC/USDT分析",
     "conclusion": "方向一致が出るまで見送り。休むも相場を優先。",
-    "market_context": "BTC/USDTは現在$85,537付近で推移（直近1時間比-0.43%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Greed」（73/100）、BTCドミナンスは58.7%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
-    "support": 85391.34,
-    "resistance": 86971.51,
+    "market_context": "BTC/USDTは現在$84,062付近で推移（直近1時間比-1.70%）。5分・15分・1時間足は戻り売り方向で揃っているが、1分足の反落シグナルはまだ点灯していない。市場心理は「Greed」（71/100）、BTCドミナンスは58.7%。上位足の方向感は出ているため、1分足が戻り高値から反落するタイミングを待ちたい局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
+    "support": 84062.05,
+    "resistance": 87000.95,
     "timeframes": [
       {
         "key": "m5",
         "label": "5分足",
-        "position_sigma": 0.7,
-        "trend": "FLAT",
-        "momentum": "FLAT",
-        "mid": 85392.36,
-        "upper": 85806.14,
-        "lower": 84978.59
+        "position_sigma": -3.69,
+        "trend": "DOWN",
+        "momentum": "DOWN",
+        "mid": 85140.09,
+        "upper": 85724.18,
+        "lower": 84556.0
       },
       {
         "key": "m15",
         "label": "15分足",
-        "position_sigma": -0.81,
+        "position_sigma": -3.55,
         "trend": "DOWN",
-        "momentum": "FLAT",
-        "mid": 85783.84,
-        "upper": 86396.52,
-        "lower": 85171.17
+        "momentum": "DOWN",
+        "mid": 85507.54,
+        "upper": 86321.49,
+        "lower": 84693.59
       },
       {
         "key": "h1",
         "label": "1時間足",
-        "position_sigma": -1.63,
+        "position_sigma": -4.12,
         "trend": "DOWN",
         "momentum": "DOWN",
-        "mid": 86181.42,
-        "upper": 86971.51,
-        "lower": 85391.34
+        "mid": 86040.16,
+        "upper": 87000.95,
+        "lower": 85079.36
       }
     ],
     "scenarios": [
       {
         "name": "上昇",
-        "condition": "$86,972を明確に上抜けて定着",
+        "condition": "$87,001を明確に上抜けて定着",
         "action": "押し目を待って買いを検討。高値への飛び乗りは避ける。"
       },
       {
         "name": "レンジ",
-        "condition": "$85,391〜$86,972で往来",
+        "condition": "$84,062〜$87,001で往来",
         "action": "中央では見送り、上下限で反発確認後のみ検討。"
       },
       {
         "name": "下落",
-        "condition": "$85,391を明確に下抜け",
+        "condition": "$84,062を明確に下抜け",
         "action": "戻りを待って売りを検討。急落後の安値追いは避ける。"
       }
     ],
     "fear_greed": {
-      "value": 73,
+      "value": 71,
       "label": "Greed"
     },
     "funding_rate_pct": null,
     "btc_dominance_pct": 58.73,
     "priority_trade": {
-      "lead": "様子見 ― 5分・15分・1時間足の方向が一致していない",
+      "lead": "様子見 ― 上位足は戻り売り方向で一致、1分足の反落シグナル待ち",
       "entry": null,
       "take_profit": null,
       "stop_loss": null
