@@ -1,6 +1,82 @@
 {
   "events": [
     {
+      "title": "ロビンフッド、ビットコイン約39.5億円分を自社保有　慎重姿勢から転換か＝報道",
+      "link": "https://coinpost.jp/?p=741641",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-07T08:52:07+00:00",
+      "detected_at_utc": "2026-10-07T16:22:21.217278+00:00",
+      "baseline": {
+        "t": "2026-10-07T16:22:21.217278+00:00",
+        "price": 83643.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 61263326.58
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "含み益のビットコインは約6割、休眠分除外で　中長期的に過熱遠い＝アナリスト",
+      "link": "https://coinpost.jp/?p=741628",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-07T07:52:16+00:00",
+      "detected_at_utc": "2026-10-07T16:22:21.217278+00:00",
+      "baseline": {
+        "t": "2026-10-07T16:22:21.217278+00:00",
+        "price": 83643.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 61263326.58
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン、取引所から1日で2.4万BTC純流出　7ヶ月ぶり規模＝サンティメント",
+      "link": "https://coinpost.jp/?p=741617",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-07T07:14:51+00:00",
+      "detected_at_utc": "2026-10-07T16:22:21.217278+00:00",
+      "baseline": {
+        "t": "2026-10-07T16:22:21.217278+00:00",
+        "price": 83643.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 61263326.58
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "米政府関連アドレス、約834BTCと約4万BNBを送金",
+      "link": "https://coinpost.jp/?p=741594",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-07T06:28:46+00:00",
+      "detected_at_utc": "2026-10-07T16:22:21.217278+00:00",
+      "baseline": {
+        "t": "2026-10-07T16:22:21.217278+00:00",
+        "price": 83643.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 71,
+        "volume_1h": 61263326.58
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米上場ストライブ、266億円相当ビットコイン購入──世界5位に",
       "link": "https://coinpost.jp/?p=741256",
       "source": "CoinPost",
@@ -2954,215 +3030,7 @@
       "relevance": "medium",
       "summary": "「クラリティー法案頓挫もビットコイン強気相場は継続、ビットワイズCIO分析」の報道後、BTCは4時間で-0.0%。Fear & Greedも50から50へ横ばい。出来高急増（+95%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米下院委員会、ビットコイン準備金法案を可決丨保有BTC20年凍結を規定",
-      "link": "https://coinpost.jp/?p=737916",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-16T21:30:30+00:00",
-      "detected_at_utc": "2026-09-16T22:24:42.387113+00:00",
-      "baseline": {
-        "t": "2026-09-16T22:24:42.387113+00:00",
-        "price": 75680.76,
-        "funding_rate_pct": null,
-        "fear_greed_value": 51,
-        "volume_1h": 33949071.96
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-17T00:48:56.053702+00:00",
-          "price": 76398.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 38566815.69,
-          "delta_price_pct": 0.95
-        },
-        "1h": {
-          "t": "2026-09-17T00:48:56.053702+00:00",
-          "price": 76398.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 38566815.69,
-          "delta_price_pct": 0.95
-        },
-        "2h": {
-          "t": "2026-09-17T00:48:56.053702+00:00",
-          "price": 76398.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 38566815.69,
-          "delta_price_pct": 0.95
-        },
-        "4h": {
-          "t": "2026-09-17T05:36:07.742914+00:00",
-          "price": 76446.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 21229299.55,
-          "delta_price_pct": 1.01
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「米下院委員会、ビットコイン準備金法案を可決丨保有BTC20年凍結を規定」の報道後、BTCは4時間で+1.0%。Fear & Greedも51から50へ悪化。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ドイツ銀行、ビットコイン・イーサリアムのカストディサービス開始へ",
-      "link": "https://coinpost.jp/?p=737858",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-16T09:04:38+00:00",
-      "detected_at_utc": "2026-09-16T11:57:00.710643+00:00",
-      "baseline": {
-        "t": "2026-09-16T11:57:00.710643+00:00",
-        "price": 76248.67,
-        "funding_rate_pct": null,
-        "fear_greed_value": 51,
-        "volume_1h": 38052924.02
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-16T16:43:42.451264+00:00",
-          "price": 75682.95,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 36246343.57,
-          "delta_price_pct": -0.74
-        },
-        "1h": {
-          "t": "2026-09-16T16:43:42.451264+00:00",
-          "price": 75682.95,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 36246343.57,
-          "delta_price_pct": -0.74
-        },
-        "2h": {
-          "t": "2026-09-16T16:43:42.451264+00:00",
-          "price": 75682.95,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 36246343.57,
-          "delta_price_pct": -0.74
-        },
-        "4h": {
-          "t": "2026-09-16T16:43:42.451264+00:00",
-          "price": 75682.95,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 36246343.57,
-          "delta_price_pct": -0.74
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ドイツ銀行、ビットコイン・イーサリアムのカストディサービス開始へ」の報道後、BTCは4時間で-0.7%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "マイニング大手MARA、1292ビットコイン購入＝Lookonchain",
-      "link": "https://coinpost.jp/?p=737807",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-16T08:07:21+00:00",
-      "detected_at_utc": "2026-09-16T11:57:00.710643+00:00",
-      "baseline": {
-        "t": "2026-09-16T11:57:00.710643+00:00",
-        "price": 76248.67,
-        "funding_rate_pct": null,
-        "fear_greed_value": 51,
-        "volume_1h": 38052924.02
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-16T16:43:42.451264+00:00",
-          "price": 75682.95,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 36246343.57,
-          "delta_price_pct": -0.74
-        },
-        "1h": {
-          "t": "2026-09-16T16:43:42.451264+00:00",
-          "price": 75682.95,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 36246343.57,
-          "delta_price_pct": -0.74
-        },
-        "2h": {
-          "t": "2026-09-16T16:43:42.451264+00:00",
-          "price": 75682.95,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 36246343.57,
-          "delta_price_pct": -0.74
-        },
-        "4h": {
-          "t": "2026-09-16T16:43:42.451264+00:00",
-          "price": 75682.95,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 36246343.57,
-          "delta_price_pct": -0.74
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「マイニング大手MARA、1292ビットコイン購入＝Lookonchain」の報道後、BTCは4時間で-0.7%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン急落、クラリティー審議入り否決を受け｜仮想NISHI",
-      "link": "https://coinpost.jp/?p=737633",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-15T23:00:09+00:00",
-      "detected_at_utc": "2026-09-16T01:21:39.898362+00:00",
-      "baseline": {
-        "t": "2026-09-16T01:21:39.898362+00:00",
-        "price": 75853.84,
-        "funding_rate_pct": null,
-        "fear_greed_value": 51,
-        "volume_1h": 24373024.14
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-16T06:24:29.728129+00:00",
-          "price": 75921.24,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 31326723.53,
-          "delta_price_pct": 0.09
-        },
-        "1h": {
-          "t": "2026-09-16T06:24:29.728129+00:00",
-          "price": 75921.24,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 31326723.53,
-          "delta_price_pct": 0.09
-        },
-        "2h": {
-          "t": "2026-09-16T06:24:29.728129+00:00",
-          "price": 75921.24,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 31326723.53,
-          "delta_price_pct": 0.09
-        },
-        "4h": {
-          "t": "2026-09-16T06:24:29.728129+00:00",
-          "price": 75921.24,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 31326723.53,
-          "delta_price_pct": 0.09
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン急落、クラリティー審議入り否決を受け｜仮想NISHI」の報道後、BTCは4時間で+0.1%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-07T08:59:55.797644+00:00"
+  "updated_at_utc": "2026-10-07T16:22:21.217278+00:00"
 }
