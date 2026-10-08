@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ビットコイン総需要がプラス転換　現物需要のマイナス幅9割縮小＝アナリスト",
+      "link": "https://coinpost.jp/?p=741867",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-08T08:20:21+00:00",
+      "detected_at_utc": "2026-10-08T14:54:23.476141+00:00",
+      "baseline": {
+        "t": "2026-10-08T14:54:23.476141+00:00",
+        "price": 82616.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 64,
+        "volume_1h": 80102265.12
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン、新規資金は上昇分の4割未満　現物も薄商い＝グラスノード",
+      "link": "https://coinpost.jp/?p=741849",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-08T07:52:19+00:00",
+      "detected_at_utc": "2026-10-08T14:54:23.476141+00:00",
+      "baseline": {
+        "t": "2026-10-08T14:54:23.476141+00:00",
+        "price": 82616.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 64,
+        "volume_1h": 80102265.12
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米ゲーム広告企業、メタプラネット傘下入りへ　ゲーマーにビットコイン浸透狙う",
       "link": "https://coinpost.jp/?p=741795",
       "source": "CoinPost",
@@ -13,11 +51,46 @@
         "fear_greed_value": 64,
         "volume_1h": 49443389.82
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-08T14:54:23.476141+00:00",
+          "price": 82616.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 80102265.12,
+          "delta_price_pct": -0.68
+        },
+        "1h": {
+          "t": "2026-10-08T14:54:23.476141+00:00",
+          "price": 82616.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 80102265.12,
+          "delta_price_pct": -0.68
+        },
+        "2h": {
+          "t": "2026-10-08T14:54:23.476141+00:00",
+          "price": 82616.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 80102265.12,
+          "delta_price_pct": -0.68
+        },
+        "4h": {
+          "t": "2026-10-08T14:54:23.476141+00:00",
+          "price": 82616.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 80102265.12,
+          "delta_price_pct": -0.68
+        }
+      },
+      "flags": [
+        "出来高急増（+62%）"
+      ],
+      "relevance": "medium",
+      "summary": "「米ゲーム広告企業、メタプラネット傘下入りへ　ゲーマーにビットコイン浸透狙う」の報道後、BTCは4時間で-0.7%。Fear & Greedも64から64へ横ばい。出来高急増（+62%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "「ビットコインはデジタル・ゴールドに向かう軌道に」ビットワイズCIO見解",
@@ -3015,115 +3088,7 @@
       "relevance": "medium",
       "summary": "「グレースケール「米利上げは中期調整」ビットコインへの影響限定的」の報道後、BTCは4時間で+0.6%。Fear & Greedも56から56へ横ばい。出来高急増（+72%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "「ビットコインは依然として強気圏内も勢い鈍化」＝クリプトクアント",
-      "link": "https://coinpost.jp/?p=738273",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-18T00:30:18+00:00",
-      "detected_at_utc": "2026-09-18T05:00:56.473360+00:00",
-      "baseline": {
-        "t": "2026-09-18T05:00:56.473360+00:00",
-        "price": 77578.81,
-        "funding_rate_pct": null,
-        "fear_greed_value": 56,
-        "volume_1h": 54544110.14
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-18T09:40:12.397983+00:00",
-          "price": 78034.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 93880318.41,
-          "delta_price_pct": 0.59
-        },
-        "1h": {
-          "t": "2026-09-18T09:40:12.397983+00:00",
-          "price": 78034.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 93880318.41,
-          "delta_price_pct": 0.59
-        },
-        "2h": {
-          "t": "2026-09-18T09:40:12.397983+00:00",
-          "price": 78034.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 93880318.41,
-          "delta_price_pct": 0.59
-        },
-        "4h": {
-          "t": "2026-09-18T09:40:12.397983+00:00",
-          "price": 78034.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 93880318.41,
-          "delta_price_pct": 0.59
-        }
-      },
-      "flags": [
-        "出来高急増（+72%）"
-      ],
-      "relevance": "medium",
-      "summary": "「「ビットコインは依然として強気圏内も勢い鈍化」＝クリプトクアント」の報道後、BTCは4時間で+0.6%。Fear & Greedも56から56へ横ばい。出来高急増（+72%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "レボリュート攻撃者、6000モネロ要求　当初の1万ビットコイン要求は否認",
-      "link": "https://coinpost.jp/?p=738095",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-17T04:51:31+00:00",
-      "detected_at_utc": "2026-09-17T10:25:44.253782+00:00",
-      "baseline": {
-        "t": "2026-09-17T10:25:44.253782+00:00",
-        "price": 76334.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 50,
-        "volume_1h": 26569029.77
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-17T15:16:02.194141+00:00",
-          "price": 76306.65,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 51842566.05,
-          "delta_price_pct": -0.04
-        },
-        "1h": {
-          "t": "2026-09-17T15:16:02.194141+00:00",
-          "price": 76306.65,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 51842566.05,
-          "delta_price_pct": -0.04
-        },
-        "2h": {
-          "t": "2026-09-17T15:16:02.194141+00:00",
-          "price": 76306.65,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 51842566.05,
-          "delta_price_pct": -0.04
-        },
-        "4h": {
-          "t": "2026-09-17T15:16:02.194141+00:00",
-          "price": 76306.65,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 51842566.05,
-          "delta_price_pct": -0.04
-        }
-      },
-      "flags": [
-        "出来高急増（+95%）"
-      ],
-      "relevance": "medium",
-      "summary": "「レボリュート攻撃者、6000モネロ要求　当初の1万ビットコイン要求は否認」の報道後、BTCは4時間で-0.0%。Fear & Greedも50から50へ横ばい。出来高急増（+95%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-08T07:32:06.857004+00:00"
+  "updated_at_utc": "2026-10-08T14:54:23.476141+00:00"
 }
