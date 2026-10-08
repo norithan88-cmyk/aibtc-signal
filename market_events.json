@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "米ゲーム広告企業、メタプラネット傘下入りへ　ゲーマーにビットコイン浸透狙う",
+      "link": "https://coinpost.jp/?p=741795",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-08T05:34:02+00:00",
+      "detected_at_utc": "2026-10-08T07:32:06.857004+00:00",
+      "baseline": {
+        "t": "2026-10-08T07:32:06.857004+00:00",
+        "price": 83179.61,
+        "funding_rate_pct": null,
+        "fear_greed_value": 64,
+        "volume_1h": 49443389.82
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "「ビットコインはデジタル・ゴールドに向かう軌道に」ビットワイズCIO見解",
       "link": "https://coinpost.jp/?p=741669",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 64,
         "volume_1h": 53296859.27
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-08T07:32:06.857004+00:00",
+          "price": 83179.61,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 49443389.82,
+          "delta_price_pct": -0.24
+        },
+        "1h": {
+          "t": "2026-10-08T07:32:06.857004+00:00",
+          "price": 83179.61,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 49443389.82,
+          "delta_price_pct": -0.24
+        },
+        "2h": {
+          "t": "2026-10-08T07:32:06.857004+00:00",
+          "price": 83179.61,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 49443389.82,
+          "delta_price_pct": -0.24
+        },
+        "4h": {
+          "t": "2026-10-08T07:32:06.857004+00:00",
+          "price": 83179.61,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 49443389.82,
+          "delta_price_pct": -0.24
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「「ビットコインはデジタル・ゴールドに向かう軌道に」ビットワイズCIO見解」の報道後、BTCは4時間で-0.2%。Fear & Greedも64から64へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "南アフリカの大手銀FNB、仮想通貨取引を開始　BTCやETHなど5銘柄",
@@ -32,11 +84,44 @@
         "fear_greed_value": 64,
         "volume_1h": 53296859.27
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-08T07:32:06.857004+00:00",
+          "price": 83179.61,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 49443389.82,
+          "delta_price_pct": -0.24
+        },
+        "1h": {
+          "t": "2026-10-08T07:32:06.857004+00:00",
+          "price": 83179.61,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 49443389.82,
+          "delta_price_pct": -0.24
+        },
+        "2h": {
+          "t": "2026-10-08T07:32:06.857004+00:00",
+          "price": 83179.61,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 49443389.82,
+          "delta_price_pct": -0.24
+        },
+        "4h": {
+          "t": "2026-10-08T07:32:06.857004+00:00",
+          "price": 83179.61,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 49443389.82,
+          "delta_price_pct": -0.24
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「南アフリカの大手銀FNB、仮想通貨取引を開始　BTCやETHなど5銘柄」の報道後、BTCは4時間で-0.2%。Fear & Greedも64から64へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ロビンフッド、ビットコイン約39.5億円分を自社保有　慎重姿勢から転換か＝報道",
@@ -3038,61 +3123,7 @@
       "relevance": "medium",
       "summary": "「レボリュート攻撃者、6000モネロ要求　当初の1万ビットコイン要求は否認」の報道後、BTCは4時間で-0.0%。Fear & Greedも50から50へ横ばい。出来高急増（+95%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコインコア、新版が最終テスト段階に　脆弱性2件も修正",
-      "link": "https://coinpost.jp/?p=738003",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-17T02:43:46+00:00",
-      "detected_at_utc": "2026-09-17T10:25:44.253782+00:00",
-      "baseline": {
-        "t": "2026-09-17T10:25:44.253782+00:00",
-        "price": 76334.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 50,
-        "volume_1h": 26569029.77
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-17T15:16:02.194141+00:00",
-          "price": 76306.65,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 51842566.05,
-          "delta_price_pct": -0.04
-        },
-        "1h": {
-          "t": "2026-09-17T15:16:02.194141+00:00",
-          "price": 76306.65,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 51842566.05,
-          "delta_price_pct": -0.04
-        },
-        "2h": {
-          "t": "2026-09-17T15:16:02.194141+00:00",
-          "price": 76306.65,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 51842566.05,
-          "delta_price_pct": -0.04
-        },
-        "4h": {
-          "t": "2026-09-17T15:16:02.194141+00:00",
-          "price": 76306.65,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 51842566.05,
-          "delta_price_pct": -0.04
-        }
-      },
-      "flags": [
-        "出来高急増（+95%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコインコア、新版が最終テスト段階に　脆弱性2件も修正」の報道後、BTCは4時間で-0.0%。Fear & Greedも50から50へ横ばい。出来高急増（+95%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-08T01:14:58.074660+00:00"
+  "updated_at_utc": "2026-10-08T07:32:06.857004+00:00"
 }
