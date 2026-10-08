@@ -13,11 +13,44 @@
         "fear_greed_value": 64,
         "volume_1h": 80102265.12
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-08T20:35:27.129565+00:00",
+          "price": 81762.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 36298835.16,
+          "delta_price_pct": -1.03
+        },
+        "1h": {
+          "t": "2026-10-08T20:35:27.129565+00:00",
+          "price": 81762.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 36298835.16,
+          "delta_price_pct": -1.03
+        },
+        "2h": {
+          "t": "2026-10-08T20:35:27.129565+00:00",
+          "price": 81762.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 36298835.16,
+          "delta_price_pct": -1.03
+        },
+        "4h": {
+          "t": "2026-10-08T20:35:27.129565+00:00",
+          "price": 81762.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 36298835.16,
+          "delta_price_pct": -1.03
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン総需要がプラス転換　現物需要のマイナス幅9割縮小＝アナリスト」の報道後、BTCは4時間で-1.0%。Fear & Greedも64から64へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、新規資金は上昇分の4割未満　現物も薄商い＝グラスノード",
@@ -32,11 +65,44 @@
         "fear_greed_value": 64,
         "volume_1h": 80102265.12
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-08T20:35:27.129565+00:00",
+          "price": 81762.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 36298835.16,
+          "delta_price_pct": -1.03
+        },
+        "1h": {
+          "t": "2026-10-08T20:35:27.129565+00:00",
+          "price": 81762.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 36298835.16,
+          "delta_price_pct": -1.03
+        },
+        "2h": {
+          "t": "2026-10-08T20:35:27.129565+00:00",
+          "price": 81762.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 36298835.16,
+          "delta_price_pct": -1.03
+        },
+        "4h": {
+          "t": "2026-10-08T20:35:27.129565+00:00",
+          "price": 81762.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 36298835.16,
+          "delta_price_pct": -1.03
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン、新規資金は上昇分の4割未満　現物も薄商い＝グラスノード」の報道後、BTCは4時間で-1.0%。Fear & Greedも64から64へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米ゲーム広告企業、メタプラネット傘下入りへ　ゲーマーにビットコイン浸透狙う",
@@ -3090,5 +3156,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-08T14:54:23.476141+00:00"
+  "updated_at_utc": "2026-10-08T20:35:27.129565+00:00"
 }
