@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ビットコイン短期保有者、含み損での取引所送金が6月以来最大＝クリプトクアント",
+      "link": "https://coinpost.jp/?p=742191",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-09T08:57:40+00:00",
+      "detected_at_utc": "2026-10-09T13:52:36.522723+00:00",
+      "baseline": {
+        "t": "2026-10-09T13:52:36.522723+00:00",
+        "price": 82736.4,
+        "funding_rate_pct": null,
+        "fear_greed_value": 59,
+        "volume_1h": 61769375.19
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン、利益確定が年内2番目の規模に　1日約10.3億ドル＝サンティメント",
+      "link": "https://coinpost.jp/?p=742150",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-09T07:18:06+00:00",
+      "detected_at_utc": "2026-10-09T13:52:36.522723+00:00",
+      "baseline": {
+        "t": "2026-10-09T13:52:36.522723+00:00",
+        "price": 82736.4,
+        "funding_rate_pct": null,
+        "fear_greed_value": 59,
+        "volume_1h": 61769375.19
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "公開鍵露出のビットコイン、供給の31.2％に　量子リスクで移行論＝グラスノード",
       "link": "https://coinpost.jp/?p=742115",
       "source": "CoinPost",
@@ -13,11 +51,46 @@
         "fear_greed_value": 59,
         "volume_1h": 26273932.05
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-09T13:52:36.522723+00:00",
+          "price": 82736.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 61769375.19,
+          "delta_price_pct": 0.11
+        },
+        "1h": {
+          "t": "2026-10-09T13:52:36.522723+00:00",
+          "price": 82736.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 61769375.19,
+          "delta_price_pct": 0.11
+        },
+        "2h": {
+          "t": "2026-10-09T13:52:36.522723+00:00",
+          "price": 82736.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 61769375.19,
+          "delta_price_pct": 0.11
+        },
+        "4h": {
+          "t": "2026-10-09T13:52:36.522723+00:00",
+          "price": 82736.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 61769375.19,
+          "delta_price_pct": 0.11
+        }
+      },
+      "flags": [
+        "出来高急増（+135%）"
+      ],
+      "relevance": "medium",
+      "summary": "「公開鍵露出のビットコイン、供給の31.2％に　量子リスクで移行論＝グラスノード」の報道後、BTCは4時間で+0.1%。Fear & Greedも59から59へ横ばい。出来高急増（+135%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインコア、送信元を隠す機能の修正を次期版に反映｜現行版は未反映",
@@ -32,11 +105,46 @@
         "fear_greed_value": 59,
         "volume_1h": 26273932.05
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-09T13:52:36.522723+00:00",
+          "price": 82736.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 61769375.19,
+          "delta_price_pct": 0.11
+        },
+        "1h": {
+          "t": "2026-10-09T13:52:36.522723+00:00",
+          "price": 82736.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 61769375.19,
+          "delta_price_pct": 0.11
+        },
+        "2h": {
+          "t": "2026-10-09T13:52:36.522723+00:00",
+          "price": 82736.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 61769375.19,
+          "delta_price_pct": 0.11
+        },
+        "4h": {
+          "t": "2026-10-09T13:52:36.522723+00:00",
+          "price": 82736.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 61769375.19,
+          "delta_price_pct": 0.11
+        }
+      },
+      "flags": [
+        "出来高急増（+135%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコインコア、送信元を隠す機能の修正を次期版に反映｜現行版は未反映」の報道後、BTCは4時間で+0.1%。Fear & Greedも59から59へ横ばい。出来高急増（+135%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン採掘事業者による売り圧力は緩和傾向＝クリプトクアント",
@@ -51,11 +159,46 @@
         "fear_greed_value": 59,
         "volume_1h": 26273932.05
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-09T13:52:36.522723+00:00",
+          "price": 82736.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 61769375.19,
+          "delta_price_pct": 0.11
+        },
+        "1h": {
+          "t": "2026-10-09T13:52:36.522723+00:00",
+          "price": 82736.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 61769375.19,
+          "delta_price_pct": 0.11
+        },
+        "2h": {
+          "t": "2026-10-09T13:52:36.522723+00:00",
+          "price": 82736.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 61769375.19,
+          "delta_price_pct": 0.11
+        },
+        "4h": {
+          "t": "2026-10-09T13:52:36.522723+00:00",
+          "price": 82736.4,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 61769375.19,
+          "delta_price_pct": 0.11
+        }
+      },
+      "flags": [
+        "出来高急増（+135%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン採掘事業者による売り圧力は緩和傾向＝クリプトクアント」の報道後、BTCは4時間で+0.1%。Fear & Greedも59から59へ横ばい。出来高急増（+135%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米投資銀行、ビットコイン年末予想を9.7万ドルから10.9万ドルに引き上げ",
@@ -2943,111 +3086,7 @@
       "relevance": "high",
       "summary": "「ビットコイン、45週ぶり50週線奪還　底値確定のシグナルか＝アナリスト」の報道後、BTCは4時間で+4.1%。Fear & Greedも70から70へ横ばい。価格急変（+4.1%）、出来高急増（+242%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "OTC保有ビットコイン、5年で4分の1に減少＝アナリスト",
-      "link": "https://coinpost.jp/?p=738706",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-20T23:04:25+00:00",
-      "detected_at_utc": "2026-09-21T01:17:18.689769+00:00",
-      "baseline": {
-        "t": "2026-09-21T01:17:18.689769+00:00",
-        "price": 81783.71,
-        "funding_rate_pct": null,
-        "fear_greed_value": 70,
-        "volume_1h": 54582068.8
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-21T06:33:42.202832+00:00",
-          "price": 81819.03,
-          "funding_rate_pct": null,
-          "fear_greed_value": 70,
-          "volume_1h": 38145894.42,
-          "delta_price_pct": 0.04
-        },
-        "1h": {
-          "t": "2026-09-21T06:33:42.202832+00:00",
-          "price": 81819.03,
-          "funding_rate_pct": null,
-          "fear_greed_value": 70,
-          "volume_1h": 38145894.42,
-          "delta_price_pct": 0.04
-        },
-        "2h": {
-          "t": "2026-09-21T06:33:42.202832+00:00",
-          "price": 81819.03,
-          "funding_rate_pct": null,
-          "fear_greed_value": 70,
-          "volume_1h": 38145894.42,
-          "delta_price_pct": 0.04
-        },
-        "4h": {
-          "t": "2026-09-21T06:33:42.202832+00:00",
-          "price": 81819.03,
-          "funding_rate_pct": null,
-          "fear_greed_value": 70,
-          "volume_1h": 38145894.42,
-          "delta_price_pct": 0.04
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「OTC保有ビットコイン、5年で4分の1に減少＝アナリスト」の報道後、BTCは4時間で+0.0%。Fear & Greedも70から70へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコインFOMC通過後も底堅く、米金利と中東情勢が焦点｜bitbankアナリスト寄稿",
-      "link": "https://coinpost.jp/?p=738574",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-20T02:30:52+00:00",
-      "detected_at_utc": "2026-09-20T06:56:02.703542+00:00",
-      "baseline": {
-        "t": "2026-09-20T06:56:02.703542+00:00",
-        "price": 80227.28,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 34130573.54
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-20T12:13:31.995859+00:00",
-          "price": 80480.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 48718214.69,
-          "delta_price_pct": 0.32
-        },
-        "1h": {
-          "t": "2026-09-20T12:13:31.995859+00:00",
-          "price": 80480.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 48718214.69,
-          "delta_price_pct": 0.32
-        },
-        "2h": {
-          "t": "2026-09-20T12:13:31.995859+00:00",
-          "price": 80480.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 48718214.69,
-          "delta_price_pct": 0.32
-        },
-        "4h": {
-          "t": "2026-09-20T12:13:31.995859+00:00",
-          "price": 80480.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 48718214.69,
-          "delta_price_pct": 0.32
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコインFOMC通過後も底堅く、米金利と中東情勢が焦点｜bitbankアナリスト寄稿」の報道後、BTCは4時間で+0.3%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-09T06:47:05.993347+00:00"
+  "updated_at_utc": "2026-10-09T13:52:36.522723+00:00"
 }
