@@ -13,11 +13,44 @@
         "fear_greed_value": 59,
         "volume_1h": 61769375.19
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-09T19:17:33.454353+00:00",
+          "price": 82478.72,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 31597567.93,
+          "delta_price_pct": -0.31
+        },
+        "1h": {
+          "t": "2026-10-09T19:17:33.454353+00:00",
+          "price": 82478.72,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 31597567.93,
+          "delta_price_pct": -0.31
+        },
+        "2h": {
+          "t": "2026-10-09T19:17:33.454353+00:00",
+          "price": 82478.72,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 31597567.93,
+          "delta_price_pct": -0.31
+        },
+        "4h": {
+          "t": "2026-10-09T19:17:33.454353+00:00",
+          "price": 82478.72,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 31597567.93,
+          "delta_price_pct": -0.31
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン短期保有者、含み損での取引所送金が6月以来最大＝クリプトクアント」の報道後、BTCは4時間で-0.3%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、利益確定が年内2番目の規模に　1日約10.3億ドル＝サンティメント",
@@ -32,11 +65,44 @@
         "fear_greed_value": 59,
         "volume_1h": 61769375.19
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-09T19:17:33.454353+00:00",
+          "price": 82478.72,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 31597567.93,
+          "delta_price_pct": -0.31
+        },
+        "1h": {
+          "t": "2026-10-09T19:17:33.454353+00:00",
+          "price": 82478.72,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 31597567.93,
+          "delta_price_pct": -0.31
+        },
+        "2h": {
+          "t": "2026-10-09T19:17:33.454353+00:00",
+          "price": 82478.72,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 31597567.93,
+          "delta_price_pct": -0.31
+        },
+        "4h": {
+          "t": "2026-10-09T19:17:33.454353+00:00",
+          "price": 82478.72,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 31597567.93,
+          "delta_price_pct": -0.31
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン、利益確定が年内2番目の規模に　1日約10.3億ドル＝サンティメント」の報道後、BTCは4時間で-0.3%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "公開鍵露出のビットコイン、供給の31.2％に　量子リスクで移行論＝グラスノード",
@@ -3088,5 +3154,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-09T13:52:36.522723+00:00"
+  "updated_at_utc": "2026-10-09T19:17:33.454353+00:00"
 }
