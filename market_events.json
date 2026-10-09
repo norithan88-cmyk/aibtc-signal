@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "米投資銀行、ビットコイン年末予想を9.7万ドルから10.9万ドルに引き上げ",
+      "link": "https://coinpost.jp/?p=741912",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-08T22:50:11+00:00",
+      "detected_at_utc": "2026-10-09T00:39:13.978796+00:00",
+      "baseline": {
+        "t": "2026-10-09T00:39:13.978796+00:00",
+        "price": 81768.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 59,
+        "volume_1h": 40942860.95
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "2010年採掘のビットコインが16年ぶりに移動、現在13億円相当で価値が約28.6万倍増",
+      "link": "https://coinpost.jp/?p=741914",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-08T21:50:15+00:00",
+      "detected_at_utc": "2026-10-09T00:39:13.978796+00:00",
+      "baseline": {
+        "t": "2026-10-09T00:39:13.978796+00:00",
+        "price": 81768.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 59,
+        "volume_1h": 40942860.95
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "米政府が1580億円相当ビットコインを移動、取引所入金は確認されず",
+      "link": "https://coinpost.jp/?p=741916",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-08T20:50:21+00:00",
+      "detected_at_utc": "2026-10-09T00:39:13.978796+00:00",
+      "baseline": {
+        "t": "2026-10-09T00:39:13.978796+00:00",
+        "price": 81768.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 59,
+        "volume_1h": 40942860.95
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン総需要がプラス転換　現物需要のマイナス幅9割縮小＝アナリスト",
       "link": "https://coinpost.jp/?p=741867",
       "source": "CoinPost",
@@ -2992,169 +3049,7 @@
       "relevance": "low",
       "summary": "「Bitcoin Japan、初のビットコイン購入へ　100万ドル上限」の報道後、BTCは4時間で-0.2%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン、8万ドル台定着は年内困難か｜コインシェアーズ分析",
-      "link": "https://coinpost.jp/?p=738617",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-18T21:15:14+00:00",
-      "detected_at_utc": "2026-09-18T22:29:07.865205+00:00",
-      "baseline": {
-        "t": "2026-09-18T22:29:07.865205+00:00",
-        "price": 81253.22,
-        "funding_rate_pct": 0.0069,
-        "fear_greed_value": 56,
-        "volume_1h": 35613717.21
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-19T00:35:04.781906+00:00",
-          "price": 81258.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 51548623.71,
-          "delta_price_pct": 0.01
-        },
-        "1h": {
-          "t": "2026-09-19T00:35:04.781906+00:00",
-          "price": 81258.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 51548623.71,
-          "delta_price_pct": 0.01
-        },
-        "2h": {
-          "t": "2026-09-19T00:35:04.781906+00:00",
-          "price": 81258.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 51548623.71,
-          "delta_price_pct": 0.01
-        },
-        "4h": {
-          "t": "2026-09-19T05:03:40.772434+00:00",
-          "price": 81057.52,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 25730133.25,
-          "delta_price_pct": -0.24
-        }
-      },
-      "flags": [
-        "市場心理の好転（Fear & Greed急上昇）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコイン、8万ドル台定着は年内困難か｜コインシェアーズ分析」の報道後、BTCは4時間で-0.2%。Fear & Greedも56から71へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコインETFのヘッジ減れば、需要が金超えに＝JPモルガン",
-      "link": "https://coinpost.jp/?p=738242",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-18T01:15:54+00:00",
-      "detected_at_utc": "2026-09-18T05:00:56.473360+00:00",
-      "baseline": {
-        "t": "2026-09-18T05:00:56.473360+00:00",
-        "price": 77578.81,
-        "funding_rate_pct": null,
-        "fear_greed_value": 56,
-        "volume_1h": 54544110.14
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-18T09:40:12.397983+00:00",
-          "price": 78034.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 93880318.41,
-          "delta_price_pct": 0.59
-        },
-        "1h": {
-          "t": "2026-09-18T09:40:12.397983+00:00",
-          "price": 78034.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 93880318.41,
-          "delta_price_pct": 0.59
-        },
-        "2h": {
-          "t": "2026-09-18T09:40:12.397983+00:00",
-          "price": 78034.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 93880318.41,
-          "delta_price_pct": 0.59
-        },
-        "4h": {
-          "t": "2026-09-18T09:40:12.397983+00:00",
-          "price": 78034.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 93880318.41,
-          "delta_price_pct": 0.59
-        }
-      },
-      "flags": [
-        "出来高急増（+72%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコインETFのヘッジ減れば、需要が金超えに＝JPモルガン」の報道後、BTCは4時間で+0.6%。Fear & Greedも56から56へ横ばい。出来高急増（+72%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "グレースケール「米利上げは中期調整」ビットコインへの影響限定的",
-      "link": "https://coinpost.jp/?p=738295",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-18T00:45:22+00:00",
-      "detected_at_utc": "2026-09-18T05:00:56.473360+00:00",
-      "baseline": {
-        "t": "2026-09-18T05:00:56.473360+00:00",
-        "price": 77578.81,
-        "funding_rate_pct": null,
-        "fear_greed_value": 56,
-        "volume_1h": 54544110.14
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-18T09:40:12.397983+00:00",
-          "price": 78034.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 93880318.41,
-          "delta_price_pct": 0.59
-        },
-        "1h": {
-          "t": "2026-09-18T09:40:12.397983+00:00",
-          "price": 78034.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 93880318.41,
-          "delta_price_pct": 0.59
-        },
-        "2h": {
-          "t": "2026-09-18T09:40:12.397983+00:00",
-          "price": 78034.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 93880318.41,
-          "delta_price_pct": 0.59
-        },
-        "4h": {
-          "t": "2026-09-18T09:40:12.397983+00:00",
-          "price": 78034.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 56,
-          "volume_1h": 93880318.41,
-          "delta_price_pct": 0.59
-        }
-      },
-      "flags": [
-        "出来高急増（+72%）"
-      ],
-      "relevance": "medium",
-      "summary": "「グレースケール「米利上げは中期調整」ビットコインへの影響限定的」の報道後、BTCは4時間で+0.6%。Fear & Greedも56から56へ横ばい。出来高急増（+72%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-08T20:35:27.129565+00:00"
+  "updated_at_utc": "2026-10-09T00:39:13.978796+00:00"
 }
