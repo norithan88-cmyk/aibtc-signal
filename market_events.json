@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "公開鍵露出のビットコイン、供給の31.2％に　量子リスクで移行論＝グラスノード",
+      "link": "https://coinpost.jp/?p=742115",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-09T05:40:02+00:00",
+      "detected_at_utc": "2026-10-09T06:47:05.993347+00:00",
+      "baseline": {
+        "t": "2026-10-09T06:47:05.993347+00:00",
+        "price": 82648.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 59,
+        "volume_1h": 26273932.05
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコインコア、送信元を隠す機能の修正を次期版に反映｜現行版は未反映",
+      "link": "https://coinpost.jp/?p=741992",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-09T02:45:11+00:00",
+      "detected_at_utc": "2026-10-09T06:47:05.993347+00:00",
+      "baseline": {
+        "t": "2026-10-09T06:47:05.993347+00:00",
+        "price": 82648.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 59,
+        "volume_1h": 26273932.05
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン採掘事業者による売り圧力は緩和傾向＝クリプトクアント",
+      "link": "https://coinpost.jp/?p=741947",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-09T01:05:07+00:00",
+      "detected_at_utc": "2026-10-09T06:47:05.993347+00:00",
+      "baseline": {
+        "t": "2026-10-09T06:47:05.993347+00:00",
+        "price": 82648.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 59,
+        "volume_1h": 26273932.05
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米投資銀行、ビットコイン年末予想を9.7万ドルから10.9万ドルに引き上げ",
       "link": "https://coinpost.jp/?p=741912",
       "source": "CoinPost",
@@ -13,11 +70,44 @@
         "fear_greed_value": 59,
         "volume_1h": 40942860.95
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-09T06:47:05.993347+00:00",
+          "price": 82648.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 26273932.05,
+          "delta_price_pct": 1.08
+        },
+        "1h": {
+          "t": "2026-10-09T06:47:05.993347+00:00",
+          "price": 82648.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 26273932.05,
+          "delta_price_pct": 1.08
+        },
+        "2h": {
+          "t": "2026-10-09T06:47:05.993347+00:00",
+          "price": 82648.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 26273932.05,
+          "delta_price_pct": 1.08
+        },
+        "4h": {
+          "t": "2026-10-09T06:47:05.993347+00:00",
+          "price": 82648.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 26273932.05,
+          "delta_price_pct": 1.08
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米投資銀行、ビットコイン年末予想を9.7万ドルから10.9万ドルに引き上げ」の報道後、BTCは4時間で+1.1%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "2010年採掘のビットコインが16年ぶりに移動、現在13億円相当で価値が約28.6万倍増",
@@ -32,11 +122,44 @@
         "fear_greed_value": 59,
         "volume_1h": 40942860.95
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-09T06:47:05.993347+00:00",
+          "price": 82648.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 26273932.05,
+          "delta_price_pct": 1.08
+        },
+        "1h": {
+          "t": "2026-10-09T06:47:05.993347+00:00",
+          "price": 82648.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 26273932.05,
+          "delta_price_pct": 1.08
+        },
+        "2h": {
+          "t": "2026-10-09T06:47:05.993347+00:00",
+          "price": 82648.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 26273932.05,
+          "delta_price_pct": 1.08
+        },
+        "4h": {
+          "t": "2026-10-09T06:47:05.993347+00:00",
+          "price": 82648.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 26273932.05,
+          "delta_price_pct": 1.08
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「2010年採掘のビットコインが16年ぶりに移動、現在13億円相当で価値が約28.6万倍増」の報道後、BTCは4時間で+1.1%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米政府が1580億円相当ビットコインを移動、取引所入金は確認されず",
@@ -51,11 +174,44 @@
         "fear_greed_value": 59,
         "volume_1h": 40942860.95
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-09T06:47:05.993347+00:00",
+          "price": 82648.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 26273932.05,
+          "delta_price_pct": 1.08
+        },
+        "1h": {
+          "t": "2026-10-09T06:47:05.993347+00:00",
+          "price": 82648.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 26273932.05,
+          "delta_price_pct": 1.08
+        },
+        "2h": {
+          "t": "2026-10-09T06:47:05.993347+00:00",
+          "price": 82648.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 26273932.05,
+          "delta_price_pct": 1.08
+        },
+        "4h": {
+          "t": "2026-10-09T06:47:05.993347+00:00",
+          "price": 82648.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 26273932.05,
+          "delta_price_pct": 1.08
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米政府が1580億円相当ビットコインを移動、取引所入金は確認されず」の報道後、BTCは4時間で+1.1%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン総需要がプラス転換　現物需要のマイナス幅9割縮小＝アナリスト",
@@ -2891,165 +3047,7 @@
       "relevance": "low",
       "summary": "「ビットコインFOMC通過後も底堅く、米金利と中東情勢が焦点｜bitbankアナリスト寄稿」の報道後、BTCは4時間で+0.3%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "週刊仮想通貨ニュース（9/18）｜クラリティー法案・日本の分離課税・米BTC準備金法案の動向まとめ",
-      "link": "https://coinpost.jp/?p=738323",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-20T00:25:46+00:00",
-      "detected_at_utc": "2026-09-20T01:30:10.343039+00:00",
-      "baseline": {
-        "t": "2026-09-20T01:30:10.343039+00:00",
-        "price": 81115.97,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 21558579.74
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-20T06:56:02.703542+00:00",
-          "price": 80227.28,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 34130573.54,
-          "delta_price_pct": -1.1
-        },
-        "1h": {
-          "t": "2026-09-20T06:56:02.703542+00:00",
-          "price": 80227.28,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 34130573.54,
-          "delta_price_pct": -1.1
-        },
-        "2h": {
-          "t": "2026-09-20T06:56:02.703542+00:00",
-          "price": 80227.28,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 34130573.54,
-          "delta_price_pct": -1.1
-        },
-        "4h": {
-          "t": "2026-09-20T06:56:02.703542+00:00",
-          "price": 80227.28,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 34130573.54,
-          "delta_price_pct": -1.1
-        }
-      },
-      "flags": [
-        "出来高急増（+58%）"
-      ],
-      "relevance": "medium",
-      "summary": "「週刊仮想通貨ニュース（9/18）｜クラリティー法案・日本の分離課税・米BTC準備金法案の動向まとめ」の報道後、BTCは4時間で-1.1%。Fear & Greedも71から71へ横ばい。出来高急増（+58%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン急騰、8万ドル台回復　SEC・CFTCの制度整備を好感｜仮想NISHI",
-      "link": "https://coinpost.jp/?p=738612",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-19T02:05:04+00:00",
-      "detected_at_utc": "2026-09-19T05:03:40.772434+00:00",
-      "baseline": {
-        "t": "2026-09-19T05:03:40.772434+00:00",
-        "price": 81057.52,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 25730133.25
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-19T09:27:02.966319+00:00",
-          "price": 81450.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 24547057.43,
-          "delta_price_pct": 0.48
-        },
-        "1h": {
-          "t": "2026-09-19T09:27:02.966319+00:00",
-          "price": 81450.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 24547057.43,
-          "delta_price_pct": 0.48
-        },
-        "2h": {
-          "t": "2026-09-19T09:27:02.966319+00:00",
-          "price": 81450.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 24547057.43,
-          "delta_price_pct": 0.48
-        },
-        "4h": {
-          "t": "2026-09-19T09:27:02.966319+00:00",
-          "price": 81450.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 24547057.43,
-          "delta_price_pct": 0.48
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン急騰、8万ドル台回復　SEC・CFTCの制度整備を好感｜仮想NISHI」の報道後、BTCは4時間で+0.5%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "Bitcoin Japan、初のビットコイン購入へ　100万ドル上限",
-      "link": "https://coinpost.jp/?p=738613",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-18T23:25:06+00:00",
-      "detected_at_utc": "2026-09-19T00:35:04.781906+00:00",
-      "baseline": {
-        "t": "2026-09-19T00:35:04.781906+00:00",
-        "price": 81258.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 51548623.71
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-19T05:03:40.772434+00:00",
-          "price": 81057.52,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 25730133.25,
-          "delta_price_pct": -0.25
-        },
-        "1h": {
-          "t": "2026-09-19T05:03:40.772434+00:00",
-          "price": 81057.52,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 25730133.25,
-          "delta_price_pct": -0.25
-        },
-        "2h": {
-          "t": "2026-09-19T05:03:40.772434+00:00",
-          "price": 81057.52,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 25730133.25,
-          "delta_price_pct": -0.25
-        },
-        "4h": {
-          "t": "2026-09-19T05:03:40.772434+00:00",
-          "price": 81057.52,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 25730133.25,
-          "delta_price_pct": -0.25
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「Bitcoin Japan、初のビットコイン購入へ　100万ドル上限」の報道後、BTCは4時間で-0.2%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-09T00:39:13.978796+00:00"
+  "updated_at_utc": "2026-10-09T06:47:05.993347+00:00"
 }
