@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "タイSEC、仮想通貨現物ETFを解禁　ビットコインとイーサリアムに限定",
+      "link": "https://coinpost.jp/?p=742267",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-10T02:40:52+00:00",
+      "detected_at_utc": "2026-10-10T08:57:05.676365+00:00",
+      "baseline": {
+        "t": "2026-10-10T08:57:05.676365+00:00",
+        "price": 82848.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 64,
+        "volume_1h": 32825499.8
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン上昇継続の条件は？　コインシェアーズ分析",
       "link": "https://coinpost.jp/?p=742259",
       "source": "CoinPost",
@@ -13,11 +32,46 @@
         "fear_greed_value": 64,
         "volume_1h": 11086145.96
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-10T08:57:05.676365+00:00",
+          "price": 82848.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 32825499.8,
+          "delta_price_pct": 0.27
+        },
+        "1h": {
+          "t": "2026-10-10T08:57:05.676365+00:00",
+          "price": 82848.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 32825499.8,
+          "delta_price_pct": 0.27
+        },
+        "2h": {
+          "t": "2026-10-10T08:57:05.676365+00:00",
+          "price": 82848.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 32825499.8,
+          "delta_price_pct": 0.27
+        },
+        "4h": {
+          "t": "2026-10-10T08:57:05.676365+00:00",
+          "price": 82848.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 32825499.8,
+          "delta_price_pct": 0.27
+        }
+      },
+      "flags": [
+        "出来高急増（+196%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン上昇継続の条件は？　コインシェアーズ分析」の報道後、BTCは4時間で+0.3%。Fear & Greedも64から64へ横ばい。出来高急増（+196%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "サム・アルトマン氏出資のビットコイン生保、60億円相当調達　富裕層で需要増",
@@ -56,12 +110,20 @@
           "fear_greed_value": 64,
           "volume_1h": 11086145.96,
           "delta_price_pct": -0.04
+        },
+        "4h": {
+          "t": "2026-10-10T08:57:05.676365+00:00",
+          "price": 82848.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 64,
+          "volume_1h": 32825499.8,
+          "delta_price_pct": 0.23
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「サム・アルトマン氏出資のビットコイン生保、60億円相当調達　富裕層で需要増」の報道後、BTCは2時間で-0.0%。Fear & Greedも59から64へ改善。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「サム・アルトマン氏出資のビットコイン生保、60億円相当調達　富裕層で需要増」の報道後、BTCは4時間で+0.2%。Fear & Greedも59から64へ改善。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン短期保有者、含み損での取引所送金が6月以来最大＝クリプトクアント",
@@ -3056,59 +3118,7 @@
       "relevance": "low",
       "summary": "「ヘイズ氏、AI減速は業績隠しと主張　保険業界の穴がビットコイン材料に」の報道後、BTCは4時間で+0.9%。Fear & Greedも78から78へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン100万円幅上昇、原油5%安とショート清算が相場押し上げ｜仮想NISHI",
-      "link": "https://coinpost.jp/?p=738761",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-22T01:25:01+00:00",
-      "detected_at_utc": "2026-09-22T06:08:10.994175+00:00",
-      "baseline": {
-        "t": "2026-09-22T06:08:10.994175+00:00",
-        "price": 85319.13,
-        "funding_rate_pct": null,
-        "fear_greed_value": 78,
-        "volume_1h": 72602282.04
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-22T11:39:52.273642+00:00",
-          "price": 86064.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 78,
-          "volume_1h": 59617328.38,
-          "delta_price_pct": 0.87
-        },
-        "1h": {
-          "t": "2026-09-22T11:39:52.273642+00:00",
-          "price": 86064.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 78,
-          "volume_1h": 59617328.38,
-          "delta_price_pct": 0.87
-        },
-        "2h": {
-          "t": "2026-09-22T11:39:52.273642+00:00",
-          "price": 86064.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 78,
-          "volume_1h": 59617328.38,
-          "delta_price_pct": 0.87
-        },
-        "4h": {
-          "t": "2026-09-22T11:39:52.273642+00:00",
-          "price": 86064.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 78,
-          "volume_1h": 59617328.38,
-          "delta_price_pct": 0.87
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン100万円幅上昇、原油5%安とショート清算が相場押し上げ｜仮想NISHI」の報道後、BTCは4時間で+0.9%。Fear & Greedも78から78へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-10T02:31:34.462069+00:00"
+  "updated_at_utc": "2026-10-10T08:57:05.676365+00:00"
 }
