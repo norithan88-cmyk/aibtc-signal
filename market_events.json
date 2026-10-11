@@ -13,11 +13,44 @@
         "fear_greed_value": 61,
         "volume_1h": 25776603.7
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-11T14:22:42.061295+00:00",
+          "price": 83056.36,
+          "funding_rate_pct": null,
+          "fear_greed_value": 61,
+          "volume_1h": 27026533.9,
+          "delta_price_pct": 0.05
+        },
+        "1h": {
+          "t": "2026-10-11T14:22:42.061295+00:00",
+          "price": 83056.36,
+          "funding_rate_pct": null,
+          "fear_greed_value": 61,
+          "volume_1h": 27026533.9,
+          "delta_price_pct": 0.05
+        },
+        "2h": {
+          "t": "2026-10-11T14:22:42.061295+00:00",
+          "price": 83056.36,
+          "funding_rate_pct": null,
+          "fear_greed_value": 61,
+          "volume_1h": 27026533.9,
+          "delta_price_pct": 0.05
+        },
+        "4h": {
+          "t": "2026-10-11T14:22:42.061295+00:00",
+          "price": 83056.36,
+          "funding_rate_pct": null,
+          "fear_greed_value": 61,
+          "volume_1h": 27026533.9,
+          "delta_price_pct": 0.05
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン原油高・中東緊迫化で1300万円割れも、CPIと8万ドル水準が焦点｜bitbankアナリスト寄稿」の報道後、BTCは4時間で+0.1%。Fear & Greedも61から61へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "タイSEC、仮想通貨現物ETFを解禁　ビットコインとイーサリアムに限定",
@@ -3120,5 +3153,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-11T07:38:08.363854+00:00"
+  "updated_at_utc": "2026-10-11T14:22:42.061295+00:00"
 }
