@@ -13,11 +13,46 @@
         "fear_greed_value": 69,
         "volume_1h": 45490817.55
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-12T09:17:11.861112+00:00",
+          "price": 83527.98,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 104459302.03,
+          "delta_price_pct": -0.2
+        },
+        "1h": {
+          "t": "2026-10-12T09:17:11.861112+00:00",
+          "price": 83527.98,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 104459302.03,
+          "delta_price_pct": -0.2
+        },
+        "2h": {
+          "t": "2026-10-12T09:17:11.861112+00:00",
+          "price": 83527.98,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 104459302.03,
+          "delta_price_pct": -0.2
+        },
+        "4h": {
+          "t": "2026-10-12T09:17:11.861112+00:00",
+          "price": 83527.98,
+          "funding_rate_pct": null,
+          "fear_greed_value": 69,
+          "volume_1h": 104459302.03,
+          "delta_price_pct": -0.2
+        }
+      },
+      "flags": [
+        "出来高急増（+130%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン、8.5万ドル突破が焦点　最大の取得価格帯＝アナリスト」の報道後、BTCは4時間で-0.2%。Fear & Greedも69から69へ横ばい。出来高急増（+130%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン原油高・中東緊迫化で1300万円割れも、CPIと8万ドル水準が焦点｜bitbankアナリスト寄稿",
@@ -3120,5 +3155,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-12T02:09:57.204300+00:00"
+  "updated_at_utc": "2026-10-12T09:17:11.861112+00:00"
 }
