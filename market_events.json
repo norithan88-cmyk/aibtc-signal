@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "韓国地銀、ビットコイン担保のウォン建て融資を開始",
+      "link": "https://coinpost.jp/?p=742478",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-13T08:15:01+00:00",
+      "detected_at_utc": "2026-10-13T16:03:56.418682+00:00",
+      "baseline": {
+        "t": "2026-10-13T16:03:56.418682+00:00",
+        "price": 83571.98,
+        "funding_rate_pct": null,
+        "fear_greed_value": 57,
+        "volume_1h": 45620662.96
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米上場ビットコインマイナーIREN、AIクラウドでアンソロピックと複数年契約か＝報道",
       "link": "https://coinpost.jp/?p=742429",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 57,
         "volume_1h": 86925147.54
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-13T16:03:56.418682+00:00",
+          "price": 83571.98,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 45620662.96,
+          "delta_price_pct": -0.58
+        },
+        "1h": {
+          "t": "2026-10-13T16:03:56.418682+00:00",
+          "price": 83571.98,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 45620662.96,
+          "delta_price_pct": -0.58
+        },
+        "2h": {
+          "t": "2026-10-13T16:03:56.418682+00:00",
+          "price": 83571.98,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 45620662.96,
+          "delta_price_pct": -0.58
+        },
+        "4h": {
+          "t": "2026-10-13T16:03:56.418682+00:00",
+          "price": 83571.98,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 45620662.96,
+          "delta_price_pct": -0.58
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米上場ビットコインマイナーIREN、AIクラウドでアンソロピックと複数年契約か＝報道」の報道後、BTCは4時間で-0.6%。Fear & Greedも57から57へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストラテジー、4週連続でビットコイン買い増し　34億円相当BTCを取得",
@@ -3070,59 +3122,7 @@
       "relevance": "low",
       "summary": "「ビットコイン、オンチェーン指標が強気相場入りを示唆＝アナリスト」の報道後、BTCは4時間で+1.1%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "CMEグループ、ビットコインキャッシュとユニスワップの先物上場へ",
-      "link": "https://coinpost.jp/?p=738868",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-23T03:02:52+00:00",
-      "detected_at_utc": "2026-09-23T05:17:39.529613+00:00",
-      "baseline": {
-        "t": "2026-09-23T05:17:39.529613+00:00",
-        "price": 86946.7,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 71370186.24
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-23T10:08:11.659478+00:00",
-          "price": 85831.56,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 45701638.45,
-          "delta_price_pct": -1.28
-        },
-        "1h": {
-          "t": "2026-09-23T10:08:11.659478+00:00",
-          "price": 85831.56,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 45701638.45,
-          "delta_price_pct": -1.28
-        },
-        "2h": {
-          "t": "2026-09-23T10:08:11.659478+00:00",
-          "price": 85831.56,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 45701638.45,
-          "delta_price_pct": -1.28
-        },
-        "4h": {
-          "t": "2026-09-23T10:08:11.659478+00:00",
-          "price": 85831.56,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 45701638.45,
-          "delta_price_pct": -1.28
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「CMEグループ、ビットコインキャッシュとユニスワップの先物上場へ」の報道後、BTCは4時間で-1.3%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-13T08:10:51.943792+00:00"
+  "updated_at_utc": "2026-10-13T16:03:56.418682+00:00"
 }
