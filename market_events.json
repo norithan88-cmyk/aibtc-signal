@@ -13,11 +13,44 @@
         "fear_greed_value": 57,
         "volume_1h": 45620662.96
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-13T21:12:29.201838+00:00",
+          "price": 83415.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 26424741.09,
+          "delta_price_pct": -0.19
+        },
+        "1h": {
+          "t": "2026-10-13T21:12:29.201838+00:00",
+          "price": 83415.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 26424741.09,
+          "delta_price_pct": -0.19
+        },
+        "2h": {
+          "t": "2026-10-13T21:12:29.201838+00:00",
+          "price": 83415.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 26424741.09,
+          "delta_price_pct": -0.19
+        },
+        "4h": {
+          "t": "2026-10-13T21:12:29.201838+00:00",
+          "price": 83415.99,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 26424741.09,
+          "delta_price_pct": -0.19
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「韓国地銀、ビットコイン担保のウォン建て融資を開始」の報道後、BTCは4時間で-0.2%。Fear & Greedも57から57へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米上場ビットコインマイナーIREN、AIクラウドでアンソロピックと複数年契約か＝報道",
@@ -3124,5 +3157,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-13T16:03:56.418682+00:00"
+  "updated_at_utc": "2026-10-13T21:12:29.201838+00:00"
 }
