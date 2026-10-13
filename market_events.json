@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "米上場ビットコインマイナーIREN、AIクラウドでアンソロピックと複数年契約か＝報道",
+      "link": "https://coinpost.jp/?p=742429",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-13T04:05:14+00:00",
+      "detected_at_utc": "2026-10-13T08:10:51.943792+00:00",
+      "baseline": {
+        "t": "2026-10-13T08:10:51.943792+00:00",
+        "price": 84056.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 57,
+        "volume_1h": 86925147.54
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ストラテジー、4週連続でビットコイン買い増し　34億円相当BTCを取得",
       "link": "https://coinpost.jp/?p=742410",
       "source": "CoinPost",
@@ -13,11 +32,46 @@
         "fear_greed_value": 57,
         "volume_1h": 76826923.14
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-13T08:10:51.943792+00:00",
+          "price": 84056.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 86925147.54,
+          "delta_price_pct": 2.4
+        },
+        "1h": {
+          "t": "2026-10-13T08:10:51.943792+00:00",
+          "price": 84056.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 86925147.54,
+          "delta_price_pct": 2.4
+        },
+        "2h": {
+          "t": "2026-10-13T08:10:51.943792+00:00",
+          "price": 84056.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 86925147.54,
+          "delta_price_pct": 2.4
+        },
+        "4h": {
+          "t": "2026-10-13T08:10:51.943792+00:00",
+          "price": 84056.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 57,
+          "volume_1h": 86925147.54,
+          "delta_price_pct": 2.4
+        }
+      },
+      "flags": [
+        "価格急変（+2.4%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ストラテジー、4週連続でビットコイン買い増し　34億円相当BTCを取得」の報道後、BTCは4時間で+2.4%。Fear & Greedも57から57へ横ばい。価格急変（+2.4%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、8.5万ドル突破が焦点　最大の取得価格帯＝アナリスト",
@@ -3068,59 +3122,7 @@
       "relevance": "low",
       "summary": "「CMEグループ、ビットコインキャッシュとユニスワップの先物上場へ」の報道後、BTCは4時間で-1.3%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "クリプトクアントCEO、ビットコイン上昇幅は過去より縮小と予想",
-      "link": "https://coinpost.jp/?p=738876",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-23T02:46:11+00:00",
-      "detected_at_utc": "2026-09-23T05:17:39.529613+00:00",
-      "baseline": {
-        "t": "2026-09-23T05:17:39.529613+00:00",
-        "price": 86946.7,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 71370186.24
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-23T10:08:11.659478+00:00",
-          "price": 85831.56,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 45701638.45,
-          "delta_price_pct": -1.28
-        },
-        "1h": {
-          "t": "2026-09-23T10:08:11.659478+00:00",
-          "price": 85831.56,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 45701638.45,
-          "delta_price_pct": -1.28
-        },
-        "2h": {
-          "t": "2026-09-23T10:08:11.659478+00:00",
-          "price": 85831.56,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 45701638.45,
-          "delta_price_pct": -1.28
-        },
-        "4h": {
-          "t": "2026-09-23T10:08:11.659478+00:00",
-          "price": 85831.56,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 45701638.45,
-          "delta_price_pct": -1.28
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「クリプトクアントCEO、ビットコイン上昇幅は過去より縮小と予想」の報道後、BTCは4時間で-1.3%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-13T01:23:06.843584+00:00"
+  "updated_at_utc": "2026-10-13T08:10:51.943792+00:00"
 }
