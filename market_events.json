@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "英高等法院、約8000億円の押収ビットコイン所有権判断に中国法適用",
+      "link": "https://coinpost.jp/?p=742785",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-14T05:05:11+00:00",
+      "detected_at_utc": "2026-10-14T05:10:34.711974+00:00",
+      "baseline": {
+        "t": "2026-10-14T05:10:34.711974+00:00",
+        "price": 83456.95,
+        "funding_rate_pct": null,
+        "fear_greed_value": 62,
+        "volume_1h": 33570829.2
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "コインベース、ビットコインの量子耐性化で提言　署名方式や休眠コインの扱いに言及",
+      "link": "https://coinpost.jp/?p=742755",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-14T02:55:54+00:00",
+      "detected_at_utc": "2026-10-14T05:10:34.711974+00:00",
+      "baseline": {
+        "t": "2026-10-14T05:10:34.711974+00:00",
+        "price": 83456.95,
+        "funding_rate_pct": null,
+        "fear_greed_value": 62,
+        "volume_1h": 33570829.2
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "6年超休眠ビットコインクジラ、600億円相当BTCを移動",
+      "link": "https://coinpost.jp/?p=742679",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-14T00:50:31+00:00",
+      "detected_at_utc": "2026-10-14T05:10:34.711974+00:00",
+      "baseline": {
+        "t": "2026-10-14T05:10:34.711974+00:00",
+        "price": 83456.95,
+        "funding_rate_pct": null,
+        "fear_greed_value": 62,
+        "volume_1h": 33570829.2
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ストライブ、436億円相当ビットコインを追加購入　1月以来最大",
       "link": "https://coinpost.jp/?p=742645",
       "source": "CoinPost",
@@ -13,11 +70,46 @@
         "fear_greed_value": 62,
         "volume_1h": 20726286.53
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-14T05:10:34.711974+00:00",
+          "price": 83456.95,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 33570829.2,
+          "delta_price_pct": 0.01
+        },
+        "1h": {
+          "t": "2026-10-14T05:10:34.711974+00:00",
+          "price": 83456.95,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 33570829.2,
+          "delta_price_pct": 0.01
+        },
+        "2h": {
+          "t": "2026-10-14T05:10:34.711974+00:00",
+          "price": 83456.95,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 33570829.2,
+          "delta_price_pct": 0.01
+        },
+        "4h": {
+          "t": "2026-10-14T05:10:34.711974+00:00",
+          "price": 83456.95,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 33570829.2,
+          "delta_price_pct": 0.01
+        }
+      },
+      "flags": [
+        "出来高急増（+62%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ストライブ、436億円相当ビットコインを追加購入　1月以来最大」の報道後、BTCは4時間で+0.0%。Fear & Greedも62から62へ横ばい。出来高急増（+62%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "韓国地銀、ビットコイン担保のウォン建て融資を開始",
@@ -2962,167 +3054,7 @@
       "relevance": "medium",
       "summary": "「ビットゲット、5500ビットコインの保護基金で損失負担へ　北朝鮮系集団関与か」の報道後、BTCは4時間で+0.6%。Fear & Greedも71から71へ横ばい。出来高急増（+505%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "JPモルガン、ビットコイン一時生産コスト超え　維持ならマイナー売り圧緩和＝報道",
-      "link": "https://coinpost.jp/?p=739193",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-25T01:49:28+00:00",
-      "detected_at_utc": "2026-09-25T06:02:18.747807+00:00",
-      "baseline": {
-        "t": "2026-09-25T06:02:18.747807+00:00",
-        "price": 84199.77,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 25396802.64
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-25T11:44:40.203953+00:00",
-          "price": 84714.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 153672687.32,
-          "delta_price_pct": 0.61
-        },
-        "1h": {
-          "t": "2026-09-25T11:44:40.203953+00:00",
-          "price": 84714.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 153672687.32,
-          "delta_price_pct": 0.61
-        },
-        "2h": {
-          "t": "2026-09-25T11:44:40.203953+00:00",
-          "price": 84714.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 153672687.32,
-          "delta_price_pct": 0.61
-        },
-        "4h": {
-          "t": "2026-09-25T11:44:40.203953+00:00",
-          "price": 84714.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 153672687.32,
-          "delta_price_pct": 0.61
-        }
-      },
-      "flags": [
-        "出来高急増（+505%）"
-      ],
-      "relevance": "medium",
-      "summary": "「JPモルガン、ビットコイン一時生産コスト超え　維持ならマイナー売り圧緩和＝報道」の報道後、BTCは4時間で+0.6%。Fear & Greedも71から71へ横ばい。出来高急増（+505%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコインの「新たな強気相場到来」か　シグナルを観測＝クリプトクアント",
-      "link": "https://coinpost.jp/?p=739160",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-25T01:00:16+00:00",
-      "detected_at_utc": "2026-09-25T06:02:18.747807+00:00",
-      "baseline": {
-        "t": "2026-09-25T06:02:18.747807+00:00",
-        "price": 84199.77,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 25396802.64
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-25T11:44:40.203953+00:00",
-          "price": 84714.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 153672687.32,
-          "delta_price_pct": 0.61
-        },
-        "1h": {
-          "t": "2026-09-25T11:44:40.203953+00:00",
-          "price": 84714.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 153672687.32,
-          "delta_price_pct": 0.61
-        },
-        "2h": {
-          "t": "2026-09-25T11:44:40.203953+00:00",
-          "price": 84714.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 153672687.32,
-          "delta_price_pct": 0.61
-        },
-        "4h": {
-          "t": "2026-09-25T11:44:40.203953+00:00",
-          "price": 84714.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 153672687.32,
-          "delta_price_pct": 0.61
-        }
-      },
-      "flags": [
-        "出来高急増（+505%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコインの「新たな強気相場到来」か　シグナルを観測＝クリプトクアント」の報道後、BTCは4時間で+0.6%。Fear & Greedも71から71へ横ばい。出来高急増（+505%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン実現利益は週約8060億円、過去の高値圏に及ばず＝グラスノード",
-      "link": "https://coinpost.jp/?p=739092",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-24T08:12:05+00:00",
-      "detected_at_utc": "2026-09-24T10:25:38.403696+00:00",
-      "baseline": {
-        "t": "2026-09-24T10:25:38.403696+00:00",
-        "price": 83254.35,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 140005566.57
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-24T15:27:07.619429+00:00",
-          "price": 84137.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 166058048.69,
-          "delta_price_pct": 1.06
-        },
-        "1h": {
-          "t": "2026-09-24T15:27:07.619429+00:00",
-          "price": 84137.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 166058048.69,
-          "delta_price_pct": 1.06
-        },
-        "2h": {
-          "t": "2026-09-24T15:27:07.619429+00:00",
-          "price": 84137.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 166058048.69,
-          "delta_price_pct": 1.06
-        },
-        "4h": {
-          "t": "2026-09-24T15:27:07.619429+00:00",
-          "price": 84137.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 166058048.69,
-          "delta_price_pct": 1.06
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン実現利益は週約8060億円、過去の高値圏に及ばず＝グラスノード」の報道後、BTCは4時間で+1.1%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-14T00:21:21.562268+00:00"
+  "updated_at_utc": "2026-10-14T05:10:34.711974+00:00"
 }
