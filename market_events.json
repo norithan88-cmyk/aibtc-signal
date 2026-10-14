@@ -13,11 +13,46 @@
         "fear_greed_value": 62,
         "volume_1h": 33570829.2
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-14T10:16:39.425000+00:00",
+          "price": 83320.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 89230964.11,
+          "delta_price_pct": -0.16
+        },
+        "1h": {
+          "t": "2026-10-14T10:16:39.425000+00:00",
+          "price": 83320.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 89230964.11,
+          "delta_price_pct": -0.16
+        },
+        "2h": {
+          "t": "2026-10-14T10:16:39.425000+00:00",
+          "price": 83320.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 89230964.11,
+          "delta_price_pct": -0.16
+        },
+        "4h": {
+          "t": "2026-10-14T10:16:39.425000+00:00",
+          "price": 83320.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 89230964.11,
+          "delta_price_pct": -0.16
+        }
+      },
+      "flags": [
+        "出来高急増（+166%）"
+      ],
+      "relevance": "medium",
+      "summary": "「英高等法院、約8000億円の押収ビットコイン所有権判断に中国法適用」の報道後、BTCは4時間で-0.2%。Fear & Greedも62から62へ横ばい。出来高急増（+166%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "コインベース、ビットコインの量子耐性化で提言　署名方式や休眠コインの扱いに言及",
@@ -32,11 +67,46 @@
         "fear_greed_value": 62,
         "volume_1h": 33570829.2
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-14T10:16:39.425000+00:00",
+          "price": 83320.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 89230964.11,
+          "delta_price_pct": -0.16
+        },
+        "1h": {
+          "t": "2026-10-14T10:16:39.425000+00:00",
+          "price": 83320.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 89230964.11,
+          "delta_price_pct": -0.16
+        },
+        "2h": {
+          "t": "2026-10-14T10:16:39.425000+00:00",
+          "price": 83320.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 89230964.11,
+          "delta_price_pct": -0.16
+        },
+        "4h": {
+          "t": "2026-10-14T10:16:39.425000+00:00",
+          "price": 83320.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 89230964.11,
+          "delta_price_pct": -0.16
+        }
+      },
+      "flags": [
+        "出来高急増（+166%）"
+      ],
+      "relevance": "medium",
+      "summary": "「コインベース、ビットコインの量子耐性化で提言　署名方式や休眠コインの扱いに言及」の報道後、BTCは4時間で-0.2%。Fear & Greedも62から62へ横ばい。出来高急増（+166%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "6年超休眠ビットコインクジラ、600億円相当BTCを移動",
@@ -51,11 +121,46 @@
         "fear_greed_value": 62,
         "volume_1h": 33570829.2
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-14T10:16:39.425000+00:00",
+          "price": 83320.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 89230964.11,
+          "delta_price_pct": -0.16
+        },
+        "1h": {
+          "t": "2026-10-14T10:16:39.425000+00:00",
+          "price": 83320.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 89230964.11,
+          "delta_price_pct": -0.16
+        },
+        "2h": {
+          "t": "2026-10-14T10:16:39.425000+00:00",
+          "price": 83320.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 89230964.11,
+          "delta_price_pct": -0.16
+        },
+        "4h": {
+          "t": "2026-10-14T10:16:39.425000+00:00",
+          "price": 83320.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 62,
+          "volume_1h": 89230964.11,
+          "delta_price_pct": -0.16
+        }
+      },
+      "flags": [
+        "出来高急増（+166%）"
+      ],
+      "relevance": "medium",
+      "summary": "「6年超休眠ビットコインクジラ、600億円相当BTCを移動」の報道後、BTCは4時間で-0.2%。Fear & Greedも62から62へ横ばい。出来高急増（+166%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストライブ、436億円相当ビットコインを追加購入　1月以来最大",
@@ -3056,5 +3161,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-14T05:10:34.711974+00:00"
+  "updated_at_utc": "2026-10-14T10:16:39.425000+00:00"
 }
