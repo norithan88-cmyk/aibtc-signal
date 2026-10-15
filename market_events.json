@@ -13,11 +13,44 @@
         "fear_greed_value": 53,
         "volume_1h": 70905325.02
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        },
+        "1h": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        },
+        "2h": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        },
+        "4h": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン相場が膠着状態、8万ドルが重要な分岐点に＝Glassnode分析」の報道後、BTCは4時間で+0.1%。Fear & Greedも53から53へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "メタプラネット傘下入り予定の米スーパーリーグ、ビットコイン初購入",
@@ -32,11 +65,44 @@
         "fear_greed_value": 53,
         "volume_1h": 70905325.02
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        },
+        "1h": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        },
+        "2h": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        },
+        "4h": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「メタプラネット傘下入り予定の米スーパーリーグ、ビットコイン初購入」の報道後、BTCは4時間で+0.1%。Fear & Greedも53から53へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、3つのオンチェーン指標が底入れ示唆　米中間選挙直前＝アナリスト",
@@ -51,11 +117,44 @@
         "fear_greed_value": 53,
         "volume_1h": 70905325.02
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        },
+        "1h": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        },
+        "2h": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        },
+        "4h": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン、3つのオンチェーン指標が底入れ示唆　米中間選挙直前＝アナリスト」の報道後、BTCは4時間で+0.1%。Fear & Greedも53から53へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン下落、米CPI上振れで利上げ警戒｜仮想NISHI",
@@ -70,11 +169,44 @@
         "fear_greed_value": 53,
         "volume_1h": 70905325.02
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        },
+        "1h": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        },
+        "2h": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        },
+        "4h": {
+          "t": "2026-10-15T10:16:43.470183+00:00",
+          "price": 81136.07,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 33403728.21,
+          "delta_price_pct": 0.14
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン下落、米CPI上振れで利上げ警戒｜仮想NISHI」の報道後、BTCは4時間で+0.1%。Fear & Greedも53から53へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットワイズ、「AIや金利がどう動いてもビットコインは長期的に上昇」と予想",
@@ -3031,5 +3163,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-15T05:32:20.475784+00:00"
+  "updated_at_utc": "2026-10-15T10:16:43.470183+00:00"
 }
