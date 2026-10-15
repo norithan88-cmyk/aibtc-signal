@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットワイズ、「AIや金利がどう動いてもビットコインは長期的に上昇」と予想",
+      "link": "https://coinpost.jp/?p=742973",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-15T00:25:56+00:00",
+      "detected_at_utc": "2026-10-15T00:51:22.580890+00:00",
+      "baseline": {
+        "t": "2026-10-15T00:51:22.580890+00:00",
+        "price": 81475.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 53,
+        "volume_1h": 59484483.44
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン8.2万ドル割れ、米消費者物価の上振れで利上げ観測再燃",
       "link": "https://coinpost.jp/?p=742975",
       "source": "CoinPost",
@@ -13,10 +32,38 @@
         "fear_greed_value": 62,
         "volume_1h": 38486280.25
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-15T00:51:22.580890+00:00",
+          "price": 81475.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 59484483.44,
+          "delta_price_pct": -0.21
+        },
+        "1h": {
+          "t": "2026-10-15T00:51:22.580890+00:00",
+          "price": 81475.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 59484483.44,
+          "delta_price_pct": -0.21
+        },
+        "2h": {
+          "t": "2026-10-15T00:51:22.580890+00:00",
+          "price": 81475.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 59484483.44,
+          "delta_price_pct": -0.21
+        }
+      },
+      "flags": [
+        "市場心理の悪化（Fear & Greed急低下）",
+        "出来高急増（+55%）"
+      ],
+      "relevance": "high",
+      "summary": "「ビットコイン8.2万ドル割れ、米消費者物価の上振れで利上げ観測再燃」の報道後、BTCは2時間で-0.2%。Fear & Greedも62から53へ悪化。市場心理の悪化（Fear & Greed急低下）、出来高急増（+55%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -56,12 +103,22 @@
           "fear_greed_value": 62,
           "volume_1h": 38486280.25,
           "delta_price_pct": -0.26
+        },
+        "4h": {
+          "t": "2026-10-15T00:51:22.580890+00:00",
+          "price": 81475.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 59484483.44,
+          "delta_price_pct": -0.47
         }
       },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「米ストライブ、2日連続でビットコイン追加購入を発表　上場企業保有量で世界4位に」の報道後、BTCは2時間で-0.3%。Fear & Greedも62から62へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "flags": [
+        "市場心理の悪化（Fear & Greed急低下）"
+      ],
+      "relevance": "medium",
+      "summary": "「米ストライブ、2日連続でビットコイン追加購入を発表　上場企業保有量で世界4位に」の報道後、BTCは4時間で-0.5%。Fear & Greedも62から53へ悪化。市場心理の悪化（Fear & Greed急低下）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "英高等法院、約8000億円の押収ビットコイン所有権判断に中国法適用",
@@ -3064,59 +3121,7 @@
       "relevance": "low",
       "summary": "「ストライブ、ビットコイン保有企業のMSCI除外基準に明確性要求」の報道後、BTCは4時間で-0.2%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ストラテジー、優先株の日次配当化を提案｜ビットコイン調達強化狙い",
-      "link": "https://coinpost.jp/?p=739390",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-25T20:00:27+00:00",
-      "detected_at_utc": "2026-09-26T01:41:48.927502+00:00",
-      "baseline": {
-        "t": "2026-09-26T01:41:48.927502+00:00",
-        "price": 84064.59,
-        "funding_rate_pct": null,
-        "fear_greed_value": 74,
-        "volume_1h": 31694670.92
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-26T06:40:39.825020+00:00",
-          "price": 83929.24,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 20676344.78,
-          "delta_price_pct": -0.16
-        },
-        "1h": {
-          "t": "2026-09-26T06:40:39.825020+00:00",
-          "price": 83929.24,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 20676344.78,
-          "delta_price_pct": -0.16
-        },
-        "2h": {
-          "t": "2026-09-26T06:40:39.825020+00:00",
-          "price": 83929.24,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 20676344.78,
-          "delta_price_pct": -0.16
-        },
-        "4h": {
-          "t": "2026-09-26T06:40:39.825020+00:00",
-          "price": 83929.24,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 20676344.78,
-          "delta_price_pct": -0.16
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ストラテジー、優先株の日次配当化を提案｜ビットコイン調達強化狙い」の報道後、BTCは4時間で-0.2%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-14T22:34:17.340156+00:00"
+  "updated_at_utc": "2026-10-15T00:51:22.580890+00:00"
 }
