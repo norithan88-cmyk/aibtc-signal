@@ -13,10 +13,35 @@
         "fear_greed_value": 63,
         "volume_1h": 28592630.82
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-16T23:44:58.513280+00:00",
+          "price": 81624.09,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 29403653.99,
+          "delta_price_pct": -0.17
+        },
+        "1h": {
+          "t": "2026-10-16T23:44:58.513280+00:00",
+          "price": 81624.09,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 29403653.99,
+          "delta_price_pct": -0.17
+        },
+        "2h": {
+          "t": "2026-10-16T23:44:58.513280+00:00",
+          "price": 81624.09,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 29403653.99,
+          "delta_price_pct": -0.17
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「2022年以来初、米国がビットコイン純輸入国に」の報道後、BTCは2時間で-0.2%。Fear & Greedも63から63へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3138,5 +3163,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-16T21:21:27.897868+00:00"
+  "updated_at_utc": "2026-10-16T23:44:58.513280+00:00"
 }
