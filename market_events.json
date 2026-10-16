@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "上場ビットコインマイナー3社の9月採掘量、2社が前月比4〜11％減",
+      "link": "https://coinpost.jp/?p=743286",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-16T01:50:31+00:00",
+      "detected_at_utc": "2026-10-16T04:57:50.312698+00:00",
+      "baseline": {
+        "t": "2026-10-16T04:57:50.312698+00:00",
+        "price": 82129.99,
+        "funding_rate_pct": null,
+        "fear_greed_value": 63,
+        "volume_1h": 18598031.76
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "MSCI新ルール決定、ストラテジーらビットコイン保有企業に除外の可能性",
+      "link": "https://coinpost.jp/?p=743293",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-16T00:54:29+00:00",
+      "detected_at_utc": "2026-10-16T04:57:50.312698+00:00",
+      "baseline": {
+        "t": "2026-10-16T04:57:50.312698+00:00",
+        "price": 82129.99,
+        "funding_rate_pct": null,
+        "fear_greed_value": 63,
+        "volume_1h": 18598031.76
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン相場が膠着状態、8万ドルが重要な分岐点に＝Glassnode分析",
       "link": "https://coinpost.jp/?p=743097",
       "source": "CoinPost",
@@ -3057,111 +3095,7 @@
       "relevance": "low",
       "summary": "「ビットコイン需要、17.1万BTCのマイナス　価格上昇と乖離＝アナリスト」の報道後、BTCは4時間で-0.3%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン現物ETF、週間23.9億ドル流入　約1年ぶりの高水準",
-      "link": "https://coinpost.jp/?p=739538",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-28T02:47:38+00:00",
-      "detected_at_utc": "2026-09-28T05:58:55.527953+00:00",
-      "baseline": {
-        "t": "2026-09-28T05:58:55.527953+00:00",
-        "price": 83195.18,
-        "funding_rate_pct": null,
-        "fear_greed_value": 74,
-        "volume_1h": 119577200.89
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-28T13:43:40.429483+00:00",
-          "price": 83795.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 100157271.86,
-          "delta_price_pct": 0.72
-        },
-        "1h": {
-          "t": "2026-09-28T13:43:40.429483+00:00",
-          "price": 83795.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 100157271.86,
-          "delta_price_pct": 0.72
-        },
-        "2h": {
-          "t": "2026-09-28T13:43:40.429483+00:00",
-          "price": 83795.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 100157271.86,
-          "delta_price_pct": 0.72
-        },
-        "4h": {
-          "t": "2026-09-28T13:43:40.429483+00:00",
-          "price": 83795.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 100157271.86,
-          "delta_price_pct": 0.72
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン現物ETF、週間23.9億ドル流入　約1年ぶりの高水準」の報道後、BTCは4時間で+0.7%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "フィデリティ幹部、ビットコイン強気相場入りを示唆　2029年30万ドル目標",
-      "link": "https://coinpost.jp/?p=739493",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-28T00:50:45+00:00",
-      "detected_at_utc": "2026-09-28T05:58:55.527953+00:00",
-      "baseline": {
-        "t": "2026-09-28T05:58:55.527953+00:00",
-        "price": 83195.18,
-        "funding_rate_pct": null,
-        "fear_greed_value": 74,
-        "volume_1h": 119577200.89
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-28T13:43:40.429483+00:00",
-          "price": 83795.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 100157271.86,
-          "delta_price_pct": 0.72
-        },
-        "1h": {
-          "t": "2026-09-28T13:43:40.429483+00:00",
-          "price": 83795.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 100157271.86,
-          "delta_price_pct": 0.72
-        },
-        "2h": {
-          "t": "2026-09-28T13:43:40.429483+00:00",
-          "price": 83795.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 100157271.86,
-          "delta_price_pct": 0.72
-        },
-        "4h": {
-          "t": "2026-09-28T13:43:40.429483+00:00",
-          "price": 83795.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 74,
-          "volume_1h": 100157271.86,
-          "delta_price_pct": 0.72
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「フィデリティ幹部、ビットコイン強気相場入りを示唆　2029年30万ドル目標」の報道後、BTCは4時間で+0.7%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-16T00:32:19.719745+00:00"
+  "updated_at_utc": "2026-10-16T04:57:50.312698+00:00"
 }
