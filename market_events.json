@@ -13,11 +13,44 @@
         "fear_greed_value": 55,
         "volume_1h": 15601833.36
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-17T10:55:48.049629+00:00",
+          "price": 81671.26,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 13690025.01,
+          "delta_price_pct": 0.11
+        },
+        "1h": {
+          "t": "2026-10-17T10:55:48.049629+00:00",
+          "price": 81671.26,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 13690025.01,
+          "delta_price_pct": 0.11
+        },
+        "2h": {
+          "t": "2026-10-17T10:55:48.049629+00:00",
+          "price": 81671.26,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 13690025.01,
+          "delta_price_pct": 0.11
+        },
+        "4h": {
+          "t": "2026-10-17T10:55:48.049629+00:00",
+          "price": 81671.26,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 13690025.01,
+          "delta_price_pct": 0.11
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米証券大手シュワブ、BTCとETH取引を対象顧客全員に開放」の報道後、BTCは4時間で+0.1%。Fear & Greedも55から55へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインは年末にかけて回復見通し、ただし9万ドルが壁＝レポート",
@@ -3140,5 +3173,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-17T06:13:38.955798+00:00"
+  "updated_at_utc": "2026-10-17T10:55:48.049629+00:00"
 }
