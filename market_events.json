@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ビットコインは年末にかけて回復見通し、ただし9万ドルが壁＝レポート",
+      "link": "https://coinpost.jp/?p=743430",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-17T01:25:36+00:00",
+      "detected_at_utc": "2026-10-17T01:37:27.327647+00:00",
+      "baseline": {
+        "t": "2026-10-17T01:37:27.327647+00:00",
+        "price": 81523.21,
+        "funding_rate_pct": null,
+        "fear_greed_value": 55,
+        "volume_1h": 25338853.74
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ウォーシュFRB議長が利上げ示唆せず観測後退、ビットコイン当面レンジ相場",
+      "link": "https://coinpost.jp/?p=743403",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-17T00:10:57+00:00",
+      "detected_at_utc": "2026-10-17T01:37:27.327647+00:00",
+      "baseline": {
+        "t": "2026-10-17T01:37:27.327647+00:00",
+        "price": 81523.21,
+        "funding_rate_pct": null,
+        "fear_greed_value": 55,
+        "volume_1h": 25338853.74
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "2022年以来初、米国がビットコイン純輸入国に",
       "link": "https://coinpost.jp/?p=743388",
       "source": "CoinPost",
@@ -37,12 +75,22 @@
           "fear_greed_value": 63,
           "volume_1h": 29403653.99,
           "delta_price_pct": -0.17
+        },
+        "4h": {
+          "t": "2026-10-17T01:37:27.327647+00:00",
+          "price": 81523.21,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 25338853.74,
+          "delta_price_pct": -0.29
         }
       },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「2022年以来初、米国がビットコイン純輸入国に」の報道後、BTCは2時間で-0.2%。Fear & Greedも63から63へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "flags": [
+        "市場心理の悪化（Fear & Greed急低下）"
+      ],
+      "relevance": "medium",
+      "summary": "「2022年以来初、米国がビットコイン純輸入国に」の報道後、BTCは4時間で-0.3%。Fear & Greedも63から55へ悪化。市場心理の悪化（Fear & Greed急低下）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ANAP、ビットコイン評価損43.7億円を計上　前期の評価益12億円から反転",
@@ -3057,111 +3105,7 @@
       "relevance": "low",
       "summary": "「ビットコイン政策研究所、MSCIの指数除外案に撤回要求」の報道後、BTCは4時間で+0.9%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "エルサルバドルでステーブルコイン送金アプリ始動、ビットコイン局は報道に反論",
-      "link": "https://coinpost.jp/?p=740346",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-01T02:55:10+00:00",
-      "detected_at_utc": "2026-10-01T08:56:46.947971+00:00",
-      "baseline": {
-        "t": "2026-10-01T08:56:46.947971+00:00",
-        "price": 83580.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 74,
-        "volume_1h": 113925933.37
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-01T16:18:06.159620+00:00",
-          "price": 84348.01,
-          "funding_rate_pct": 0.007,
-          "fear_greed_value": 74,
-          "volume_1h": 69210276.56,
-          "delta_price_pct": 0.92
-        },
-        "1h": {
-          "t": "2026-10-01T16:18:06.159620+00:00",
-          "price": 84348.01,
-          "funding_rate_pct": 0.007,
-          "fear_greed_value": 74,
-          "volume_1h": 69210276.56,
-          "delta_price_pct": 0.92
-        },
-        "2h": {
-          "t": "2026-10-01T16:18:06.159620+00:00",
-          "price": 84348.01,
-          "funding_rate_pct": 0.007,
-          "fear_greed_value": 74,
-          "volume_1h": 69210276.56,
-          "delta_price_pct": 0.92
-        },
-        "4h": {
-          "t": "2026-10-01T16:18:06.159620+00:00",
-          "price": 84348.01,
-          "funding_rate_pct": 0.007,
-          "fear_greed_value": 74,
-          "volume_1h": 69210276.56,
-          "delta_price_pct": 0.92
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「エルサルバドルでステーブルコイン送金アプリ始動、ビットコイン局は報道に反論」の報道後、BTCは4時間で+0.9%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコインに過熱の兆候、強気相場は維持＝クリプトクアント分析",
-      "link": "https://coinpost.jp/?p=739996",
-      "source": "CoinPost",
-      "published_at_utc": "2026-09-29T23:58:01+00:00",
-      "detected_at_utc": "2026-09-30T01:29:50.014791+00:00",
-      "baseline": {
-        "t": "2026-09-30T01:29:50.014791+00:00",
-        "price": 83429.19,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 37869726.42
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-09-30T07:21:14.024220+00:00",
-          "price": 83256.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 43572096.48,
-          "delta_price_pct": -0.21
-        },
-        "1h": {
-          "t": "2026-09-30T07:21:14.024220+00:00",
-          "price": 83256.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 43572096.48,
-          "delta_price_pct": -0.21
-        },
-        "2h": {
-          "t": "2026-09-30T07:21:14.024220+00:00",
-          "price": 83256.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 43572096.48,
-          "delta_price_pct": -0.21
-        },
-        "4h": {
-          "t": "2026-09-30T07:21:14.024220+00:00",
-          "price": 83256.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 43572096.48,
-          "delta_price_pct": -0.21
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコインに過熱の兆候、強気相場は維持＝クリプトクアント分析」の報道後、BTCは4時間で-0.2%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-16T23:44:58.513280+00:00"
+  "updated_at_utc": "2026-10-17T01:37:27.327647+00:00"
 }
