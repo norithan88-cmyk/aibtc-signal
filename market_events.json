@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "米証券大手シュワブ、BTCとETH取引を対象顧客全員に開放",
+      "link": "https://coinpost.jp/?p=743420",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-17T02:00:42+00:00",
+      "detected_at_utc": "2026-10-17T06:13:38.955798+00:00",
+      "baseline": {
+        "t": "2026-10-17T06:13:38.955798+00:00",
+        "price": 81583.6,
+        "funding_rate_pct": null,
+        "fear_greed_value": 55,
+        "volume_1h": 15601833.36
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコインは年末にかけて回復見通し、ただし9万ドルが壁＝レポート",
       "link": "https://coinpost.jp/?p=743430",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 55,
         "volume_1h": 25338853.74
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-17T06:13:38.955798+00:00",
+          "price": 81583.6,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 15601833.36,
+          "delta_price_pct": 0.07
+        },
+        "1h": {
+          "t": "2026-10-17T06:13:38.955798+00:00",
+          "price": 81583.6,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 15601833.36,
+          "delta_price_pct": 0.07
+        },
+        "2h": {
+          "t": "2026-10-17T06:13:38.955798+00:00",
+          "price": 81583.6,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 15601833.36,
+          "delta_price_pct": 0.07
+        },
+        "4h": {
+          "t": "2026-10-17T06:13:38.955798+00:00",
+          "price": 81583.6,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 15601833.36,
+          "delta_price_pct": 0.07
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコインは年末にかけて回復見通し、ただし9万ドルが壁＝レポート」の報道後、BTCは4時間で+0.1%。Fear & Greedも55から55へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ウォーシュFRB議長が利上げ示唆せず観測後退、ビットコイン当面レンジ相場",
@@ -32,11 +84,44 @@
         "fear_greed_value": 55,
         "volume_1h": 25338853.74
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-17T06:13:38.955798+00:00",
+          "price": 81583.6,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 15601833.36,
+          "delta_price_pct": 0.07
+        },
+        "1h": {
+          "t": "2026-10-17T06:13:38.955798+00:00",
+          "price": 81583.6,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 15601833.36,
+          "delta_price_pct": 0.07
+        },
+        "2h": {
+          "t": "2026-10-17T06:13:38.955798+00:00",
+          "price": 81583.6,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 15601833.36,
+          "delta_price_pct": 0.07
+        },
+        "4h": {
+          "t": "2026-10-17T06:13:38.955798+00:00",
+          "price": 81583.6,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 15601833.36,
+          "delta_price_pct": 0.07
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ウォーシュFRB議長が利上げ示唆せず観測後退、ビットコイン当面レンジ相場」の報道後、BTCは4時間で+0.1%。Fear & Greedも55から55へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "2022年以来初、米国がビットコイン純輸入国に",
@@ -3053,59 +3138,7 @@
       "relevance": "low",
       "summary": "「ビットコイン現物需要なお弱く　ETFは9月下旬から2.8万BTC増＝アナリスト」の報道後、BTCは4時間で+0.9%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン政策研究所、MSCIの指数除外案に撤回要求",
-      "link": "https://coinpost.jp/?p=740397",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-01T05:06:18+00:00",
-      "detected_at_utc": "2026-10-01T08:56:46.947971+00:00",
-      "baseline": {
-        "t": "2026-10-01T08:56:46.947971+00:00",
-        "price": 83580.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 74,
-        "volume_1h": 113925933.37
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-01T16:18:06.159620+00:00",
-          "price": 84348.01,
-          "funding_rate_pct": 0.007,
-          "fear_greed_value": 74,
-          "volume_1h": 69210276.56,
-          "delta_price_pct": 0.92
-        },
-        "1h": {
-          "t": "2026-10-01T16:18:06.159620+00:00",
-          "price": 84348.01,
-          "funding_rate_pct": 0.007,
-          "fear_greed_value": 74,
-          "volume_1h": 69210276.56,
-          "delta_price_pct": 0.92
-        },
-        "2h": {
-          "t": "2026-10-01T16:18:06.159620+00:00",
-          "price": 84348.01,
-          "funding_rate_pct": 0.007,
-          "fear_greed_value": 74,
-          "volume_1h": 69210276.56,
-          "delta_price_pct": 0.92
-        },
-        "4h": {
-          "t": "2026-10-01T16:18:06.159620+00:00",
-          "price": 84348.01,
-          "funding_rate_pct": 0.007,
-          "fear_greed_value": 74,
-          "volume_1h": 69210276.56,
-          "delta_price_pct": 0.92
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン政策研究所、MSCIの指数除外案に撤回要求」の報道後、BTCは4時間で+0.9%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-17T01:37:27.327647+00:00"
+  "updated_at_utc": "2026-10-17T06:13:38.955798+00:00"
 }
