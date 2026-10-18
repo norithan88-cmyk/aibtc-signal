@@ -13,11 +13,44 @@
         "fear_greed_value": 53,
         "volume_1h": 17748653.87
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-18T11:40:56.347734+00:00",
+          "price": 82059.42,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 15754032.27,
+          "delta_price_pct": 0.4
+        },
+        "1h": {
+          "t": "2026-10-18T11:40:56.347734+00:00",
+          "price": 82059.42,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 15754032.27,
+          "delta_price_pct": 0.4
+        },
+        "2h": {
+          "t": "2026-10-18T11:40:56.347734+00:00",
+          "price": 82059.42,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 15754032.27,
+          "delta_price_pct": 0.4
+        },
+        "4h": {
+          "t": "2026-10-18T11:40:56.347734+00:00",
+          "price": 82059.42,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 15754032.27,
+          "delta_price_pct": 0.4
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコインCPI・PPI上振れも8万ドル維持、FOMC金利観測が焦点｜bitbankアナリスト寄稿」の報道後、BTCは4時間で+0.4%。Fear & Greedも53から53へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "週刊仮想通貨ニュース（10/16）｜英国の押収BTC・レジャー関連の資産流出・6年超休眠のBTCの動向まとめ",
@@ -3140,5 +3173,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-18T06:32:39.656582+00:00"
+  "updated_at_utc": "2026-10-18T11:40:56.347734+00:00"
 }
