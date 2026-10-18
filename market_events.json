@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコインCPI・PPI上振れも8万ドル維持、FOMC金利観測が焦点｜bitbankアナリスト寄稿",
+      "link": "https://coinpost.jp/?p=743353",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-18T02:30:53+00:00",
+      "detected_at_utc": "2026-10-18T06:32:39.656582+00:00",
+      "baseline": {
+        "t": "2026-10-18T06:32:39.656582+00:00",
+        "price": 81730.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 53,
+        "volume_1h": 17748653.87
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "週刊仮想通貨ニュース（10/16）｜英国の押収BTC・レジャー関連の資産流出・6年超休眠のBTCの動向まとめ",
       "link": "https://coinpost.jp/?p=743294",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 53,
         "volume_1h": 19873130.12
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-18T06:32:39.656582+00:00",
+          "price": 81730.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 17748653.87,
+          "delta_price_pct": 0.18
+        },
+        "1h": {
+          "t": "2026-10-18T06:32:39.656582+00:00",
+          "price": 81730.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 17748653.87,
+          "delta_price_pct": 0.18
+        },
+        "2h": {
+          "t": "2026-10-18T06:32:39.656582+00:00",
+          "price": 81730.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 17748653.87,
+          "delta_price_pct": 0.18
+        },
+        "4h": {
+          "t": "2026-10-18T06:32:39.656582+00:00",
+          "price": 81730.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 53,
+          "volume_1h": 17748653.87,
+          "delta_price_pct": 0.18
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「週刊仮想通貨ニュース（10/16）｜英国の押収BTC・レジャー関連の資産流出・6年超休眠のBTCの動向まとめ」の報道後、BTCは4時間で+0.2%。Fear & Greedも53から53へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米証券大手シュワブ、BTCとETH取引を対象顧客全員に開放",
@@ -3086,59 +3138,7 @@
       "relevance": "high",
       "summary": "「シティ、ビットコイン価格目標を11.3万ドルへ上方修正──今後12カ月の見通し」の報道後、BTCは4時間で+1.7%。Fear & Greedも74から72へ悪化。出来高急増（+161%）、価格急変（+1.7%）、出来高急増（+203%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン短期保有者の含み益、13.7％に縮小＝アナリスト",
-      "link": "https://coinpost.jp/?p=740477",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-01T08:41:17+00:00",
-      "detected_at_utc": "2026-10-01T08:56:46.947971+00:00",
-      "baseline": {
-        "t": "2026-10-01T08:56:46.947971+00:00",
-        "price": 83580.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 74,
-        "volume_1h": 113925933.37
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-01T16:18:06.159620+00:00",
-          "price": 84348.01,
-          "funding_rate_pct": 0.007,
-          "fear_greed_value": 74,
-          "volume_1h": 69210276.56,
-          "delta_price_pct": 0.92
-        },
-        "1h": {
-          "t": "2026-10-01T16:18:06.159620+00:00",
-          "price": 84348.01,
-          "funding_rate_pct": 0.007,
-          "fear_greed_value": 74,
-          "volume_1h": 69210276.56,
-          "delta_price_pct": 0.92
-        },
-        "2h": {
-          "t": "2026-10-01T16:18:06.159620+00:00",
-          "price": 84348.01,
-          "funding_rate_pct": 0.007,
-          "fear_greed_value": 74,
-          "volume_1h": 69210276.56,
-          "delta_price_pct": 0.92
-        },
-        "4h": {
-          "t": "2026-10-01T16:18:06.159620+00:00",
-          "price": 84348.01,
-          "funding_rate_pct": 0.007,
-          "fear_greed_value": 74,
-          "volume_1h": 69210276.56,
-          "delta_price_pct": 0.92
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン短期保有者の含み益、13.7％に縮小＝アナリスト」の報道後、BTCは4時間で+0.9%。Fear & Greedも74から74へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-18T01:28:54.146047+00:00"
+  "updated_at_utc": "2026-10-18T06:32:39.656582+00:00"
 }
