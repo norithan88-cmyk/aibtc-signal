@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン軟調、ETF流出と企業の買い鈍化が一因＝ギャラクシー・リサーチ",
+      "link": "https://coinpost.jp/?p=743489",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-18T23:45:44+00:00",
+      "detected_at_utc": "2026-10-19T00:21:45.309943+00:00",
+      "baseline": {
+        "t": "2026-10-19T00:21:45.309943+00:00",
+        "price": 82171.69,
+        "funding_rate_pct": null,
+        "fear_greed_value": 59,
+        "volume_1h": 67015931.59
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコインCPI・PPI上振れも8万ドル維持、FOMC金利観測が焦点｜bitbankアナリスト寄稿",
       "link": "https://coinpost.jp/?p=743353",
       "source": "CoinPost",
@@ -3115,63 +3134,7 @@
       "relevance": "medium",
       "summary": "「ビットコイン、上昇の初期段階も売り注文の壁が上値抑制＝グラスノード」の報道後、BTCは4時間で+1.5%。Fear & Greedも72から72へ横ばい。価格急変（+1.5%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "シティ、ビットコイン価格目標を11.3万ドルへ上方修正──今後12カ月の見通し",
-      "link": "https://coinpost.jp/?p=740504",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-01T20:00:32+00:00",
-      "detected_at_utc": "2026-10-01T21:08:04.222237+00:00",
-      "baseline": {
-        "t": "2026-10-01T21:08:04.222237+00:00",
-        "price": 84648.48,
-        "funding_rate_pct": null,
-        "fear_greed_value": 74,
-        "volume_1h": 26896417.34
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-02T00:47:53.961075+00:00",
-          "price": 84773.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 70182683.83,
-          "delta_price_pct": 0.15
-        },
-        "1h": {
-          "t": "2026-10-02T00:47:53.961075+00:00",
-          "price": 84773.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 70182683.83,
-          "delta_price_pct": 0.15
-        },
-        "2h": {
-          "t": "2026-10-02T00:47:53.961075+00:00",
-          "price": 84773.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 70182683.83,
-          "delta_price_pct": 0.15
-        },
-        "4h": {
-          "t": "2026-10-02T06:22:17.714961+00:00",
-          "price": 86054.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 81490528.75,
-          "delta_price_pct": 1.66
-        }
-      },
-      "flags": [
-        "出来高急増（+161%）",
-        "価格急変（+1.7%）",
-        "出来高急増（+203%）"
-      ],
-      "relevance": "high",
-      "summary": "「シティ、ビットコイン価格目標を11.3万ドルへ上方修正──今後12カ月の見通し」の報道後、BTCは4時間で+1.7%。Fear & Greedも74から72へ悪化。出来高急増（+161%）、価格急変（+1.7%）、出来高急増（+203%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-18T22:22:37.811701+00:00"
+  "updated_at_utc": "2026-10-19T00:21:45.309943+00:00"
 }
