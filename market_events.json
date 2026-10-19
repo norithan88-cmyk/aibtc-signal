@@ -13,11 +13,44 @@
         "fear_greed_value": 59,
         "volume_1h": 67015931.59
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-19T05:03:51.091732+00:00",
+          "price": 82596.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 31875985.37,
+          "delta_price_pct": 0.52
+        },
+        "1h": {
+          "t": "2026-10-19T05:03:51.091732+00:00",
+          "price": 82596.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 31875985.37,
+          "delta_price_pct": 0.52
+        },
+        "2h": {
+          "t": "2026-10-19T05:03:51.091732+00:00",
+          "price": 82596.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 31875985.37,
+          "delta_price_pct": 0.52
+        },
+        "4h": {
+          "t": "2026-10-19T05:03:51.091732+00:00",
+          "price": 82596.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 31875985.37,
+          "delta_price_pct": 0.52
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン軟調、ETF流出と企業の買い鈍化が一因＝ギャラクシー・リサーチ」の報道後、BTCは4時間で+0.5%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインCPI・PPI上振れも8万ドル維持、FOMC金利観測が焦点｜bitbankアナリスト寄稿",
@@ -3136,5 +3169,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-19T00:21:45.309943+00:00"
+  "updated_at_utc": "2026-10-19T05:03:51.091732+00:00"
 }
