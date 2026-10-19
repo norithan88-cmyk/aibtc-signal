@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "セイラー氏、ビットコインは強気相場へ　BTC裏付けステーブルコインにも言及",
+      "link": "https://coinpost.jp/?p=743712",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-19T05:50:53+00:00",
+      "detected_at_utc": "2026-10-19T10:42:29.287413+00:00",
+      "baseline": {
+        "t": "2026-10-19T10:42:29.287413+00:00",
+        "price": 82336.63,
+        "funding_rate_pct": null,
+        "fear_greed_value": 59,
+        "volume_1h": 51597009.58
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン軟調、ETF流出と企業の買い鈍化が一因＝ギャラクシー・リサーチ",
       "link": "https://coinpost.jp/?p=743489",
       "source": "CoinPost",
@@ -3113,61 +3132,7 @@
       "relevance": "medium",
       "summary": "「ビットコイン利確が年初来最大、9月22日に2.57万BTC＝コインベース分析」の報道後、BTCは4時間で-2.5%。Fear & Greedも72から72へ横ばい。価格急変（-2.5%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン、上昇の初期段階も売り注文の壁が上値抑制＝グラスノード",
-      "link": "https://coinpost.jp/?p=740555",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-02T00:30:44+00:00",
-      "detected_at_utc": "2026-10-02T00:47:53.961075+00:00",
-      "baseline": {
-        "t": "2026-10-02T00:47:53.961075+00:00",
-        "price": 84773.99,
-        "funding_rate_pct": null,
-        "fear_greed_value": 72,
-        "volume_1h": 70182683.83
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-02T06:22:17.714961+00:00",
-          "price": 86054.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 81490528.75,
-          "delta_price_pct": 1.51
-        },
-        "1h": {
-          "t": "2026-10-02T06:22:17.714961+00:00",
-          "price": 86054.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 81490528.75,
-          "delta_price_pct": 1.51
-        },
-        "2h": {
-          "t": "2026-10-02T06:22:17.714961+00:00",
-          "price": 86054.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 81490528.75,
-          "delta_price_pct": 1.51
-        },
-        "4h": {
-          "t": "2026-10-02T06:22:17.714961+00:00",
-          "price": 86054.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 81490528.75,
-          "delta_price_pct": 1.51
-        }
-      },
-      "flags": [
-        "価格急変（+1.5%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコイン、上昇の初期段階も売り注文の壁が上値抑制＝グラスノード」の報道後、BTCは4時間で+1.5%。Fear & Greedも72から72へ横ばい。価格急変（+1.5%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-19T05:03:51.091732+00:00"
+  "updated_at_utc": "2026-10-19T10:42:29.287413+00:00"
 }
