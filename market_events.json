@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ストラテジー、先週34億円相当ビットコインを追加購入　5週連続買い増し",
+      "link": "https://coinpost.jp/?p=743825",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-19T12:16:13+00:00",
+      "detected_at_utc": "2026-10-19T17:11:51.571119+00:00",
+      "baseline": {
+        "t": "2026-10-19T17:11:51.571119+00:00",
+        "price": 81932.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 59,
+        "volume_1h": 37438828.73
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "セイラー氏、ビットコインは強気相場へ　BTC裏付けステーブルコインにも言及",
       "link": "https://coinpost.jp/?p=743712",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 59,
         "volume_1h": 51597009.58
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-19T17:11:51.571119+00:00",
+          "price": 81932.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 37438828.73,
+          "delta_price_pct": -0.49
+        },
+        "1h": {
+          "t": "2026-10-19T17:11:51.571119+00:00",
+          "price": 81932.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 37438828.73,
+          "delta_price_pct": -0.49
+        },
+        "2h": {
+          "t": "2026-10-19T17:11:51.571119+00:00",
+          "price": 81932.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 37438828.73,
+          "delta_price_pct": -0.49
+        },
+        "4h": {
+          "t": "2026-10-19T17:11:51.571119+00:00",
+          "price": 81932.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 59,
+          "volume_1h": 37438828.73,
+          "delta_price_pct": -0.49
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「セイラー氏、ビットコインは強気相場へ　BTC裏付けステーブルコインにも言及」の報道後、BTCは4時間で-0.5%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン軟調、ETF流出と企業の買い鈍化が一因＝ギャラクシー・リサーチ",
@@ -3078,61 +3130,7 @@
       "relevance": "medium",
       "summary": "「IMF、エルサルバドルに1.38億ドル　ビットコイン巡る基準未達を免除」の報道後、BTCは4時間で-2.5%。Fear & Greedも72から72へ横ばい。価格急変（-2.5%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン利確が年初来最大、9月22日に2.57万BTC＝コインベース分析",
-      "link": "https://coinpost.jp/?p=740698",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-02T06:41:30+00:00",
-      "detected_at_utc": "2026-10-02T12:59:17.139492+00:00",
-      "baseline": {
-        "t": "2026-10-02T12:59:17.139492+00:00",
-        "price": 86844.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 72,
-        "volume_1h": 171183450.15
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-02T18:21:13.710278+00:00",
-          "price": 84653.48,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 240176273.95,
-          "delta_price_pct": -2.52
-        },
-        "1h": {
-          "t": "2026-10-02T18:21:13.710278+00:00",
-          "price": 84653.48,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 240176273.95,
-          "delta_price_pct": -2.52
-        },
-        "2h": {
-          "t": "2026-10-02T18:21:13.710278+00:00",
-          "price": 84653.48,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 240176273.95,
-          "delta_price_pct": -2.52
-        },
-        "4h": {
-          "t": "2026-10-02T18:21:13.710278+00:00",
-          "price": 84653.48,
-          "funding_rate_pct": null,
-          "fear_greed_value": 72,
-          "volume_1h": 240176273.95,
-          "delta_price_pct": -2.52
-        }
-      },
-      "flags": [
-        "価格急変（-2.5%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコイン利確が年初来最大、9月22日に2.57万BTC＝コインベース分析」の報道後、BTCは4時間で-2.5%。Fear & Greedも72から72へ横ばい。価格急変（-2.5%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-19T10:42:29.287413+00:00"
+  "updated_at_utc": "2026-10-19T17:11:51.571119+00:00"
 }
