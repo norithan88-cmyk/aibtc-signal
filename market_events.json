@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "イーロン・マスク率いるスペースX、保有ビットコインの評価額が前決算から750億円増　3Q決算",
+      "link": "https://coinpost.jp/?p=744048",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-20T21:55:54+00:00",
+      "detected_at_utc": "2026-10-20T22:28:56.462865+00:00",
+      "baseline": {
+        "t": "2026-10-20T22:28:56.462865+00:00",
+        "price": 83060.48,
+        "funding_rate_pct": null,
+        "fear_greed_value": 55,
+        "volume_1h": 27550957.59
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "マウントゴックス、ビットコイン弁済期限を1年延期　手続き未完了の債権者が多数",
+      "link": "https://coinpost.jp/?p=744045",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-20T20:45:25+00:00",
+      "detected_at_utc": "2026-10-20T22:28:56.462865+00:00",
+      "baseline": {
+        "t": "2026-10-20T22:28:56.462865+00:00",
+        "price": 83060.48,
+        "funding_rate_pct": null,
+        "fear_greed_value": 55,
+        "volume_1h": 27550957.59
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "スイス、ビットコイン現物ETFを初承認　一般投資家向け",
+      "link": "https://coinpost.jp/?p=744035",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-20T20:00:44+00:00",
+      "detected_at_utc": "2026-10-20T22:28:56.462865+00:00",
+      "baseline": {
+        "t": "2026-10-20T22:28:56.462865+00:00",
+        "price": 83060.48,
+        "funding_rate_pct": null,
+        "fear_greed_value": 55,
+        "volume_1h": 27550957.59
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "JPモルガンAM、ビットコイン年率10％と想定　米大型株や金を上回る",
       "link": "https://coinpost.jp/?p=743974",
       "source": "CoinPost",
@@ -3011,163 +3068,7 @@
       "relevance": "low",
       "summary": "「ストラテジー、3週連続でビットコイン追加取得　848000BTCに到達」の報道後、BTCは4時間で+0.3%。Fear & Greedも70から73へ改善。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン現物出来高、約3年ぶり低水準から小幅回復＝アナリスト",
-      "link": "https://coinpost.jp/?p=740918",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-04T23:17:35+00:00",
-      "detected_at_utc": "2026-10-04T23:33:56.512005+00:00",
-      "baseline": {
-        "t": "2026-10-04T23:33:56.512005+00:00",
-        "price": 86612.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 65,
-        "volume_1h": 62696547.77
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-05T02:23:19.332607+00:00",
-          "price": 86566.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 70,
-          "volume_1h": 68470204.47,
-          "delta_price_pct": -0.05
-        },
-        "1h": {
-          "t": "2026-10-05T02:23:19.332607+00:00",
-          "price": 86566.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 70,
-          "volume_1h": 68470204.47,
-          "delta_price_pct": -0.05
-        },
-        "2h": {
-          "t": "2026-10-05T02:23:19.332607+00:00",
-          "price": 86566.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 70,
-          "volume_1h": 68470204.47,
-          "delta_price_pct": -0.05
-        },
-        "4h": {
-          "t": "2026-10-05T09:31:17.881618+00:00",
-          "price": 85888.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 70,
-          "volume_1h": 85522146.09,
-          "delta_price_pct": -0.84
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン現物出来高、約3年ぶり低水準から小幅回復＝アナリスト」の報道後、BTCは4時間で-0.8%。Fear & Greedも65から70へ改善。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン長期保有者、弱気相場でも含み益維持　2015年以降初＝グラスノード",
-      "link": "https://coinpost.jp/?p=740915",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-04T22:26:23+00:00",
-      "detected_at_utc": "2026-10-04T23:33:56.512005+00:00",
-      "baseline": {
-        "t": "2026-10-04T23:33:56.512005+00:00",
-        "price": 86612.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 65,
-        "volume_1h": 62696547.77
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-05T02:23:19.332607+00:00",
-          "price": 86566.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 70,
-          "volume_1h": 68470204.47,
-          "delta_price_pct": -0.05
-        },
-        "1h": {
-          "t": "2026-10-05T02:23:19.332607+00:00",
-          "price": 86566.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 70,
-          "volume_1h": 68470204.47,
-          "delta_price_pct": -0.05
-        },
-        "2h": {
-          "t": "2026-10-05T02:23:19.332607+00:00",
-          "price": 86566.1,
-          "funding_rate_pct": null,
-          "fear_greed_value": 70,
-          "volume_1h": 68470204.47,
-          "delta_price_pct": -0.05
-        },
-        "4h": {
-          "t": "2026-10-05T09:31:17.881618+00:00",
-          "price": 85888.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 70,
-          "volume_1h": 85522146.09,
-          "delta_price_pct": -0.84
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン長期保有者、弱気相場でも含み益維持　2015年以降初＝グラスノード」の報道後、BTCは4時間で-0.8%。Fear & Greedも65から70へ改善。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン、8万5000ドルが分岐点　雇用統計後の焦点は｜bitbankアナリスト寄稿",
-      "link": "https://coinpost.jp/?p=740798",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-04T02:30:55+00:00",
-      "detected_at_utc": "2026-10-04T07:26:37.092204+00:00",
-      "baseline": {
-        "t": "2026-10-04T07:26:37.092204+00:00",
-        "price": 84980.64,
-        "funding_rate_pct": null,
-        "fear_greed_value": 65,
-        "volume_1h": 16149886.88
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-04T13:24:29.124068+00:00",
-          "price": 85197.57,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 19983405.32,
-          "delta_price_pct": 0.26
-        },
-        "1h": {
-          "t": "2026-10-04T13:24:29.124068+00:00",
-          "price": 85197.57,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 19983405.32,
-          "delta_price_pct": 0.26
-        },
-        "2h": {
-          "t": "2026-10-04T13:24:29.124068+00:00",
-          "price": 85197.57,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 19983405.32,
-          "delta_price_pct": 0.26
-        },
-        "4h": {
-          "t": "2026-10-04T13:24:29.124068+00:00",
-          "price": 85197.57,
-          "funding_rate_pct": null,
-          "fear_greed_value": 65,
-          "volume_1h": 19983405.32,
-          "delta_price_pct": 0.26
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン、8万5000ドルが分岐点　雇用統計後の焦点は｜bitbankアナリスト寄稿」の報道後、BTCは4時間で+0.3%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-20T19:21:06.806065+00:00"
+  "updated_at_utc": "2026-10-20T22:28:56.462865+00:00"
 }
