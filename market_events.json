@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "JPモルガンAM、ビットコイン年率10％と想定　米大型株や金を上回る",
+      "link": "https://coinpost.jp/?p=743974",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-20T07:20:52+00:00",
+      "detected_at_utc": "2026-10-20T10:15:55.156984+00:00",
+      "baseline": {
+        "t": "2026-10-20T10:15:55.156984+00:00",
+        "price": 81588.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 55,
+        "volume_1h": 28232454.76
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ブラックロック、下落緩和型のビットコインETF「PBIT」を申請",
+      "link": "https://coinpost.jp/?p=743880",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-20T01:38:59+00:00",
+      "detected_at_utc": "2026-10-20T10:15:55.156984+00:00",
+      "baseline": {
+        "t": "2026-10-20T10:15:55.156984+00:00",
+        "price": 81588.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 55,
+        "volume_1h": 28232454.76
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米スーパーリーグ株主、メタプラネットからの2100ビットコイン出資案を承認",
       "link": "https://coinpost.jp/?p=743835",
       "source": "CoinPost",
@@ -3057,111 +3095,7 @@
       "relevance": "low",
       "summary": "「ビットコイン、8万5000ドルが分岐点　雇用統計後の焦点は｜bitbankアナリスト寄稿」の報道後、BTCは4時間で+0.3%。Fear & Greedも65から65へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米SEC、ビットコインなど6資産の3倍レバレッジETFの上場を承認",
-      "link": "https://coinpost.jp/?p=740844",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-03T02:10:43+00:00",
-      "detected_at_utc": "2026-10-03T06:49:12.223045+00:00",
-      "baseline": {
-        "t": "2026-10-03T06:49:12.223045+00:00",
-        "price": 84632.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 67,
-        "volume_1h": 23361331.08
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-03T12:09:04.093953+00:00",
-          "price": 84690.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 67,
-          "volume_1h": 14495725.2,
-          "delta_price_pct": 0.07
-        },
-        "1h": {
-          "t": "2026-10-03T12:09:04.093953+00:00",
-          "price": 84690.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 67,
-          "volume_1h": 14495725.2,
-          "delta_price_pct": 0.07
-        },
-        "2h": {
-          "t": "2026-10-03T12:09:04.093953+00:00",
-          "price": 84690.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 67,
-          "volume_1h": 14495725.2,
-          "delta_price_pct": 0.07
-        },
-        "4h": {
-          "t": "2026-10-03T12:09:04.093953+00:00",
-          "price": 84690.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 67,
-          "volume_1h": 14495725.2,
-          "delta_price_pct": 0.07
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「米SEC、ビットコインなど6資産の3倍レバレッジETFの上場を承認」の報道後、BTCは4時間で+0.1%。Fear & Greedも67から67へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "「10月のビットコイン、過去13年間で10回上昇」、米CNBCが強気相場入りの可能性を指摘",
-      "link": "https://coinpost.jp/?p=740846",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-02T22:50:47+00:00",
-      "detected_at_utc": "2026-10-03T01:21:19.836449+00:00",
-      "baseline": {
-        "t": "2026-10-03T01:21:19.836449+00:00",
-        "price": 84625.24,
-        "funding_rate_pct": null,
-        "fear_greed_value": 67,
-        "volume_1h": 25207026.83
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-03T06:49:12.223045+00:00",
-          "price": 84632.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 67,
-          "volume_1h": 23361331.08,
-          "delta_price_pct": 0.01
-        },
-        "1h": {
-          "t": "2026-10-03T06:49:12.223045+00:00",
-          "price": 84632.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 67,
-          "volume_1h": 23361331.08,
-          "delta_price_pct": 0.01
-        },
-        "2h": {
-          "t": "2026-10-03T06:49:12.223045+00:00",
-          "price": 84632.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 67,
-          "volume_1h": 23361331.08,
-          "delta_price_pct": 0.01
-        },
-        "4h": {
-          "t": "2026-10-03T06:49:12.223045+00:00",
-          "price": 84632.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 67,
-          "volume_1h": 23361331.08,
-          "delta_price_pct": 0.01
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「「10月のビットコイン、過去13年間で10回上昇」、米CNBCが強気相場入りの可能性を指摘」の報道後、BTCは4時間で+0.0%。Fear & Greedも67から67へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-20T05:21:03.633991+00:00"
+  "updated_at_utc": "2026-10-20T10:15:55.156984+00:00"
 }
