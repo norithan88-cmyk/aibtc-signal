@@ -13,11 +13,44 @@
         "fear_greed_value": 55,
         "volume_1h": 51413624.72
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-20T05:21:03.633991+00:00",
+          "price": 81976.78,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 29214462.17,
+          "delta_price_pct": 0.32
+        },
+        "1h": {
+          "t": "2026-10-20T05:21:03.633991+00:00",
+          "price": 81976.78,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 29214462.17,
+          "delta_price_pct": 0.32
+        },
+        "2h": {
+          "t": "2026-10-20T05:21:03.633991+00:00",
+          "price": 81976.78,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 29214462.17,
+          "delta_price_pct": 0.32
+        },
+        "4h": {
+          "t": "2026-10-20T05:21:03.633991+00:00",
+          "price": 81976.78,
+          "funding_rate_pct": null,
+          "fear_greed_value": 55,
+          "volume_1h": 29214462.17,
+          "delta_price_pct": 0.32
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米スーパーリーグ株主、メタプラネットからの2100ビットコイン出資案を承認」の報道後、BTCは4時間で+0.3%。Fear & Greedも55から55へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストラテジー、先週34億円相当ビットコインを追加購入　5週連続買い増し",
@@ -3130,5 +3163,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-20T00:38:43.609235+00:00"
+  "updated_at_utc": "2026-10-20T05:21:03.633991+00:00"
 }
