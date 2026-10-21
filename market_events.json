@@ -13,11 +13,44 @@
         "fear_greed_value": 63,
         "volume_1h": 29267119.82
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-21T05:40:31.479829+00:00",
+          "price": 82839.24,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 17297343.7,
+          "delta_price_pct": -0.38
+        },
+        "1h": {
+          "t": "2026-10-21T05:40:31.479829+00:00",
+          "price": 82839.24,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 17297343.7,
+          "delta_price_pct": -0.38
+        },
+        "2h": {
+          "t": "2026-10-21T05:40:31.479829+00:00",
+          "price": 82839.24,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 17297343.7,
+          "delta_price_pct": -0.38
+        },
+        "4h": {
+          "t": "2026-10-21T05:40:31.479829+00:00",
+          "price": 82839.24,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 17297343.7,
+          "delta_price_pct": -0.38
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米CME、ユニスワップとビットコインキャッシュの先物取引を開始　初大口取引成立」の報道後、BTCは4時間で-0.4%。Fear & Greedも63から63へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "イーロン・マスク率いるスペースX、保有ビットコインの評価額が前決算から750億円増　3Q決算",
@@ -56,14 +89,22 @@
           "fear_greed_value": 63,
           "volume_1h": 29267119.82,
           "delta_price_pct": 0.11
+        },
+        "4h": {
+          "t": "2026-10-21T05:40:31.479829+00:00",
+          "price": 82839.24,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 17297343.7,
+          "delta_price_pct": -0.27
         }
       },
       "flags": [
         "市場心理の好転（Fear & Greed急上昇）"
       ],
       "relevance": "medium",
-      "summary": "「イーロン・マスク率いるスペースX、保有ビットコインの評価額が前決算から750億円増　3Q決算」の報道後、BTCは2時間で+0.1%。Fear & Greedも55から63へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「イーロン・マスク率いるスペースX、保有ビットコインの評価額が前決算から750億円増　3Q決算」の報道後、BTCは4時間で-0.3%。Fear & Greedも55から63へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "マウントゴックス、ビットコイン弁済期限を1年延期　手続き未完了の債権者が多数",
@@ -102,14 +143,22 @@
           "fear_greed_value": 63,
           "volume_1h": 29267119.82,
           "delta_price_pct": 0.11
+        },
+        "4h": {
+          "t": "2026-10-21T05:40:31.479829+00:00",
+          "price": 82839.24,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 17297343.7,
+          "delta_price_pct": -0.27
         }
       },
       "flags": [
         "市場心理の好転（Fear & Greed急上昇）"
       ],
       "relevance": "medium",
-      "summary": "「マウントゴックス、ビットコイン弁済期限を1年延期　手続き未完了の債権者が多数」の報道後、BTCは2時間で+0.1%。Fear & Greedも55から63へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「マウントゴックス、ビットコイン弁済期限を1年延期　手続き未完了の債権者が多数」の報道後、BTCは4時間で-0.3%。Fear & Greedも55から63へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "スイス、ビットコイン現物ETFを初承認　一般投資家向け",
@@ -148,14 +197,22 @@
           "fear_greed_value": 63,
           "volume_1h": 29267119.82,
           "delta_price_pct": 0.11
+        },
+        "4h": {
+          "t": "2026-10-21T05:40:31.479829+00:00",
+          "price": 82839.24,
+          "funding_rate_pct": null,
+          "fear_greed_value": 63,
+          "volume_1h": 17297343.7,
+          "delta_price_pct": -0.27
         }
       },
       "flags": [
         "市場心理の好転（Fear & Greed急上昇）"
       ],
       "relevance": "medium",
-      "summary": "「スイス、ビットコイン現物ETFを初承認　一般投資家向け」の報道後、BTCは2時間で+0.1%。Fear & Greedも55から63へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「スイス、ビットコイン現物ETFを初承認　一般投資家向け」の報道後、BTCは4時間で-0.3%。Fear & Greedも55から63へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "JPモルガンAM、ビットコイン年率10％と想定　米大型株や金を上回る",
@@ -3118,5 +3175,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-21T00:50:58.328384+00:00"
+  "updated_at_utc": "2026-10-21T05:40:31.479829+00:00"
 }
