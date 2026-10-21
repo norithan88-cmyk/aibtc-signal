@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ビットコイン短期クジラの含み益53％減、取引所に1万605BTC流入＝アナリスト",
+      "link": "https://coinpost.jp/?p=744219",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-21T08:14:35+00:00",
+      "detected_at_utc": "2026-10-21T10:37:17.592100+00:00",
+      "baseline": {
+        "t": "2026-10-21T10:37:17.592100+00:00",
+        "price": 83333.85,
+        "funding_rate_pct": null,
+        "fear_greed_value": 63,
+        "volume_1h": 48557578.66
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "メタプラネット、ビットコイン保有企業の優先証券へ投資｜利鞘獲得の新戦略導入",
+      "link": "https://coinpost.jp/?p=744135",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-21T08:00:36+00:00",
+      "detected_at_utc": "2026-10-21T10:37:17.592100+00:00",
+      "baseline": {
+        "t": "2026-10-21T10:37:17.592100+00:00",
+        "price": 83333.85,
+        "funding_rate_pct": null,
+        "fear_greed_value": 63,
+        "volume_1h": 48557578.66
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米CME、ユニスワップとビットコインキャッシュの先物取引を開始　初大口取引成立",
       "link": "https://coinpost.jp/?p=744047",
       "source": "CoinPost",
@@ -3067,113 +3105,7 @@
       "relevance": "medium",
       "summary": "「ビットコイン、上昇上位15日を除くと3年間11%の損失に＝グレースケール分析」の報道後、BTCは4時間で-0.6%。Fear & Greedも73から73へ横ばい。出来高急増（+87%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米CFTCとSEC、ビットコインやイーサリアム・XRPを原則証券でないと共同解釈",
-      "link": "https://coinpost.jp/?p=741180",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-05T21:10:35+00:00",
-      "detected_at_utc": "2026-10-06T00:26:57.966325+00:00",
-      "baseline": {
-        "t": "2026-10-06T00:26:57.966325+00:00",
-        "price": 85882.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 73,
-        "volume_1h": 21201602.82
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-06T06:47:23.027891+00:00",
-          "price": 85383.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 39636555.39,
-          "delta_price_pct": -0.58
-        },
-        "1h": {
-          "t": "2026-10-06T06:47:23.027891+00:00",
-          "price": 85383.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 39636555.39,
-          "delta_price_pct": -0.58
-        },
-        "2h": {
-          "t": "2026-10-06T06:47:23.027891+00:00",
-          "price": 85383.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 39636555.39,
-          "delta_price_pct": -0.58
-        },
-        "4h": {
-          "t": "2026-10-06T06:47:23.027891+00:00",
-          "price": 85383.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 39636555.39,
-          "delta_price_pct": -0.58
-        }
-      },
-      "flags": [
-        "出来高急増（+87%）"
-      ],
-      "relevance": "medium",
-      "summary": "「米CFTCとSEC、ビットコインやイーサリアム・XRPを原則証券でないと共同解釈」の報道後、BTCは4時間で-0.6%。Fear & Greedも73から73へ横ばい。出来高急増（+87%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "メタプラネットが資本配分方針再改定、ビットコイン85〜90％・戦略投資10〜15％が目安",
-      "link": "https://coinpost.jp/?p=741161",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-05T12:35:30+00:00",
-      "detected_at_utc": "2026-10-05T18:48:18.798143+00:00",
-      "baseline": {
-        "t": "2026-10-05T18:48:18.798143+00:00",
-        "price": 85613.77,
-        "funding_rate_pct": null,
-        "fear_greed_value": 70,
-        "volume_1h": 33103473.62
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-06T00:26:57.966325+00:00",
-          "price": 85882.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 21201602.82,
-          "delta_price_pct": 0.31
-        },
-        "1h": {
-          "t": "2026-10-06T00:26:57.966325+00:00",
-          "price": 85882.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 21201602.82,
-          "delta_price_pct": 0.31
-        },
-        "2h": {
-          "t": "2026-10-06T00:26:57.966325+00:00",
-          "price": 85882.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 21201602.82,
-          "delta_price_pct": 0.31
-        },
-        "4h": {
-          "t": "2026-10-06T00:26:57.966325+00:00",
-          "price": 85882.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 73,
-          "volume_1h": 21201602.82,
-          "delta_price_pct": 0.31
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「メタプラネットが資本配分方針再改定、ビットコイン85〜90％・戦略投資10〜15％が目安」の報道後、BTCは4時間で+0.3%。Fear & Greedも70から73へ改善。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-21T05:40:31.479829+00:00"
+  "updated_at_utc": "2026-10-21T10:37:17.592100+00:00"
 }
