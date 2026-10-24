@@ -13,10 +13,35 @@
         "fear_greed_value": 50,
         "volume_1h": 95150023.58
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-24T01:52:06.507747+00:00",
+          "price": 80912.51,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 21581001.13,
+          "delta_price_pct": -0.07
+        },
+        "1h": {
+          "t": "2026-10-24T01:52:06.507747+00:00",
+          "price": 80912.51,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 21581001.13,
+          "delta_price_pct": -0.07
+        },
+        "2h": {
+          "t": "2026-10-24T01:52:06.507747+00:00",
+          "price": 80912.51,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 21581001.13,
+          "delta_price_pct": -0.07
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "relevance": "low",
+      "summary": "「ビットコインコア、AIで容易に発見する脆弱性は修正版を最短で公開する方針」の報道後、BTCは2時間で-0.1%。Fear & Greedも50から51へ改善。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3144,5 +3169,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-23T23:23:53.089568+00:00"
+  "updated_at_utc": "2026-10-24T01:52:06.507747+00:00"
 }
