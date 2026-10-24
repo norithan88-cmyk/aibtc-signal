@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン、8万ドルまで下落後　ETF・企業の取得単価付近で反発＝グラスノード",
+      "link": "https://coinpost.jp/?p=744525",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-24T08:00:17+00:00",
+      "detected_at_utc": "2026-10-24T15:36:24.533329+00:00",
+      "baseline": {
+        "t": "2026-10-24T15:36:24.533329+00:00",
+        "price": 79500.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 51,
+        "volume_1h": 151640117.14
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン採掘の熱で湯を沸かす温水器用ヒーター、『Bitwater』装置が登場",
       "link": "https://coinpost.jp/?p=744546",
       "source": "CoinPost",
@@ -3123,59 +3142,7 @@
       "relevance": "low",
       "summary": "「南アフリカの大手銀FNB、仮想通貨取引を開始　BTCやETHなど5銘柄」の報道後、BTCは4時間で-0.2%。Fear & Greedも64から64へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ロビンフッド、ビットコイン約39.5億円分を自社保有　慎重姿勢から転換か＝報道",
-      "link": "https://coinpost.jp/?p=741641",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-07T08:52:07+00:00",
-      "detected_at_utc": "2026-10-07T16:22:21.217278+00:00",
-      "baseline": {
-        "t": "2026-10-07T16:22:21.217278+00:00",
-        "price": 83643.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 61263326.58
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        },
-        "1h": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        },
-        "2h": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        },
-        "4h": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ロビンフッド、ビットコイン約39.5億円分を自社保有　慎重姿勢から転換か＝報道」の報道後、BTCは4時間で-0.4%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-24T11:53:34.482372+00:00"
+  "updated_at_utc": "2026-10-24T15:36:24.533329+00:00"
 }
