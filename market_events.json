@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "ビットコイン採掘の熱で湯を沸かす温水器用ヒーター、『Bitwater』装置が登場",
+      "link": "https://coinpost.jp/?p=744546",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-24T04:10:01+00:00",
+      "detected_at_utc": "2026-10-24T06:53:19.061716+00:00",
+      "baseline": {
+        "t": "2026-10-24T06:53:19.061716+00:00",
+        "price": 80770.88,
+        "funding_rate_pct": null,
+        "fear_greed_value": 51,
+        "volume_1h": 28086910.0
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコインハッシュレートが回復、上場マイナーのAI事業転換進む中",
+      "link": "https://coinpost.jp/?p=744556",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-24T02:05:02+00:00",
+      "detected_at_utc": "2026-10-24T06:53:19.061716+00:00",
+      "baseline": {
+        "t": "2026-10-24T06:53:19.061716+00:00",
+        "price": 80770.88,
+        "funding_rate_pct": null,
+        "fear_greed_value": 51,
+        "volume_1h": 28086910.0
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "米フランクリン、配当金でビットコインへの投資を増やすETF2本を登録",
+      "link": "https://coinpost.jp/?p=744553",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-24T01:55:18+00:00",
+      "detected_at_utc": "2026-10-24T06:53:19.061716+00:00",
+      "baseline": {
+        "t": "2026-10-24T06:53:19.061716+00:00",
+        "price": 80770.88,
+        "funding_rate_pct": null,
+        "fear_greed_value": 51,
+        "volume_1h": 28086910.0
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコインコア、AIで容易に発見する脆弱性は修正版を最短で公開する方針",
       "link": "https://coinpost.jp/?p=744516",
       "source": "CoinPost",
@@ -37,12 +94,20 @@
           "fear_greed_value": 51,
           "volume_1h": 21581001.13,
           "delta_price_pct": -0.07
+        },
+        "4h": {
+          "t": "2026-10-24T06:53:19.061716+00:00",
+          "price": 80770.88,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 28086910.0,
+          "delta_price_pct": -0.25
         }
       },
       "flags": [],
       "relevance": "low",
-      "summary": "「ビットコインコア、AIで容易に発見する脆弱性は修正版を最短で公開する方針」の報道後、BTCは2時間で-0.1%。Fear & Greedも50から51へ改善。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ビットコインコア、AIで容易に発見する脆弱性は修正版を最短で公開する方針」の報道後、BTCは4時間で-0.2%。Fear & Greedも50から51へ改善。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン8万1000ドル台に下落、米メタ決算でAI株安",
@@ -3011,163 +3076,7 @@
       "relevance": "low",
       "summary": "「ロビンフッド、ビットコイン約39.5億円分を自社保有　慎重姿勢から転換か＝報道」の報道後、BTCは4時間で-0.4%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "含み益のビットコインは約6割、休眠分除外で　中長期的に過熱遠い＝アナリスト",
-      "link": "https://coinpost.jp/?p=741628",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-07T07:52:16+00:00",
-      "detected_at_utc": "2026-10-07T16:22:21.217278+00:00",
-      "baseline": {
-        "t": "2026-10-07T16:22:21.217278+00:00",
-        "price": 83643.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 61263326.58
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        },
-        "1h": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        },
-        "2h": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        },
-        "4h": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「含み益のビットコインは約6割、休眠分除外で　中長期的に過熱遠い＝アナリスト」の報道後、BTCは4時間で-0.4%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン、取引所から1日で2.4万BTC純流出　7ヶ月ぶり規模＝サンティメント",
-      "link": "https://coinpost.jp/?p=741617",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-07T07:14:51+00:00",
-      "detected_at_utc": "2026-10-07T16:22:21.217278+00:00",
-      "baseline": {
-        "t": "2026-10-07T16:22:21.217278+00:00",
-        "price": 83643.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 61263326.58
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        },
-        "1h": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        },
-        "2h": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        },
-        "4h": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン、取引所から1日で2.4万BTC純流出　7ヶ月ぶり規模＝サンティメント」の報道後、BTCは4時間で-0.4%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "米政府関連アドレス、約834BTCと約4万BNBを送金",
-      "link": "https://coinpost.jp/?p=741594",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-07T06:28:46+00:00",
-      "detected_at_utc": "2026-10-07T16:22:21.217278+00:00",
-      "baseline": {
-        "t": "2026-10-07T16:22:21.217278+00:00",
-        "price": 83643.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 71,
-        "volume_1h": 61263326.58
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        },
-        "1h": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        },
-        "2h": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        },
-        "4h": {
-          "t": "2026-10-07T21:28:00.465291+00:00",
-          "price": 83340.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 71,
-          "volume_1h": 21337917.58,
-          "delta_price_pct": -0.36
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「米政府関連アドレス、約834BTCと約4万BNBを送金」の報道後、BTCは4時間で-0.4%。Fear & Greedも71から71へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-24T01:52:06.507747+00:00"
+  "updated_at_utc": "2026-10-24T06:53:19.061716+00:00"
 }
