@@ -13,11 +13,44 @@
         "fear_greed_value": 50,
         "volume_1h": 81568797.52
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-26T19:34:03.625600+00:00",
+          "price": 79998.45,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 34323644.49,
+          "delta_price_pct": 0.51
+        },
+        "1h": {
+          "t": "2026-10-26T19:34:03.625600+00:00",
+          "price": 79998.45,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 34323644.49,
+          "delta_price_pct": 0.51
+        },
+        "2h": {
+          "t": "2026-10-26T19:34:03.625600+00:00",
+          "price": 79998.45,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 34323644.49,
+          "delta_price_pct": 0.51
+        },
+        "4h": {
+          "t": "2026-10-26T19:34:03.625600+00:00",
+          "price": 79998.45,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 34323644.49,
+          "delta_price_pct": 0.51
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米上場ストライブ、780億円相当ビットコインを追加購入　保有量4.3万BTCに」の報道後、BTCは4時間で+0.5%。Fear & Greedも50から50へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "バイナンスへの個人ビットコイン入金が半年ぶり高水準　クジラは流入減＝アナリスト",
@@ -3144,5 +3177,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-26T13:36:42.389643+00:00"
+  "updated_at_utc": "2026-10-26T19:34:03.625600+00:00"
 }
