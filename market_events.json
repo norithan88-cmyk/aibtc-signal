@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "バイナンスへの個人ビットコイン入金が半年ぶり高水準　クジラは流入減＝アナリスト",
+      "link": "https://coinpost.jp/?p=744710",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-26T04:43:15+00:00",
+      "detected_at_utc": "2026-10-26T06:39:59.034835+00:00",
+      "baseline": {
+        "t": "2026-10-26T06:39:59.034835+00:00",
+        "price": 80042.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 50,
+        "volume_1h": 19454910.3
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコインに3週間書き込まれ続ける「暗号風の文」とは？　ギャラクシーデジタル分析",
       "link": "https://coinpost.jp/?p=744620",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 50,
         "volume_1h": 40959590.92
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-26T06:39:59.034835+00:00",
+          "price": 80042.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 19454910.3,
+          "delta_price_pct": 0.05
+        },
+        "1h": {
+          "t": "2026-10-26T06:39:59.034835+00:00",
+          "price": 80042.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 19454910.3,
+          "delta_price_pct": 0.05
+        },
+        "2h": {
+          "t": "2026-10-26T06:39:59.034835+00:00",
+          "price": 80042.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 19454910.3,
+          "delta_price_pct": 0.05
+        },
+        "4h": {
+          "t": "2026-10-26T06:39:59.034835+00:00",
+          "price": 80042.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 19454910.3,
+          "delta_price_pct": 0.05
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコインに3週間書き込まれ続ける「暗号風の文」とは？　ギャラクシーデジタル分析」の報道後、BTCは4時間で+0.1%。Fear & Greedも50から50へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、8.5万ドル手前で失速　FOMCが最大の焦点｜bitbankアナリスト寄稿",
@@ -3088,61 +3140,7 @@
       "relevance": "low",
       "summary": "「ビットコイン、新規資金は上昇分の4割未満　現物も薄商い＝グラスノード」の報道後、BTCは4時間で-1.0%。Fear & Greedも64から64へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米ゲーム広告企業、メタプラネット傘下入りへ　ゲーマーにビットコイン浸透狙う",
-      "link": "https://coinpost.jp/?p=741795",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-08T05:34:02+00:00",
-      "detected_at_utc": "2026-10-08T07:32:06.857004+00:00",
-      "baseline": {
-        "t": "2026-10-08T07:32:06.857004+00:00",
-        "price": 83179.61,
-        "funding_rate_pct": null,
-        "fear_greed_value": 64,
-        "volume_1h": 49443389.82
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-08T14:54:23.476141+00:00",
-          "price": 82616.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 80102265.12,
-          "delta_price_pct": -0.68
-        },
-        "1h": {
-          "t": "2026-10-08T14:54:23.476141+00:00",
-          "price": 82616.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 80102265.12,
-          "delta_price_pct": -0.68
-        },
-        "2h": {
-          "t": "2026-10-08T14:54:23.476141+00:00",
-          "price": 82616.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 80102265.12,
-          "delta_price_pct": -0.68
-        },
-        "4h": {
-          "t": "2026-10-08T14:54:23.476141+00:00",
-          "price": 82616.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 80102265.12,
-          "delta_price_pct": -0.68
-        }
-      },
-      "flags": [
-        "出来高急増（+62%）"
-      ],
-      "relevance": "medium",
-      "summary": "「米ゲーム広告企業、メタプラネット傘下入りへ　ゲーマーにビットコイン浸透狙う」の報道後、BTCは4時間で-0.7%。Fear & Greedも64から64へ横ばい。出来高急増（+62%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-26T01:20:58.861833+00:00"
+  "updated_at_utc": "2026-10-26T06:39:59.034835+00:00"
 }
