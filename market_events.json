@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "米上場ストライブ、780億円相当ビットコインを追加購入　保有量4.3万BTCに",
+      "link": "https://coinpost.jp/?p=744763",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-26T12:40:31+00:00",
+      "detected_at_utc": "2026-10-26T13:36:42.389643+00:00",
+      "baseline": {
+        "t": "2026-10-26T13:36:42.389643+00:00",
+        "price": 79594.19,
+        "funding_rate_pct": null,
+        "fear_greed_value": 50,
+        "volume_1h": 81568797.52
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "バイナンスへの個人ビットコイン入金が半年ぶり高水準　クジラは流入減＝アナリスト",
       "link": "https://coinpost.jp/?p=744710",
       "source": "CoinPost",
@@ -13,11 +32,46 @@
         "fear_greed_value": 50,
         "volume_1h": 19454910.3
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-26T13:36:42.389643+00:00",
+          "price": 79594.19,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 81568797.52,
+          "delta_price_pct": -0.56
+        },
+        "1h": {
+          "t": "2026-10-26T13:36:42.389643+00:00",
+          "price": 79594.19,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 81568797.52,
+          "delta_price_pct": -0.56
+        },
+        "2h": {
+          "t": "2026-10-26T13:36:42.389643+00:00",
+          "price": 79594.19,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 81568797.52,
+          "delta_price_pct": -0.56
+        },
+        "4h": {
+          "t": "2026-10-26T13:36:42.389643+00:00",
+          "price": 79594.19,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 81568797.52,
+          "delta_price_pct": -0.56
+        }
+      },
+      "flags": [
+        "出来高急増（+319%）"
+      ],
+      "relevance": "medium",
+      "summary": "「バイナンスへの個人ビットコイン入金が半年ぶり高水準　クジラは流入減＝アナリスト」の報道後、BTCは4時間で-0.6%。Fear & Greedも50から50へ横ばい。出来高急増（+319%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインに3週間書き込まれ続ける「暗号風の文」とは？　ギャラクシーデジタル分析",
@@ -3088,59 +3142,7 @@
       "relevance": "low",
       "summary": "「ビットコイン総需要がプラス転換　現物需要のマイナス幅9割縮小＝アナリスト」の報道後、BTCは4時間で-1.0%。Fear & Greedも64から64へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン、新規資金は上昇分の4割未満　現物も薄商い＝グラスノード",
-      "link": "https://coinpost.jp/?p=741849",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-08T07:52:19+00:00",
-      "detected_at_utc": "2026-10-08T14:54:23.476141+00:00",
-      "baseline": {
-        "t": "2026-10-08T14:54:23.476141+00:00",
-        "price": 82616.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 64,
-        "volume_1h": 80102265.12
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-08T20:35:27.129565+00:00",
-          "price": 81762.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 36298835.16,
-          "delta_price_pct": -1.03
-        },
-        "1h": {
-          "t": "2026-10-08T20:35:27.129565+00:00",
-          "price": 81762.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 36298835.16,
-          "delta_price_pct": -1.03
-        },
-        "2h": {
-          "t": "2026-10-08T20:35:27.129565+00:00",
-          "price": 81762.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 36298835.16,
-          "delta_price_pct": -1.03
-        },
-        "4h": {
-          "t": "2026-10-08T20:35:27.129565+00:00",
-          "price": 81762.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 36298835.16,
-          "delta_price_pct": -1.03
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン、新規資金は上昇分の4割未満　現物も薄商い＝グラスノード」の報道後、BTCは4時間で-1.0%。Fear & Greedも64から64へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-26T06:39:59.034835+00:00"
+  "updated_at_utc": "2026-10-26T13:36:42.389643+00:00"
 }
