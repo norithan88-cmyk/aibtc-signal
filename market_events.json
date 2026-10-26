@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコインに3週間書き込まれ続ける「暗号風の文」とは？　ギャラクシーデジタル分析",
+      "link": "https://coinpost.jp/?p=744620",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-26T00:45:31+00:00",
+      "detected_at_utc": "2026-10-26T01:20:58.861833+00:00",
+      "baseline": {
+        "t": "2026-10-26T01:20:58.861833+00:00",
+        "price": 80005.13,
+        "funding_rate_pct": null,
+        "fear_greed_value": 50,
+        "volume_1h": 40959590.92
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン、8.5万ドル手前で失速　FOMCが最大の焦点｜bitbankアナリスト寄稿",
       "link": "https://coinpost.jp/?p=744399",
       "source": "CoinPost",
@@ -3123,59 +3142,7 @@
       "relevance": "medium",
       "summary": "「米ゲーム広告企業、メタプラネット傘下入りへ　ゲーマーにビットコイン浸透狙う」の報道後、BTCは4時間で-0.7%。Fear & Greedも64から64へ横ばい。出来高急増（+62%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "「ビットコインはデジタル・ゴールドに向かう軌道に」ビットワイズCIO見解",
-      "link": "https://coinpost.jp/?p=741669",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-08T00:40:02+00:00",
-      "detected_at_utc": "2026-10-08T01:14:58.074660+00:00",
-      "baseline": {
-        "t": "2026-10-08T01:14:58.074660+00:00",
-        "price": 83382.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 64,
-        "volume_1h": 53296859.27
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-08T07:32:06.857004+00:00",
-          "price": 83179.61,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 49443389.82,
-          "delta_price_pct": -0.24
-        },
-        "1h": {
-          "t": "2026-10-08T07:32:06.857004+00:00",
-          "price": 83179.61,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 49443389.82,
-          "delta_price_pct": -0.24
-        },
-        "2h": {
-          "t": "2026-10-08T07:32:06.857004+00:00",
-          "price": 83179.61,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 49443389.82,
-          "delta_price_pct": -0.24
-        },
-        "4h": {
-          "t": "2026-10-08T07:32:06.857004+00:00",
-          "price": 83179.61,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 49443389.82,
-          "delta_price_pct": -0.24
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「「ビットコインはデジタル・ゴールドに向かう軌道に」ビットワイズCIO見解」の報道後、BTCは4時間で-0.2%。Fear & Greedも64から64へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-25T23:14:52.791807+00:00"
+  "updated_at_utc": "2026-10-26T01:20:58.861833+00:00"
 }
