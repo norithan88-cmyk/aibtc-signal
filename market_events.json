@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ギャラクシーデジタル、「ビットコインに好ましい状況」と強気見解",
+      "link": "https://coinpost.jp/?p=744865",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-27T07:30:09+00:00",
+      "detected_at_utc": "2026-10-27T08:01:27.707257+00:00",
+      "baseline": {
+        "t": "2026-10-27T08:01:27.707257+00:00",
+        "price": 79886.16,
+        "funding_rate_pct": null,
+        "fear_greed_value": 48,
+        "volume_1h": 48825214.67
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコインの2026年末目標価格、シティなど3社が引き下げ　15万ドルまで約88％上昇必要",
       "link": "https://coinpost.jp/?p=744774",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 48,
         "volume_1h": 58515448.35
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-27T08:01:27.707257+00:00",
+          "price": 79886.16,
+          "funding_rate_pct": null,
+          "fear_greed_value": 48,
+          "volume_1h": 48825214.67,
+          "delta_price_pct": -0.28
+        },
+        "1h": {
+          "t": "2026-10-27T08:01:27.707257+00:00",
+          "price": 79886.16,
+          "funding_rate_pct": null,
+          "fear_greed_value": 48,
+          "volume_1h": 48825214.67,
+          "delta_price_pct": -0.28
+        },
+        "2h": {
+          "t": "2026-10-27T08:01:27.707257+00:00",
+          "price": 79886.16,
+          "funding_rate_pct": null,
+          "fear_greed_value": 48,
+          "volume_1h": 48825214.67,
+          "delta_price_pct": -0.28
+        },
+        "4h": {
+          "t": "2026-10-27T08:01:27.707257+00:00",
+          "price": 79886.16,
+          "funding_rate_pct": null,
+          "fear_greed_value": 48,
+          "volume_1h": 48825214.67,
+          "delta_price_pct": -0.28
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコインの2026年末目標価格、シティなど3社が引き下げ　15万ドルまで約88％上昇必要」の報道後、BTCは4時間で-0.3%。Fear & Greedも48から48へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米上場ストライブ、780億円相当ビットコインを追加購入　保有量4.3万BTCに",
@@ -3090,59 +3142,7 @@
       "relevance": "low",
       "summary": "「2010年採掘のビットコインが16年ぶりに移動、現在13億円相当で価値が約28.6万倍増」の報道後、BTCは4時間で+1.1%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米政府が1580億円相当ビットコインを移動、取引所入金は確認されず",
-      "link": "https://coinpost.jp/?p=741916",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-08T20:50:21+00:00",
-      "detected_at_utc": "2026-10-09T00:39:13.978796+00:00",
-      "baseline": {
-        "t": "2026-10-09T00:39:13.978796+00:00",
-        "price": 81768.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 59,
-        "volume_1h": 40942860.95
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-09T06:47:05.993347+00:00",
-          "price": 82648.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 26273932.05,
-          "delta_price_pct": 1.08
-        },
-        "1h": {
-          "t": "2026-10-09T06:47:05.993347+00:00",
-          "price": 82648.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 26273932.05,
-          "delta_price_pct": 1.08
-        },
-        "2h": {
-          "t": "2026-10-09T06:47:05.993347+00:00",
-          "price": 82648.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 26273932.05,
-          "delta_price_pct": 1.08
-        },
-        "4h": {
-          "t": "2026-10-09T06:47:05.993347+00:00",
-          "price": 82648.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 26273932.05,
-          "delta_price_pct": 1.08
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「米政府が1580億円相当ビットコインを移動、取引所入金は確認されず」の報道後、BTCは4時間で+1.1%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-27T02:14:48.440055+00:00"
+  "updated_at_utc": "2026-10-27T08:01:27.707257+00:00"
 }
