@@ -13,11 +13,44 @@
         "fear_greed_value": 48,
         "volume_1h": 48825214.67
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-27T14:22:44.740559+00:00",
+          "price": 80056.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 48,
+          "volume_1h": 57393600.3,
+          "delta_price_pct": 0.21
+        },
+        "1h": {
+          "t": "2026-10-27T14:22:44.740559+00:00",
+          "price": 80056.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 48,
+          "volume_1h": 57393600.3,
+          "delta_price_pct": 0.21
+        },
+        "2h": {
+          "t": "2026-10-27T14:22:44.740559+00:00",
+          "price": 80056.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 48,
+          "volume_1h": 57393600.3,
+          "delta_price_pct": 0.21
+        },
+        "4h": {
+          "t": "2026-10-27T14:22:44.740559+00:00",
+          "price": 80056.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 48,
+          "volume_1h": 57393600.3,
+          "delta_price_pct": 0.21
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ギャラクシーデジタル、「ビットコインに好ましい状況」と強気見解」の報道後、BTCは4時間で+0.2%。Fear & Greedも48から48へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインの2026年末目標価格、シティなど3社が引き下げ　15万ドルまで約88％上昇必要",
@@ -3144,5 +3177,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-27T08:01:27.707257+00:00"
+  "updated_at_utc": "2026-10-27T14:22:44.740559+00:00"
 }
