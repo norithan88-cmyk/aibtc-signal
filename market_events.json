@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコインの2026年末目標価格、シティなど3社が引き下げ　15万ドルまで約88％上昇必要",
+      "link": "https://coinpost.jp/?p=744774",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-26T23:30:09+00:00",
+      "detected_at_utc": "2026-10-27T02:14:48.440055+00:00",
+      "baseline": {
+        "t": "2026-10-27T02:14:48.440055+00:00",
+        "price": 80110.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 48,
+        "volume_1h": 58515448.35
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米上場ストライブ、780億円相当ビットコインを追加購入　保有量4.3万BTCに",
       "link": "https://coinpost.jp/?p=744763",
       "source": "CoinPost",
@@ -3123,59 +3142,7 @@
       "relevance": "low",
       "summary": "「米政府が1580億円相当ビットコインを移動、取引所入金は確認されず」の報道後、BTCは4時間で+1.1%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン総需要がプラス転換　現物需要のマイナス幅9割縮小＝アナリスト",
-      "link": "https://coinpost.jp/?p=741867",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-08T08:20:21+00:00",
-      "detected_at_utc": "2026-10-08T14:54:23.476141+00:00",
-      "baseline": {
-        "t": "2026-10-08T14:54:23.476141+00:00",
-        "price": 82616.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 64,
-        "volume_1h": 80102265.12
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-08T20:35:27.129565+00:00",
-          "price": 81762.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 36298835.16,
-          "delta_price_pct": -1.03
-        },
-        "1h": {
-          "t": "2026-10-08T20:35:27.129565+00:00",
-          "price": 81762.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 36298835.16,
-          "delta_price_pct": -1.03
-        },
-        "2h": {
-          "t": "2026-10-08T20:35:27.129565+00:00",
-          "price": 81762.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 36298835.16,
-          "delta_price_pct": -1.03
-        },
-        "4h": {
-          "t": "2026-10-08T20:35:27.129565+00:00",
-          "price": 81762.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 36298835.16,
-          "delta_price_pct": -1.03
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン総需要がプラス転換　現物需要のマイナス幅9割縮小＝アナリスト」の報道後、BTCは4時間で-1.0%。Fear & Greedも64から64へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-26T23:20:08.952631+00:00"
+  "updated_at_utc": "2026-10-27T02:14:48.440055+00:00"
 }
