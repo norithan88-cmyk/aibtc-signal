@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "米ヴァンエック、ビットコイン2％組み入れの複数資産ETFを提供開始",
+      "link": "https://coinpost.jp/?p=745067",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-27T22:55:02+00:00",
+      "detected_at_utc": "2026-10-27T23:08:30.951384+00:00",
+      "baseline": {
+        "t": "2026-10-27T23:08:30.951384+00:00",
+        "price": 80937.08,
+        "funding_rate_pct": null,
+        "fear_greed_value": 48,
+        "volume_1h": 20831008.86
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ギャラクシーデジタル、「ビットコインに好ましい状況」と強気見解",
       "link": "https://coinpost.jp/?p=744865",
       "source": "CoinPost",
@@ -3123,59 +3142,7 @@
       "relevance": "low",
       "summary": "「米投資銀行、ビットコイン年末予想を9.7万ドルから10.9万ドルに引き上げ」の報道後、BTCは4時間で+1.1%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "2010年採掘のビットコインが16年ぶりに移動、現在13億円相当で価値が約28.6万倍増",
-      "link": "https://coinpost.jp/?p=741914",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-08T21:50:15+00:00",
-      "detected_at_utc": "2026-10-09T00:39:13.978796+00:00",
-      "baseline": {
-        "t": "2026-10-09T00:39:13.978796+00:00",
-        "price": 81768.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 59,
-        "volume_1h": 40942860.95
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-09T06:47:05.993347+00:00",
-          "price": 82648.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 26273932.05,
-          "delta_price_pct": 1.08
-        },
-        "1h": {
-          "t": "2026-10-09T06:47:05.993347+00:00",
-          "price": 82648.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 26273932.05,
-          "delta_price_pct": 1.08
-        },
-        "2h": {
-          "t": "2026-10-09T06:47:05.993347+00:00",
-          "price": 82648.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 26273932.05,
-          "delta_price_pct": 1.08
-        },
-        "4h": {
-          "t": "2026-10-09T06:47:05.993347+00:00",
-          "price": 82648.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 26273932.05,
-          "delta_price_pct": 1.08
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「2010年採掘のビットコインが16年ぶりに移動、現在13億円相当で価値が約28.6万倍増」の報道後、BTCは4時間で+1.1%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-27T19:32:58.662155+00:00"
+  "updated_at_utc": "2026-10-27T23:08:30.951384+00:00"
 }
