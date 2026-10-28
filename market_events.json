@@ -13,10 +13,37 @@
         "fear_greed_value": 48,
         "volume_1h": 20831008.86
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-28T02:17:09.450635+00:00",
+          "price": 81122.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 49289397.1,
+          "delta_price_pct": 0.23
+        },
+        "1h": {
+          "t": "2026-10-28T02:17:09.450635+00:00",
+          "price": 81122.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 49289397.1,
+          "delta_price_pct": 0.23
+        },
+        "2h": {
+          "t": "2026-10-28T02:17:09.450635+00:00",
+          "price": 81122.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 51,
+          "volume_1h": 49289397.1,
+          "delta_price_pct": 0.23
+        }
+      },
+      "flags": [
+        "出来高急増（+137%）"
+      ],
+      "relevance": "medium",
+      "summary": "「米ヴァンエック、ビットコイン2％組み入れの複数資産ETFを提供開始」の報道後、BTCは2時間で+0.2%。Fear & Greedも48から51へ改善。出来高急増（+137%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3144,5 +3171,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-27T23:08:30.951384+00:00"
+  "updated_at_utc": "2026-10-28T02:17:09.450635+00:00"
 }
