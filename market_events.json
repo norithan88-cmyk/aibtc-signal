@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "米フランクリン、配当をビットコインに再投資するETF2本を上場へ",
+      "link": "https://coinpost.jp/?p=745544",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-30T02:00:08+00:00",
+      "detected_at_utc": "2026-10-30T02:40:59.048032+00:00",
+      "baseline": {
+        "t": "2026-10-30T02:40:59.048032+00:00",
+        "price": 77521.92,
+        "funding_rate_pct": null,
+        "fear_greed_value": 30,
+        "volume_1h": 156984636.97
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコインノード停止の脆弱性をAI発見　Windows・macOSに影響",
+      "link": "https://coinpost.jp/?p=745550",
+      "source": "CoinPost",
+      "published_at_utc": "2026-10-30T01:34:19+00:00",
+      "detected_at_utc": "2026-10-30T02:40:59.048032+00:00",
+      "baseline": {
+        "t": "2026-10-30T02:40:59.048032+00:00",
+        "price": 77521.92,
+        "funding_rate_pct": null,
+        "fear_greed_value": 30,
+        "volume_1h": 156984636.97
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ストラテジー、四半期営業利益が過去最大　3.2兆円のビットコイン評価益計上",
       "link": "https://coinpost.jp/?p=745461",
       "source": "CoinPost",
@@ -13,10 +51,38 @@
         "fear_greed_value": 51,
         "volume_1h": 119573816.09
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-30T02:40:59.048032+00:00",
+          "price": 77521.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 156984636.97,
+          "delta_price_pct": -1.68
+        },
+        "1h": {
+          "t": "2026-10-30T02:40:59.048032+00:00",
+          "price": 77521.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 156984636.97,
+          "delta_price_pct": -1.68
+        },
+        "2h": {
+          "t": "2026-10-30T02:40:59.048032+00:00",
+          "price": 77521.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 156984636.97,
+          "delta_price_pct": -1.68
+        }
+      },
+      "flags": [
+        "市場心理の悪化（Fear & Greed急低下）",
+        "価格急変（-1.7%）"
+      ],
+      "relevance": "high",
+      "summary": "「ストラテジー、四半期営業利益が過去最大　3.2兆円のビットコイン評価益計上」の報道後、BTCは2時間で-1.7%。Fear & Greedも51から30へ悪化。市場心理の悪化（Fear & Greed急低下）、価格急変（-1.7%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3037,111 +3103,7 @@
       "relevance": "medium",
       "summary": "「ビットコイン上昇継続の条件は？　コインシェアーズ分析」の報道後、BTCは4時間で+0.3%。Fear & Greedも64から64へ横ばい。出来高急増（+196%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "サム・アルトマン氏出資のビットコイン生保、60億円相当調達　富裕層で需要増",
-      "link": "https://coinpost.jp/?p=742232",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-09T20:00:24+00:00",
-      "detected_at_utc": "2026-10-09T23:20:43.023344+00:00",
-      "baseline": {
-        "t": "2026-10-09T23:20:43.023344+00:00",
-        "price": 82657.45,
-        "funding_rate_pct": null,
-        "fear_greed_value": 59,
-        "volume_1h": 41840275.17
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-10T02:31:34.462069+00:00",
-          "price": 82627.6,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 11086145.96,
-          "delta_price_pct": -0.04
-        },
-        "1h": {
-          "t": "2026-10-10T02:31:34.462069+00:00",
-          "price": 82627.6,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 11086145.96,
-          "delta_price_pct": -0.04
-        },
-        "2h": {
-          "t": "2026-10-10T02:31:34.462069+00:00",
-          "price": 82627.6,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 11086145.96,
-          "delta_price_pct": -0.04
-        },
-        "4h": {
-          "t": "2026-10-10T08:57:05.676365+00:00",
-          "price": 82848.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 64,
-          "volume_1h": 32825499.8,
-          "delta_price_pct": 0.23
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「サム・アルトマン氏出資のビットコイン生保、60億円相当調達　富裕層で需要増」の報道後、BTCは4時間で+0.2%。Fear & Greedも59から64へ改善。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン短期保有者、含み損での取引所送金が6月以来最大＝クリプトクアント",
-      "link": "https://coinpost.jp/?p=742191",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-09T08:57:40+00:00",
-      "detected_at_utc": "2026-10-09T13:52:36.522723+00:00",
-      "baseline": {
-        "t": "2026-10-09T13:52:36.522723+00:00",
-        "price": 82736.4,
-        "funding_rate_pct": null,
-        "fear_greed_value": 59,
-        "volume_1h": 61769375.19
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-09T19:17:33.454353+00:00",
-          "price": 82478.72,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 31597567.93,
-          "delta_price_pct": -0.31
-        },
-        "1h": {
-          "t": "2026-10-09T19:17:33.454353+00:00",
-          "price": 82478.72,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 31597567.93,
-          "delta_price_pct": -0.31
-        },
-        "2h": {
-          "t": "2026-10-09T19:17:33.454353+00:00",
-          "price": 82478.72,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 31597567.93,
-          "delta_price_pct": -0.31
-        },
-        "4h": {
-          "t": "2026-10-09T19:17:33.454353+00:00",
-          "price": 82478.72,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 31597567.93,
-          "delta_price_pct": -0.31
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン短期保有者、含み損での取引所送金が6月以来最大＝クリプトクアント」の報道後、BTCは4時間で-0.3%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-29T23:13:51.922553+00:00"
+  "updated_at_utc": "2026-10-30T02:40:59.048032+00:00"
 }
