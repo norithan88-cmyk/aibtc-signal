@@ -13,11 +13,44 @@
         "fear_greed_value": 30,
         "volume_1h": 100150217.44
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-30T15:51:39.115338+00:00",
+          "price": 77620.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 86094508.14,
+          "delta_price_pct": -0.48
+        },
+        "1h": {
+          "t": "2026-10-30T15:51:39.115338+00:00",
+          "price": 77620.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 86094508.14,
+          "delta_price_pct": -0.48
+        },
+        "2h": {
+          "t": "2026-10-30T15:51:39.115338+00:00",
+          "price": 77620.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 86094508.14,
+          "delta_price_pct": -0.48
+        },
+        "4h": {
+          "t": "2026-10-30T15:51:39.115338+00:00",
+          "price": 77620.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 86094508.14,
+          "delta_price_pct": -0.48
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコインが冷却局面に、10月（アップトーバー）は4.2%安＝クリプトクアント」の報道後、BTCは4時間で-0.5%。Fear & Greedも30から30へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "メタプラネットCEO、バイナンス流出受け声明　保有ビットコインは全量コールド保管",
@@ -32,11 +65,44 @@
         "fear_greed_value": 30,
         "volume_1h": 100150217.44
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-30T15:51:39.115338+00:00",
+          "price": 77620.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 86094508.14,
+          "delta_price_pct": -0.48
+        },
+        "1h": {
+          "t": "2026-10-30T15:51:39.115338+00:00",
+          "price": 77620.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 86094508.14,
+          "delta_price_pct": -0.48
+        },
+        "2h": {
+          "t": "2026-10-30T15:51:39.115338+00:00",
+          "price": 77620.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 86094508.14,
+          "delta_price_pct": -0.48
+        },
+        "4h": {
+          "t": "2026-10-30T15:51:39.115338+00:00",
+          "price": 77620.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 86094508.14,
+          "delta_price_pct": -0.48
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「メタプラネットCEO、バイナンス流出受け声明　保有ビットコインは全量コールド保管」の報道後、BTCは4時間で-0.5%。Fear & Greedも30から30へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン急落、バイナンス1兆円規模の流出で市場に動揺｜仮想NISHI",
@@ -51,11 +117,44 @@
         "fear_greed_value": 30,
         "volume_1h": 100150217.44
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-30T15:51:39.115338+00:00",
+          "price": 77620.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 86094508.14,
+          "delta_price_pct": -0.48
+        },
+        "1h": {
+          "t": "2026-10-30T15:51:39.115338+00:00",
+          "price": 77620.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 86094508.14,
+          "delta_price_pct": -0.48
+        },
+        "2h": {
+          "t": "2026-10-30T15:51:39.115338+00:00",
+          "price": 77620.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 86094508.14,
+          "delta_price_pct": -0.48
+        },
+        "4h": {
+          "t": "2026-10-30T15:51:39.115338+00:00",
+          "price": 77620.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 86094508.14,
+          "delta_price_pct": -0.48
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン急落、バイナンス1兆円規模の流出で市場に動揺｜仮想NISHI」の報道後、BTCは4時間で-0.5%。Fear & Greedも30から30へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米フランクリン、配当をビットコインに再投資するETF2本を上場へ",
@@ -3078,5 +3177,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-30T09:02:49.088260+00:00"
+  "updated_at_utc": "2026-10-30T15:51:39.115338+00:00"
 }
