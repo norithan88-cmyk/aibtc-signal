@@ -13,11 +13,44 @@
         "fear_greed_value": 30,
         "volume_1h": 19399849.89
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-10-31T11:02:56.844084+00:00",
+          "price": 77431.24,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 11124792.1,
+          "delta_price_pct": 0.24
+        },
+        "1h": {
+          "t": "2026-10-31T11:02:56.844084+00:00",
+          "price": 77431.24,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 11124792.1,
+          "delta_price_pct": 0.24
+        },
+        "2h": {
+          "t": "2026-10-31T11:02:56.844084+00:00",
+          "price": 77431.24,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 11124792.1,
+          "delta_price_pct": 0.24
+        },
+        "4h": {
+          "t": "2026-10-31T11:02:56.844084+00:00",
+          "price": 77431.24,
+          "funding_rate_pct": null,
+          "fear_greed_value": 30,
+          "volume_1h": 11124792.1,
+          "delta_price_pct": 0.24
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「東証上場イオレ、保有151.21ビットコインを全量売却へ　AIデータセンター投資に充当」の報道後、BTCは4時間で+0.2%。Fear & Greedも30から30へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインが冷却局面に、10月（アップトーバー）は4.2%安＝クリプトクアント",
@@ -3142,5 +3175,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-31T05:22:04.162772+00:00"
+  "updated_at_utc": "2026-10-31T11:02:56.844084+00:00"
 }
