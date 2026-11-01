@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "週刊仮想通貨ニュース（10/30）｜バイナンス流出・BTC価格予測・リップルの発表のまとめ",
+      "link": "https://coinpost.jp/?p=745600",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-01T00:25:25+00:00",
+      "detected_at_utc": "2026-11-01T02:21:19.826232+00:00",
+      "baseline": {
+        "t": "2026-11-01T02:21:19.826232+00:00",
+        "price": 77748.11,
+        "funding_rate_pct": null,
+        "fear_greed_value": 34,
+        "volume_1h": 24662175.38
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "東証上場イオレ、保有151.21ビットコインを全量売却へ　AIデータセンター投資に充当",
       "link": "https://coinpost.jp/?p=745770",
       "source": "CoinPost",
@@ -3119,61 +3138,7 @@
       "relevance": "low",
       "summary": "「米上場ビットコインマイナーIREN、AIクラウドでアンソロピックと複数年契約か＝報道」の報道後、BTCは4時間で-0.6%。Fear & Greedも57から57へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ストラテジー、4週連続でビットコイン買い増し　34億円相当BTCを取得",
-      "link": "https://coinpost.jp/?p=742410",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-12T12:10:49+00:00",
-      "detected_at_utc": "2026-10-13T01:23:06.843584+00:00",
-      "baseline": {
-        "t": "2026-10-13T01:23:06.843584+00:00",
-        "price": 82083.81,
-        "funding_rate_pct": null,
-        "fear_greed_value": 57,
-        "volume_1h": 76826923.14
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-13T08:10:51.943792+00:00",
-          "price": 84056.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 57,
-          "volume_1h": 86925147.54,
-          "delta_price_pct": 2.4
-        },
-        "1h": {
-          "t": "2026-10-13T08:10:51.943792+00:00",
-          "price": 84056.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 57,
-          "volume_1h": 86925147.54,
-          "delta_price_pct": 2.4
-        },
-        "2h": {
-          "t": "2026-10-13T08:10:51.943792+00:00",
-          "price": 84056.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 57,
-          "volume_1h": 86925147.54,
-          "delta_price_pct": 2.4
-        },
-        "4h": {
-          "t": "2026-10-13T08:10:51.943792+00:00",
-          "price": 84056.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 57,
-          "volume_1h": 86925147.54,
-          "delta_price_pct": 2.4
-        }
-      },
-      "flags": [
-        "価格急変（+2.4%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ストラテジー、4週連続でビットコイン買い増し　34億円相当BTCを取得」の報道後、BTCは4時間で+2.4%。Fear & Greedも57から57へ横ばい。価格急変（+2.4%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-10-31T23:16:42.070300+00:00"
+  "updated_at_utc": "2026-11-01T02:21:19.826232+00:00"
 }
