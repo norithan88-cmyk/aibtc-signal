@@ -13,11 +13,46 @@
         "fear_greed_value": 37,
         "volume_1h": 66105260.41
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-02T22:29:28.326023+00:00",
+          "price": 76877.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 37,
+          "volume_1h": 28890205.82,
+          "delta_price_pct": -1.62
+        },
+        "1h": {
+          "t": "2026-11-02T22:29:28.326023+00:00",
+          "price": 76877.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 37,
+          "volume_1h": 28890205.82,
+          "delta_price_pct": -1.62
+        },
+        "2h": {
+          "t": "2026-11-02T22:29:28.326023+00:00",
+          "price": 76877.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 37,
+          "volume_1h": 28890205.82,
+          "delta_price_pct": -1.62
+        },
+        "4h": {
+          "t": "2026-11-02T22:29:28.326023+00:00",
+          "price": 76877.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 37,
+          "volume_1h": 28890205.82,
+          "delta_price_pct": -1.62
+        }
+      },
+      "flags": [
+        "価格急変（-1.6%）"
+      ],
+      "relevance": "medium",
+      "summary": "「米上場企業、5833BTCのビットコイン売却か担保化を検討　バイナンス事件受け」の報道後、BTCは4時間で-1.6%。Fear & Greedも37から37へ横ばい。価格急変（-1.6%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "BTCPay Server、ホットウォレット不正流出の報告受けサーバー停止を要請",
@@ -3142,5 +3177,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-02T13:47:21.503461+00:00"
+  "updated_at_utc": "2026-11-02T22:29:28.326023+00:00"
 }
