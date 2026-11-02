@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "BTCPay Server、ホットウォレット不正流出の報告受けサーバー停止を要請",
+      "link": "https://coinpost.jp/?p=745885",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-02T00:35:32+00:00",
+      "detected_at_utc": "2026-11-02T05:29:17.498144+00:00",
+      "baseline": {
+        "t": "2026-11-02T05:29:17.498144+00:00",
+        "price": 78351.22,
+        "funding_rate_pct": null,
+        "fear_greed_value": 37,
+        "volume_1h": 23629644.0
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン、急落し1200万円台に　AI関連決算と雇用統計が焦点｜bitbankアナリスト寄稿",
       "link": "https://coinpost.jp/?p=745685",
       "source": "CoinPost",
@@ -3121,59 +3140,7 @@
       "relevance": "medium",
       "summary": "「ストライブ、436億円相当ビットコインを追加購入　1月以来最大」の報道後、BTCは4時間で+0.0%。Fear & Greedも62から62へ横ばい。出来高急増（+62%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "韓国地銀、ビットコイン担保のウォン建て融資を開始",
-      "link": "https://coinpost.jp/?p=742478",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-13T08:15:01+00:00",
-      "detected_at_utc": "2026-10-13T16:03:56.418682+00:00",
-      "baseline": {
-        "t": "2026-10-13T16:03:56.418682+00:00",
-        "price": 83571.98,
-        "funding_rate_pct": null,
-        "fear_greed_value": 57,
-        "volume_1h": 45620662.96
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-13T21:12:29.201838+00:00",
-          "price": 83415.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 57,
-          "volume_1h": 26424741.09,
-          "delta_price_pct": -0.19
-        },
-        "1h": {
-          "t": "2026-10-13T21:12:29.201838+00:00",
-          "price": 83415.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 57,
-          "volume_1h": 26424741.09,
-          "delta_price_pct": -0.19
-        },
-        "2h": {
-          "t": "2026-10-13T21:12:29.201838+00:00",
-          "price": 83415.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 57,
-          "volume_1h": 26424741.09,
-          "delta_price_pct": -0.19
-        },
-        "4h": {
-          "t": "2026-10-13T21:12:29.201838+00:00",
-          "price": 83415.99,
-          "funding_rate_pct": null,
-          "fear_greed_value": 57,
-          "volume_1h": 26424741.09,
-          "delta_price_pct": -0.19
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「韓国地銀、ビットコイン担保のウォン建て融資を開始」の報道後、BTCは4時間で-0.2%。Fear & Greedも57から57へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-01T23:54:38.311042+00:00"
+  "updated_at_utc": "2026-11-02T05:29:17.498144+00:00"
 }
