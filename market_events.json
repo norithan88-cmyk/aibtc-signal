@@ -13,11 +13,44 @@
         "fear_greed_value": 26,
         "volume_1h": 104987844.55
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-03T11:23:01.336827+00:00",
+          "price": 77151.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 26,
+          "volume_1h": 36906416.51,
+          "delta_price_pct": 0.55
+        },
+        "1h": {
+          "t": "2026-11-03T11:23:01.336827+00:00",
+          "price": 77151.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 26,
+          "volume_1h": 36906416.51,
+          "delta_price_pct": 0.55
+        },
+        "2h": {
+          "t": "2026-11-03T11:23:01.336827+00:00",
+          "price": 77151.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 26,
+          "volume_1h": 36906416.51,
+          "delta_price_pct": 0.55
+        },
+        "4h": {
+          "t": "2026-11-03T11:23:01.336827+00:00",
+          "price": 77151.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 26,
+          "volume_1h": 36906416.51,
+          "delta_price_pct": 0.55
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「メタプラネットが253億円の自社株買い　ビットコイン購入配分を80億円戻す」の報道後、BTCは4時間で+0.6%。Fear & Greedも26から26へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン8万ドル割れ、ウィンターミュートは7.68万ドルを注視",
@@ -32,11 +65,44 @@
         "fear_greed_value": 26,
         "volume_1h": 104987844.55
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-03T11:23:01.336827+00:00",
+          "price": 77151.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 26,
+          "volume_1h": 36906416.51,
+          "delta_price_pct": 0.55
+        },
+        "1h": {
+          "t": "2026-11-03T11:23:01.336827+00:00",
+          "price": 77151.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 26,
+          "volume_1h": 36906416.51,
+          "delta_price_pct": 0.55
+        },
+        "2h": {
+          "t": "2026-11-03T11:23:01.336827+00:00",
+          "price": 77151.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 26,
+          "volume_1h": 36906416.51,
+          "delta_price_pct": 0.55
+        },
+        "4h": {
+          "t": "2026-11-03T11:23:01.336827+00:00",
+          "price": 77151.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 26,
+          "volume_1h": 36906416.51,
+          "delta_price_pct": 0.55
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン8万ドル割れ、ウィンターミュートは7.68万ドルを注視」の報道後、BTCは4時間で+0.6%。Fear & Greedも26から26へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ブラジル大手取引所Mercado Bitcoin、推計63億円超流出で入出金停止",
@@ -51,11 +117,44 @@
         "fear_greed_value": 26,
         "volume_1h": 104987844.55
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-03T11:23:01.336827+00:00",
+          "price": 77151.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 26,
+          "volume_1h": 36906416.51,
+          "delta_price_pct": 0.55
+        },
+        "1h": {
+          "t": "2026-11-03T11:23:01.336827+00:00",
+          "price": 77151.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 26,
+          "volume_1h": 36906416.51,
+          "delta_price_pct": 0.55
+        },
+        "2h": {
+          "t": "2026-11-03T11:23:01.336827+00:00",
+          "price": 77151.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 26,
+          "volume_1h": 36906416.51,
+          "delta_price_pct": 0.55
+        },
+        "4h": {
+          "t": "2026-11-03T11:23:01.336827+00:00",
+          "price": 77151.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 26,
+          "volume_1h": 36906416.51,
+          "delta_price_pct": 0.55
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ブラジル大手取引所Mercado Bitcoin、推計63億円超流出で入出金停止」の報道後、BTCは4時間で+0.6%。Fear & Greedも26から26へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米上場企業、5833BTCのビットコイン売却か担保化を検討　バイナンス事件受け",
@@ -3072,5 +3171,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-03T03:40:39.000298+00:00"
+  "updated_at_utc": "2026-11-03T11:23:01.336827+00:00"
 }
