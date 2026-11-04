@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "ビットコイン売り手に枯渇の兆し　需要はなお不足＝アナリスト",
+      "link": "https://coinpost.jp/?p=746347",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-04T08:17:51+00:00",
+      "detected_at_utc": "2026-11-04T11:20:20.323465+00:00",
+      "baseline": {
+        "t": "2026-11-04T11:20:20.323465+00:00",
+        "price": 78634.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 34,
+        "volume_1h": 32069718.64
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "米ブロック社、ビットコイン関連粗利益が半減　Cash Appの手数料引き下げで",
+      "link": "https://coinpost.jp/?p=746317",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-04T07:26:23+00:00",
+      "detected_at_utc": "2026-11-04T11:20:20.323465+00:00",
+      "baseline": {
+        "t": "2026-11-04T11:20:20.323465+00:00",
+        "price": 78634.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 34,
+        "volume_1h": 32069718.64
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "メタプラネット傘下入り控えるスーパーリーグ、ビットコイン購入を倍々に　計15BTC",
+      "link": "https://coinpost.jp/?p=746249",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-04T03:48:02+00:00",
+      "detected_at_utc": "2026-11-04T11:20:20.323465+00:00",
+      "baseline": {
+        "t": "2026-11-04T11:20:20.323465+00:00",
+        "price": 78634.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 34,
+        "volume_1h": 32069718.64
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "テザーが1.8兆円相当ビットコインを保有、ストラテジー以外の上場企業を大幅超過",
       "link": "https://coinpost.jp/?p=746116",
       "source": "CoinPost",
@@ -37,16 +94,25 @@
           "fear_greed_value": 34,
           "volume_1h": 123423989.57,
           "delta_price_pct": -2.33
+        },
+        "4h": {
+          "t": "2026-11-04T11:20:20.323465+00:00",
+          "price": 78634.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 32069718.64,
+          "delta_price_pct": 0.99
         }
       },
       "flags": [
         "市場心理の好転（Fear & Greed急上昇）",
         "価格急変（-2.3%）",
-        "出来高急増（+738%）"
+        "出来高急増（+738%）",
+        "出来高急増（+118%）"
       ],
       "relevance": "high",
-      "summary": "「テザーが1.8兆円相当ビットコインを保有、ストラテジー以外の上場企業を大幅超過」の報道後、BTCは2時間で-2.3%。Fear & Greedも26から34へ改善。市場心理の好転（Fear & Greed急上昇）、価格急変（-2.3%）、出来高急増（+738%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「テザーが1.8兆円相当ビットコインを保有、ストラテジー以外の上場企業を大幅超過」の報道後、BTCは4時間で+1.0%。Fear & Greedも26から34へ改善。市場心理の好転（Fear & Greed急上昇）、価格急変（-2.3%）、出来高急増（+738%）、出来高急増（+118%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米上場のストライブが43124BTC保有、世界2位のメタプラネットへ接近",
@@ -85,16 +151,25 @@
           "fear_greed_value": 34,
           "volume_1h": 123423989.57,
           "delta_price_pct": -2.33
+        },
+        "4h": {
+          "t": "2026-11-04T11:20:20.323465+00:00",
+          "price": 78634.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 32069718.64,
+          "delta_price_pct": 0.99
         }
       },
       "flags": [
         "市場心理の好転（Fear & Greed急上昇）",
         "価格急変（-2.3%）",
-        "出来高急増（+738%）"
+        "出来高急増（+738%）",
+        "出来高急増（+118%）"
       ],
       "relevance": "high",
-      "summary": "「米上場のストライブが43124BTC保有、世界2位のメタプラネットへ接近」の報道後、BTCは2時間で-2.3%。Fear & Greedも26から34へ改善。市場心理の好転（Fear & Greed急上昇）、価格急変（-2.3%）、出来高急増（+738%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「米上場のストライブが43124BTC保有、世界2位のメタプラネットへ接近」の報道後、BTCは4時間で+1.0%。Fear & Greedも26から34へ改善。市場心理の好転（Fear & Greed急上昇）、価格急変（-2.3%）、出来高急増（+738%）、出来高急増（+118%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ハッキングを受けたMercado Bitcoin、顧客は被害を負担しないと説明",
@@ -133,16 +208,25 @@
           "fear_greed_value": 34,
           "volume_1h": 123423989.57,
           "delta_price_pct": -2.33
+        },
+        "4h": {
+          "t": "2026-11-04T11:20:20.323465+00:00",
+          "price": 78634.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 32069718.64,
+          "delta_price_pct": 0.99
         }
       },
       "flags": [
         "市場心理の好転（Fear & Greed急上昇）",
         "価格急変（-2.3%）",
-        "出来高急増（+738%）"
+        "出来高急増（+738%）",
+        "出来高急増（+118%）"
       ],
       "relevance": "high",
-      "summary": "「ハッキングを受けたMercado Bitcoin、顧客は被害を負担しないと説明」の報道後、BTCは2時間で-2.3%。Fear & Greedも26から34へ改善。市場心理の好転（Fear & Greed急上昇）、価格急変（-2.3%）、出来高急増（+738%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": false
+      "summary": "「ハッキングを受けたMercado Bitcoin、顧客は被害を負担しないと説明」の報道後、BTCは4時間で+1.0%。Fear & Greedも26から34へ改善。市場心理の好転（Fear & Greed急上昇）、価格急変（-2.3%）、出来高急増（+738%）、出来高急増（+118%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "メタプラネットが253億円の自社株買い　ビットコイン購入配分を80億円戻す",
@@ -2995,163 +3079,7 @@
       "relevance": "low",
       "summary": "「ビットコイン相場が膠着状態、8万ドルが重要な分岐点に＝Glassnode分析」の報道後、BTCは4時間で+0.1%。Fear & Greedも53から53へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "メタプラネット傘下入り予定の米スーパーリーグ、ビットコイン初購入",
-      "link": "https://coinpost.jp/?p=743106",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-15T04:40:21+00:00",
-      "detected_at_utc": "2026-10-15T05:32:20.475784+00:00",
-      "baseline": {
-        "t": "2026-10-15T05:32:20.475784+00:00",
-        "price": 81022.28,
-        "funding_rate_pct": null,
-        "fear_greed_value": 53,
-        "volume_1h": 70905325.02
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-15T10:16:43.470183+00:00",
-          "price": 81136.07,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 33403728.21,
-          "delta_price_pct": 0.14
-        },
-        "1h": {
-          "t": "2026-10-15T10:16:43.470183+00:00",
-          "price": 81136.07,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 33403728.21,
-          "delta_price_pct": 0.14
-        },
-        "2h": {
-          "t": "2026-10-15T10:16:43.470183+00:00",
-          "price": 81136.07,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 33403728.21,
-          "delta_price_pct": 0.14
-        },
-        "4h": {
-          "t": "2026-10-15T10:16:43.470183+00:00",
-          "price": 81136.07,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 33403728.21,
-          "delta_price_pct": 0.14
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「メタプラネット傘下入り予定の米スーパーリーグ、ビットコイン初購入」の報道後、BTCは4時間で+0.1%。Fear & Greedも53から53へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン、3つのオンチェーン指標が底入れ示唆　米中間選挙直前＝アナリスト",
-      "link": "https://coinpost.jp/?p=743045",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-15T01:46:18+00:00",
-      "detected_at_utc": "2026-10-15T05:32:20.475784+00:00",
-      "baseline": {
-        "t": "2026-10-15T05:32:20.475784+00:00",
-        "price": 81022.28,
-        "funding_rate_pct": null,
-        "fear_greed_value": 53,
-        "volume_1h": 70905325.02
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-15T10:16:43.470183+00:00",
-          "price": 81136.07,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 33403728.21,
-          "delta_price_pct": 0.14
-        },
-        "1h": {
-          "t": "2026-10-15T10:16:43.470183+00:00",
-          "price": 81136.07,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 33403728.21,
-          "delta_price_pct": 0.14
-        },
-        "2h": {
-          "t": "2026-10-15T10:16:43.470183+00:00",
-          "price": 81136.07,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 33403728.21,
-          "delta_price_pct": 0.14
-        },
-        "4h": {
-          "t": "2026-10-15T10:16:43.470183+00:00",
-          "price": 81136.07,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 33403728.21,
-          "delta_price_pct": 0.14
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン、3つのオンチェーン指標が底入れ示唆　米中間選挙直前＝アナリスト」の報道後、BTCは4時間で+0.1%。Fear & Greedも53から53へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン下落、米CPI上振れで利上げ警戒｜仮想NISHI",
-      "link": "https://coinpost.jp/?p=740303",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-15T01:05:05+00:00",
-      "detected_at_utc": "2026-10-15T05:32:20.475784+00:00",
-      "baseline": {
-        "t": "2026-10-15T05:32:20.475784+00:00",
-        "price": 81022.28,
-        "funding_rate_pct": null,
-        "fear_greed_value": 53,
-        "volume_1h": 70905325.02
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-15T10:16:43.470183+00:00",
-          "price": 81136.07,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 33403728.21,
-          "delta_price_pct": 0.14
-        },
-        "1h": {
-          "t": "2026-10-15T10:16:43.470183+00:00",
-          "price": 81136.07,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 33403728.21,
-          "delta_price_pct": 0.14
-        },
-        "2h": {
-          "t": "2026-10-15T10:16:43.470183+00:00",
-          "price": 81136.07,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 33403728.21,
-          "delta_price_pct": 0.14
-        },
-        "4h": {
-          "t": "2026-10-15T10:16:43.470183+00:00",
-          "price": 81136.07,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 33403728.21,
-          "delta_price_pct": 0.14
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン下落、米CPI上振れで利上げ警戒｜仮想NISHI」の報道後、BTCは4時間で+0.1%。Fear & Greedも53から53へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-04T03:20:10.260883+00:00"
+  "updated_at_utc": "2026-11-04T11:20:20.323465+00:00"
 }
