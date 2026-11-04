@@ -13,10 +13,39 @@
         "fear_greed_value": 26,
         "volume_1h": 14732448.1
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-04T03:20:10.260883+00:00",
+          "price": 76046.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 123423989.57,
+          "delta_price_pct": -2.33
+        },
+        "1h": {
+          "t": "2026-11-04T03:20:10.260883+00:00",
+          "price": 76046.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 123423989.57,
+          "delta_price_pct": -2.33
+        },
+        "2h": {
+          "t": "2026-11-04T03:20:10.260883+00:00",
+          "price": 76046.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 123423989.57,
+          "delta_price_pct": -2.33
+        }
+      },
+      "flags": [
+        "市場心理の好転（Fear & Greed急上昇）",
+        "価格急変（-2.3%）",
+        "出来高急増（+738%）"
+      ],
+      "relevance": "high",
+      "summary": "「テザーが1.8兆円相当ビットコインを保有、ストラテジー以外の上場企業を大幅超過」の報道後、BTCは2時間で-2.3%。Fear & Greedも26から34へ改善。市場心理の好転（Fear & Greed急上昇）、価格急変（-2.3%）、出来高急増（+738%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -32,10 +61,39 @@
         "fear_greed_value": 26,
         "volume_1h": 14732448.1
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-04T03:20:10.260883+00:00",
+          "price": 76046.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 123423989.57,
+          "delta_price_pct": -2.33
+        },
+        "1h": {
+          "t": "2026-11-04T03:20:10.260883+00:00",
+          "price": 76046.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 123423989.57,
+          "delta_price_pct": -2.33
+        },
+        "2h": {
+          "t": "2026-11-04T03:20:10.260883+00:00",
+          "price": 76046.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 123423989.57,
+          "delta_price_pct": -2.33
+        }
+      },
+      "flags": [
+        "市場心理の好転（Fear & Greed急上昇）",
+        "価格急変（-2.3%）",
+        "出来高急増（+738%）"
+      ],
+      "relevance": "high",
+      "summary": "「米上場のストライブが43124BTC保有、世界2位のメタプラネットへ接近」の報道後、BTCは2時間で-2.3%。Fear & Greedも26から34へ改善。市場心理の好転（Fear & Greed急上昇）、価格急変（-2.3%）、出来高急増（+738%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -51,10 +109,39 @@
         "fear_greed_value": 26,
         "volume_1h": 14732448.1
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-04T03:20:10.260883+00:00",
+          "price": 76046.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 123423989.57,
+          "delta_price_pct": -2.33
+        },
+        "1h": {
+          "t": "2026-11-04T03:20:10.260883+00:00",
+          "price": 76046.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 123423989.57,
+          "delta_price_pct": -2.33
+        },
+        "2h": {
+          "t": "2026-11-04T03:20:10.260883+00:00",
+          "price": 76046.8,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 123423989.57,
+          "delta_price_pct": -2.33
+        }
+      },
+      "flags": [
+        "市場心理の好転（Fear & Greed急上昇）",
+        "価格急変（-2.3%）",
+        "出来高急増（+738%）"
+      ],
+      "relevance": "high",
+      "summary": "「ハッキングを受けたMercado Bitcoin、顧客は被害を負担しないと説明」の報道後、BTCは2時間で-2.3%。Fear & Greedも26から34へ改善。市場心理の好転（Fear & Greed急上昇）、価格急変（-2.3%）、出来高急増（+738%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": false
     },
     {
@@ -3066,5 +3153,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-03T23:39:54.850428+00:00"
+  "updated_at_utc": "2026-11-04T03:20:10.260883+00:00"
 }
