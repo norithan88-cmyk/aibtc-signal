@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ストラテジーの優先株、約半年ぶりに一時100ドル回復　BTC買い増しの資金調達が再び可能に",
+      "link": "https://coinpost.jp/?p=746385",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-04T22:35:15+00:00",
+      "detected_at_utc": "2026-11-04T23:57:32.724598+00:00",
+      "baseline": {
+        "t": "2026-11-04T23:57:32.724598+00:00",
+        "price": 80509.83,
+        "funding_rate_pct": null,
+        "fear_greed_value": 34,
+        "volume_1h": 31333614.14
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "民主党が圧勝で米議会を奪還、ビットコインは前日比1.2%上昇",
       "link": "https://coinpost.jp/?p=746369",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 34,
         "volume_1h": 58210843.54
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-04T23:57:32.724598+00:00",
+          "price": 80509.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 31333614.14,
+          "delta_price_pct": 0.2
+        },
+        "1h": {
+          "t": "2026-11-04T23:57:32.724598+00:00",
+          "price": 80509.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 31333614.14,
+          "delta_price_pct": 0.2
+        },
+        "2h": {
+          "t": "2026-11-04T23:57:32.724598+00:00",
+          "price": 80509.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 31333614.14,
+          "delta_price_pct": 0.2
+        },
+        "4h": {
+          "t": "2026-11-04T23:57:32.724598+00:00",
+          "price": 80509.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 34,
+          "volume_1h": 31333614.14,
+          "delta_price_pct": 0.2
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「民主党が圧勝で米議会を奪還、ビットコインは前日比1.2%上昇」の報道後、BTCは4時間で+0.2%。Fear & Greedも34から34へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン売り手に枯渇の兆し　需要はなお不足＝アナリスト",
@@ -3100,61 +3152,7 @@
       "relevance": "medium",
       "summary": "「上場ビットコインマイナー3社の9月採掘量、2社が前月比4〜11％減」の報道後、BTCは4時間で+0.0%。Fear & Greedも63から63へ横ばい。出来高急増（+68%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "MSCI新ルール決定、ストラテジーらビットコイン保有企業に除外の可能性",
-      "link": "https://coinpost.jp/?p=743293",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-16T00:54:29+00:00",
-      "detected_at_utc": "2026-10-16T04:57:50.312698+00:00",
-      "baseline": {
-        "t": "2026-10-16T04:57:50.312698+00:00",
-        "price": 82129.99,
-        "funding_rate_pct": null,
-        "fear_greed_value": 63,
-        "volume_1h": 18598031.76
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-16T09:40:00.276103+00:00",
-          "price": 82158.59,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 31324979.07,
-          "delta_price_pct": 0.03
-        },
-        "1h": {
-          "t": "2026-10-16T09:40:00.276103+00:00",
-          "price": 82158.59,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 31324979.07,
-          "delta_price_pct": 0.03
-        },
-        "2h": {
-          "t": "2026-10-16T09:40:00.276103+00:00",
-          "price": 82158.59,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 31324979.07,
-          "delta_price_pct": 0.03
-        },
-        "4h": {
-          "t": "2026-10-16T09:40:00.276103+00:00",
-          "price": 82158.59,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 31324979.07,
-          "delta_price_pct": 0.03
-        }
-      },
-      "flags": [
-        "出来高急増（+68%）"
-      ],
-      "relevance": "medium",
-      "summary": "「MSCI新ルール決定、ストラテジーらビットコイン保有企業に除外の可能性」の報道後、BTCは4時間で+0.0%。Fear & Greedも63から63へ横ばい。出来高急増（+68%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-04T18:44:18.516962+00:00"
+  "updated_at_utc": "2026-11-04T23:57:32.724598+00:00"
 }
