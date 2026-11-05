@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "米ビットコインマイニング大手2社、計2.3万BTC売却　AIデータセンター投資と自社株買いに活用",
+      "link": "https://coinpost.jp/?p=746511",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-05T08:00:56+00:00",
+      "detected_at_utc": "2026-11-05T14:55:20.477435+00:00",
+      "baseline": {
+        "t": "2026-11-05T14:55:20.477435+00:00",
+        "price": 78542.79,
+        "funding_rate_pct": null,
+        "fear_greed_value": 50,
+        "volume_1h": 88123219.65
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "バイナンスのハッキング被害、ビットコインへの影響は限定的＝米Bitwise投資責任者",
+      "link": "https://coinpost.jp/?p=746490",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-05T07:00:41+00:00",
+      "detected_at_utc": "2026-11-05T14:55:20.477435+00:00",
+      "baseline": {
+        "t": "2026-11-05T14:55:20.477435+00:00",
+        "price": 78542.79,
+        "funding_rate_pct": null,
+        "fear_greed_value": 50,
+        "volume_1h": 88123219.65
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ヘイズ氏、AI大型IPOの希薄化に警鐘　ビットコインなどへの波及を予想",
       "link": "https://coinpost.jp/?p=746564",
       "source": "CoinPost",
@@ -13,11 +51,47 @@
         "fear_greed_value": 50,
         "volume_1h": 31260998.12
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-05T14:55:20.477435+00:00",
+          "price": 78542.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 88123219.65,
+          "delta_price_pct": -2.52
+        },
+        "1h": {
+          "t": "2026-11-05T14:55:20.477435+00:00",
+          "price": 78542.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 88123219.65,
+          "delta_price_pct": -2.52
+        },
+        "2h": {
+          "t": "2026-11-05T14:55:20.477435+00:00",
+          "price": 78542.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 88123219.65,
+          "delta_price_pct": -2.52
+        },
+        "4h": {
+          "t": "2026-11-05T14:55:20.477435+00:00",
+          "price": 78542.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 88123219.65,
+          "delta_price_pct": -2.52
+        }
+      },
+      "flags": [
+        "価格急変（-2.5%）",
+        "出来高急増（+182%）"
+      ],
+      "relevance": "high",
+      "summary": "「ヘイズ氏、AI大型IPOの希薄化に警鐘　ビットコインなどへの波及を予想」の報道後、BTCは4時間で-2.5%。Fear & Greedも50から50へ横ばい。価格急変（-2.5%）、出来高急増（+182%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン急反発、米中間選挙が転機に　原油安と米金利低下が上昇を後押し｜仮想NISHI",
@@ -32,11 +106,47 @@
         "fear_greed_value": 50,
         "volume_1h": 31260998.12
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-05T14:55:20.477435+00:00",
+          "price": 78542.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 88123219.65,
+          "delta_price_pct": -2.52
+        },
+        "1h": {
+          "t": "2026-11-05T14:55:20.477435+00:00",
+          "price": 78542.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 88123219.65,
+          "delta_price_pct": -2.52
+        },
+        "2h": {
+          "t": "2026-11-05T14:55:20.477435+00:00",
+          "price": 78542.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 88123219.65,
+          "delta_price_pct": -2.52
+        },
+        "4h": {
+          "t": "2026-11-05T14:55:20.477435+00:00",
+          "price": 78542.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 88123219.65,
+          "delta_price_pct": -2.52
+        }
+      },
+      "flags": [
+        "価格急変（-2.5%）",
+        "出来高急増（+182%）"
+      ],
+      "relevance": "high",
+      "summary": "「ビットコイン急反発、米中間選挙が転機に　原油安と米金利低下が上昇を後押し｜仮想NISHI」の報道後、BTCは4時間で-2.5%。Fear & Greedも50から50へ横ばい。価格急変（-2.5%）、出来高急増（+182%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインの過熱感に健全なリセット、米中間選挙後の状況は？＝グラスノード",
@@ -51,11 +161,47 @@
         "fear_greed_value": 50,
         "volume_1h": 31260998.12
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-05T14:55:20.477435+00:00",
+          "price": 78542.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 88123219.65,
+          "delta_price_pct": -2.52
+        },
+        "1h": {
+          "t": "2026-11-05T14:55:20.477435+00:00",
+          "price": 78542.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 88123219.65,
+          "delta_price_pct": -2.52
+        },
+        "2h": {
+          "t": "2026-11-05T14:55:20.477435+00:00",
+          "price": 78542.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 88123219.65,
+          "delta_price_pct": -2.52
+        },
+        "4h": {
+          "t": "2026-11-05T14:55:20.477435+00:00",
+          "price": 78542.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 88123219.65,
+          "delta_price_pct": -2.52
+        }
+      },
+      "flags": [
+        "価格急変（-2.5%）",
+        "出来高急増（+182%）"
+      ],
+      "relevance": "high",
+      "summary": "「ビットコインの過熱感に健全なリセット、米中間選挙後の状況は？＝グラスノード」の報道後、BTCは4時間で-2.5%。Fear & Greedも50から50へ横ばい。価格急変（-2.5%）、出来高急増（+182%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストラテジーの優先株、約半年ぶりに一時100ドル回復　BTC買い増しの資金調達が再び可能に",
@@ -2976,113 +3122,7 @@
       "relevance": "low",
       "summary": "「ビットコインは年末にかけて回復見通し、ただし9万ドルが壁＝レポート」の報道後、BTCは4時間で+0.1%。Fear & Greedも55から55へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ウォーシュFRB議長が利上げ示唆せず観測後退、ビットコイン当面レンジ相場",
-      "link": "https://coinpost.jp/?p=743403",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-17T00:10:57+00:00",
-      "detected_at_utc": "2026-10-17T01:37:27.327647+00:00",
-      "baseline": {
-        "t": "2026-10-17T01:37:27.327647+00:00",
-        "price": 81523.21,
-        "funding_rate_pct": null,
-        "fear_greed_value": 55,
-        "volume_1h": 25338853.74
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-17T06:13:38.955798+00:00",
-          "price": 81583.6,
-          "funding_rate_pct": null,
-          "fear_greed_value": 55,
-          "volume_1h": 15601833.36,
-          "delta_price_pct": 0.07
-        },
-        "1h": {
-          "t": "2026-10-17T06:13:38.955798+00:00",
-          "price": 81583.6,
-          "funding_rate_pct": null,
-          "fear_greed_value": 55,
-          "volume_1h": 15601833.36,
-          "delta_price_pct": 0.07
-        },
-        "2h": {
-          "t": "2026-10-17T06:13:38.955798+00:00",
-          "price": 81583.6,
-          "funding_rate_pct": null,
-          "fear_greed_value": 55,
-          "volume_1h": 15601833.36,
-          "delta_price_pct": 0.07
-        },
-        "4h": {
-          "t": "2026-10-17T06:13:38.955798+00:00",
-          "price": 81583.6,
-          "funding_rate_pct": null,
-          "fear_greed_value": 55,
-          "volume_1h": 15601833.36,
-          "delta_price_pct": 0.07
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ウォーシュFRB議長が利上げ示唆せず観測後退、ビットコイン当面レンジ相場」の報道後、BTCは4時間で+0.1%。Fear & Greedも55から55へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "2022年以来初、米国がビットコイン純輸入国に",
-      "link": "https://coinpost.jp/?p=743388",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-16T20:00:54+00:00",
-      "detected_at_utc": "2026-10-16T21:21:27.897868+00:00",
-      "baseline": {
-        "t": "2026-10-16T21:21:27.897868+00:00",
-        "price": 81759.99,
-        "funding_rate_pct": null,
-        "fear_greed_value": 63,
-        "volume_1h": 28592630.82
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-16T23:44:58.513280+00:00",
-          "price": 81624.09,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 29403653.99,
-          "delta_price_pct": -0.17
-        },
-        "1h": {
-          "t": "2026-10-16T23:44:58.513280+00:00",
-          "price": 81624.09,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 29403653.99,
-          "delta_price_pct": -0.17
-        },
-        "2h": {
-          "t": "2026-10-16T23:44:58.513280+00:00",
-          "price": 81624.09,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 29403653.99,
-          "delta_price_pct": -0.17
-        },
-        "4h": {
-          "t": "2026-10-17T01:37:27.327647+00:00",
-          "price": 81523.21,
-          "funding_rate_pct": null,
-          "fear_greed_value": 55,
-          "volume_1h": 25338853.74,
-          "delta_price_pct": -0.29
-        }
-      },
-      "flags": [
-        "市場心理の悪化（Fear & Greed急低下）"
-      ],
-      "relevance": "medium",
-      "summary": "「2022年以来初、米国がビットコイン純輸入国に」の報道後、BTCは4時間で-0.3%。Fear & Greedも63から55へ悪化。市場心理の悪化（Fear & Greed急低下）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-05T06:28:56.435225+00:00"
+  "updated_at_utc": "2026-11-05T14:55:20.477435+00:00"
 }
