@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "ヘイズ氏、AI大型IPOの希薄化に警鐘　ビットコインなどへの波及を予想",
+      "link": "https://coinpost.jp/?p=746564",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-05T06:00:13+00:00",
+      "detected_at_utc": "2026-11-05T06:28:56.435225+00:00",
+      "baseline": {
+        "t": "2026-11-05T06:28:56.435225+00:00",
+        "price": 80574.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 50,
+        "volume_1h": 31260998.12
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン急反発、米中間選挙が転機に　原油安と米金利低下が上昇を後押し｜仮想NISHI",
+      "link": "https://coinpost.jp/?p=746413",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-05T02:00:49+00:00",
+      "detected_at_utc": "2026-11-05T06:28:56.435225+00:00",
+      "baseline": {
+        "t": "2026-11-05T06:28:56.435225+00:00",
+        "price": 80574.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 50,
+        "volume_1h": 31260998.12
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコインの過熱感に健全なリセット、米中間選挙後の状況は？＝グラスノード",
+      "link": "https://coinpost.jp/?p=746414",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-05T01:02:48+00:00",
+      "detected_at_utc": "2026-11-05T06:28:56.435225+00:00",
+      "baseline": {
+        "t": "2026-11-05T06:28:56.435225+00:00",
+        "price": 80574.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 50,
+        "volume_1h": 31260998.12
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ストラテジーの優先株、約半年ぶりに一時100ドル回復　BTC買い増しの資金調達が再び可能に",
       "link": "https://coinpost.jp/?p=746385",
       "source": "CoinPost",
@@ -13,11 +70,46 @@
         "fear_greed_value": 34,
         "volume_1h": 31333614.14
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-05T06:28:56.435225+00:00",
+          "price": 80574.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 31260998.12,
+          "delta_price_pct": 0.08
+        },
+        "1h": {
+          "t": "2026-11-05T06:28:56.435225+00:00",
+          "price": 80574.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 31260998.12,
+          "delta_price_pct": 0.08
+        },
+        "2h": {
+          "t": "2026-11-05T06:28:56.435225+00:00",
+          "price": 80574.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 31260998.12,
+          "delta_price_pct": 0.08
+        },
+        "4h": {
+          "t": "2026-11-05T06:28:56.435225+00:00",
+          "price": 80574.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 50,
+          "volume_1h": 31260998.12,
+          "delta_price_pct": 0.08
+        }
+      },
+      "flags": [
+        "市場心理の好転（Fear & Greed急上昇）"
+      ],
+      "relevance": "medium",
+      "summary": "「ストラテジーの優先株、約半年ぶりに一時100ドル回復　BTC買い増しの資金調達が再び可能に」の報道後、BTCは4時間で+0.1%。Fear & Greedも34から50へ改善。市場心理の好転（Fear & Greed急上昇）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "民主党が圧勝で米議会を奪還、ビットコインは前日比1.2%上昇",
@@ -2990,169 +3082,7 @@
       "relevance": "medium",
       "summary": "「2022年以来初、米国がビットコイン純輸入国に」の報道後、BTCは4時間で-0.3%。Fear & Greedも63から55へ悪化。市場心理の悪化（Fear & Greed急低下）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ANAP、ビットコイン評価損43.7億円を計上　前期の評価益12億円から反転",
-      "link": "https://coinpost.jp/?p=743366",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-16T08:24:38+00:00",
-      "detected_at_utc": "2026-10-16T09:40:00.276103+00:00",
-      "baseline": {
-        "t": "2026-10-16T09:40:00.276103+00:00",
-        "price": 82158.59,
-        "funding_rate_pct": null,
-        "fear_greed_value": 63,
-        "volume_1h": 31324979.07
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-16T14:19:01.802067+00:00",
-          "price": 82364.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 80515251.95,
-          "delta_price_pct": 0.25
-        },
-        "1h": {
-          "t": "2026-10-16T14:19:01.802067+00:00",
-          "price": 82364.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 80515251.95,
-          "delta_price_pct": 0.25
-        },
-        "2h": {
-          "t": "2026-10-16T14:19:01.802067+00:00",
-          "price": 82364.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 80515251.95,
-          "delta_price_pct": 0.25
-        },
-        "4h": {
-          "t": "2026-10-16T14:19:01.802067+00:00",
-          "price": 82364.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 80515251.95,
-          "delta_price_pct": 0.25
-        }
-      },
-      "flags": [
-        "出来高急増（+157%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ANAP、ビットコイン評価損43.7億円を計上　前期の評価益12億円から反転」の報道後、BTCは4時間で+0.2%。Fear & Greedも63から63へ横ばい。出来高急増（+157%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "英上場スマーター・ウェブ、83BTCのビットコインを追加取得　保有2830BTCに",
-      "link": "https://coinpost.jp/?p=743362",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-16T07:51:25+00:00",
-      "detected_at_utc": "2026-10-16T09:40:00.276103+00:00",
-      "baseline": {
-        "t": "2026-10-16T09:40:00.276103+00:00",
-        "price": 82158.59,
-        "funding_rate_pct": null,
-        "fear_greed_value": 63,
-        "volume_1h": 31324979.07
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-16T14:19:01.802067+00:00",
-          "price": 82364.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 80515251.95,
-          "delta_price_pct": 0.25
-        },
-        "1h": {
-          "t": "2026-10-16T14:19:01.802067+00:00",
-          "price": 82364.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 80515251.95,
-          "delta_price_pct": 0.25
-        },
-        "2h": {
-          "t": "2026-10-16T14:19:01.802067+00:00",
-          "price": 82364.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 80515251.95,
-          "delta_price_pct": 0.25
-        },
-        "4h": {
-          "t": "2026-10-16T14:19:01.802067+00:00",
-          "price": 82364.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 80515251.95,
-          "delta_price_pct": 0.25
-        }
-      },
-      "flags": [
-        "出来高急増（+157%）"
-      ],
-      "relevance": "medium",
-      "summary": "「英上場スマーター・ウェブ、83BTCのビットコインを追加取得　保有2830BTCに」の報道後、BTCは4時間で+0.2%。Fear & Greedも63から63へ横ばい。出来高急増（+157%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "上場ビットコインマイナー3社の9月採掘量、2社が前月比4〜11％減",
-      "link": "https://coinpost.jp/?p=743286",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-16T01:50:31+00:00",
-      "detected_at_utc": "2026-10-16T04:57:50.312698+00:00",
-      "baseline": {
-        "t": "2026-10-16T04:57:50.312698+00:00",
-        "price": 82129.99,
-        "funding_rate_pct": null,
-        "fear_greed_value": 63,
-        "volume_1h": 18598031.76
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-16T09:40:00.276103+00:00",
-          "price": 82158.59,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 31324979.07,
-          "delta_price_pct": 0.03
-        },
-        "1h": {
-          "t": "2026-10-16T09:40:00.276103+00:00",
-          "price": 82158.59,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 31324979.07,
-          "delta_price_pct": 0.03
-        },
-        "2h": {
-          "t": "2026-10-16T09:40:00.276103+00:00",
-          "price": 82158.59,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 31324979.07,
-          "delta_price_pct": 0.03
-        },
-        "4h": {
-          "t": "2026-10-16T09:40:00.276103+00:00",
-          "price": 82158.59,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 31324979.07,
-          "delta_price_pct": 0.03
-        }
-      },
-      "flags": [
-        "出来高急増（+68%）"
-      ],
-      "relevance": "medium",
-      "summary": "「上場ビットコインマイナー3社の9月採掘量、2社が前月比4〜11％減」の報道後、BTCは4時間で+0.0%。Fear & Greedも63から63へ横ばい。出来高急増（+68%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-04T23:57:32.724598+00:00"
+  "updated_at_utc": "2026-11-05T06:28:56.435225+00:00"
 }
