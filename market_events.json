@@ -1,6 +1,101 @@
 {
   "events": [
     {
+      "title": "バイナンス流出後のビットコイン最大下落は5.7％、過去例では中程度＝クリプトクアント",
+      "link": "https://coinpost.jp/?p=746715",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-06T01:25:55+00:00",
+      "detected_at_utc": "2026-11-06T01:45:10.903432+00:00",
+      "baseline": {
+        "t": "2026-11-06T01:45:10.903432+00:00",
+        "price": 76128.79,
+        "funding_rate_pct": null,
+        "fear_greed_value": 28,
+        "volume_1h": 35205594.43
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "グーグル、ビットコイン採掘企業のAI拠点を支援　アンソロピックの不払いに備え",
+      "link": "https://coinpost.jp/?p=746730",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-06T01:15:32+00:00",
+      "detected_at_utc": "2026-11-06T01:45:10.903432+00:00",
+      "baseline": {
+        "t": "2026-11-06T01:45:10.903432+00:00",
+        "price": 76128.79,
+        "funding_rate_pct": null,
+        "fear_greed_value": 28,
+        "volume_1h": 35205594.43
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "コア・サイエンティフィック、ビットコインマイニング完全撤退へ　AIデータセンター特化",
+      "link": "https://coinpost.jp/?p=746690",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-06T00:25:04+00:00",
+      "detected_at_utc": "2026-11-06T01:45:10.903432+00:00",
+      "baseline": {
+        "t": "2026-11-06T01:45:10.903432+00:00",
+        "price": 76128.79,
+        "funding_rate_pct": null,
+        "fear_greed_value": 28,
+        "volume_1h": 35205594.43
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン100万円幅急落、共和党敗北でトランプ氏の暗号資産政策に不透明感｜仮想NISHI",
+      "link": "https://coinpost.jp/?p=746668",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-05T22:05:43+00:00",
+      "detected_at_utc": "2026-11-06T01:45:10.903432+00:00",
+      "baseline": {
+        "t": "2026-11-06T01:45:10.903432+00:00",
+        "price": 76128.79,
+        "funding_rate_pct": null,
+        "fear_greed_value": 28,
+        "volume_1h": 35205594.43
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ブラジルMercado Bitcoin 、ハッキング「封じ込め」発表後も不正流出が4時間続いた",
+      "link": "https://coinpost.jp/?p=746669",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-05T21:45:45+00:00",
+      "detected_at_utc": "2026-11-06T01:45:10.903432+00:00",
+      "baseline": {
+        "t": "2026-11-06T01:45:10.903432+00:00",
+        "price": 76128.79,
+        "funding_rate_pct": null,
+        "fear_greed_value": 28,
+        "volume_1h": 35205594.43
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン急落、一時7.6万割れ　AI規制懸念で米ナスダック5％超安",
       "link": "https://coinpost.jp/?p=746671",
       "source": "CoinPost",
@@ -13,11 +108,46 @@
         "fear_greed_value": 50,
         "volume_1h": 53219633.19
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-06T01:45:10.903432+00:00",
+          "price": 76128.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 28,
+          "volume_1h": 35205594.43,
+          "delta_price_pct": 0.37
+        },
+        "1h": {
+          "t": "2026-11-06T01:45:10.903432+00:00",
+          "price": 76128.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 28,
+          "volume_1h": 35205594.43,
+          "delta_price_pct": 0.37
+        },
+        "2h": {
+          "t": "2026-11-06T01:45:10.903432+00:00",
+          "price": 76128.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 28,
+          "volume_1h": 35205594.43,
+          "delta_price_pct": 0.37
+        },
+        "4h": {
+          "t": "2026-11-06T01:45:10.903432+00:00",
+          "price": 76128.79,
+          "funding_rate_pct": null,
+          "fear_greed_value": 28,
+          "volume_1h": 35205594.43,
+          "delta_price_pct": 0.37
+        }
+      },
+      "flags": [
+        "市場心理の悪化（Fear & Greed急低下）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン急落、一時7.6万割れ　AI規制懸念で米ナスダック5％超安」の報道後、BTCは4時間で+0.4%。Fear & Greedも50から28へ悪化。市場心理の悪化（Fear & Greed急低下）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米ビットコインマイニング大手2社、計2.3万BTC売却　AIデータセンター投資と自社株買いに活用",
@@ -2899,267 +3029,7 @@
       "relevance": "low",
       "summary": "「ストラテジー、先週34億円相当ビットコインを追加購入　5週連続買い増し」の報道後、BTCは4時間で+0.1%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "セイラー氏、ビットコインは強気相場へ　BTC裏付けステーブルコインにも言及",
-      "link": "https://coinpost.jp/?p=743712",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-19T05:50:53+00:00",
-      "detected_at_utc": "2026-10-19T10:42:29.287413+00:00",
-      "baseline": {
-        "t": "2026-10-19T10:42:29.287413+00:00",
-        "price": 82336.63,
-        "funding_rate_pct": null,
-        "fear_greed_value": 59,
-        "volume_1h": 51597009.58
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-19T17:11:51.571119+00:00",
-          "price": 81932.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 37438828.73,
-          "delta_price_pct": -0.49
-        },
-        "1h": {
-          "t": "2026-10-19T17:11:51.571119+00:00",
-          "price": 81932.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 37438828.73,
-          "delta_price_pct": -0.49
-        },
-        "2h": {
-          "t": "2026-10-19T17:11:51.571119+00:00",
-          "price": 81932.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 37438828.73,
-          "delta_price_pct": -0.49
-        },
-        "4h": {
-          "t": "2026-10-19T17:11:51.571119+00:00",
-          "price": 81932.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 37438828.73,
-          "delta_price_pct": -0.49
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「セイラー氏、ビットコインは強気相場へ　BTC裏付けステーブルコインにも言及」の報道後、BTCは4時間で-0.5%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン軟調、ETF流出と企業の買い鈍化が一因＝ギャラクシー・リサーチ",
-      "link": "https://coinpost.jp/?p=743489",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-18T23:45:44+00:00",
-      "detected_at_utc": "2026-10-19T00:21:45.309943+00:00",
-      "baseline": {
-        "t": "2026-10-19T00:21:45.309943+00:00",
-        "price": 82171.69,
-        "funding_rate_pct": null,
-        "fear_greed_value": 59,
-        "volume_1h": 67015931.59
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-19T05:03:51.091732+00:00",
-          "price": 82596.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 31875985.37,
-          "delta_price_pct": 0.52
-        },
-        "1h": {
-          "t": "2026-10-19T05:03:51.091732+00:00",
-          "price": 82596.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 31875985.37,
-          "delta_price_pct": 0.52
-        },
-        "2h": {
-          "t": "2026-10-19T05:03:51.091732+00:00",
-          "price": 82596.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 31875985.37,
-          "delta_price_pct": 0.52
-        },
-        "4h": {
-          "t": "2026-10-19T05:03:51.091732+00:00",
-          "price": 82596.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 59,
-          "volume_1h": 31875985.37,
-          "delta_price_pct": 0.52
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン軟調、ETF流出と企業の買い鈍化が一因＝ギャラクシー・リサーチ」の報道後、BTCは4時間で+0.5%。Fear & Greedも59から59へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコインCPI・PPI上振れも8万ドル維持、FOMC金利観測が焦点｜bitbankアナリスト寄稿",
-      "link": "https://coinpost.jp/?p=743353",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-18T02:30:53+00:00",
-      "detected_at_utc": "2026-10-18T06:32:39.656582+00:00",
-      "baseline": {
-        "t": "2026-10-18T06:32:39.656582+00:00",
-        "price": 81730.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 53,
-        "volume_1h": 17748653.87
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-18T11:40:56.347734+00:00",
-          "price": 82059.42,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 15754032.27,
-          "delta_price_pct": 0.4
-        },
-        "1h": {
-          "t": "2026-10-18T11:40:56.347734+00:00",
-          "price": 82059.42,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 15754032.27,
-          "delta_price_pct": 0.4
-        },
-        "2h": {
-          "t": "2026-10-18T11:40:56.347734+00:00",
-          "price": 82059.42,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 15754032.27,
-          "delta_price_pct": 0.4
-        },
-        "4h": {
-          "t": "2026-10-18T11:40:56.347734+00:00",
-          "price": 82059.42,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 15754032.27,
-          "delta_price_pct": 0.4
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコインCPI・PPI上振れも8万ドル維持、FOMC金利観測が焦点｜bitbankアナリスト寄稿」の報道後、BTCは4時間で+0.4%。Fear & Greedも53から53へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "週刊仮想通貨ニュース（10/16）｜英国の押収BTC・レジャー関連の資産流出・6年超休眠のBTCの動向まとめ",
-      "link": "https://coinpost.jp/?p=743294",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-18T00:25:23+00:00",
-      "detected_at_utc": "2026-10-18T01:28:54.146047+00:00",
-      "baseline": {
-        "t": "2026-10-18T01:28:54.146047+00:00",
-        "price": 81582.41,
-        "funding_rate_pct": null,
-        "fear_greed_value": 53,
-        "volume_1h": 19873130.12
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-18T06:32:39.656582+00:00",
-          "price": 81730.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 17748653.87,
-          "delta_price_pct": 0.18
-        },
-        "1h": {
-          "t": "2026-10-18T06:32:39.656582+00:00",
-          "price": 81730.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 17748653.87,
-          "delta_price_pct": 0.18
-        },
-        "2h": {
-          "t": "2026-10-18T06:32:39.656582+00:00",
-          "price": 81730.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 17748653.87,
-          "delta_price_pct": 0.18
-        },
-        "4h": {
-          "t": "2026-10-18T06:32:39.656582+00:00",
-          "price": 81730.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 53,
-          "volume_1h": 17748653.87,
-          "delta_price_pct": 0.18
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「週刊仮想通貨ニュース（10/16）｜英国の押収BTC・レジャー関連の資産流出・6年超休眠のBTCの動向まとめ」の報道後、BTCは4時間で+0.2%。Fear & Greedも53から53へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "米証券大手シュワブ、BTCとETH取引を対象顧客全員に開放",
-      "link": "https://coinpost.jp/?p=743420",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-17T02:00:42+00:00",
-      "detected_at_utc": "2026-10-17T06:13:38.955798+00:00",
-      "baseline": {
-        "t": "2026-10-17T06:13:38.955798+00:00",
-        "price": 81583.6,
-        "funding_rate_pct": null,
-        "fear_greed_value": 55,
-        "volume_1h": 15601833.36
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-17T10:55:48.049629+00:00",
-          "price": 81671.26,
-          "funding_rate_pct": null,
-          "fear_greed_value": 55,
-          "volume_1h": 13690025.01,
-          "delta_price_pct": 0.11
-        },
-        "1h": {
-          "t": "2026-10-17T10:55:48.049629+00:00",
-          "price": 81671.26,
-          "funding_rate_pct": null,
-          "fear_greed_value": 55,
-          "volume_1h": 13690025.01,
-          "delta_price_pct": 0.11
-        },
-        "2h": {
-          "t": "2026-10-17T10:55:48.049629+00:00",
-          "price": 81671.26,
-          "funding_rate_pct": null,
-          "fear_greed_value": 55,
-          "volume_1h": 13690025.01,
-          "delta_price_pct": 0.11
-        },
-        "4h": {
-          "t": "2026-10-17T10:55:48.049629+00:00",
-          "price": 81671.26,
-          "funding_rate_pct": null,
-          "fear_greed_value": 55,
-          "volume_1h": 13690025.01,
-          "delta_price_pct": 0.11
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「米証券大手シュワブ、BTCとETH取引を対象顧客全員に開放」の報道後、BTCは4時間で+0.1%。Fear & Greedも55から55へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-05T21:25:35.690871+00:00"
+  "updated_at_utc": "2026-11-06T01:45:10.903432+00:00"
 }
