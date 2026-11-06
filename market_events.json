@@ -13,11 +13,44 @@
         "fear_greed_value": 28,
         "volume_1h": 122560032.14
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-06T16:16:56.086870+00:00",
+          "price": 75504.04,
+          "funding_rate_pct": null,
+          "fear_greed_value": 28,
+          "volume_1h": 77096879.88,
+          "delta_price_pct": -0.13
+        },
+        "1h": {
+          "t": "2026-11-06T16:16:56.086870+00:00",
+          "price": 75504.04,
+          "funding_rate_pct": null,
+          "fear_greed_value": 28,
+          "volume_1h": 77096879.88,
+          "delta_price_pct": -0.13
+        },
+        "2h": {
+          "t": "2026-11-06T16:16:56.086870+00:00",
+          "price": 75504.04,
+          "funding_rate_pct": null,
+          "fear_greed_value": 28,
+          "volume_1h": 77096879.88,
+          "delta_price_pct": -0.13
+        },
+        "4h": {
+          "t": "2026-11-06T16:16:56.086870+00:00",
+          "price": 75504.04,
+          "funding_rate_pct": null,
+          "fear_greed_value": 28,
+          "volume_1h": 77096879.88,
+          "delta_price_pct": -0.13
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン、米株と連動する時間が増加　長期指標が初のゼロ超え＝アナリスト」の報道後、BTCは4時間で-0.1%。Fear & Greedも28から28へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "アメリカンビットコイン7～9月期決算で黒字転換、保有BTCは8427枚に増加",
@@ -32,11 +65,44 @@
         "fear_greed_value": 28,
         "volume_1h": 122560032.14
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-06T16:16:56.086870+00:00",
+          "price": 75504.04,
+          "funding_rate_pct": null,
+          "fear_greed_value": 28,
+          "volume_1h": 77096879.88,
+          "delta_price_pct": -0.13
+        },
+        "1h": {
+          "t": "2026-11-06T16:16:56.086870+00:00",
+          "price": 75504.04,
+          "funding_rate_pct": null,
+          "fear_greed_value": 28,
+          "volume_1h": 77096879.88,
+          "delta_price_pct": -0.13
+        },
+        "2h": {
+          "t": "2026-11-06T16:16:56.086870+00:00",
+          "price": 75504.04,
+          "funding_rate_pct": null,
+          "fear_greed_value": 28,
+          "volume_1h": 77096879.88,
+          "delta_price_pct": -0.13
+        },
+        "4h": {
+          "t": "2026-11-06T16:16:56.086870+00:00",
+          "price": 75504.04,
+          "funding_rate_pct": null,
+          "fear_greed_value": 28,
+          "volume_1h": 77096879.88,
+          "delta_price_pct": -0.13
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「アメリカンビットコイン7～9月期決算で黒字転換、保有BTCは8427枚に増加」の報道後、BTCは4時間で-0.1%。Fear & Greedも28から28へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "バイナンス流出後のビットコイン最大下落は5.7％、過去例では中程度＝クリプトクアント",
@@ -3140,5 +3206,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-06T08:34:43.673927+00:00"
+  "updated_at_utc": "2026-11-06T16:16:56.086870+00:00"
 }
