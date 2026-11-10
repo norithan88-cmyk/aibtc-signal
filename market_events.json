@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコインを現物ETFに交換する需要、ブラックロックで過去最高水準に＝バロンズ",
+      "link": "https://coinpost.jp/?p=747337",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-10T23:05:51+00:00",
+      "detected_at_utc": "2026-11-10T23:54:31.635193+00:00",
+      "baseline": {
+        "t": "2026-11-10T23:54:31.635193+00:00",
+        "price": 73761.06,
+        "funding_rate_pct": null,
+        "fear_greed_value": 32,
+        "volume_1h": 29454847.35
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米上場企業14社、2026年に1.2兆円相当ビットコインを売却",
       "link": "https://coinpost.jp/?p=747315",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 32,
         "volume_1h": 41482187.32
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-10T23:54:31.635193+00:00",
+          "price": 73761.06,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 29454847.35,
+          "delta_price_pct": 0.42
+        },
+        "1h": {
+          "t": "2026-11-10T23:54:31.635193+00:00",
+          "price": 73761.06,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 29454847.35,
+          "delta_price_pct": 0.42
+        },
+        "2h": {
+          "t": "2026-11-10T23:54:31.635193+00:00",
+          "price": 73761.06,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 29454847.35,
+          "delta_price_pct": 0.42
+        },
+        "4h": {
+          "t": "2026-11-10T23:54:31.635193+00:00",
+          "price": 73761.06,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 29454847.35,
+          "delta_price_pct": 0.42
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米上場企業14社、2026年に1.2兆円相当ビットコインを売却」の報道後、BTCは4時間で+0.4%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "証券監視委、無登録3社に差止め申立て　ビットコインETF投資も可能と勧誘",
@@ -3101,59 +3153,7 @@
       "relevance": "low",
       "summary": "「ビットコインに3週間書き込まれ続ける「暗号風の文」とは？　ギャラクシーデジタル分析」の報道後、BTCは4時間で+0.1%。Fear & Greedも50から50へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン、8.5万ドル手前で失速　FOMCが最大の焦点｜bitbankアナリスト寄稿",
-      "link": "https://coinpost.jp/?p=744399",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-25T02:30:17+00:00",
-      "detected_at_utc": "2026-10-25T06:12:17.193044+00:00",
-      "baseline": {
-        "t": "2026-10-25T06:12:17.193044+00:00",
-        "price": 80590.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 54,
-        "volume_1h": 21773143.25
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-25T11:43:58.910931+00:00",
-          "price": 80474.02,
-          "funding_rate_pct": null,
-          "fear_greed_value": 54,
-          "volume_1h": 10401475.59,
-          "delta_price_pct": -0.14
-        },
-        "1h": {
-          "t": "2026-10-25T11:43:58.910931+00:00",
-          "price": 80474.02,
-          "funding_rate_pct": null,
-          "fear_greed_value": 54,
-          "volume_1h": 10401475.59,
-          "delta_price_pct": -0.14
-        },
-        "2h": {
-          "t": "2026-10-25T11:43:58.910931+00:00",
-          "price": 80474.02,
-          "funding_rate_pct": null,
-          "fear_greed_value": 54,
-          "volume_1h": 10401475.59,
-          "delta_price_pct": -0.14
-        },
-        "4h": {
-          "t": "2026-10-25T11:43:58.910931+00:00",
-          "price": 80474.02,
-          "funding_rate_pct": null,
-          "fear_greed_value": 54,
-          "volume_1h": 10401475.59,
-          "delta_price_pct": -0.14
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン、8.5万ドル手前で失速　FOMCが最大の焦点｜bitbankアナリスト寄稿」の報道後、BTCは4時間で-0.1%。Fear & Greedも54から54へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-10T18:52:12.256077+00:00"
+  "updated_at_utc": "2026-11-10T23:54:31.635193+00:00"
 }
