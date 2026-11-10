@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "証券監視委、無登録3社に差止め申立て　ビットコインETF投資も可能と勧誘",
+      "link": "https://coinpost.jp/?p=747289",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-10T08:50:42+00:00",
+      "detected_at_utc": "2026-11-10T11:39:57.130305+00:00",
+      "baseline": {
+        "t": "2026-11-10T11:39:57.130305+00:00",
+        "price": 74310.3,
+        "funding_rate_pct": null,
+        "fear_greed_value": 32,
+        "volume_1h": 33765861.4
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン下落でも中規模層が1.4万BTC超買い増し＝サンティメント",
+      "link": "https://coinpost.jp/?p=747263",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-10T07:35:30+00:00",
+      "detected_at_utc": "2026-11-10T11:39:57.130305+00:00",
+      "baseline": {
+        "t": "2026-11-10T11:39:57.130305+00:00",
+        "price": 74310.3,
+        "funding_rate_pct": null,
+        "fear_greed_value": 32,
+        "volume_1h": 33765861.4
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "Mara、7〜9月期は減収も純利益拡大　四半期終了後にビットコイン1700億円相当売却",
+      "link": "https://coinpost.jp/?p=747164",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-10T07:00:06+00:00",
+      "detected_at_utc": "2026-11-10T11:39:57.130305+00:00",
+      "baseline": {
+        "t": "2026-11-10T11:39:57.130305+00:00",
+        "price": 74310.3,
+        "funding_rate_pct": null,
+        "fear_greed_value": 32,
+        "volume_1h": 33765861.4
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "トランプ・メディア、3Q純利益約647億円　ビットコインなどの評価益で黒字転換",
       "link": "https://coinpost.jp/?p=747210",
       "source": "CoinPost",
@@ -13,11 +70,44 @@
         "fear_greed_value": 32,
         "volume_1h": 25564327.28
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-10T11:39:57.130305+00:00",
+          "price": 74310.3,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 33765861.4,
+          "delta_price_pct": -0.54
+        },
+        "1h": {
+          "t": "2026-11-10T11:39:57.130305+00:00",
+          "price": 74310.3,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 33765861.4,
+          "delta_price_pct": -0.54
+        },
+        "2h": {
+          "t": "2026-11-10T11:39:57.130305+00:00",
+          "price": 74310.3,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 33765861.4,
+          "delta_price_pct": -0.54
+        },
+        "4h": {
+          "t": "2026-11-10T11:39:57.130305+00:00",
+          "price": 74310.3,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 33765861.4,
+          "delta_price_pct": -0.54
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「トランプ・メディア、3Q純利益約647億円　ビットコインなどの評価益で黒字転換」の報道後、BTCは4時間で-0.5%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ブラジルMercado Bitcoin、流出後に残高照会を再開　出金時期は未定",
@@ -32,11 +122,44 @@
         "fear_greed_value": 32,
         "volume_1h": 25564327.28
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-10T11:39:57.130305+00:00",
+          "price": 74310.3,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 33765861.4,
+          "delta_price_pct": -0.54
+        },
+        "1h": {
+          "t": "2026-11-10T11:39:57.130305+00:00",
+          "price": 74310.3,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 33765861.4,
+          "delta_price_pct": -0.54
+        },
+        "2h": {
+          "t": "2026-11-10T11:39:57.130305+00:00",
+          "price": 74310.3,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 33765861.4,
+          "delta_price_pct": -0.54
+        },
+        "4h": {
+          "t": "2026-11-10T11:39:57.130305+00:00",
+          "price": 74310.3,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 33765861.4,
+          "delta_price_pct": -0.54
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ブラジルMercado Bitcoin、流出後に残高照会を再開　出金時期は未定」の報道後、BTCは4時間で-0.5%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストライブ、29BTCのビットコインを追加購入",
@@ -51,11 +174,44 @@
         "fear_greed_value": 32,
         "volume_1h": 25564327.28
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-10T11:39:57.130305+00:00",
+          "price": 74310.3,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 33765861.4,
+          "delta_price_pct": -0.54
+        },
+        "1h": {
+          "t": "2026-11-10T11:39:57.130305+00:00",
+          "price": 74310.3,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 33765861.4,
+          "delta_price_pct": -0.54
+        },
+        "2h": {
+          "t": "2026-11-10T11:39:57.130305+00:00",
+          "price": 74310.3,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 33765861.4,
+          "delta_price_pct": -0.54
+        },
+        "4h": {
+          "t": "2026-11-10T11:39:57.130305+00:00",
+          "price": 74310.3,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 33765861.4,
+          "delta_price_pct": -0.54
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ストライブ、29BTCのビットコインを追加購入」の報道後、BTCは4時間で-0.5%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストラテジー、129億円相当のビットコインを買い増し　2週連続",
@@ -2931,163 +3087,7 @@
       "relevance": "low",
       "summary": "「ビットコイン、8万ドルまで下落後　ETF・企業の取得単価付近で反発＝グラスノード」の報道後、BTCは4時間で+1.2%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン採掘の熱で湯を沸かす温水器用ヒーター、『Bitwater』装置が登場",
-      "link": "https://coinpost.jp/?p=744546",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-24T04:10:01+00:00",
-      "detected_at_utc": "2026-10-24T06:53:19.061716+00:00",
-      "baseline": {
-        "t": "2026-10-24T06:53:19.061716+00:00",
-        "price": 80770.88,
-        "funding_rate_pct": null,
-        "fear_greed_value": 51,
-        "volume_1h": 28086910.0
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-24T11:53:34.482372+00:00",
-          "price": 80616.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 12284634.0,
-          "delta_price_pct": -0.19
-        },
-        "1h": {
-          "t": "2026-10-24T11:53:34.482372+00:00",
-          "price": 80616.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 12284634.0,
-          "delta_price_pct": -0.19
-        },
-        "2h": {
-          "t": "2026-10-24T11:53:34.482372+00:00",
-          "price": 80616.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 12284634.0,
-          "delta_price_pct": -0.19
-        },
-        "4h": {
-          "t": "2026-10-24T11:53:34.482372+00:00",
-          "price": 80616.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 12284634.0,
-          "delta_price_pct": -0.19
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン採掘の熱で湯を沸かす温水器用ヒーター、『Bitwater』装置が登場」の報道後、BTCは4時間で-0.2%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコインハッシュレートが回復、上場マイナーのAI事業転換進む中",
-      "link": "https://coinpost.jp/?p=744556",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-24T02:05:02+00:00",
-      "detected_at_utc": "2026-10-24T06:53:19.061716+00:00",
-      "baseline": {
-        "t": "2026-10-24T06:53:19.061716+00:00",
-        "price": 80770.88,
-        "funding_rate_pct": null,
-        "fear_greed_value": 51,
-        "volume_1h": 28086910.0
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-24T11:53:34.482372+00:00",
-          "price": 80616.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 12284634.0,
-          "delta_price_pct": -0.19
-        },
-        "1h": {
-          "t": "2026-10-24T11:53:34.482372+00:00",
-          "price": 80616.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 12284634.0,
-          "delta_price_pct": -0.19
-        },
-        "2h": {
-          "t": "2026-10-24T11:53:34.482372+00:00",
-          "price": 80616.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 12284634.0,
-          "delta_price_pct": -0.19
-        },
-        "4h": {
-          "t": "2026-10-24T11:53:34.482372+00:00",
-          "price": 80616.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 12284634.0,
-          "delta_price_pct": -0.19
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコインハッシュレートが回復、上場マイナーのAI事業転換進む中」の報道後、BTCは4時間で-0.2%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "米フランクリン、配当金でビットコインへの投資を増やすETF2本を登録",
-      "link": "https://coinpost.jp/?p=744553",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-24T01:55:18+00:00",
-      "detected_at_utc": "2026-10-24T06:53:19.061716+00:00",
-      "baseline": {
-        "t": "2026-10-24T06:53:19.061716+00:00",
-        "price": 80770.88,
-        "funding_rate_pct": null,
-        "fear_greed_value": 51,
-        "volume_1h": 28086910.0
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-24T11:53:34.482372+00:00",
-          "price": 80616.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 12284634.0,
-          "delta_price_pct": -0.19
-        },
-        "1h": {
-          "t": "2026-10-24T11:53:34.482372+00:00",
-          "price": 80616.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 12284634.0,
-          "delta_price_pct": -0.19
-        },
-        "2h": {
-          "t": "2026-10-24T11:53:34.482372+00:00",
-          "price": 80616.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 12284634.0,
-          "delta_price_pct": -0.19
-        },
-        "4h": {
-          "t": "2026-10-24T11:53:34.482372+00:00",
-          "price": 80616.97,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 12284634.0,
-          "delta_price_pct": -0.19
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「米フランクリン、配当金でビットコインへの投資を増やすETF2本を登録」の報道後、BTCは4時間で-0.2%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-10T03:27:25.675661+00:00"
+  "updated_at_utc": "2026-11-10T11:39:57.130305+00:00"
 }
