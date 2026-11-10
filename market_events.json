@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "米上場企業14社、2026年に1.2兆円相当ビットコインを売却",
+      "link": "https://coinpost.jp/?p=747315",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-10T12:35:24+00:00",
+      "detected_at_utc": "2026-11-10T18:52:12.256077+00:00",
+      "baseline": {
+        "t": "2026-11-10T18:52:12.256077+00:00",
+        "price": 73450.02,
+        "funding_rate_pct": null,
+        "fear_greed_value": 32,
+        "volume_1h": 41482187.32
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "証券監視委、無登録3社に差止め申立て　ビットコインETF投資も可能と勧誘",
       "link": "https://coinpost.jp/?p=747289",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 32,
         "volume_1h": 33765861.4
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-10T18:52:12.256077+00:00",
+          "price": 73450.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 41482187.32,
+          "delta_price_pct": -1.16
+        },
+        "1h": {
+          "t": "2026-11-10T18:52:12.256077+00:00",
+          "price": 73450.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 41482187.32,
+          "delta_price_pct": -1.16
+        },
+        "2h": {
+          "t": "2026-11-10T18:52:12.256077+00:00",
+          "price": 73450.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 41482187.32,
+          "delta_price_pct": -1.16
+        },
+        "4h": {
+          "t": "2026-11-10T18:52:12.256077+00:00",
+          "price": 73450.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 41482187.32,
+          "delta_price_pct": -1.16
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「証券監視委、無登録3社に差止め申立て　ビットコインETF投資も可能と勧誘」の報道後、BTCは4時間で-1.2%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン下落でも中規模層が1.4万BTC超買い増し＝サンティメント",
@@ -32,11 +84,44 @@
         "fear_greed_value": 32,
         "volume_1h": 33765861.4
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-10T18:52:12.256077+00:00",
+          "price": 73450.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 41482187.32,
+          "delta_price_pct": -1.16
+        },
+        "1h": {
+          "t": "2026-11-10T18:52:12.256077+00:00",
+          "price": 73450.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 41482187.32,
+          "delta_price_pct": -1.16
+        },
+        "2h": {
+          "t": "2026-11-10T18:52:12.256077+00:00",
+          "price": 73450.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 41482187.32,
+          "delta_price_pct": -1.16
+        },
+        "4h": {
+          "t": "2026-11-10T18:52:12.256077+00:00",
+          "price": 73450.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 41482187.32,
+          "delta_price_pct": -1.16
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン下落でも中規模層が1.4万BTC超買い増し＝サンティメント」の報道後、BTCは4時間で-1.2%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "Mara、7〜9月期は減収も純利益拡大　四半期終了後にビットコイン1700億円相当売却",
@@ -51,11 +136,44 @@
         "fear_greed_value": 32,
         "volume_1h": 33765861.4
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-10T18:52:12.256077+00:00",
+          "price": 73450.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 41482187.32,
+          "delta_price_pct": -1.16
+        },
+        "1h": {
+          "t": "2026-11-10T18:52:12.256077+00:00",
+          "price": 73450.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 41482187.32,
+          "delta_price_pct": -1.16
+        },
+        "2h": {
+          "t": "2026-11-10T18:52:12.256077+00:00",
+          "price": 73450.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 41482187.32,
+          "delta_price_pct": -1.16
+        },
+        "4h": {
+          "t": "2026-11-10T18:52:12.256077+00:00",
+          "price": 73450.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 41482187.32,
+          "delta_price_pct": -1.16
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「Mara、7〜9月期は減収も純利益拡大　四半期終了後にビットコイン1700億円相当売却」の報道後、BTCは4時間で-1.2%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "トランプ・メディア、3Q純利益約647億円　ビットコインなどの評価益で黒字転換",
@@ -3035,59 +3153,7 @@
       "relevance": "low",
       "summary": "「ビットコイン、8.5万ドル手前で失速　FOMCが最大の焦点｜bitbankアナリスト寄稿」の報道後、BTCは4時間で-0.1%。Fear & Greedも54から54へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン、8万ドルまで下落後　ETF・企業の取得単価付近で反発＝グラスノード",
-      "link": "https://coinpost.jp/?p=744525",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-24T08:00:17+00:00",
-      "detected_at_utc": "2026-10-24T15:36:24.533329+00:00",
-      "baseline": {
-        "t": "2026-10-24T15:36:24.533329+00:00",
-        "price": 79500.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 51,
-        "volume_1h": 151640117.14
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-24T18:21:32.544080+00:00",
-          "price": 80323.48,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 25786058.14,
-          "delta_price_pct": 1.04
-        },
-        "1h": {
-          "t": "2026-10-24T18:21:32.544080+00:00",
-          "price": 80323.48,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 25786058.14,
-          "delta_price_pct": 1.04
-        },
-        "2h": {
-          "t": "2026-10-24T18:21:32.544080+00:00",
-          "price": 80323.48,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 25786058.14,
-          "delta_price_pct": 1.04
-        },
-        "4h": {
-          "t": "2026-10-24T21:02:42.646344+00:00",
-          "price": 80478.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 18732060.75,
-          "delta_price_pct": 1.23
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン、8万ドルまで下落後　ETF・企業の取得単価付近で反発＝グラスノード」の報道後、BTCは4時間で+1.2%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-10T11:39:57.130305+00:00"
+  "updated_at_utc": "2026-11-10T18:52:12.256077+00:00"
 }
