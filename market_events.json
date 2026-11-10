@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "トランプ・メディア、3Q純利益約647億円　ビットコインなどの評価益で黒字転換",
+      "link": "https://coinpost.jp/?p=747210",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-10T03:16:03+00:00",
+      "detected_at_utc": "2026-11-10T03:27:25.675661+00:00",
+      "baseline": {
+        "t": "2026-11-10T03:27:25.675661+00:00",
+        "price": 74712.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 32,
+        "volume_1h": 25564327.28
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ブラジルMercado Bitcoin、流出後に残高照会を再開　出金時期は未定",
+      "link": "https://coinpost.jp/?p=747161",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-10T00:40:27+00:00",
+      "detected_at_utc": "2026-11-10T03:27:25.675661+00:00",
+      "baseline": {
+        "t": "2026-11-10T03:27:25.675661+00:00",
+        "price": 74712.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 32,
+        "volume_1h": 25564327.28
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ストライブ、29BTCのビットコインを追加購入",
+      "link": "https://coinpost.jp/?p=747127",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-09T21:25:38+00:00",
+      "detected_at_utc": "2026-11-10T03:27:25.675661+00:00",
+      "baseline": {
+        "t": "2026-11-10T03:27:25.675661+00:00",
+        "price": 74712.01,
+        "funding_rate_pct": null,
+        "fear_greed_value": 32,
+        "volume_1h": 25564327.28
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ストラテジー、129億円相当のビットコインを買い増し　2週連続",
       "link": "https://coinpost.jp/?p=747113",
       "source": "CoinPost",
@@ -13,11 +70,44 @@
         "fear_greed_value": 29,
         "volume_1h": 18755683.08
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-10T03:27:25.675661+00:00",
+          "price": 74712.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 25564327.28,
+          "delta_price_pct": -0.24
+        },
+        "1h": {
+          "t": "2026-11-10T03:27:25.675661+00:00",
+          "price": 74712.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 25564327.28,
+          "delta_price_pct": -0.24
+        },
+        "2h": {
+          "t": "2026-11-10T03:27:25.675661+00:00",
+          "price": 74712.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 25564327.28,
+          "delta_price_pct": -0.24
+        },
+        "4h": {
+          "t": "2026-11-10T03:27:25.675661+00:00",
+          "price": 74712.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 32,
+          "volume_1h": 25564327.28,
+          "delta_price_pct": -0.24
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ストラテジー、129億円相当のビットコインを買い増し　2週連続」の報道後、BTCは4時間で-0.2%。Fear & Greedも29から32へ改善。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、ハイテク株急落で1200万円台に軟化　AI規制議論とCPIが焦点｜bitbankアナリスト寄稿",
@@ -2997,166 +3087,7 @@
       "relevance": "low",
       "summary": "「米フランクリン、配当金でビットコインへの投資を増やすETF2本を登録」の報道後、BTCは4時間で-0.2%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコインコア、AIで容易に発見する脆弱性は修正版を最短で公開する方針",
-      "link": "https://coinpost.jp/?p=744516",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-23T21:40:36+00:00",
-      "detected_at_utc": "2026-10-23T23:23:53.089568+00:00",
-      "baseline": {
-        "t": "2026-10-23T23:23:53.089568+00:00",
-        "price": 80972.2,
-        "funding_rate_pct": null,
-        "fear_greed_value": 50,
-        "volume_1h": 95150023.58
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-24T01:52:06.507747+00:00",
-          "price": 80912.51,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 21581001.13,
-          "delta_price_pct": -0.07
-        },
-        "1h": {
-          "t": "2026-10-24T01:52:06.507747+00:00",
-          "price": 80912.51,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 21581001.13,
-          "delta_price_pct": -0.07
-        },
-        "2h": {
-          "t": "2026-10-24T01:52:06.507747+00:00",
-          "price": 80912.51,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 21581001.13,
-          "delta_price_pct": -0.07
-        },
-        "4h": {
-          "t": "2026-10-24T06:53:19.061716+00:00",
-          "price": 80770.88,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 28086910.0,
-          "delta_price_pct": -0.25
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコインコア、AIで容易に発見する脆弱性は修正版を最短で公開する方針」の報道後、BTCは4時間で-0.2%。Fear & Greedも50から51へ改善。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン8万1000ドル台に下落、米メタ決算でAI株安",
-      "link": "https://coinpost.jp/?p=744436",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-23T09:05:44+00:00",
-      "detected_at_utc": "2026-10-23T12:06:14.128304+00:00",
-      "baseline": {
-        "t": "2026-10-23T12:06:14.128304+00:00",
-        "price": 81662.93,
-        "funding_rate_pct": null,
-        "fear_greed_value": 50,
-        "volume_1h": 28035105.12
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-23T17:04:59.097882+00:00",
-          "price": 81775.15,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 37082614.67,
-          "delta_price_pct": 0.14
-        },
-        "1h": {
-          "t": "2026-10-23T17:04:59.097882+00:00",
-          "price": 81775.15,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 37082614.67,
-          "delta_price_pct": 0.14
-        },
-        "2h": {
-          "t": "2026-10-23T17:04:59.097882+00:00",
-          "price": 81775.15,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 37082614.67,
-          "delta_price_pct": 0.14
-        },
-        "4h": {
-          "t": "2026-10-23T17:04:59.097882+00:00",
-          "price": 81775.15,
-          "funding_rate_pct": null,
-          "fear_greed_value": 50,
-          "volume_1h": 37082614.67,
-          "delta_price_pct": 0.14
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン8万1000ドル台に下落、米メタ決算でAI株安」の報道後、BTCは4時間で+0.1%。Fear & Greedも50から50へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン短期クジラの含み益53％減、取引所に1万605BTC流入＝アナリスト",
-      "link": "https://coinpost.jp/?p=744219",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-21T08:14:35+00:00",
-      "detected_at_utc": "2026-10-21T10:37:17.592100+00:00",
-      "baseline": {
-        "t": "2026-10-21T10:37:17.592100+00:00",
-        "price": 83333.85,
-        "funding_rate_pct": null,
-        "fear_greed_value": 63,
-        "volume_1h": 48557578.66
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-21T15:38:15.772169+00:00",
-          "price": 84626.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 197726017.11,
-          "delta_price_pct": 1.55
-        },
-        "1h": {
-          "t": "2026-10-21T15:38:15.772169+00:00",
-          "price": 84626.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 197726017.11,
-          "delta_price_pct": 1.55
-        },
-        "2h": {
-          "t": "2026-10-21T15:38:15.772169+00:00",
-          "price": 84626.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 197726017.11,
-          "delta_price_pct": 1.55
-        },
-        "4h": {
-          "t": "2026-10-21T15:38:15.772169+00:00",
-          "price": 84626.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 63,
-          "volume_1h": 197726017.11,
-          "delta_price_pct": 1.55
-        }
-      },
-      "flags": [
-        "価格急変（+1.6%）",
-        "出来高急増（+307%）"
-      ],
-      "relevance": "high",
-      "summary": "「ビットコイン短期クジラの含み益53％減、取引所に1万605BTC流入＝アナリスト」の報道後、BTCは4時間で+1.6%。Fear & Greedも63から63へ横ばい。価格急変（+1.6%）、出来高急増（+307%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-09T20:59:35.715619+00:00"
+  "updated_at_utc": "2026-11-10T03:27:25.675661+00:00"
 }
