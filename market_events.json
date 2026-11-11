@@ -13,11 +13,46 @@
         "fear_greed_value": 29,
         "volume_1h": 22238236.35
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        },
+        "1h": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        },
+        "2h": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        },
+        "4h": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        }
+      },
+      "flags": [
+        "出来高急増（+567%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ドイツ銀行、法人・機関向け仮想通貨保管を開始、ビットコインなど5銘柄対応」の報道後、BTCは4時間で+0.7%。Fear & Greedも29から29へ横ばい。出来高急増（+567%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米マイアミ・デイド郡、固定資産税のビットコイン払いに対応",
@@ -32,11 +67,46 @@
         "fear_greed_value": 29,
         "volume_1h": 22238236.35
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        },
+        "1h": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        },
+        "2h": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        },
+        "4h": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        }
+      },
+      "flags": [
+        "出来高急増（+567%）"
+      ],
+      "relevance": "medium",
+      "summary": "「米マイアミ・デイド郡、固定資産税のビットコイン払いに対応」の報道後、BTCは4時間で+0.7%。Fear & Greedも29から29へ横ばい。出来高急増（+567%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインなど主要3銘柄でSNS弱気が優勢　悲観は反発の下地＝サンティメント",
@@ -51,11 +121,46 @@
         "fear_greed_value": 29,
         "volume_1h": 22238236.35
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        },
+        "1h": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        },
+        "2h": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        },
+        "4h": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        }
+      },
+      "flags": [
+        "出来高急増（+567%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコインなど主要3銘柄でSNS弱気が優勢　悲観は反発の下地＝サンティメント」の報道後、BTCは4時間で+0.7%。Fear & Greedも29から29へ横ばい。出来高急増（+567%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、局所的な底か深い調整か　クリプトクアントが分岐点を分析",
@@ -70,11 +175,46 @@
         "fear_greed_value": 29,
         "volume_1h": 22238236.35
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        },
+        "1h": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        },
+        "2h": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        },
+        "4h": {
+          "t": "2026-11-11T20:08:03.665164+00:00",
+          "price": 74449.27,
+          "funding_rate_pct": null,
+          "fear_greed_value": 29,
+          "volume_1h": 148372053.19,
+          "delta_price_pct": 0.72
+        }
+      },
+      "flags": [
+        "出来高急増（+567%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン、局所的な底か深い調整か　クリプトクアントが分岐点を分析」の報道後、BTCは4時間で+0.7%。Fear & Greedも29から29へ横ばい。出来高急増（+567%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "グラスノード、ビットコインの35.4％が量子コンピュータの標的になりうると指摘",
@@ -3051,5 +3191,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-11T12:58:13.163789+00:00"
+  "updated_at_utc": "2026-11-11T20:08:03.665164+00:00"
 }
