@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ビットコインコア、深刻度の高いバグ含む3件の脆弱性を修正済",
+      "link": "https://coinpost.jp/?p=747551",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-12T01:25:21+00:00",
+      "detected_at_utc": "2026-11-12T01:54:05.460196+00:00",
+      "baseline": {
+        "t": "2026-11-12T01:54:05.460196+00:00",
+        "price": 73687.07,
+        "funding_rate_pct": null,
+        "fear_greed_value": 28,
+        "volume_1h": 44333607.63
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "トランプ大統領、戦略的ビットコイン準備金の購入に引き続き意欲　元顧問が明かす",
+      "link": "https://coinpost.jp/?p=747515",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-11T21:34:58+00:00",
+      "detected_at_utc": "2026-11-12T01:54:05.460196+00:00",
+      "baseline": {
+        "t": "2026-11-12T01:54:05.460196+00:00",
+        "price": 73687.07,
+        "funding_rate_pct": null,
+        "fear_greed_value": 28,
+        "volume_1h": 44333607.63
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ドイツ銀行、法人・機関向け仮想通貨保管を開始、ビットコインなど5銘柄対応",
       "link": "https://coinpost.jp/?p=747504",
       "source": "CoinPost",
@@ -3083,113 +3121,7 @@
       "relevance": "low",
       "summary": "「ビットコイン、8万5000ドルの壁に阻まれレンジ相場続く＝グラスノード分析」の報道後、BTCは4時間で+0.1%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットワイズ予測「ビットコインは10年後160万ドルに到達」　年率34.3％増で",
-      "link": "https://coinpost.jp/?p=745335",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-29T02:49:40+00:00",
-      "detected_at_utc": "2026-10-29T06:12:14.742724+00:00",
-      "baseline": {
-        "t": "2026-10-29T06:12:14.742724+00:00",
-        "price": 80170.4,
-        "funding_rate_pct": null,
-        "fear_greed_value": 51,
-        "volume_1h": 26383140.27
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-29T13:16:50.179030+00:00",
-          "price": 80230.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 35245185.82,
-          "delta_price_pct": 0.07
-        },
-        "1h": {
-          "t": "2026-10-29T13:16:50.179030+00:00",
-          "price": 80230.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 35245185.82,
-          "delta_price_pct": 0.07
-        },
-        "2h": {
-          "t": "2026-10-29T13:16:50.179030+00:00",
-          "price": 80230.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 35245185.82,
-          "delta_price_pct": 0.07
-        },
-        "4h": {
-          "t": "2026-10-29T13:16:50.179030+00:00",
-          "price": 80230.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 35245185.82,
-          "delta_price_pct": 0.07
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットワイズ予測「ビットコインは10年後160万ドルに到達」　年率34.3％増で」の報道後、BTCは4時間で+0.1%。Fear & Greedも51から51へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "日本ビットコイン産業、BTC現物出資で約8億円調達へ　ANAP系と提携",
-      "link": "https://coinpost.jp/?p=745233",
-      "source": "CoinPost",
-      "published_at_utc": "2026-10-28T09:06:02+00:00",
-      "detected_at_utc": "2026-10-28T15:31:13.534860+00:00",
-      "baseline": {
-        "t": "2026-10-28T15:31:13.534860+00:00",
-        "price": 80640.39,
-        "funding_rate_pct": null,
-        "fear_greed_value": 51,
-        "volume_1h": 30569017.2
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-10-28T20:31:33.025400+00:00",
-          "price": 81175.54,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 76763760.92,
-          "delta_price_pct": 0.66
-        },
-        "1h": {
-          "t": "2026-10-28T20:31:33.025400+00:00",
-          "price": 81175.54,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 76763760.92,
-          "delta_price_pct": 0.66
-        },
-        "2h": {
-          "t": "2026-10-28T20:31:33.025400+00:00",
-          "price": 81175.54,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 76763760.92,
-          "delta_price_pct": 0.66
-        },
-        "4h": {
-          "t": "2026-10-28T20:31:33.025400+00:00",
-          "price": 81175.54,
-          "funding_rate_pct": null,
-          "fear_greed_value": 51,
-          "volume_1h": 76763760.92,
-          "delta_price_pct": 0.66
-        }
-      },
-      "flags": [
-        "出来高急増（+151%）"
-      ],
-      "relevance": "medium",
-      "summary": "「日本ビットコイン産業、BTC現物出資で約8億円調達へ　ANAP系と提携」の報道後、BTCは4時間で+0.7%。Fear & Greedも51から51へ横ばい。出来高急増（+151%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-11T20:08:03.665164+00:00"
+  "updated_at_utc": "2026-11-12T01:54:05.460196+00:00"
 }
