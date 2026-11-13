@@ -1,72 +1,75 @@
 {
-  "generated_at_utc": "2026-11-13T03:15:12.346020+00:00",
+  "generated_at_utc": "2026-11-13T11:15:07.647651+00:00",
   "pair": "BTC/USDT",
-  "latest_price": 69772.81,
-  "day_change_pct": -5.37,
+  "latest_price": 69313.0,
+  "day_change_pct": -4.93,
   "signal": {
-    "bias": "SELL",
-    "bias_label": "戻り売り優勢",
-    "stars": 5,
-    "confidence": 95,
+    "bias": "WAIT",
+    "bias_label": "方向感なし",
+    "stars": 2,
+    "confidence": 50,
     "confidence_breakdown": {
-      "timeframes_note": "5分足:下方向 / 15分足:下方向 / 1時間足:下方向 → 3時間足すべて一致、1分足の反発シグナルも確認済み",
-      "calc_note": "基本50% + 3時間足一致30% + チャネル際からの乖離度ボーナス = 95%（上限95%）"
+      "timeframes_note": "5分足:中央 / 15分足:上方向 / 1時間足:下方向 → 3時間足の方向が一致していません",
+      "calc_note": "3時間足の方向が揃っていないため、基本値50%のままです。"
     }
   },
-  "volatility_risk": "HIGH",
-  "market_mode": "TREND",
-  "market_mode_note": "5分・15分・1時間足の方向が揃っており、方向感のある地合い。",
+  "volatility_risk": "MID",
+  "market_mode": "RANGE",
+  "market_mode_note": "時間足ごとに方向が割れており、方向感に乏しいレンジ地合い。",
   "priority_trade": {
-    "lead": "戻り売り ― 上位足の下降方向一致＋1分足の戻りからの反落",
-    "entry": 69772.81,
-    "take_profit": 69367.04,
-    "stop_loss": 70188.58
+    "lead": "様子見 ― 5分・15分・1時間足の方向が一致していない",
+    "entry": null,
+    "take_profit": null,
+    "stop_loss": null
   },
-  "reversal_setup": {
-    "extreme": 70178.58,
-    "reverted_usdt": 405.77
-  },
+  "reversal_setup": null,
   "regression_channels": [
     {
       "key": "m5",
       "label": "5分足",
-      "position_sigma": -3.38,
-      "trend": "DOWN",
-      "momentum": "DOWN",
-      "mid": 70553.94,
-      "upper": 71016.0,
-      "lower": 70091.88
+      "position_sigma": 0.87,
+      "trend": "UP",
+      "momentum": "FLAT",
+      "mid": 69014.36,
+      "upper": 69704.71,
+      "lower": 68324.01
     },
     {
       "key": "m15",
       "label": "15分足",
-      "position_sigma": -2.33,
-      "trend": "DOWN",
-      "momentum": "DOWN",
-      "mid": 70509.98,
-      "upper": 71149.45,
-      "lower": 69870.5
+      "position_sigma": 1.59,
+      "trend": "UP",
+      "momentum": "UP",
+      "mid": 68445.01,
+      "upper": 69536.7,
+      "lower": 67353.31
     },
     {
       "key": "h1",
       "label": "1時間足",
-      "position_sigma": -3.36,
+      "position_sigma": -1.5,
       "trend": "DOWN",
       "momentum": "DOWN",
-      "mid": 72176.57,
-      "upper": 73612.07,
-      "lower": 70741.08
+      "mid": 70854.96,
+      "upper": 72910.77,
+      "lower": 68799.15
     }
   ],
   "macro": {
     "fear_greed_value": 20,
     "fear_greed_label": "Extreme Fear",
     "funding_rate_pct": null,
-    "btc_dominance_pct": 59.21
+    "btc_dominance_pct": 59.74
   },
-  "commentary": "強い相場ほど、飛び乗らない。戻りを丁寧に売る一日に。",
-  "market_context": "BTC/USDTは現在$69,773付近で推移（直近1時間比-5.37%）。5分・15分・1時間足が揃って上値の重さを示す中、1分足が短期的な戻りから反落したタイミング。市場心理は「Extreme Fear」（20/100）、BTCドミナンスは59.2%。目先は上値の重い展開が想定され、高値を追わず戻りを待つスタンスが機能しやすい局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
+  "commentary": "方向感のない日は、休むも相場。無理に取りにいかない。",
+  "market_context": "BTC/USDTは現在$69,313付近で推移（直近1時間比-4.93%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Extreme Fear」（20/100）、BTCドミナンスは59.7%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
   "news": [
+    {
+      "source": "CoinPost",
+      "title": "米上場2社、AI株安のなかビットコイン採掘を中核事業と強調",
+      "link": "https://coinpost.jp/?p=747801",
+      "published_at_utc": "2026-11-13T04:05:39+00:00"
+    },
     {
       "source": "CoinPost",
       "title": "コインベース、子供向けのお金の絵本を製作　米国購入者が50ドル相当のビットコインをもらえる特典も",
@@ -87,71 +90,65 @@
     },
     {
       "source": "CoinPost",
-      "title": "ビットコイン約12週間ぶりの安値に、7万1200ドルまで下落",
+      "title": "ビットコイン7万ドル割れ、6月以来の安値",
       "link": "https://coinpost.jp/?p=747702",
       "published_at_utc": "2026-11-12T20:55:03+00:00"
-    },
-    {
-      "source": "CoinPost",
-      "title": "採掘マシンメーカーのカナン、ETH全量と一部BTCを売却し自社株買い",
-      "link": "https://coinpost.jp/?p=747673",
-      "published_at_utc": "2026-11-12T08:56:29+00:00"
     }
   ],
   "disclaimer": "本データはルールベースの参考情報であり、投資成果を保証するものではありません。",
   "daily_analysis": {
-    "generated_at_utc": "2026-11-13T03:15:12.346020+00:00",
+    "generated_at_utc": "2026-11-13T11:15:07.647651+00:00",
     "title": "今日のBTC/USDT分析",
-    "conclusion": "戻り売り候補。ただし安値追いを避け、1分足の反落確認を優先。",
-    "market_context": "BTC/USDTは現在$69,773付近で推移（直近1時間比-5.37%）。5分・15分・1時間足が揃って上値の重さを示す中、1分足が短期的な戻りから反落したタイミング。市場心理は「Extreme Fear」（20/100）、BTCドミナンスは59.2%。目先は上値の重い展開が想定され、高値を追わず戻りを待つスタンスが機能しやすい局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
-    "support": 69772.81,
-    "resistance": 73612.07,
+    "conclusion": "方向一致が出るまで見送り。休むも相場を優先。",
+    "market_context": "BTC/USDTは現在$69,313付近で推移（直近1時間比-4.93%）。5分・15分・1時間足の方向が揃っておらず、方向感に乏しいレンジ地合い。市場心理は「Extreme Fear」（20/100）、BTCドミナンスは59.7%。明確な方向一致が出るまでは、無理に取りにいかず様子見が無難な局面。※このまとめは実データから自動生成された定型解説です。個別のニュース速報の内容までは反映していません。",
+    "support": 68799.15,
+    "resistance": 72910.77,
     "timeframes": [
       {
         "key": "m5",
         "label": "5分足",
-        "position_sigma": -3.38,
-        "trend": "DOWN",
-        "momentum": "DOWN",
-        "mid": 70553.94,
-        "upper": 71016.0,
-        "lower": 70091.88
+        "position_sigma": 0.87,
+        "trend": "UP",
+        "momentum": "FLAT",
+        "mid": 69014.36,
+        "upper": 69704.71,
+        "lower": 68324.01
       },
       {
         "key": "m15",
         "label": "15分足",
-        "position_sigma": -2.33,
-        "trend": "DOWN",
-        "momentum": "DOWN",
-        "mid": 70509.98,
-        "upper": 71149.45,
-        "lower": 69870.5
+        "position_sigma": 1.59,
+        "trend": "UP",
+        "momentum": "UP",
+        "mid": 68445.01,
+        "upper": 69536.7,
+        "lower": 67353.31
       },
       {
         "key": "h1",
         "label": "1時間足",
-        "position_sigma": -3.36,
+        "position_sigma": -1.5,
         "trend": "DOWN",
         "momentum": "DOWN",
-        "mid": 72176.57,
-        "upper": 73612.07,
-        "lower": 70741.08
+        "mid": 70854.96,
+        "upper": 72910.77,
+        "lower": 68799.15
       }
     ],
     "scenarios": [
       {
         "name": "上昇",
-        "condition": "$73,612を明確に上抜けて定着",
+        "condition": "$72,911を明確に上抜けて定着",
         "action": "押し目を待って買いを検討。高値への飛び乗りは避ける。"
       },
       {
         "name": "レンジ",
-        "condition": "$69,773〜$73,612で往来",
+        "condition": "$68,799〜$72,911で往来",
         "action": "中央では見送り、上下限で反発確認後のみ検討。"
       },
       {
         "name": "下落",
-        "condition": "$69,773を明確に下抜け",
+        "condition": "$68,799を明確に下抜け",
         "action": "戻りを待って売りを検討。急落後の安値追いは避ける。"
       }
     ],
@@ -160,12 +157,12 @@
       "label": "Extreme Fear"
     },
     "funding_rate_pct": null,
-    "btc_dominance_pct": 59.21,
+    "btc_dominance_pct": 59.74,
     "priority_trade": {
-      "lead": "戻り売り ― 上位足の下降方向一致＋1分足の戻りからの反落",
-      "entry": 69772.81,
-      "take_profit": 69367.04,
-      "stop_loss": 70188.58
+      "lead": "様子見 ― 5分・15分・1時間足の方向が一致していない",
+      "entry": null,
+      "take_profit": null,
+      "stop_loss": null
     },
     "risk_note": "暗号資産は24時間取引され、短時間で大きく変動します。損切り水準と許容損失額を先に決めてください。"
   }
