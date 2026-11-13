@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "米上場Twenty One Capital第3四半期決算、ビットコイン評価益で10億ドル超の黒字",
+      "link": "https://coinpost.jp/?p=747921",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-13T23:02:07+00:00",
+      "detected_at_utc": "2026-11-13T23:52:29.917962+00:00",
+      "baseline": {
+        "t": "2026-11-13T23:52:29.917962+00:00",
+        "price": 68239.35,
+        "funding_rate_pct": null,
+        "fear_greed_value": 20,
+        "volume_1h": 41372724.49
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "メタプラネット決算、ビットコイン売却損などで純損益が赤字に",
+      "link": "https://coinpost.jp/?p=747904",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-13T13:02:20+00:00",
+      "detected_at_utc": "2026-11-13T23:52:29.917962+00:00",
+      "baseline": {
+        "t": "2026-11-13T23:52:29.917962+00:00",
+        "price": 68239.35,
+        "funding_rate_pct": null,
+        "fear_greed_value": 20,
+        "volume_1h": 41372724.49
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米上場2社、AI株安のなかビットコイン採掘を中核事業と強調",
       "link": "https://coinpost.jp/?p=747801",
       "source": "CoinPost",
@@ -3100,113 +3138,7 @@
       "relevance": "medium",
       "summary": "「米上場企業、5833BTCのビットコイン売却か担保化を検討　バイナンス事件受け」の報道後、BTCは4時間で-1.6%。Fear & Greedも37から37へ横ばい。価格急変（-1.6%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "BTCPay Server、ホットウォレット不正流出の報告受けサーバー停止を要請",
-      "link": "https://coinpost.jp/?p=745885",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-02T00:35:32+00:00",
-      "detected_at_utc": "2026-11-02T05:29:17.498144+00:00",
-      "baseline": {
-        "t": "2026-11-02T05:29:17.498144+00:00",
-        "price": 78351.22,
-        "funding_rate_pct": null,
-        "fear_greed_value": 37,
-        "volume_1h": 23629644.0
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-02T13:47:21.503461+00:00",
-          "price": 78142.7,
-          "funding_rate_pct": null,
-          "fear_greed_value": 37,
-          "volume_1h": 66105260.41,
-          "delta_price_pct": -0.27
-        },
-        "1h": {
-          "t": "2026-11-02T13:47:21.503461+00:00",
-          "price": 78142.7,
-          "funding_rate_pct": null,
-          "fear_greed_value": 37,
-          "volume_1h": 66105260.41,
-          "delta_price_pct": -0.27
-        },
-        "2h": {
-          "t": "2026-11-02T13:47:21.503461+00:00",
-          "price": 78142.7,
-          "funding_rate_pct": null,
-          "fear_greed_value": 37,
-          "volume_1h": 66105260.41,
-          "delta_price_pct": -0.27
-        },
-        "4h": {
-          "t": "2026-11-02T13:47:21.503461+00:00",
-          "price": 78142.7,
-          "funding_rate_pct": null,
-          "fear_greed_value": 37,
-          "volume_1h": 66105260.41,
-          "delta_price_pct": -0.27
-        }
-      },
-      "flags": [
-        "出来高急増（+180%）"
-      ],
-      "relevance": "medium",
-      "summary": "「BTCPay Server、ホットウォレット不正流出の報告受けサーバー停止を要請」の報道後、BTCは4時間で-0.3%。Fear & Greedも37から37へ横ばい。出来高急増（+180%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン、急落し1200万円台に　AI関連決算と雇用統計が焦点｜bitbankアナリスト寄稿",
-      "link": "https://coinpost.jp/?p=745685",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-01T02:30:13+00:00",
-      "detected_at_utc": "2026-11-01T09:29:42.368308+00:00",
-      "baseline": {
-        "t": "2026-11-01T09:29:42.368308+00:00",
-        "price": 78019.23,
-        "funding_rate_pct": null,
-        "fear_greed_value": 34,
-        "volume_1h": 41920361.27
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-01T16:17:30.054962+00:00",
-          "price": 78071.88,
-          "funding_rate_pct": null,
-          "fear_greed_value": 34,
-          "volume_1h": 21538041.69,
-          "delta_price_pct": 0.07
-        },
-        "1h": {
-          "t": "2026-11-01T16:17:30.054962+00:00",
-          "price": 78071.88,
-          "funding_rate_pct": null,
-          "fear_greed_value": 34,
-          "volume_1h": 21538041.69,
-          "delta_price_pct": 0.07
-        },
-        "2h": {
-          "t": "2026-11-01T16:17:30.054962+00:00",
-          "price": 78071.88,
-          "funding_rate_pct": null,
-          "fear_greed_value": 34,
-          "volume_1h": 21538041.69,
-          "delta_price_pct": 0.07
-        },
-        "4h": {
-          "t": "2026-11-01T16:17:30.054962+00:00",
-          "price": 78071.88,
-          "funding_rate_pct": null,
-          "fear_greed_value": 34,
-          "volume_1h": 21538041.69,
-          "delta_price_pct": 0.07
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン、急落し1200万円台に　AI関連決算と雇用統計が焦点｜bitbankアナリスト寄稿」の報道後、BTCは4時間で+0.1%。Fear & Greedも34から34へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-13T18:35:35.053556+00:00"
+  "updated_at_utc": "2026-11-13T23:52:29.917962+00:00"
 }
