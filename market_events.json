@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "米上場ナカモト、ビットコイン評価益で黒字も調整後営業損益は赤字",
+      "link": "https://coinpost.jp/?p=747970",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-14T04:45:37+00:00",
+      "detected_at_utc": "2026-11-14T05:12:40.573096+00:00",
+      "baseline": {
+        "t": "2026-11-14T05:12:40.573096+00:00",
+        "price": 67184.43,
+        "funding_rate_pct": null,
+        "fear_greed_value": 13,
+        "volume_1h": 82140784.31
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "アダム・バック、ビットコインが2028年までに100万ドル到達の可能性",
+      "link": "https://coinpost.jp/?p=747950",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-14T01:10:38+00:00",
+      "detected_at_utc": "2026-11-14T05:12:40.573096+00:00",
+      "baseline": {
+        "t": "2026-11-14T05:12:40.573096+00:00",
+        "price": 67184.43,
+        "funding_rate_pct": null,
+        "fear_greed_value": 13,
+        "volume_1h": 82140784.31
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン7万ドル割れ、AI株安が波及しロング大量清算が下落を加速｜仮想NISHI",
+      "link": "https://coinpost.jp/?p=747946",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-14T00:15:32+00:00",
+      "detected_at_utc": "2026-11-14T05:12:40.573096+00:00",
+      "baseline": {
+        "t": "2026-11-14T05:12:40.573096+00:00",
+        "price": 67184.43,
+        "funding_rate_pct": null,
+        "fear_greed_value": 13,
+        "volume_1h": 82140784.31
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米上場Twenty One Capital第3四半期決算、ビットコイン評価益で10億ドル超の黒字",
       "link": "https://coinpost.jp/?p=747921",
       "source": "CoinPost",
@@ -13,11 +70,47 @@
         "fear_greed_value": 20,
         "volume_1h": 41372724.49
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-14T05:12:40.573096+00:00",
+          "price": 67184.43,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 82140784.31,
+          "delta_price_pct": -1.55
+        },
+        "1h": {
+          "t": "2026-11-14T05:12:40.573096+00:00",
+          "price": 67184.43,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 82140784.31,
+          "delta_price_pct": -1.55
+        },
+        "2h": {
+          "t": "2026-11-14T05:12:40.573096+00:00",
+          "price": 67184.43,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 82140784.31,
+          "delta_price_pct": -1.55
+        },
+        "4h": {
+          "t": "2026-11-14T05:12:40.573096+00:00",
+          "price": 67184.43,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 82140784.31,
+          "delta_price_pct": -1.55
+        }
+      },
+      "flags": [
+        "価格急変（-1.5%）",
+        "出来高急増（+99%）"
+      ],
+      "relevance": "high",
+      "summary": "「米上場Twenty One Capital第3四半期決算、ビットコイン評価益で10億ドル超の黒字」の報道後、BTCは4時間で-1.6%。Fear & Greedも20から13へ悪化。価格急変（-1.5%）、出来高急増（+99%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "メタプラネット決算、ビットコイン売却損などで純損益が赤字に",
@@ -32,11 +125,47 @@
         "fear_greed_value": 20,
         "volume_1h": 41372724.49
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-14T05:12:40.573096+00:00",
+          "price": 67184.43,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 82140784.31,
+          "delta_price_pct": -1.55
+        },
+        "1h": {
+          "t": "2026-11-14T05:12:40.573096+00:00",
+          "price": 67184.43,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 82140784.31,
+          "delta_price_pct": -1.55
+        },
+        "2h": {
+          "t": "2026-11-14T05:12:40.573096+00:00",
+          "price": 67184.43,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 82140784.31,
+          "delta_price_pct": -1.55
+        },
+        "4h": {
+          "t": "2026-11-14T05:12:40.573096+00:00",
+          "price": 67184.43,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 82140784.31,
+          "delta_price_pct": -1.55
+        }
+      },
+      "flags": [
+        "価格急変（-1.5%）",
+        "出来高急増（+99%）"
+      ],
+      "relevance": "high",
+      "summary": "「メタプラネット決算、ビットコイン売却損などで純損益が赤字に」の報道後、BTCは4時間で-1.6%。Fear & Greedも20から13へ悪化。価格急変（-1.5%）、出来高急増（+99%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米上場2社、AI株安のなかビットコイン採掘を中核事業と強調",
@@ -2980,165 +3109,7 @@
       "relevance": "low",
       "summary": "「メタプラネットが253億円の自社株買い　ビットコイン購入配分を80億円戻す」の報道後、BTCは4時間で+0.6%。Fear & Greedも26から26へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン8万ドル割れ、ウィンターミュートは7.68万ドルを注視",
-      "link": "https://coinpost.jp/?p=746073",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-03T02:18:45+00:00",
-      "detected_at_utc": "2026-11-03T03:40:39.000298+00:00",
-      "baseline": {
-        "t": "2026-11-03T03:40:39.000298+00:00",
-        "price": 76728.91,
-        "funding_rate_pct": null,
-        "fear_greed_value": 26,
-        "volume_1h": 104987844.55
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-03T11:23:01.336827+00:00",
-          "price": 77151.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 26,
-          "volume_1h": 36906416.51,
-          "delta_price_pct": 0.55
-        },
-        "1h": {
-          "t": "2026-11-03T11:23:01.336827+00:00",
-          "price": 77151.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 26,
-          "volume_1h": 36906416.51,
-          "delta_price_pct": 0.55
-        },
-        "2h": {
-          "t": "2026-11-03T11:23:01.336827+00:00",
-          "price": 77151.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 26,
-          "volume_1h": 36906416.51,
-          "delta_price_pct": 0.55
-        },
-        "4h": {
-          "t": "2026-11-03T11:23:01.336827+00:00",
-          "price": 77151.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 26,
-          "volume_1h": 36906416.51,
-          "delta_price_pct": 0.55
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン8万ドル割れ、ウィンターミュートは7.68万ドルを注視」の報道後、BTCは4時間で+0.6%。Fear & Greedも26から26へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ブラジル大手取引所Mercado Bitcoin、推計63億円超流出で入出金停止",
-      "link": "https://coinpost.jp/?p=746048",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-02T23:16:03+00:00",
-      "detected_at_utc": "2026-11-03T03:40:39.000298+00:00",
-      "baseline": {
-        "t": "2026-11-03T03:40:39.000298+00:00",
-        "price": 76728.91,
-        "funding_rate_pct": null,
-        "fear_greed_value": 26,
-        "volume_1h": 104987844.55
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-03T11:23:01.336827+00:00",
-          "price": 77151.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 26,
-          "volume_1h": 36906416.51,
-          "delta_price_pct": 0.55
-        },
-        "1h": {
-          "t": "2026-11-03T11:23:01.336827+00:00",
-          "price": 77151.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 26,
-          "volume_1h": 36906416.51,
-          "delta_price_pct": 0.55
-        },
-        "2h": {
-          "t": "2026-11-03T11:23:01.336827+00:00",
-          "price": 77151.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 26,
-          "volume_1h": 36906416.51,
-          "delta_price_pct": 0.55
-        },
-        "4h": {
-          "t": "2026-11-03T11:23:01.336827+00:00",
-          "price": 77151.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 26,
-          "volume_1h": 36906416.51,
-          "delta_price_pct": 0.55
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ブラジル大手取引所Mercado Bitcoin、推計63億円超流出で入出金停止」の報道後、BTCは4時間で+0.6%。Fear & Greedも26から26へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "米上場企業、5833BTCのビットコイン売却か担保化を検討　バイナンス事件受け",
-      "link": "https://coinpost.jp/?p=745949",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-02T05:55:04+00:00",
-      "detected_at_utc": "2026-11-02T13:47:21.503461+00:00",
-      "baseline": {
-        "t": "2026-11-02T13:47:21.503461+00:00",
-        "price": 78142.7,
-        "funding_rate_pct": null,
-        "fear_greed_value": 37,
-        "volume_1h": 66105260.41
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-02T22:29:28.326023+00:00",
-          "price": 76877.47,
-          "funding_rate_pct": null,
-          "fear_greed_value": 37,
-          "volume_1h": 28890205.82,
-          "delta_price_pct": -1.62
-        },
-        "1h": {
-          "t": "2026-11-02T22:29:28.326023+00:00",
-          "price": 76877.47,
-          "funding_rate_pct": null,
-          "fear_greed_value": 37,
-          "volume_1h": 28890205.82,
-          "delta_price_pct": -1.62
-        },
-        "2h": {
-          "t": "2026-11-02T22:29:28.326023+00:00",
-          "price": 76877.47,
-          "funding_rate_pct": null,
-          "fear_greed_value": 37,
-          "volume_1h": 28890205.82,
-          "delta_price_pct": -1.62
-        },
-        "4h": {
-          "t": "2026-11-02T22:29:28.326023+00:00",
-          "price": 76877.47,
-          "funding_rate_pct": null,
-          "fear_greed_value": 37,
-          "volume_1h": 28890205.82,
-          "delta_price_pct": -1.62
-        }
-      },
-      "flags": [
-        "価格急変（-1.6%）"
-      ],
-      "relevance": "medium",
-      "summary": "「米上場企業、5833BTCのビットコイン売却か担保化を検討　バイナンス事件受け」の報道後、BTCは4時間で-1.6%。Fear & Greedも37から37へ横ばい。価格急変（-1.6%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-13T23:52:29.917962+00:00"
+  "updated_at_utc": "2026-11-14T05:12:40.573096+00:00"
 }
