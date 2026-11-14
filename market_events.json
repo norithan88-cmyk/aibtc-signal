@@ -13,11 +13,44 @@
         "fear_greed_value": 13,
         "volume_1h": 82140784.31
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-14T12:17:00.651740+00:00",
+          "price": 67091.36,
+          "funding_rate_pct": 0.0045,
+          "fear_greed_value": 13,
+          "volume_1h": 38399927.42,
+          "delta_price_pct": -0.14
+        },
+        "1h": {
+          "t": "2026-11-14T12:17:00.651740+00:00",
+          "price": 67091.36,
+          "funding_rate_pct": 0.0045,
+          "fear_greed_value": 13,
+          "volume_1h": 38399927.42,
+          "delta_price_pct": -0.14
+        },
+        "2h": {
+          "t": "2026-11-14T12:17:00.651740+00:00",
+          "price": 67091.36,
+          "funding_rate_pct": 0.0045,
+          "fear_greed_value": 13,
+          "volume_1h": 38399927.42,
+          "delta_price_pct": -0.14
+        },
+        "4h": {
+          "t": "2026-11-14T12:17:00.651740+00:00",
+          "price": 67091.36,
+          "funding_rate_pct": 0.0045,
+          "fear_greed_value": 13,
+          "volume_1h": 38399927.42,
+          "delta_price_pct": -0.14
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米上場ナカモト、ビットコイン評価益で黒字も調整後営業損益は赤字」の報道後、BTCは4時間で-0.1%。Fear & Greedも13から13へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "アダム・バック、ビットコインが2028年までに100万ドル到達の可能性",
@@ -32,11 +65,44 @@
         "fear_greed_value": 13,
         "volume_1h": 82140784.31
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-14T12:17:00.651740+00:00",
+          "price": 67091.36,
+          "funding_rate_pct": 0.0045,
+          "fear_greed_value": 13,
+          "volume_1h": 38399927.42,
+          "delta_price_pct": -0.14
+        },
+        "1h": {
+          "t": "2026-11-14T12:17:00.651740+00:00",
+          "price": 67091.36,
+          "funding_rate_pct": 0.0045,
+          "fear_greed_value": 13,
+          "volume_1h": 38399927.42,
+          "delta_price_pct": -0.14
+        },
+        "2h": {
+          "t": "2026-11-14T12:17:00.651740+00:00",
+          "price": 67091.36,
+          "funding_rate_pct": 0.0045,
+          "fear_greed_value": 13,
+          "volume_1h": 38399927.42,
+          "delta_price_pct": -0.14
+        },
+        "4h": {
+          "t": "2026-11-14T12:17:00.651740+00:00",
+          "price": 67091.36,
+          "funding_rate_pct": 0.0045,
+          "fear_greed_value": 13,
+          "volume_1h": 38399927.42,
+          "delta_price_pct": -0.14
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「アダム・バック、ビットコインが2028年までに100万ドル到達の可能性」の報道後、BTCは4時間で-0.1%。Fear & Greedも13から13へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン7万ドル割れ、AI株安が波及しロング大量清算が下落を加速｜仮想NISHI",
@@ -51,11 +117,44 @@
         "fear_greed_value": 13,
         "volume_1h": 82140784.31
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-14T12:17:00.651740+00:00",
+          "price": 67091.36,
+          "funding_rate_pct": 0.0045,
+          "fear_greed_value": 13,
+          "volume_1h": 38399927.42,
+          "delta_price_pct": -0.14
+        },
+        "1h": {
+          "t": "2026-11-14T12:17:00.651740+00:00",
+          "price": 67091.36,
+          "funding_rate_pct": 0.0045,
+          "fear_greed_value": 13,
+          "volume_1h": 38399927.42,
+          "delta_price_pct": -0.14
+        },
+        "2h": {
+          "t": "2026-11-14T12:17:00.651740+00:00",
+          "price": 67091.36,
+          "funding_rate_pct": 0.0045,
+          "fear_greed_value": 13,
+          "volume_1h": 38399927.42,
+          "delta_price_pct": -0.14
+        },
+        "4h": {
+          "t": "2026-11-14T12:17:00.651740+00:00",
+          "price": 67091.36,
+          "funding_rate_pct": 0.0045,
+          "fear_greed_value": 13,
+          "volume_1h": 38399927.42,
+          "delta_price_pct": -0.14
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン7万ドル割れ、AI株安が波及しロング大量清算が下落を加速｜仮想NISHI」の報道後、BTCは4時間で-0.1%。Fear & Greedも13から13へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米上場Twenty One Capital第3四半期決算、ビットコイン評価益で10億ドル超の黒字",
@@ -3111,5 +3210,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-14T05:12:40.573096+00:00"
+  "updated_at_utc": "2026-11-14T12:17:00.651740+00:00"
 }
