@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "週刊仮想通貨ニュース（11/13）｜上場企業のBTC売却・米BTC準備金・DAT企業の指数除外のまとめ",
+      "link": "https://coinpost.jp/?p=747789",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-15T00:25:54+00:00",
+      "detected_at_utc": "2026-11-15T02:08:19.660886+00:00",
+      "baseline": {
+        "t": "2026-11-15T02:08:19.660886+00:00",
+        "price": 63569.65,
+        "funding_rate_pct": null,
+        "fear_greed_value": 10,
+        "volume_1h": 246210905.62
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米上場ナカモト、ビットコイン評価益で黒字も調整後営業損益は赤字",
       "link": "https://coinpost.jp/?p=747970",
       "source": "CoinPost",
@@ -3156,59 +3175,7 @@
       "relevance": "high",
       "summary": "「ハッキングを受けたMercado Bitcoin、顧客は被害を負担しないと説明」の報道後、BTCは4時間で+1.0%。Fear & Greedも26から34へ改善。市場心理の好転（Fear & Greed急上昇）、価格急変（-2.3%）、出来高急増（+738%）、出来高急増（+118%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "メタプラネットが253億円の自社株買い　ビットコイン購入配分を80億円戻す",
-      "link": "https://coinpost.jp/?p=746072",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-03T03:15:56+00:00",
-      "detected_at_utc": "2026-11-03T03:40:39.000298+00:00",
-      "baseline": {
-        "t": "2026-11-03T03:40:39.000298+00:00",
-        "price": 76728.91,
-        "funding_rate_pct": null,
-        "fear_greed_value": 26,
-        "volume_1h": 104987844.55
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-03T11:23:01.336827+00:00",
-          "price": 77151.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 26,
-          "volume_1h": 36906416.51,
-          "delta_price_pct": 0.55
-        },
-        "1h": {
-          "t": "2026-11-03T11:23:01.336827+00:00",
-          "price": 77151.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 26,
-          "volume_1h": 36906416.51,
-          "delta_price_pct": 0.55
-        },
-        "2h": {
-          "t": "2026-11-03T11:23:01.336827+00:00",
-          "price": 77151.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 26,
-          "volume_1h": 36906416.51,
-          "delta_price_pct": 0.55
-        },
-        "4h": {
-          "t": "2026-11-03T11:23:01.336827+00:00",
-          "price": 77151.8,
-          "funding_rate_pct": null,
-          "fear_greed_value": 26,
-          "volume_1h": 36906416.51,
-          "delta_price_pct": 0.55
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「メタプラネットが253億円の自社株買い　ビットコイン購入配分を80億円戻す」の報道後、BTCは4時間で+0.6%。Fear & Greedも26から26へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-14T22:37:52.080662+00:00"
+  "updated_at_utc": "2026-11-15T02:08:19.660886+00:00"
 }
