@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "米ストラテジー、53億円相当ビットコインを買い増し　3週連続",
+      "link": "https://coinpost.jp/?p=748183",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-16T13:20:44+00:00",
+      "detected_at_utc": "2026-11-16T18:22:01.064967+00:00",
+      "baseline": {
+        "t": "2026-11-16T18:22:01.064967+00:00",
+        "price": 64928.2,
+        "funding_rate_pct": null,
+        "fear_greed_value": 10,
+        "volume_1h": 43012419.71
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン新規クジラの含み損80億ドル　投げ売りは限定的＝アナリスト",
       "link": "https://coinpost.jp/?p=748127",
       "source": "CoinPost",
@@ -13,11 +32,44 @@
         "fear_greed_value": 10,
         "volume_1h": 45629388.92
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-16T18:22:01.064967+00:00",
+          "price": 64928.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 43012419.71,
+          "delta_price_pct": -0.14
+        },
+        "1h": {
+          "t": "2026-11-16T18:22:01.064967+00:00",
+          "price": 64928.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 43012419.71,
+          "delta_price_pct": -0.14
+        },
+        "2h": {
+          "t": "2026-11-16T18:22:01.064967+00:00",
+          "price": 64928.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 43012419.71,
+          "delta_price_pct": -0.14
+        },
+        "4h": {
+          "t": "2026-11-16T18:22:01.064967+00:00",
+          "price": 64928.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 43012419.71,
+          "delta_price_pct": -0.14
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン新規クジラの含み損80億ドル　投げ売りは限定的＝アナリスト」の報道後、BTCは4時間で-0.1%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン採掘マシン約6万4000台分の乗っ取り発生　報酬アドレス書き換え",
@@ -32,11 +84,44 @@
         "fear_greed_value": 10,
         "volume_1h": 45629388.92
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-16T18:22:01.064967+00:00",
+          "price": 64928.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 43012419.71,
+          "delta_price_pct": -0.14
+        },
+        "1h": {
+          "t": "2026-11-16T18:22:01.064967+00:00",
+          "price": 64928.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 43012419.71,
+          "delta_price_pct": -0.14
+        },
+        "2h": {
+          "t": "2026-11-16T18:22:01.064967+00:00",
+          "price": 64928.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 43012419.71,
+          "delta_price_pct": -0.14
+        },
+        "4h": {
+          "t": "2026-11-16T18:22:01.064967+00:00",
+          "price": 64928.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 43012419.71,
+          "delta_price_pct": -0.14
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン採掘マシン約6万4000台分の乗っ取り発生　報酬アドレス書き換え」の報道後、BTCは4時間で-0.1%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン一時1000万円割れ、清算連鎖とアンソロピックIPOへの資金シフト懸念も｜仮想NISHI",
@@ -51,11 +136,44 @@
         "fear_greed_value": 10,
         "volume_1h": 45629388.92
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-16T18:22:01.064967+00:00",
+          "price": 64928.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 43012419.71,
+          "delta_price_pct": -0.14
+        },
+        "1h": {
+          "t": "2026-11-16T18:22:01.064967+00:00",
+          "price": 64928.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 43012419.71,
+          "delta_price_pct": -0.14
+        },
+        "2h": {
+          "t": "2026-11-16T18:22:01.064967+00:00",
+          "price": 64928.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 43012419.71,
+          "delta_price_pct": -0.14
+        },
+        "4h": {
+          "t": "2026-11-16T18:22:01.064967+00:00",
+          "price": 64928.2,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 43012419.71,
+          "delta_price_pct": -0.14
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン一時1000万円割れ、清算連鎖とアンソロピックIPOへの資金シフト懸念も｜仮想NISHI」の報道後、BTCは4時間で-0.1%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "アンソロピック上場前のビットコイン安、スペースX時と酷似　ストライブCEO",
@@ -3035,62 +3153,7 @@
       "relevance": "low",
       "summary": "「民主党が圧勝で米議会を奪還、ビットコインは前日比1.2%上昇」の報道後、BTCは4時間で+0.2%。Fear & Greedも34から34へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン売り手に枯渇の兆し　需要はなお不足＝アナリスト",
-      "link": "https://coinpost.jp/?p=746347",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-04T08:17:51+00:00",
-      "detected_at_utc": "2026-11-04T11:20:20.323465+00:00",
-      "baseline": {
-        "t": "2026-11-04T11:20:20.323465+00:00",
-        "price": 78634.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 34,
-        "volume_1h": 32069718.64
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-04T18:44:18.516962+00:00",
-          "price": 80352.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 34,
-          "volume_1h": 58210843.54,
-          "delta_price_pct": 2.18
-        },
-        "1h": {
-          "t": "2026-11-04T18:44:18.516962+00:00",
-          "price": 80352.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 34,
-          "volume_1h": 58210843.54,
-          "delta_price_pct": 2.18
-        },
-        "2h": {
-          "t": "2026-11-04T18:44:18.516962+00:00",
-          "price": 80352.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 34,
-          "volume_1h": 58210843.54,
-          "delta_price_pct": 2.18
-        },
-        "4h": {
-          "t": "2026-11-04T18:44:18.516962+00:00",
-          "price": 80352.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 34,
-          "volume_1h": 58210843.54,
-          "delta_price_pct": 2.18
-        }
-      },
-      "flags": [
-        "価格急変（+2.2%）",
-        "出来高急増（+82%）"
-      ],
-      "relevance": "high",
-      "summary": "「ビットコイン売り手に枯渇の兆し　需要はなお不足＝アナリスト」の報道後、BTCは4時間で+2.2%。Fear & Greedも34から34へ横ばい。価格急変（+2.2%）、出来高急増（+82%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-16T07:59:16.080473+00:00"
+  "updated_at_utc": "2026-11-16T18:22:01.064967+00:00"
 }
