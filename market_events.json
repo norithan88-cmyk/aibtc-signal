@@ -13,11 +13,44 @@
         "fear_greed_value": 12,
         "volume_1h": 91993316.98
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-17T19:20:56.744975+00:00",
+          "price": 63792.86,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 36865886.61,
+          "delta_price_pct": -0.67
+        },
+        "1h": {
+          "t": "2026-11-17T19:20:56.744975+00:00",
+          "price": 63792.86,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 36865886.61,
+          "delta_price_pct": -0.67
+        },
+        "2h": {
+          "t": "2026-11-17T19:20:56.744975+00:00",
+          "price": 63792.86,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 36865886.61,
+          "delta_price_pct": -0.67
+        },
+        "4h": {
+          "t": "2026-11-17T19:20:56.744975+00:00",
+          "price": 63792.86,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 36865886.61,
+          "delta_price_pct": -0.67
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン含み益比率、52％に低下　過去1年有数の下げ幅＝アナリスト」の報道後、BTCは4時間で-0.7%。Fear & Greedも12から12へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "「ビットコインのスーパーサイクルは健在」資産運用大手のストラテジストが強調",
@@ -32,11 +65,44 @@
         "fear_greed_value": 12,
         "volume_1h": 91993316.98
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-17T19:20:56.744975+00:00",
+          "price": 63792.86,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 36865886.61,
+          "delta_price_pct": -0.67
+        },
+        "1h": {
+          "t": "2026-11-17T19:20:56.744975+00:00",
+          "price": 63792.86,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 36865886.61,
+          "delta_price_pct": -0.67
+        },
+        "2h": {
+          "t": "2026-11-17T19:20:56.744975+00:00",
+          "price": 63792.86,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 36865886.61,
+          "delta_price_pct": -0.67
+        },
+        "4h": {
+          "t": "2026-11-17T19:20:56.744975+00:00",
+          "price": 63792.86,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 36865886.61,
+          "delta_price_pct": -0.67
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「「ビットコインのスーパーサイクルは健在」資産運用大手のストラテジストが強調」の報道後、BTCは4時間で-0.7%。Fear & Greedも12から12へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン弱気相場抜けず、5万ドル台を想定＝ウィンターミュート",
@@ -51,11 +117,44 @@
         "fear_greed_value": 12,
         "volume_1h": 91993316.98
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-17T19:20:56.744975+00:00",
+          "price": 63792.86,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 36865886.61,
+          "delta_price_pct": -0.67
+        },
+        "1h": {
+          "t": "2026-11-17T19:20:56.744975+00:00",
+          "price": 63792.86,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 36865886.61,
+          "delta_price_pct": -0.67
+        },
+        "2h": {
+          "t": "2026-11-17T19:20:56.744975+00:00",
+          "price": 63792.86,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 36865886.61,
+          "delta_price_pct": -0.67
+        },
+        "4h": {
+          "t": "2026-11-17T19:20:56.744975+00:00",
+          "price": 63792.86,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 36865886.61,
+          "delta_price_pct": -0.67
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン弱気相場抜けず、5万ドル台を想定＝ウィンターミュート」の報道後、BTCは4時間で-0.7%。Fear & Greedも12から12へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米ハーバード大、ビットコイン現物ETFの保有株数を据え置き、評価額は42.2％増",
@@ -3080,5 +3179,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-17T10:31:01.466861+00:00"
+  "updated_at_utc": "2026-11-17T19:20:56.744975+00:00"
 }
