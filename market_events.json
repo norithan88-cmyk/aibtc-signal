@@ -13,11 +13,44 @@
         "fear_greed_value": 10,
         "volume_1h": 72366776.03
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        },
+        "1h": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        },
+        "2h": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        },
+        "4h": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン裁定取引の利回り、27年は米国債超えへ　スイス仮想通貨銀行が予測」の報道後、BTCは4時間で-0.7%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン先物建玉、週9700BTC減　成行売りの優勢続く",
@@ -32,11 +65,44 @@
         "fear_greed_value": 10,
         "volume_1h": 72366776.03
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        },
+        "1h": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        },
+        "2h": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        },
+        "4h": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン先物建玉、週9700BTC減　成行売りの優勢続く」の報道後、BTCは4時間で-0.7%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米シティ、ビットコインとイーサリアムの目標を約12％・約6％引き下げ",
@@ -51,11 +117,44 @@
         "fear_greed_value": 10,
         "volume_1h": 72366776.03
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        },
+        "1h": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        },
+        "2h": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        },
+        "4h": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「米シティ、ビットコインとイーサリアムの目標を約12％・約6％引き下げ」の報道後、BTCは4時間で-0.7%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "グレースケール、ビットコインのリスク再評価を提言　変動率は約43％に低下",
@@ -70,11 +169,44 @@
         "fear_greed_value": 10,
         "volume_1h": 72366776.03
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        },
+        "1h": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        },
+        "2h": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        },
+        "4h": {
+          "t": "2026-11-19T23:34:15.463122+00:00",
+          "price": 61902.92,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 48657886.49,
+          "delta_price_pct": -0.7
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「グレースケール、ビットコインのリスク再評価を提言　変動率は約43％に低下」の報道後、BTCは4時間で-0.7%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインの見かけ上の需要、年初来最低に　一時マイナス29万BTC",
@@ -3049,5 +3181,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-19T17:06:06.891047+00:00"
+  "updated_at_utc": "2026-11-19T23:34:15.463122+00:00"
 }
