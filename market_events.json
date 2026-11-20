@@ -13,11 +13,44 @@
         "fear_greed_value": 12,
         "volume_1h": 41185667.24
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-20T13:15:35.261067+00:00",
+          "price": 61578.9,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 35084870.78,
+          "delta_price_pct": -0.46
+        },
+        "1h": {
+          "t": "2026-11-20T13:15:35.261067+00:00",
+          "price": 61578.9,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 35084870.78,
+          "delta_price_pct": -0.46
+        },
+        "2h": {
+          "t": "2026-11-20T13:15:35.261067+00:00",
+          "price": 61578.9,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 35084870.78,
+          "delta_price_pct": -0.46
+        },
+        "4h": {
+          "t": "2026-11-20T13:15:35.261067+00:00",
+          "price": 61578.9,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 35084870.78,
+          "delta_price_pct": -0.46
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン現物ETFで資金流出止まらず、BTC価格は一時6.1万ドル台まで下落」の報道後、BTCは4時間で-0.5%。Fear & Greedも12から12へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン裁定取引の利回り、27年は米国債超えへ　スイス仮想通貨銀行が予測",
@@ -3148,5 +3181,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-20T04:16:52.932242+00:00"
+  "updated_at_utc": "2026-11-20T13:15:35.261067+00:00"
 }
