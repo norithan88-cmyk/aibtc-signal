@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン続落、AI株安の中で一時5.8万ドル割れ、2024年9月以来の安値圏に",
+      "link": "https://coinpost.jp/?p=749001",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-20T21:05:01+00:00",
+      "detected_at_utc": "2026-11-20T21:18:19.536248+00:00",
+      "baseline": {
+        "t": "2026-11-20T21:18:19.536248+00:00",
+        "price": 58268.78,
+        "funding_rate_pct": null,
+        "fear_greed_value": 12,
+        "volume_1h": 114058644.16
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン現物ETFで資金流出止まらず、BTC価格は一時6.1万ドル台まで下落",
       "link": "https://coinpost.jp/?p=748889",
       "source": "CoinPost",
@@ -3127,59 +3146,7 @@
       "relevance": "low",
       "summary": "「ストライブ、29BTCのビットコインを追加購入」の報道後、BTCは4時間で-0.5%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ストラテジー、129億円相当のビットコインを買い増し　2週連続",
-      "link": "https://coinpost.jp/?p=747113",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-09T13:20:48+00:00",
-      "detected_at_utc": "2026-11-09T20:59:35.715619+00:00",
-      "baseline": {
-        "t": "2026-11-09T20:59:35.715619+00:00",
-        "price": 74893.84,
-        "funding_rate_pct": null,
-        "fear_greed_value": 29,
-        "volume_1h": 18755683.08
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-10T03:27:25.675661+00:00",
-          "price": 74712.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 25564327.28,
-          "delta_price_pct": -0.24
-        },
-        "1h": {
-          "t": "2026-11-10T03:27:25.675661+00:00",
-          "price": 74712.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 25564327.28,
-          "delta_price_pct": -0.24
-        },
-        "2h": {
-          "t": "2026-11-10T03:27:25.675661+00:00",
-          "price": 74712.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 25564327.28,
-          "delta_price_pct": -0.24
-        },
-        "4h": {
-          "t": "2026-11-10T03:27:25.675661+00:00",
-          "price": 74712.01,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 25564327.28,
-          "delta_price_pct": -0.24
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ストラテジー、129億円相当のビットコインを買い増し　2週連続」の報道後、BTCは4時間で-0.2%。Fear & Greedも29から32へ改善。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-20T13:15:35.261067+00:00"
+  "updated_at_utc": "2026-11-20T21:18:19.536248+00:00"
 }
