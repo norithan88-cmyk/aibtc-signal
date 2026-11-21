@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "ビットコイン、「5.8万ドル割り込めば2022年型の下落リスクも」＝コインベース",
+      "link": "https://coinpost.jp/?p=749050",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-21T12:00:24+00:00",
+      "detected_at_utc": "2026-11-21T17:38:14.476138+00:00",
+      "baseline": {
+        "t": "2026-11-21T17:38:14.476138+00:00",
+        "price": 60039.16,
+        "funding_rate_pct": null,
+        "fear_greed_value": 12,
+        "volume_1h": 46018594.04
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン年初来最安値、米ハイテク株急落とマイナー売りが重荷｜仮想NISHI",
       "link": "https://coinpost.jp/?p=749035",
       "source": "CoinPost",
@@ -3131,59 +3150,7 @@
       "relevance": "low",
       "summary": "「Mara、7〜9月期は減収も純利益拡大　四半期終了後にビットコイン1700億円相当売却」の報道後、BTCは4時間で-1.2%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "トランプ・メディア、3Q純利益約647億円　ビットコインなどの評価益で黒字転換",
-      "link": "https://coinpost.jp/?p=747210",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-10T03:16:03+00:00",
-      "detected_at_utc": "2026-11-10T03:27:25.675661+00:00",
-      "baseline": {
-        "t": "2026-11-10T03:27:25.675661+00:00",
-        "price": 74712.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 32,
-        "volume_1h": 25564327.28
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-10T11:39:57.130305+00:00",
-          "price": 74310.3,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 33765861.4,
-          "delta_price_pct": -0.54
-        },
-        "1h": {
-          "t": "2026-11-10T11:39:57.130305+00:00",
-          "price": 74310.3,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 33765861.4,
-          "delta_price_pct": -0.54
-        },
-        "2h": {
-          "t": "2026-11-10T11:39:57.130305+00:00",
-          "price": 74310.3,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 33765861.4,
-          "delta_price_pct": -0.54
-        },
-        "4h": {
-          "t": "2026-11-10T11:39:57.130305+00:00",
-          "price": 74310.3,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 33765861.4,
-          "delta_price_pct": -0.54
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「トランプ・メディア、3Q純利益約647億円　ビットコインなどの評価益で黒字転換」の報道後、BTCは4時間で-0.5%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-21T10:14:14.821632+00:00"
+  "updated_at_utc": "2026-11-21T17:38:14.476138+00:00"
 }
