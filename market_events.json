@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ビットコイン年初来最安値、米ハイテク株急落とマイナー売りが重荷｜仮想NISHI",
+      "link": "https://coinpost.jp/?p=749035",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-21T00:25:36+00:00",
+      "detected_at_utc": "2026-11-21T02:36:28.176474+00:00",
+      "baseline": {
+        "t": "2026-11-21T02:36:28.176474+00:00",
+        "price": 58733.97,
+        "funding_rate_pct": null,
+        "fear_greed_value": 12,
+        "volume_1h": 49146991.47
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコインの採掘コスト割れで高コストマイナーに売り圧力＝JPモルガン",
+      "link": "https://coinpost.jp/?p=749000",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-20T21:30:29+00:00",
+      "detected_at_utc": "2026-11-21T02:36:28.176474+00:00",
+      "baseline": {
+        "t": "2026-11-21T02:36:28.176474+00:00",
+        "price": 58733.97,
+        "funding_rate_pct": null,
+        "fear_greed_value": 12,
+        "volume_1h": 49146991.47
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン続落、AI株安の中で一時5.8万ドル割れ、2024年9月以来の安値圏に",
       "link": "https://coinpost.jp/?p=749001",
       "source": "CoinPost",
@@ -13,11 +51,44 @@
         "fear_greed_value": 12,
         "volume_1h": 114058644.16
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-21T02:36:28.176474+00:00",
+          "price": 58733.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 49146991.47,
+          "delta_price_pct": 0.8
+        },
+        "1h": {
+          "t": "2026-11-21T02:36:28.176474+00:00",
+          "price": 58733.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 49146991.47,
+          "delta_price_pct": 0.8
+        },
+        "2h": {
+          "t": "2026-11-21T02:36:28.176474+00:00",
+          "price": 58733.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 49146991.47,
+          "delta_price_pct": 0.8
+        },
+        "4h": {
+          "t": "2026-11-21T02:36:28.176474+00:00",
+          "price": 58733.97,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 49146991.47,
+          "delta_price_pct": 0.8
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン続落、AI株安の中で一時5.8万ドル割れ、2024年9月以来の安値圏に」の報道後、BTCは4時間で+0.8%。Fear & Greedも12から12へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン現物ETFで資金流出止まらず、BTC価格は一時6.1万ドル台まで下落",
@@ -3042,111 +3113,7 @@
       "relevance": "low",
       "summary": "「トランプ・メディア、3Q純利益約647億円　ビットコインなどの評価益で黒字転換」の報道後、BTCは4時間で-0.5%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ブラジルMercado Bitcoin、流出後に残高照会を再開　出金時期は未定",
-      "link": "https://coinpost.jp/?p=747161",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-10T00:40:27+00:00",
-      "detected_at_utc": "2026-11-10T03:27:25.675661+00:00",
-      "baseline": {
-        "t": "2026-11-10T03:27:25.675661+00:00",
-        "price": 74712.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 32,
-        "volume_1h": 25564327.28
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-10T11:39:57.130305+00:00",
-          "price": 74310.3,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 33765861.4,
-          "delta_price_pct": -0.54
-        },
-        "1h": {
-          "t": "2026-11-10T11:39:57.130305+00:00",
-          "price": 74310.3,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 33765861.4,
-          "delta_price_pct": -0.54
-        },
-        "2h": {
-          "t": "2026-11-10T11:39:57.130305+00:00",
-          "price": 74310.3,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 33765861.4,
-          "delta_price_pct": -0.54
-        },
-        "4h": {
-          "t": "2026-11-10T11:39:57.130305+00:00",
-          "price": 74310.3,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 33765861.4,
-          "delta_price_pct": -0.54
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ブラジルMercado Bitcoin、流出後に残高照会を再開　出金時期は未定」の報道後、BTCは4時間で-0.5%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ストライブ、29BTCのビットコインを追加購入",
-      "link": "https://coinpost.jp/?p=747127",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-09T21:25:38+00:00",
-      "detected_at_utc": "2026-11-10T03:27:25.675661+00:00",
-      "baseline": {
-        "t": "2026-11-10T03:27:25.675661+00:00",
-        "price": 74712.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 32,
-        "volume_1h": 25564327.28
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-10T11:39:57.130305+00:00",
-          "price": 74310.3,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 33765861.4,
-          "delta_price_pct": -0.54
-        },
-        "1h": {
-          "t": "2026-11-10T11:39:57.130305+00:00",
-          "price": 74310.3,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 33765861.4,
-          "delta_price_pct": -0.54
-        },
-        "2h": {
-          "t": "2026-11-10T11:39:57.130305+00:00",
-          "price": 74310.3,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 33765861.4,
-          "delta_price_pct": -0.54
-        },
-        "4h": {
-          "t": "2026-11-10T11:39:57.130305+00:00",
-          "price": 74310.3,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 33765861.4,
-          "delta_price_pct": -0.54
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ストライブ、29BTCのビットコインを追加購入」の報道後、BTCは4時間で-0.5%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-20T21:18:19.536248+00:00"
+  "updated_at_utc": "2026-11-21T02:36:28.176474+00:00"
 }
