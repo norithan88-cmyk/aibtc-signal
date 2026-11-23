@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "ストラテジー、47億円相当のビットコインを追加購入　4週連続で買い増し",
+      "link": "https://coinpost.jp/?p=749116",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-23T13:04:18+00:00",
+      "detected_at_utc": "2026-11-23T14:25:33.371632+00:00",
+      "baseline": {
+        "t": "2026-11-23T14:25:33.371632+00:00",
+        "price": 63938.92,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 361997681.44
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "アメリカンビットコイン、ビットコインを売らず担保で238億円の融資枠を確保",
+      "link": "https://coinpost.jp/?p=749115",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-23T12:55:14+00:00",
+      "detected_at_utc": "2026-11-23T14:25:33.371632+00:00",
+      "baseline": {
+        "t": "2026-11-23T14:25:33.371632+00:00",
+        "price": 63938.92,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 361997681.44
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン、1000万円割れ　25日PCEデフレーター発表が次の焦点｜bitbankアナリスト寄稿",
       "link": "https://coinpost.jp/?p=748953",
       "source": "CoinPost",
@@ -3085,111 +3123,7 @@
       "relevance": "low",
       "summary": "「ビットコインを現物ETFに交換する需要、ブラックロックで過去最高水準に＝バロンズ」の報道後、BTCは4時間で+0.1%。Fear & Greedも32から29へ悪化。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米上場企業14社、2026年に1.2兆円相当ビットコインを売却",
-      "link": "https://coinpost.jp/?p=747315",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-10T12:35:24+00:00",
-      "detected_at_utc": "2026-11-10T18:52:12.256077+00:00",
-      "baseline": {
-        "t": "2026-11-10T18:52:12.256077+00:00",
-        "price": 73450.02,
-        "funding_rate_pct": null,
-        "fear_greed_value": 32,
-        "volume_1h": 41482187.32
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-10T23:54:31.635193+00:00",
-          "price": 73761.06,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 29454847.35,
-          "delta_price_pct": 0.42
-        },
-        "1h": {
-          "t": "2026-11-10T23:54:31.635193+00:00",
-          "price": 73761.06,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 29454847.35,
-          "delta_price_pct": 0.42
-        },
-        "2h": {
-          "t": "2026-11-10T23:54:31.635193+00:00",
-          "price": 73761.06,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 29454847.35,
-          "delta_price_pct": 0.42
-        },
-        "4h": {
-          "t": "2026-11-10T23:54:31.635193+00:00",
-          "price": 73761.06,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 29454847.35,
-          "delta_price_pct": 0.42
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「米上場企業14社、2026年に1.2兆円相当ビットコインを売却」の報道後、BTCは4時間で+0.4%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "証券監視委、無登録3社に差止め申立て　ビットコインETF投資も可能と勧誘",
-      "link": "https://coinpost.jp/?p=747289",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-10T08:50:42+00:00",
-      "detected_at_utc": "2026-11-10T11:39:57.130305+00:00",
-      "baseline": {
-        "t": "2026-11-10T11:39:57.130305+00:00",
-        "price": 74310.3,
-        "funding_rate_pct": null,
-        "fear_greed_value": 32,
-        "volume_1h": 33765861.4
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-10T18:52:12.256077+00:00",
-          "price": 73450.02,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 41482187.32,
-          "delta_price_pct": -1.16
-        },
-        "1h": {
-          "t": "2026-11-10T18:52:12.256077+00:00",
-          "price": 73450.02,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 41482187.32,
-          "delta_price_pct": -1.16
-        },
-        "2h": {
-          "t": "2026-11-10T18:52:12.256077+00:00",
-          "price": 73450.02,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 41482187.32,
-          "delta_price_pct": -1.16
-        },
-        "4h": {
-          "t": "2026-11-10T18:52:12.256077+00:00",
-          "price": 73450.02,
-          "funding_rate_pct": null,
-          "fear_greed_value": 32,
-          "volume_1h": 41482187.32,
-          "delta_price_pct": -1.16
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「証券監視委、無登録3社に差止め申立て　ビットコインETF投資も可能と勧誘」の報道後、BTCは4時間で-1.2%。Fear & Greedも32から32へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-23T03:58:13.262346+00:00"
+  "updated_at_utc": "2026-11-23T14:25:33.371632+00:00"
 }
