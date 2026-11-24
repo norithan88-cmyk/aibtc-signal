@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "スタンフォード大学研究者、ビットコインブリッジにも応用できる実用的な暗号を発表",
+      "link": "https://coinpost.jp/?p=749260",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-24T08:00:44+00:00",
+      "detected_at_utc": "2026-11-24T11:55:42.738678+00:00",
+      "baseline": {
+        "t": "2026-11-24T11:55:42.738678+00:00",
+        "price": 60449.47,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 53279737.64
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "BTC・ETH・ステーブルコインを一部企業の運営費に算入可、米CFTCスタッフが見解",
+      "link": "https://coinpost.jp/?p=749215",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-24T04:00:14+00:00",
+      "detected_at_utc": "2026-11-24T11:55:42.738678+00:00",
+      "baseline": {
+        "t": "2026-11-24T11:55:42.738678+00:00",
+        "price": 60449.47,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 53279737.64
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "「ビットコインは売られ過ぎ、短期はAI関連リスク次第」＝グレースケール",
       "link": "https://coinpost.jp/?p=749133",
       "source": "CoinPost",
@@ -13,11 +51,46 @@
         "fear_greed_value": 11,
         "volume_1h": 26263306.16
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-24T11:55:42.738678+00:00",
+          "price": 60449.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 53279737.64,
+          "delta_price_pct": -1.23
+        },
+        "1h": {
+          "t": "2026-11-24T11:55:42.738678+00:00",
+          "price": 60449.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 53279737.64,
+          "delta_price_pct": -1.23
+        },
+        "2h": {
+          "t": "2026-11-24T11:55:42.738678+00:00",
+          "price": 60449.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 53279737.64,
+          "delta_price_pct": -1.23
+        },
+        "4h": {
+          "t": "2026-11-24T11:55:42.738678+00:00",
+          "price": 60449.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 53279737.64,
+          "delta_price_pct": -1.23
+        }
+      },
+      "flags": [
+        "出来高急増（+103%）"
+      ],
+      "relevance": "medium",
+      "summary": "「「ビットコインは売られ過ぎ、短期はAI関連リスク次第」＝グレースケール」の報道後、BTCは4時間で-1.2%。Fear & Greedも11から11へ横ばい。出来高急増（+103%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットマインのトム・リー会長「イーサリアムとビットコインは供給増加率がほぼ同じ」と指摘",
@@ -32,11 +105,46 @@
         "fear_greed_value": 11,
         "volume_1h": 26263306.16
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-24T11:55:42.738678+00:00",
+          "price": 60449.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 53279737.64,
+          "delta_price_pct": -1.23
+        },
+        "1h": {
+          "t": "2026-11-24T11:55:42.738678+00:00",
+          "price": 60449.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 53279737.64,
+          "delta_price_pct": -1.23
+        },
+        "2h": {
+          "t": "2026-11-24T11:55:42.738678+00:00",
+          "price": 60449.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 53279737.64,
+          "delta_price_pct": -1.23
+        },
+        "4h": {
+          "t": "2026-11-24T11:55:42.738678+00:00",
+          "price": 60449.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 53279737.64,
+          "delta_price_pct": -1.23
+        }
+      },
+      "flags": [
+        "出来高急増（+103%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットマインのトム・リー会長「イーサリアムとビットコインは供給増加率がほぼ同じ」と指摘」の報道後、BTCは4時間で-1.2%。Fear & Greedも11から11へ横ばい。出来高急増（+103%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "エヌビディアCEO復帰、株価33％近く上昇しビットコインも一時6.4万ドル超",
@@ -51,11 +159,46 @@
         "fear_greed_value": 11,
         "volume_1h": 26263306.16
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-24T11:55:42.738678+00:00",
+          "price": 60449.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 53279737.64,
+          "delta_price_pct": -1.23
+        },
+        "1h": {
+          "t": "2026-11-24T11:55:42.738678+00:00",
+          "price": 60449.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 53279737.64,
+          "delta_price_pct": -1.23
+        },
+        "2h": {
+          "t": "2026-11-24T11:55:42.738678+00:00",
+          "price": 60449.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 53279737.64,
+          "delta_price_pct": -1.23
+        },
+        "4h": {
+          "t": "2026-11-24T11:55:42.738678+00:00",
+          "price": 60449.47,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 53279737.64,
+          "delta_price_pct": -1.23
+        }
+      },
+      "flags": [
+        "出来高急増（+103%）"
+      ],
+      "relevance": "medium",
+      "summary": "「エヌビディアCEO復帰、株価33％近く上昇しビットコインも一時6.4万ドル超」の報道後、BTCは4時間で-1.2%。Fear & Greedも11から11へ横ばい。出来高急増（+103%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストラテジー、47億円相当のビットコインを追加購入　4週連続で買い増し",
@@ -2988,113 +3131,7 @@
       "relevance": "medium",
       "summary": "「ビットコインなど主要3銘柄でSNS弱気が優勢　悲観は反発の下地＝サンティメント」の報道後、BTCは4時間で+0.7%。Fear & Greedも29から29へ横ばい。出来高急増（+567%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン、局所的な底か深い調整か　クリプトクアントが分岐点を分析",
-      "link": "https://coinpost.jp/?p=747354",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-11T07:00:30+00:00",
-      "detected_at_utc": "2026-11-11T12:58:13.163789+00:00",
-      "baseline": {
-        "t": "2026-11-11T12:58:13.163789+00:00",
-        "price": 73913.69,
-        "funding_rate_pct": null,
-        "fear_greed_value": 29,
-        "volume_1h": 22238236.35
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        },
-        "1h": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        },
-        "2h": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        },
-        "4h": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        }
-      },
-      "flags": [
-        "出来高急増（+567%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコイン、局所的な底か深い調整か　クリプトクアントが分岐点を分析」の報道後、BTCは4時間で+0.7%。Fear & Greedも29から29へ横ばい。出来高急増（+567%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "グラスノード、ビットコインの35.4％が量子コンピュータの標的になりうると指摘",
-      "link": "https://coinpost.jp/?p=747332",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-11T01:55:14+00:00",
-      "detected_at_utc": "2026-11-11T05:39:39.267101+00:00",
-      "baseline": {
-        "t": "2026-11-11T05:39:39.267101+00:00",
-        "price": 73800.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 29,
-        "volume_1h": 35793579.72
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-11T12:58:13.163789+00:00",
-          "price": 73913.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 22238236.35,
-          "delta_price_pct": 0.15
-        },
-        "1h": {
-          "t": "2026-11-11T12:58:13.163789+00:00",
-          "price": 73913.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 22238236.35,
-          "delta_price_pct": 0.15
-        },
-        "2h": {
-          "t": "2026-11-11T12:58:13.163789+00:00",
-          "price": 73913.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 22238236.35,
-          "delta_price_pct": 0.15
-        },
-        "4h": {
-          "t": "2026-11-11T12:58:13.163789+00:00",
-          "price": 73913.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 22238236.35,
-          "delta_price_pct": 0.15
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「グラスノード、ビットコインの35.4％が量子コンピュータの標的になりうると指摘」の報道後、BTCは4時間で+0.1%。Fear & Greedも29から29へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-24T01:50:35.233785+00:00"
+  "updated_at_utc": "2026-11-24T11:55:42.738678+00:00"
 }
