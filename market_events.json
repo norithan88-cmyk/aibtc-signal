@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "「ビットコインは売られ過ぎ、短期はAI関連リスク次第」＝グレースケール",
+      "link": "https://coinpost.jp/?p=749133",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-23T22:20:47+00:00",
+      "detected_at_utc": "2026-11-24T01:50:35.233785+00:00",
+      "baseline": {
+        "t": "2026-11-24T01:50:35.233785+00:00",
+        "price": 61204.83,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 26263306.16
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットマインのトム・リー会長「イーサリアムとビットコインは供給増加率がほぼ同じ」と指摘",
+      "link": "https://coinpost.jp/?p=749136",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-23T21:10:55+00:00",
+      "detected_at_utc": "2026-11-24T01:50:35.233785+00:00",
+      "baseline": {
+        "t": "2026-11-24T01:50:35.233785+00:00",
+        "price": 61204.83,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 26263306.16
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "エヌビディアCEO復帰、株価33％近く上昇しビットコインも一時6.4万ドル超",
+      "link": "https://coinpost.jp/?p=749137",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-23T20:50:58+00:00",
+      "detected_at_utc": "2026-11-24T01:50:35.233785+00:00",
+      "baseline": {
+        "t": "2026-11-24T01:50:35.233785+00:00",
+        "price": 61204.83,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 26263306.16
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ストラテジー、47億円相当のビットコインを追加購入　4週連続で買い増し",
       "link": "https://coinpost.jp/?p=749116",
       "source": "CoinPost",
@@ -13,11 +70,46 @@
         "fear_greed_value": 11,
         "volume_1h": 361997681.44
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-24T01:50:35.233785+00:00",
+          "price": 61204.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 26263306.16,
+          "delta_price_pct": -4.28
+        },
+        "1h": {
+          "t": "2026-11-24T01:50:35.233785+00:00",
+          "price": 61204.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 26263306.16,
+          "delta_price_pct": -4.28
+        },
+        "2h": {
+          "t": "2026-11-24T01:50:35.233785+00:00",
+          "price": 61204.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 26263306.16,
+          "delta_price_pct": -4.28
+        },
+        "4h": {
+          "t": "2026-11-24T01:50:35.233785+00:00",
+          "price": 61204.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 26263306.16,
+          "delta_price_pct": -4.28
+        }
+      },
+      "flags": [
+        "価格急変（-4.3%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ストラテジー、47億円相当のビットコインを追加購入　4週連続で買い増し」の報道後、BTCは4時間で-4.3%。Fear & Greedも11から11へ横ばい。価格急変（-4.3%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "アメリカンビットコイン、ビットコインを売らず担保で238億円の融資枠を確保",
@@ -32,11 +124,46 @@
         "fear_greed_value": 11,
         "volume_1h": 361997681.44
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-24T01:50:35.233785+00:00",
+          "price": 61204.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 26263306.16,
+          "delta_price_pct": -4.28
+        },
+        "1h": {
+          "t": "2026-11-24T01:50:35.233785+00:00",
+          "price": 61204.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 26263306.16,
+          "delta_price_pct": -4.28
+        },
+        "2h": {
+          "t": "2026-11-24T01:50:35.233785+00:00",
+          "price": 61204.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 26263306.16,
+          "delta_price_pct": -4.28
+        },
+        "4h": {
+          "t": "2026-11-24T01:50:35.233785+00:00",
+          "price": 61204.83,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 26263306.16,
+          "delta_price_pct": -4.28
+        }
+      },
+      "flags": [
+        "価格急変（-4.3%）"
+      ],
+      "relevance": "medium",
+      "summary": "「アメリカンビットコイン、ビットコインを売らず担保で238億円の融資枠を確保」の報道後、BTCは4時間で-4.3%。Fear & Greedも11から11へ横ばい。価格急変（-4.3%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、1000万円割れ　25日PCEデフレーター発表が次の焦点｜bitbankアナリスト寄稿",
@@ -2967,163 +3094,7 @@
       "relevance": "low",
       "summary": "「グラスノード、ビットコインの35.4％が量子コンピュータの標的になりうると指摘」の報道後、BTCは4時間で+0.1%。Fear & Greedも29から29へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米ビットコイン・イーサリアム現物ETF、3日連続の純流出　累計2255億円",
-      "link": "https://coinpost.jp/?p=747333",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-11T00:35:17+00:00",
-      "detected_at_utc": "2026-11-11T05:39:39.267101+00:00",
-      "baseline": {
-        "t": "2026-11-11T05:39:39.267101+00:00",
-        "price": 73800.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 29,
-        "volume_1h": 35793579.72
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-11T12:58:13.163789+00:00",
-          "price": 73913.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 22238236.35,
-          "delta_price_pct": 0.15
-        },
-        "1h": {
-          "t": "2026-11-11T12:58:13.163789+00:00",
-          "price": 73913.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 22238236.35,
-          "delta_price_pct": 0.15
-        },
-        "2h": {
-          "t": "2026-11-11T12:58:13.163789+00:00",
-          "price": 73913.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 22238236.35,
-          "delta_price_pct": 0.15
-        },
-        "4h": {
-          "t": "2026-11-11T12:58:13.163789+00:00",
-          "price": 73913.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 22238236.35,
-          "delta_price_pct": 0.15
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「米ビットコイン・イーサリアム現物ETF、3日連続の純流出　累計2255億円」の報道後、BTCは4時間で+0.1%。Fear & Greedも29から29へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコインに三重苦、利上げ観測・規制懸念・流動性低下で下値警戒｜仮想NISHI",
-      "link": "https://coinpost.jp/?p=747345",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-11T00:00:38+00:00",
-      "detected_at_utc": "2026-11-11T05:39:39.267101+00:00",
-      "baseline": {
-        "t": "2026-11-11T05:39:39.267101+00:00",
-        "price": 73800.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 29,
-        "volume_1h": 35793579.72
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-11T12:58:13.163789+00:00",
-          "price": 73913.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 22238236.35,
-          "delta_price_pct": 0.15
-        },
-        "1h": {
-          "t": "2026-11-11T12:58:13.163789+00:00",
-          "price": 73913.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 22238236.35,
-          "delta_price_pct": 0.15
-        },
-        "2h": {
-          "t": "2026-11-11T12:58:13.163789+00:00",
-          "price": 73913.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 22238236.35,
-          "delta_price_pct": 0.15
-        },
-        "4h": {
-          "t": "2026-11-11T12:58:13.163789+00:00",
-          "price": 73913.69,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 22238236.35,
-          "delta_price_pct": 0.15
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコインに三重苦、利上げ観測・規制懸念・流動性低下で下値警戒｜仮想NISHI」の報道後、BTCは4時間で+0.1%。Fear & Greedも29から29へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコインを現物ETFに交換する需要、ブラックロックで過去最高水準に＝バロンズ",
-      "link": "https://coinpost.jp/?p=747337",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-10T23:05:51+00:00",
-      "detected_at_utc": "2026-11-10T23:54:31.635193+00:00",
-      "baseline": {
-        "t": "2026-11-10T23:54:31.635193+00:00",
-        "price": 73761.06,
-        "funding_rate_pct": null,
-        "fear_greed_value": 32,
-        "volume_1h": 29454847.35
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-11T05:39:39.267101+00:00",
-          "price": 73800.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 35793579.72,
-          "delta_price_pct": 0.05
-        },
-        "1h": {
-          "t": "2026-11-11T05:39:39.267101+00:00",
-          "price": 73800.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 35793579.72,
-          "delta_price_pct": 0.05
-        },
-        "2h": {
-          "t": "2026-11-11T05:39:39.267101+00:00",
-          "price": 73800.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 35793579.72,
-          "delta_price_pct": 0.05
-        },
-        "4h": {
-          "t": "2026-11-11T05:39:39.267101+00:00",
-          "price": 73800.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 35793579.72,
-          "delta_price_pct": 0.05
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコインを現物ETFに交換する需要、ブラックロックで過去最高水準に＝バロンズ」の報道後、BTCは4時間で+0.1%。Fear & Greedも32から29へ悪化。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-23T14:25:33.371632+00:00"
+  "updated_at_utc": "2026-11-24T01:50:35.233785+00:00"
 }
