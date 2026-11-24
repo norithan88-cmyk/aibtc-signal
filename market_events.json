@@ -1,6 +1,82 @@
 {
   "events": [
     {
+      "title": "「ビットコインでも最大4％還元」クラーケン親会社、米国でクレジットカード2種発行へ",
+      "link": "https://coinpost.jp/?p=749349",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-24T22:05:36+00:00",
+      "detected_at_utc": "2026-11-24T22:17:23.362049+00:00",
+      "baseline": {
+        "t": "2026-11-24T22:17:23.362049+00:00",
+        "price": 59975.54,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 19233168.56
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコインのハッシュレートが前年比8％減、2021年の中国採掘禁止以来初",
+      "link": "https://coinpost.jp/?p=749351",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-24T21:35:41+00:00",
+      "detected_at_utc": "2026-11-24T22:17:23.362049+00:00",
+      "baseline": {
+        "t": "2026-11-24T22:17:23.362049+00:00",
+        "price": 59975.54,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 19233168.56
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン反落、エヌビディア高騰で上げた分を全消し",
+      "link": "https://coinpost.jp/?p=749346",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-24T20:50:53+00:00",
+      "detected_at_utc": "2026-11-24T22:17:23.362049+00:00",
+      "baseline": {
+        "t": "2026-11-24T22:17:23.362049+00:00",
+        "price": 59975.54,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 19233168.56
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ナスダック上場のBTCS、イーサリアム保有の半分超を売却　アーベ強制清算を回避",
+      "link": "https://coinpost.jp/?p=749335",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-24T12:25:10+00:00",
+      "detected_at_utc": "2026-11-24T22:17:23.362049+00:00",
+      "baseline": {
+        "t": "2026-11-24T22:17:23.362049+00:00",
+        "price": 59975.54,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 19233168.56
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "スタンフォード大学研究者、ビットコインブリッジにも応用できる実用的な暗号を発表",
       "link": "https://coinpost.jp/?p=749260",
       "source": "CoinPost",
@@ -13,11 +89,44 @@
         "fear_greed_value": 11,
         "volume_1h": 53279737.64
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-24T22:17:23.362049+00:00",
+          "price": 59975.54,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 19233168.56,
+          "delta_price_pct": -0.78
+        },
+        "1h": {
+          "t": "2026-11-24T22:17:23.362049+00:00",
+          "price": 59975.54,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 19233168.56,
+          "delta_price_pct": -0.78
+        },
+        "2h": {
+          "t": "2026-11-24T22:17:23.362049+00:00",
+          "price": 59975.54,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 19233168.56,
+          "delta_price_pct": -0.78
+        },
+        "4h": {
+          "t": "2026-11-24T22:17:23.362049+00:00",
+          "price": 59975.54,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 19233168.56,
+          "delta_price_pct": -0.78
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「スタンフォード大学研究者、ビットコインブリッジにも応用できる実用的な暗号を発表」の報道後、BTCは4時間で-0.8%。Fear & Greedも11から11へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "BTC・ETH・ステーブルコインを一部企業の運営費に算入可、米CFTCスタッフが見解",
@@ -32,11 +141,44 @@
         "fear_greed_value": 11,
         "volume_1h": 53279737.64
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-24T22:17:23.362049+00:00",
+          "price": 59975.54,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 19233168.56,
+          "delta_price_pct": -0.78
+        },
+        "1h": {
+          "t": "2026-11-24T22:17:23.362049+00:00",
+          "price": 59975.54,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 19233168.56,
+          "delta_price_pct": -0.78
+        },
+        "2h": {
+          "t": "2026-11-24T22:17:23.362049+00:00",
+          "price": 59975.54,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 19233168.56,
+          "delta_price_pct": -0.78
+        },
+        "4h": {
+          "t": "2026-11-24T22:17:23.362049+00:00",
+          "price": 59975.54,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 19233168.56,
+          "delta_price_pct": -0.78
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「BTC・ETH・ステーブルコインを一部企業の運営費に算入可、米CFTCスタッフが見解」の報道後、BTCは4時間で-0.8%。Fear & Greedも11から11へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "「ビットコインは売られ過ぎ、短期はAI関連リスク次第」＝グレースケール",
@@ -2917,221 +3059,7 @@
       "relevance": "low",
       "summary": "「ビットコインコア、深刻度の高いバグ含む3件の脆弱性を修正済」の報道後、BTCは4時間で-0.3%。Fear & Greedも28から28へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "トランプ大統領、戦略的ビットコイン準備金の購入に引き続き意欲　元顧問が明かす",
-      "link": "https://coinpost.jp/?p=747515",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-11T21:34:58+00:00",
-      "detected_at_utc": "2026-11-12T01:54:05.460196+00:00",
-      "baseline": {
-        "t": "2026-11-12T01:54:05.460196+00:00",
-        "price": 73687.07,
-        "funding_rate_pct": null,
-        "fear_greed_value": 28,
-        "volume_1h": 44333607.63
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-12T09:31:32.221101+00:00",
-          "price": 73467.9,
-          "funding_rate_pct": null,
-          "fear_greed_value": 28,
-          "volume_1h": 24979491.05,
-          "delta_price_pct": -0.3
-        },
-        "1h": {
-          "t": "2026-11-12T09:31:32.221101+00:00",
-          "price": 73467.9,
-          "funding_rate_pct": null,
-          "fear_greed_value": 28,
-          "volume_1h": 24979491.05,
-          "delta_price_pct": -0.3
-        },
-        "2h": {
-          "t": "2026-11-12T09:31:32.221101+00:00",
-          "price": 73467.9,
-          "funding_rate_pct": null,
-          "fear_greed_value": 28,
-          "volume_1h": 24979491.05,
-          "delta_price_pct": -0.3
-        },
-        "4h": {
-          "t": "2026-11-12T09:31:32.221101+00:00",
-          "price": 73467.9,
-          "funding_rate_pct": null,
-          "fear_greed_value": 28,
-          "volume_1h": 24979491.05,
-          "delta_price_pct": -0.3
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「トランプ大統領、戦略的ビットコイン準備金の購入に引き続き意欲　元顧問が明かす」の報道後、BTCは4時間で-0.3%。Fear & Greedも28から28へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ドイツ銀行、法人・機関向け仮想通貨保管を開始、ビットコインなど5銘柄対応",
-      "link": "https://coinpost.jp/?p=747504",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-11T12:34:42+00:00",
-      "detected_at_utc": "2026-11-11T12:58:13.163789+00:00",
-      "baseline": {
-        "t": "2026-11-11T12:58:13.163789+00:00",
-        "price": 73913.69,
-        "funding_rate_pct": null,
-        "fear_greed_value": 29,
-        "volume_1h": 22238236.35
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        },
-        "1h": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        },
-        "2h": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        },
-        "4h": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        }
-      },
-      "flags": [
-        "出来高急増（+567%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ドイツ銀行、法人・機関向け仮想通貨保管を開始、ビットコインなど5銘柄対応」の報道後、BTCは4時間で+0.7%。Fear & Greedも29から29へ横ばい。出来高急増（+567%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "米マイアミ・デイド郡、固定資産税のビットコイン払いに対応",
-      "link": "https://coinpost.jp/?p=747477",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-11T08:30:02+00:00",
-      "detected_at_utc": "2026-11-11T12:58:13.163789+00:00",
-      "baseline": {
-        "t": "2026-11-11T12:58:13.163789+00:00",
-        "price": 73913.69,
-        "funding_rate_pct": null,
-        "fear_greed_value": 29,
-        "volume_1h": 22238236.35
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        },
-        "1h": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        },
-        "2h": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        },
-        "4h": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        }
-      },
-      "flags": [
-        "出来高急増（+567%）"
-      ],
-      "relevance": "medium",
-      "summary": "「米マイアミ・デイド郡、固定資産税のビットコイン払いに対応」の報道後、BTCは4時間で+0.7%。Fear & Greedも29から29へ横ばい。出来高急増（+567%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコインなど主要3銘柄でSNS弱気が優勢　悲観は反発の下地＝サンティメント",
-      "link": "https://coinpost.jp/?p=747469",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-11T08:00:11+00:00",
-      "detected_at_utc": "2026-11-11T12:58:13.163789+00:00",
-      "baseline": {
-        "t": "2026-11-11T12:58:13.163789+00:00",
-        "price": 73913.69,
-        "funding_rate_pct": null,
-        "fear_greed_value": 29,
-        "volume_1h": 22238236.35
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        },
-        "1h": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        },
-        "2h": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        },
-        "4h": {
-          "t": "2026-11-11T20:08:03.665164+00:00",
-          "price": 74449.27,
-          "funding_rate_pct": null,
-          "fear_greed_value": 29,
-          "volume_1h": 148372053.19,
-          "delta_price_pct": 0.72
-        }
-      },
-      "flags": [
-        "出来高急増（+567%）"
-      ],
-      "relevance": "medium",
-      "summary": "「ビットコインなど主要3銘柄でSNS弱気が優勢　悲観は反発の下地＝サンティメント」の報道後、BTCは4時間で+0.7%。Fear & Greedも29から29へ横ばい。出来高急増（+567%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-24T11:55:42.738678+00:00"
+  "updated_at_utc": "2026-11-24T22:17:23.362049+00:00"
 }
