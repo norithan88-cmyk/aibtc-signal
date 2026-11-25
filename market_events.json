@@ -1,6 +1,120 @@
 {
   "events": [
     {
+      "title": "チェコ中銀のビットコイン試験保有から1年　保有量・評価額は非開示",
+      "link": "https://coinpost.jp/?p=749480",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-25T13:00:59+00:00",
+      "detected_at_utc": "2026-11-25T15:26:25.618304+00:00",
+      "baseline": {
+        "t": "2026-11-25T15:26:25.618304+00:00",
+        "price": 58068.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 13,
+        "volume_1h": 140215642.2
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコインETF、保有機関2200超　投資アドバイザーが主体",
+      "link": "https://coinpost.jp/?p=749469",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-25T12:00:52+00:00",
+      "detected_at_utc": "2026-11-25T15:26:25.618304+00:00",
+      "baseline": {
+        "t": "2026-11-25T15:26:25.618304+00:00",
+        "price": 58068.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 13,
+        "volume_1h": 140215642.2
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコインETF流出、前週の2.4倍に　過去1年で最大＝アナリスト",
+      "link": "https://coinpost.jp/?p=749505",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-25T08:30:58+00:00",
+      "detected_at_utc": "2026-11-25T15:26:25.618304+00:00",
+      "baseline": {
+        "t": "2026-11-25T15:26:25.618304+00:00",
+        "price": 58068.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 13,
+        "volume_1h": 140215642.2
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン日次新規アドレス数が約5万件増、相場軟調でも＝サンティメント",
+      "link": "https://coinpost.jp/?p=749487",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-25T08:00:49+00:00",
+      "detected_at_utc": "2026-11-25T15:26:25.618304+00:00",
+      "baseline": {
+        "t": "2026-11-25T15:26:25.618304+00:00",
+        "price": 58068.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 13,
+        "volume_1h": 140215642.2
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ナスダック上場ネクスト・テクノロジー、500ビットコイン売却　AI開発へ",
+      "link": "https://coinpost.jp/?p=749473",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-25T07:30:36+00:00",
+      "detected_at_utc": "2026-11-25T15:26:25.618304+00:00",
+      "baseline": {
+        "t": "2026-11-25T15:26:25.618304+00:00",
+        "price": 58068.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 13,
+        "volume_1h": 140215642.2
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "なぜ167億円相当のビットコインが不正流出したのか？　ハードウォレット「コールドカード」が原因報告",
+      "link": "https://coinpost.jp/?p=749430",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-25T06:15:23+00:00",
+      "detected_at_utc": "2026-11-25T15:26:25.618304+00:00",
+      "baseline": {
+        "t": "2026-11-25T15:26:25.618304+00:00",
+        "price": 58068.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 13,
+        "volume_1h": 140215642.2
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "米マイニング大手クリーンスパーク、ビットコイン評価益で4Q黒字　売上46％減",
       "link": "https://coinpost.jp/?p=749409",
       "source": "CoinPost",
@@ -13,11 +127,47 @@
         "fear_greed_value": 13,
         "volume_1h": 38120202.94
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-25T15:26:25.618304+00:00",
+          "price": 58068.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 140215642.2,
+          "delta_price_pct": -1.95
+        },
+        "1h": {
+          "t": "2026-11-25T15:26:25.618304+00:00",
+          "price": 58068.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 140215642.2,
+          "delta_price_pct": -1.95
+        },
+        "2h": {
+          "t": "2026-11-25T15:26:25.618304+00:00",
+          "price": 58068.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 140215642.2,
+          "delta_price_pct": -1.95
+        },
+        "4h": {
+          "t": "2026-11-25T15:26:25.618304+00:00",
+          "price": 58068.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 140215642.2,
+          "delta_price_pct": -1.95
+        }
+      },
+      "flags": [
+        "価格急変（-1.9%）",
+        "出来高急増（+268%）"
+      ],
+      "relevance": "high",
+      "summary": "「米マイニング大手クリーンスパーク、ビットコイン評価益で4Q黒字　売上46％減」の報道後、BTCは4時間で-1.9%。Fear & Greedも13から13へ横ばい。価格急変（-1.9%）、出来高急増（+268%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、実現損失がFTX破綻以来の水準に",
@@ -32,11 +182,47 @@
         "fear_greed_value": 13,
         "volume_1h": 38120202.94
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-25T15:26:25.618304+00:00",
+          "price": 58068.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 140215642.2,
+          "delta_price_pct": -1.95
+        },
+        "1h": {
+          "t": "2026-11-25T15:26:25.618304+00:00",
+          "price": 58068.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 140215642.2,
+          "delta_price_pct": -1.95
+        },
+        "2h": {
+          "t": "2026-11-25T15:26:25.618304+00:00",
+          "price": 58068.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 140215642.2,
+          "delta_price_pct": -1.95
+        },
+        "4h": {
+          "t": "2026-11-25T15:26:25.618304+00:00",
+          "price": 58068.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 140215642.2,
+          "delta_price_pct": -1.95
+        }
+      },
+      "flags": [
+        "価格急変（-1.9%）",
+        "出来高急増（+268%）"
+      ],
+      "relevance": "high",
+      "summary": "「ビットコイン、実現損失がFTX破綻以来の水準に」の報道後、BTCは4時間で-1.9%。Fear & Greedも13から13へ横ばい。価格急変（-1.9%）、出来高急増（+268%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "オンド、ビットコイン保有4位ストライブの株式をトークン化",
@@ -51,11 +237,47 @@
         "fear_greed_value": 13,
         "volume_1h": 38120202.94
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-25T15:26:25.618304+00:00",
+          "price": 58068.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 140215642.2,
+          "delta_price_pct": -1.95
+        },
+        "1h": {
+          "t": "2026-11-25T15:26:25.618304+00:00",
+          "price": 58068.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 140215642.2,
+          "delta_price_pct": -1.95
+        },
+        "2h": {
+          "t": "2026-11-25T15:26:25.618304+00:00",
+          "price": 58068.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 140215642.2,
+          "delta_price_pct": -1.95
+        },
+        "4h": {
+          "t": "2026-11-25T15:26:25.618304+00:00",
+          "price": 58068.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 140215642.2,
+          "delta_price_pct": -1.95
+        }
+      },
+      "flags": [
+        "価格急変（-1.9%）",
+        "出来高急増（+268%）"
+      ],
+      "relevance": "high",
+      "summary": "「オンド、ビットコイン保有4位ストライブの株式をトークン化」の報道後、BTCは4時間で-1.9%。Fear & Greedも13から13へ横ばい。価格急変（-1.9%）、出来高急増（+268%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "「ビットコインでも最大4％還元」クラーケン親会社、米国でクレジットカード2種発行へ",
@@ -2764,337 +2986,7 @@
       "relevance": "low",
       "summary": "「米上場2社、AI株安のなかビットコイン採掘を中核事業と強調」の報道後、BTCは4時間で-0.6%。Fear & Greedも20から20へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "コインベース、子供向けのお金の絵本を製作　米国購入者が50ドル相当のビットコインをもらえる特典も",
-      "link": "https://coinpost.jp/?p=747759",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-13T01:40:53+00:00",
-      "detected_at_utc": "2026-11-13T03:15:12.346020+00:00",
-      "baseline": {
-        "t": "2026-11-13T03:15:12.346020+00:00",
-        "price": 69772.81,
-        "funding_rate_pct": null,
-        "fear_greed_value": 20,
-        "volume_1h": 165717356.22
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-13T11:15:07.647651+00:00",
-          "price": 69313.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 38757509.03,
-          "delta_price_pct": -0.66
-        },
-        "1h": {
-          "t": "2026-11-13T11:15:07.647651+00:00",
-          "price": 69313.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 38757509.03,
-          "delta_price_pct": -0.66
-        },
-        "2h": {
-          "t": "2026-11-13T11:15:07.647651+00:00",
-          "price": 69313.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 38757509.03,
-          "delta_price_pct": -0.66
-        },
-        "4h": {
-          "t": "2026-11-13T11:15:07.647651+00:00",
-          "price": 69313.0,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 38757509.03,
-          "delta_price_pct": -0.66
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「コインベース、子供向けのお金の絵本を製作　米国購入者が50ドル相当のビットコインをもらえる特典も」の報道後、BTCは4時間で-0.7%。Fear & Greedも20から20へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "半導体大手TSMCが従業員情報流出を確認、ハッカーが3BTCを要求",
-      "link": "https://coinpost.jp/?p=747697",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-12T22:35:58+00:00",
-      "detected_at_utc": "2026-11-12T22:53:31.414803+00:00",
-      "baseline": {
-        "t": "2026-11-12T22:53:31.414803+00:00",
-        "price": 71439.66,
-        "funding_rate_pct": null,
-        "fear_greed_value": 28,
-        "volume_1h": 15815720.58
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-13T03:15:12.346020+00:00",
-          "price": 69772.81,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 165717356.22,
-          "delta_price_pct": -2.33
-        },
-        "1h": {
-          "t": "2026-11-13T03:15:12.346020+00:00",
-          "price": 69772.81,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 165717356.22,
-          "delta_price_pct": -2.33
-        },
-        "2h": {
-          "t": "2026-11-13T03:15:12.346020+00:00",
-          "price": 69772.81,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 165717356.22,
-          "delta_price_pct": -2.33
-        },
-        "4h": {
-          "t": "2026-11-13T03:15:12.346020+00:00",
-          "price": 69772.81,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 165717356.22,
-          "delta_price_pct": -2.33
-        }
-      },
-      "flags": [
-        "市場心理の悪化（Fear & Greed急低下）",
-        "価格急変（-2.3%）",
-        "出来高急増（+948%）"
-      ],
-      "relevance": "high",
-      "summary": "「半導体大手TSMCが従業員情報流出を確認、ハッカーが3BTCを要求」の報道後、BTCは4時間で-2.3%。Fear & Greedも28から20へ悪化。市場心理の悪化（Fear & Greed急低下）、価格急変（-2.3%）、出来高急増（+948%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "スペースXとテスラの合併協議が進展、成立なら3450億円のビットコイン保有に",
-      "link": "https://coinpost.jp/?p=747701",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-12T21:12:06+00:00",
-      "detected_at_utc": "2026-11-12T22:53:31.414803+00:00",
-      "baseline": {
-        "t": "2026-11-12T22:53:31.414803+00:00",
-        "price": 71439.66,
-        "funding_rate_pct": null,
-        "fear_greed_value": 28,
-        "volume_1h": 15815720.58
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-13T03:15:12.346020+00:00",
-          "price": 69772.81,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 165717356.22,
-          "delta_price_pct": -2.33
-        },
-        "1h": {
-          "t": "2026-11-13T03:15:12.346020+00:00",
-          "price": 69772.81,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 165717356.22,
-          "delta_price_pct": -2.33
-        },
-        "2h": {
-          "t": "2026-11-13T03:15:12.346020+00:00",
-          "price": 69772.81,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 165717356.22,
-          "delta_price_pct": -2.33
-        },
-        "4h": {
-          "t": "2026-11-13T03:15:12.346020+00:00",
-          "price": 69772.81,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 165717356.22,
-          "delta_price_pct": -2.33
-        }
-      },
-      "flags": [
-        "市場心理の悪化（Fear & Greed急低下）",
-        "価格急変（-2.3%）",
-        "出来高急増（+948%）"
-      ],
-      "relevance": "high",
-      "summary": "「スペースXとテスラの合併協議が進展、成立なら3450億円のビットコイン保有に」の報道後、BTCは4時間で-2.3%。Fear & Greedも28から20へ悪化。市場心理の悪化（Fear & Greed急低下）、価格急変（-2.3%）、出来高急増（+948%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン約12週間ぶりの安値に、7万1200ドルまで下落",
-      "link": "https://coinpost.jp/?p=747702",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-12T20:55:03+00:00",
-      "detected_at_utc": "2026-11-12T22:53:31.414803+00:00",
-      "baseline": {
-        "t": "2026-11-12T22:53:31.414803+00:00",
-        "price": 71439.66,
-        "funding_rate_pct": null,
-        "fear_greed_value": 28,
-        "volume_1h": 15815720.58
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-13T03:15:12.346020+00:00",
-          "price": 69772.81,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 165717356.22,
-          "delta_price_pct": -2.33
-        },
-        "1h": {
-          "t": "2026-11-13T03:15:12.346020+00:00",
-          "price": 69772.81,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 165717356.22,
-          "delta_price_pct": -2.33
-        },
-        "2h": {
-          "t": "2026-11-13T03:15:12.346020+00:00",
-          "price": 69772.81,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 165717356.22,
-          "delta_price_pct": -2.33
-        },
-        "4h": {
-          "t": "2026-11-13T03:15:12.346020+00:00",
-          "price": 69772.81,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 165717356.22,
-          "delta_price_pct": -2.33
-        }
-      },
-      "flags": [
-        "市場心理の悪化（Fear & Greed急低下）",
-        "価格急変（-2.3%）",
-        "出来高急増（+948%）"
-      ],
-      "relevance": "high",
-      "summary": "「ビットコイン約12週間ぶりの安値に、7万1200ドルまで下落」の報道後、BTCは4時間で-2.3%。Fear & Greedも28から20へ悪化。市場心理の悪化（Fear & Greed急低下）、価格急変（-2.3%）、出来高急増（+948%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "採掘マシンメーカーのカナン、ETH全量と一部BTCを売却し自社株買い",
-      "link": "https://coinpost.jp/?p=747673",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-12T08:56:29+00:00",
-      "detected_at_utc": "2026-11-12T09:31:32.221101+00:00",
-      "baseline": {
-        "t": "2026-11-12T09:31:32.221101+00:00",
-        "price": 73467.9,
-        "funding_rate_pct": null,
-        "fear_greed_value": 28,
-        "volume_1h": 24979491.05
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-12T17:43:16.665042+00:00",
-          "price": 71798.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 28,
-          "volume_1h": 68870546.44,
-          "delta_price_pct": -2.27
-        },
-        "1h": {
-          "t": "2026-11-12T17:43:16.665042+00:00",
-          "price": 71798.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 28,
-          "volume_1h": 68870546.44,
-          "delta_price_pct": -2.27
-        },
-        "2h": {
-          "t": "2026-11-12T17:43:16.665042+00:00",
-          "price": 71798.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 28,
-          "volume_1h": 68870546.44,
-          "delta_price_pct": -2.27
-        },
-        "4h": {
-          "t": "2026-11-12T17:43:16.665042+00:00",
-          "price": 71798.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 28,
-          "volume_1h": 68870546.44,
-          "delta_price_pct": -2.27
-        }
-      },
-      "flags": [
-        "価格急変（-2.3%）",
-        "出来高急増（+176%）"
-      ],
-      "relevance": "high",
-      "summary": "「採掘マシンメーカーのカナン、ETH全量と一部BTCを売却し自社株買い」の報道後、BTCは4時間で-2.3%。Fear & Greedも28から28へ横ばい。価格急変（-2.3%）、出来高急増（+176%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "バイナンスのビットコイン建玉が17％減、レバレッジ解消進む＝アナリスト",
-      "link": "https://coinpost.jp/?p=747648",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-12T07:23:28+00:00",
-      "detected_at_utc": "2026-11-12T09:31:32.221101+00:00",
-      "baseline": {
-        "t": "2026-11-12T09:31:32.221101+00:00",
-        "price": 73467.9,
-        "funding_rate_pct": null,
-        "fear_greed_value": 28,
-        "volume_1h": 24979491.05
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-12T17:43:16.665042+00:00",
-          "price": 71798.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 28,
-          "volume_1h": 68870546.44,
-          "delta_price_pct": -2.27
-        },
-        "1h": {
-          "t": "2026-11-12T17:43:16.665042+00:00",
-          "price": 71798.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 28,
-          "volume_1h": 68870546.44,
-          "delta_price_pct": -2.27
-        },
-        "2h": {
-          "t": "2026-11-12T17:43:16.665042+00:00",
-          "price": 71798.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 28,
-          "volume_1h": 68870546.44,
-          "delta_price_pct": -2.27
-        },
-        "4h": {
-          "t": "2026-11-12T17:43:16.665042+00:00",
-          "price": 71798.4,
-          "funding_rate_pct": null,
-          "fear_greed_value": 28,
-          "volume_1h": 68870546.44,
-          "delta_price_pct": -2.27
-        }
-      },
-      "flags": [
-        "価格急変（-2.3%）",
-        "出来高急増（+176%）"
-      ],
-      "relevance": "high",
-      "summary": "「バイナンスのビットコイン建玉が17％減、レバレッジ解消進む＝アナリスト」の報道後、BTCは4時間で-2.3%。Fear & Greedも28から28へ横ばい。価格急変（-2.3%）、出来高急増（+176%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-25T04:56:34.848517+00:00"
+  "updated_at_utc": "2026-11-25T15:26:25.618304+00:00"
 }
