@@ -13,11 +13,46 @@
         "fear_greed_value": 13,
         "volume_1h": 140215642.2
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "1h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "2h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "4h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        }
+      },
+      "flags": [
+        "価格急変（+4.0%）"
+      ],
+      "relevance": "medium",
+      "summary": "「チェコ中銀のビットコイン試験保有から1年　保有量・評価額は非開示」の報道後、BTCは4時間で+4.0%。Fear & Greedも13から13へ横ばい。価格急変（+4.0%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインETF、保有機関2200超　投資アドバイザーが主体",
@@ -32,11 +67,46 @@
         "fear_greed_value": 13,
         "volume_1h": 140215642.2
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "1h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "2h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "4h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        }
+      },
+      "flags": [
+        "価格急変（+4.0%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコインETF、保有機関2200超　投資アドバイザーが主体」の報道後、BTCは4時間で+4.0%。Fear & Greedも13から13へ横ばい。価格急変（+4.0%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインETF流出、前週の2.4倍に　過去1年で最大＝アナリスト",
@@ -51,11 +121,46 @@
         "fear_greed_value": 13,
         "volume_1h": 140215642.2
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "1h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "2h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "4h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        }
+      },
+      "flags": [
+        "価格急変（+4.0%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコインETF流出、前週の2.4倍に　過去1年で最大＝アナリスト」の報道後、BTCは4時間で+4.0%。Fear & Greedも13から13へ横ばい。価格急変（+4.0%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン日次新規アドレス数が約5万件増、相場軟調でも＝サンティメント",
@@ -70,11 +175,46 @@
         "fear_greed_value": 13,
         "volume_1h": 140215642.2
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "1h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "2h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "4h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        }
+      },
+      "flags": [
+        "価格急変（+4.0%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコイン日次新規アドレス数が約5万件増、相場軟調でも＝サンティメント」の報道後、BTCは4時間で+4.0%。Fear & Greedも13から13へ横ばい。価格急変（+4.0%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ナスダック上場ネクスト・テクノロジー、500ビットコイン売却　AI開発へ",
@@ -89,11 +229,46 @@
         "fear_greed_value": 13,
         "volume_1h": 140215642.2
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "1h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "2h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "4h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        }
+      },
+      "flags": [
+        "価格急変（+4.0%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ナスダック上場ネクスト・テクノロジー、500ビットコイン売却　AI開発へ」の報道後、BTCは4時間で+4.0%。Fear & Greedも13から13へ横ばい。価格急変（+4.0%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "なぜ167億円相当のビットコインが不正流出したのか？　ハードウォレット「コールドカード」が原因報告",
@@ -108,11 +283,46 @@
         "fear_greed_value": 13,
         "volume_1h": 140215642.2
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "1h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "2h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        },
+        "4h": {
+          "t": "2026-11-25T23:44:55.010864+00:00",
+          "price": 60382.01,
+          "funding_rate_pct": null,
+          "fear_greed_value": 13,
+          "volume_1h": 28348283.74,
+          "delta_price_pct": 3.99
+        }
+      },
+      "flags": [
+        "価格急変（+4.0%）"
+      ],
+      "relevance": "medium",
+      "summary": "「なぜ167億円相当のビットコインが不正流出したのか？　ハードウォレット「コールドカード」が原因報告」の報道後、BTCは4時間で+4.0%。Fear & Greedも13から13へ横ばい。価格急変（+4.0%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "米マイニング大手クリーンスパーク、ビットコイン評価益で4Q黒字　売上46％減",
@@ -2988,5 +3198,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-25T15:26:25.618304+00:00"
+  "updated_at_utc": "2026-11-25T23:44:55.010864+00:00"
 }
