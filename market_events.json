@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "ギャラクシー、ビットコイン底打ち判断を撤回　6月安値割れを警戒",
+      "link": "https://coinpost.jp/?p=749550",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-26T01:30:36+00:00",
+      "detected_at_utc": "2026-11-26T05:30:33.643560+00:00",
+      "baseline": {
+        "t": "2026-11-26T05:30:33.643560+00:00",
+        "price": 60974.26,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 30595218.19
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ブレインズ、1000拠点以上でビットコイン採掘の乗っ取りを報告",
+      "link": "https://coinpost.jp/?p=749541",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-26T01:15:36+00:00",
+      "detected_at_utc": "2026-11-26T05:30:33.643560+00:00",
+      "baseline": {
+        "t": "2026-11-26T05:30:33.643560+00:00",
+        "price": 60974.26,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 30595218.19
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "グーグルのAI論文、RSAやビットコインの暗号に影響なし＝専門家",
+      "link": "https://coinpost.jp/?p=749545",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-26T00:46:18+00:00",
+      "detected_at_utc": "2026-11-26T05:30:33.643560+00:00",
+      "baseline": {
+        "t": "2026-11-26T05:30:33.643560+00:00",
+        "price": 60974.26,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 30595218.19
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "チェコ中銀のビットコイン試験保有から1年　保有量・評価額は非開示",
       "link": "https://coinpost.jp/?p=749480",
       "source": "CoinPost",
@@ -3034,169 +3091,7 @@
       "relevance": "low",
       "summary": "「ビットコイン7万ドル割れ、AI株安が波及しロング大量清算が下落を加速｜仮想NISHI」の報道後、BTCは4時間で-0.1%。Fear & Greedも13から13へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米上場Twenty One Capital第3四半期決算、ビットコイン評価益で10億ドル超の黒字",
-      "link": "https://coinpost.jp/?p=747921",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-13T23:02:07+00:00",
-      "detected_at_utc": "2026-11-13T23:52:29.917962+00:00",
-      "baseline": {
-        "t": "2026-11-13T23:52:29.917962+00:00",
-        "price": 68239.35,
-        "funding_rate_pct": null,
-        "fear_greed_value": 20,
-        "volume_1h": 41372724.49
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-14T05:12:40.573096+00:00",
-          "price": 67184.43,
-          "funding_rate_pct": null,
-          "fear_greed_value": 13,
-          "volume_1h": 82140784.31,
-          "delta_price_pct": -1.55
-        },
-        "1h": {
-          "t": "2026-11-14T05:12:40.573096+00:00",
-          "price": 67184.43,
-          "funding_rate_pct": null,
-          "fear_greed_value": 13,
-          "volume_1h": 82140784.31,
-          "delta_price_pct": -1.55
-        },
-        "2h": {
-          "t": "2026-11-14T05:12:40.573096+00:00",
-          "price": 67184.43,
-          "funding_rate_pct": null,
-          "fear_greed_value": 13,
-          "volume_1h": 82140784.31,
-          "delta_price_pct": -1.55
-        },
-        "4h": {
-          "t": "2026-11-14T05:12:40.573096+00:00",
-          "price": 67184.43,
-          "funding_rate_pct": null,
-          "fear_greed_value": 13,
-          "volume_1h": 82140784.31,
-          "delta_price_pct": -1.55
-        }
-      },
-      "flags": [
-        "価格急変（-1.5%）",
-        "出来高急増（+99%）"
-      ],
-      "relevance": "high",
-      "summary": "「米上場Twenty One Capital第3四半期決算、ビットコイン評価益で10億ドル超の黒字」の報道後、BTCは4時間で-1.6%。Fear & Greedも20から13へ悪化。価格急変（-1.5%）、出来高急増（+99%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "メタプラネット決算、ビットコイン売却損などで純損益が赤字に",
-      "link": "https://coinpost.jp/?p=747904",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-13T13:02:20+00:00",
-      "detected_at_utc": "2026-11-13T23:52:29.917962+00:00",
-      "baseline": {
-        "t": "2026-11-13T23:52:29.917962+00:00",
-        "price": 68239.35,
-        "funding_rate_pct": null,
-        "fear_greed_value": 20,
-        "volume_1h": 41372724.49
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-14T05:12:40.573096+00:00",
-          "price": 67184.43,
-          "funding_rate_pct": null,
-          "fear_greed_value": 13,
-          "volume_1h": 82140784.31,
-          "delta_price_pct": -1.55
-        },
-        "1h": {
-          "t": "2026-11-14T05:12:40.573096+00:00",
-          "price": 67184.43,
-          "funding_rate_pct": null,
-          "fear_greed_value": 13,
-          "volume_1h": 82140784.31,
-          "delta_price_pct": -1.55
-        },
-        "2h": {
-          "t": "2026-11-14T05:12:40.573096+00:00",
-          "price": 67184.43,
-          "funding_rate_pct": null,
-          "fear_greed_value": 13,
-          "volume_1h": 82140784.31,
-          "delta_price_pct": -1.55
-        },
-        "4h": {
-          "t": "2026-11-14T05:12:40.573096+00:00",
-          "price": 67184.43,
-          "funding_rate_pct": null,
-          "fear_greed_value": 13,
-          "volume_1h": 82140784.31,
-          "delta_price_pct": -1.55
-        }
-      },
-      "flags": [
-        "価格急変（-1.5%）",
-        "出来高急増（+99%）"
-      ],
-      "relevance": "high",
-      "summary": "「メタプラネット決算、ビットコイン売却損などで純損益が赤字に」の報道後、BTCは4時間で-1.6%。Fear & Greedも20から13へ悪化。価格急変（-1.5%）、出来高急増（+99%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "米上場2社、AI株安のなかビットコイン採掘を中核事業と強調",
-      "link": "https://coinpost.jp/?p=747801",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-13T04:05:39+00:00",
-      "detected_at_utc": "2026-11-13T11:15:07.647651+00:00",
-      "baseline": {
-        "t": "2026-11-13T11:15:07.647651+00:00",
-        "price": 69313.0,
-        "funding_rate_pct": null,
-        "fear_greed_value": 20,
-        "volume_1h": 38757509.03
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-13T18:35:35.053556+00:00",
-          "price": 68887.33,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 28751161.49,
-          "delta_price_pct": -0.61
-        },
-        "1h": {
-          "t": "2026-11-13T18:35:35.053556+00:00",
-          "price": 68887.33,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 28751161.49,
-          "delta_price_pct": -0.61
-        },
-        "2h": {
-          "t": "2026-11-13T18:35:35.053556+00:00",
-          "price": 68887.33,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 28751161.49,
-          "delta_price_pct": -0.61
-        },
-        "4h": {
-          "t": "2026-11-13T18:35:35.053556+00:00",
-          "price": 68887.33,
-          "funding_rate_pct": null,
-          "fear_greed_value": 20,
-          "volume_1h": 28751161.49,
-          "delta_price_pct": -0.61
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「米上場2社、AI株安のなかビットコイン採掘を中核事業と強調」の報道後、BTCは4時間で-0.6%。Fear & Greedも20から20へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-25T23:44:55.010864+00:00"
+  "updated_at_utc": "2026-11-26T05:30:33.643560+00:00"
 }
