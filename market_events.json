@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "スイス初のビットコイン現物ETFが上場、運用資産350BTC（33億円相当）",
+      "link": "https://coinpost.jp/?p=749648",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-26T14:00:32+00:00",
+      "detected_at_utc": "2026-11-26T15:43:06.952549+00:00",
+      "baseline": {
+        "t": "2026-11-26T15:43:06.952549+00:00",
+        "price": 60453.02,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 67131372.96
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン、5万3250ドルへの下落を警戒＝21シェアーズ",
+      "link": "https://coinpost.jp/?p=749617",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-26T13:30:39+00:00",
+      "detected_at_utc": "2026-11-26T15:43:06.952549+00:00",
+      "baseline": {
+        "t": "2026-11-26T15:43:06.952549+00:00",
+        "price": 60453.02,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 67131372.96
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコイン準備金法案、米下院本会議の審議待ちリストに登録",
+      "link": "https://coinpost.jp/?p=749566",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-26T06:00:52+00:00",
+      "detected_at_utc": "2026-11-26T15:43:06.952549+00:00",
+      "baseline": {
+        "t": "2026-11-26T15:43:06.952549+00:00",
+        "price": 60453.02,
+        "funding_rate_pct": null,
+        "fear_greed_value": 11,
+        "volume_1h": 67131372.96
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ギャラクシー、ビットコイン底打ち判断を撤回　6月安値割れを警戒",
       "link": "https://coinpost.jp/?p=749550",
       "source": "CoinPost",
@@ -13,11 +70,46 @@
         "fear_greed_value": 11,
         "volume_1h": 30595218.19
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-26T15:43:06.952549+00:00",
+          "price": 60453.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 67131372.96,
+          "delta_price_pct": -0.85
+        },
+        "1h": {
+          "t": "2026-11-26T15:43:06.952549+00:00",
+          "price": 60453.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 67131372.96,
+          "delta_price_pct": -0.85
+        },
+        "2h": {
+          "t": "2026-11-26T15:43:06.952549+00:00",
+          "price": 60453.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 67131372.96,
+          "delta_price_pct": -0.85
+        },
+        "4h": {
+          "t": "2026-11-26T15:43:06.952549+00:00",
+          "price": 60453.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 67131372.96,
+          "delta_price_pct": -0.85
+        }
+      },
+      "flags": [
+        "出来高急増（+119%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ギャラクシー、ビットコイン底打ち判断を撤回　6月安値割れを警戒」の報道後、BTCは4時間で-0.8%。Fear & Greedも11から11へ横ばい。出来高急増（+119%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ブレインズ、1000拠点以上でビットコイン採掘の乗っ取りを報告",
@@ -32,11 +124,46 @@
         "fear_greed_value": 11,
         "volume_1h": 30595218.19
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-26T15:43:06.952549+00:00",
+          "price": 60453.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 67131372.96,
+          "delta_price_pct": -0.85
+        },
+        "1h": {
+          "t": "2026-11-26T15:43:06.952549+00:00",
+          "price": 60453.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 67131372.96,
+          "delta_price_pct": -0.85
+        },
+        "2h": {
+          "t": "2026-11-26T15:43:06.952549+00:00",
+          "price": 60453.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 67131372.96,
+          "delta_price_pct": -0.85
+        },
+        "4h": {
+          "t": "2026-11-26T15:43:06.952549+00:00",
+          "price": 60453.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 67131372.96,
+          "delta_price_pct": -0.85
+        }
+      },
+      "flags": [
+        "出来高急増（+119%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ブレインズ、1000拠点以上でビットコイン採掘の乗っ取りを報告」の報道後、BTCは4時間で-0.8%。Fear & Greedも11から11へ横ばい。出来高急増（+119%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "グーグルのAI論文、RSAやビットコインの暗号に影響なし＝専門家",
@@ -51,11 +178,46 @@
         "fear_greed_value": 11,
         "volume_1h": 30595218.19
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-26T15:43:06.952549+00:00",
+          "price": 60453.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 67131372.96,
+          "delta_price_pct": -0.85
+        },
+        "1h": {
+          "t": "2026-11-26T15:43:06.952549+00:00",
+          "price": 60453.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 67131372.96,
+          "delta_price_pct": -0.85
+        },
+        "2h": {
+          "t": "2026-11-26T15:43:06.952549+00:00",
+          "price": 60453.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 67131372.96,
+          "delta_price_pct": -0.85
+        },
+        "4h": {
+          "t": "2026-11-26T15:43:06.952549+00:00",
+          "price": 60453.02,
+          "funding_rate_pct": null,
+          "fear_greed_value": 11,
+          "volume_1h": 67131372.96,
+          "delta_price_pct": -0.85
+        }
+      },
+      "flags": [
+        "出来高急増（+119%）"
+      ],
+      "relevance": "medium",
+      "summary": "「グーグルのAI論文、RSAやビットコインの暗号に影響なし＝専門家」の報道後、BTCは4時間で-0.8%。Fear & Greedも11から11へ横ばい。出来高急増（+119%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "チェコ中銀のビットコイン試験保有から1年　保有量・評価額は非開示",
@@ -2935,163 +3097,7 @@
       "relevance": "medium",
       "summary": "「週刊仮想通貨ニュース（11/13）｜上場企業のBTC売却・米BTC準備金・DAT企業の指数除外のまとめ」の報道後、BTCは4時間で+3.2%。Fear & Greedも10から10へ横ばい。価格急変（+3.2%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米上場ナカモト、ビットコイン評価益で黒字も調整後営業損益は赤字",
-      "link": "https://coinpost.jp/?p=747970",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-14T04:45:37+00:00",
-      "detected_at_utc": "2026-11-14T05:12:40.573096+00:00",
-      "baseline": {
-        "t": "2026-11-14T05:12:40.573096+00:00",
-        "price": 67184.43,
-        "funding_rate_pct": null,
-        "fear_greed_value": 13,
-        "volume_1h": 82140784.31
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-14T12:17:00.651740+00:00",
-          "price": 67091.36,
-          "funding_rate_pct": 0.0045,
-          "fear_greed_value": 13,
-          "volume_1h": 38399927.42,
-          "delta_price_pct": -0.14
-        },
-        "1h": {
-          "t": "2026-11-14T12:17:00.651740+00:00",
-          "price": 67091.36,
-          "funding_rate_pct": 0.0045,
-          "fear_greed_value": 13,
-          "volume_1h": 38399927.42,
-          "delta_price_pct": -0.14
-        },
-        "2h": {
-          "t": "2026-11-14T12:17:00.651740+00:00",
-          "price": 67091.36,
-          "funding_rate_pct": 0.0045,
-          "fear_greed_value": 13,
-          "volume_1h": 38399927.42,
-          "delta_price_pct": -0.14
-        },
-        "4h": {
-          "t": "2026-11-14T12:17:00.651740+00:00",
-          "price": 67091.36,
-          "funding_rate_pct": 0.0045,
-          "fear_greed_value": 13,
-          "volume_1h": 38399927.42,
-          "delta_price_pct": -0.14
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「米上場ナカモト、ビットコイン評価益で黒字も調整後営業損益は赤字」の報道後、BTCは4時間で-0.1%。Fear & Greedも13から13へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "アダム・バック、ビットコインが2028年までに100万ドル到達の可能性",
-      "link": "https://coinpost.jp/?p=747950",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-14T01:10:38+00:00",
-      "detected_at_utc": "2026-11-14T05:12:40.573096+00:00",
-      "baseline": {
-        "t": "2026-11-14T05:12:40.573096+00:00",
-        "price": 67184.43,
-        "funding_rate_pct": null,
-        "fear_greed_value": 13,
-        "volume_1h": 82140784.31
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-14T12:17:00.651740+00:00",
-          "price": 67091.36,
-          "funding_rate_pct": 0.0045,
-          "fear_greed_value": 13,
-          "volume_1h": 38399927.42,
-          "delta_price_pct": -0.14
-        },
-        "1h": {
-          "t": "2026-11-14T12:17:00.651740+00:00",
-          "price": 67091.36,
-          "funding_rate_pct": 0.0045,
-          "fear_greed_value": 13,
-          "volume_1h": 38399927.42,
-          "delta_price_pct": -0.14
-        },
-        "2h": {
-          "t": "2026-11-14T12:17:00.651740+00:00",
-          "price": 67091.36,
-          "funding_rate_pct": 0.0045,
-          "fear_greed_value": 13,
-          "volume_1h": 38399927.42,
-          "delta_price_pct": -0.14
-        },
-        "4h": {
-          "t": "2026-11-14T12:17:00.651740+00:00",
-          "price": 67091.36,
-          "funding_rate_pct": 0.0045,
-          "fear_greed_value": 13,
-          "volume_1h": 38399927.42,
-          "delta_price_pct": -0.14
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「アダム・バック、ビットコインが2028年までに100万ドル到達の可能性」の報道後、BTCは4時間で-0.1%。Fear & Greedも13から13へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン7万ドル割れ、AI株安が波及しロング大量清算が下落を加速｜仮想NISHI",
-      "link": "https://coinpost.jp/?p=747946",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-14T00:15:32+00:00",
-      "detected_at_utc": "2026-11-14T05:12:40.573096+00:00",
-      "baseline": {
-        "t": "2026-11-14T05:12:40.573096+00:00",
-        "price": 67184.43,
-        "funding_rate_pct": null,
-        "fear_greed_value": 13,
-        "volume_1h": 82140784.31
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-14T12:17:00.651740+00:00",
-          "price": 67091.36,
-          "funding_rate_pct": 0.0045,
-          "fear_greed_value": 13,
-          "volume_1h": 38399927.42,
-          "delta_price_pct": -0.14
-        },
-        "1h": {
-          "t": "2026-11-14T12:17:00.651740+00:00",
-          "price": 67091.36,
-          "funding_rate_pct": 0.0045,
-          "fear_greed_value": 13,
-          "volume_1h": 38399927.42,
-          "delta_price_pct": -0.14
-        },
-        "2h": {
-          "t": "2026-11-14T12:17:00.651740+00:00",
-          "price": 67091.36,
-          "funding_rate_pct": 0.0045,
-          "fear_greed_value": 13,
-          "volume_1h": 38399927.42,
-          "delta_price_pct": -0.14
-        },
-        "4h": {
-          "t": "2026-11-14T12:17:00.651740+00:00",
-          "price": 67091.36,
-          "funding_rate_pct": 0.0045,
-          "fear_greed_value": 13,
-          "volume_1h": 38399927.42,
-          "delta_price_pct": -0.14
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン7万ドル割れ、AI株安が波及しロング大量清算が下落を加速｜仮想NISHI」の報道後、BTCは4時間で-0.1%。Fear & Greedも13から13へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-26T05:30:33.643560+00:00"
+  "updated_at_utc": "2026-11-26T15:43:06.952549+00:00"
 }
