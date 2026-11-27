@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "メタプラネット傘下入り予定のスーパーリーグ、8ビットコインを追加購入",
+      "link": "https://coinpost.jp/?p=749685",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-27T08:00:39+00:00",
+      "detected_at_utc": "2026-11-27T08:18:22.330385+00:00",
+      "baseline": {
+        "t": "2026-11-27T08:18:22.330385+00:00",
+        "price": 62098.5,
+        "funding_rate_pct": null,
+        "fear_greed_value": 12,
+        "volume_1h": 105219485.29
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "ビットコイン採掘、ブロック生成間隔が98分19秒で7月以来の最長",
       "link": "https://coinpost.jp/?p=749658",
       "source": "CoinPost",
@@ -13,11 +32,47 @@
         "fear_greed_value": 12,
         "volume_1h": 17537814.05
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-27T08:18:22.330385+00:00",
+          "price": 62098.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 105219485.29,
+          "delta_price_pct": 2.4
+        },
+        "1h": {
+          "t": "2026-11-27T08:18:22.330385+00:00",
+          "price": 62098.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 105219485.29,
+          "delta_price_pct": 2.4
+        },
+        "2h": {
+          "t": "2026-11-27T08:18:22.330385+00:00",
+          "price": 62098.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 105219485.29,
+          "delta_price_pct": 2.4
+        },
+        "4h": {
+          "t": "2026-11-27T08:18:22.330385+00:00",
+          "price": 62098.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 105219485.29,
+          "delta_price_pct": 2.4
+        }
+      },
+      "flags": [
+        "価格急変（+2.4%）",
+        "出来高急増（+500%）"
+      ],
+      "relevance": "high",
+      "summary": "「ビットコイン採掘、ブロック生成間隔が98分19秒で7月以来の最長」の報道後、BTCは4時間で+2.4%。Fear & Greedも12から12へ横ばい。価格急変（+2.4%）、出来高急増（+500%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインコアで問題発覚、約55円でプライバシー漏えいの恐れ",
@@ -32,11 +87,47 @@
         "fear_greed_value": 12,
         "volume_1h": 17537814.05
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-27T08:18:22.330385+00:00",
+          "price": 62098.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 105219485.29,
+          "delta_price_pct": 2.4
+        },
+        "1h": {
+          "t": "2026-11-27T08:18:22.330385+00:00",
+          "price": 62098.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 105219485.29,
+          "delta_price_pct": 2.4
+        },
+        "2h": {
+          "t": "2026-11-27T08:18:22.330385+00:00",
+          "price": 62098.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 105219485.29,
+          "delta_price_pct": 2.4
+        },
+        "4h": {
+          "t": "2026-11-27T08:18:22.330385+00:00",
+          "price": 62098.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 105219485.29,
+          "delta_price_pct": 2.4
+        }
+      },
+      "flags": [
+        "価格急変（+2.4%）",
+        "出来高急増（+500%）"
+      ],
+      "relevance": "high",
+      "summary": "「ビットコインコアで問題発覚、約55円でプライバシー漏えいの恐れ」の報道後、BTCは4時間で+2.4%。Fear & Greedも12から12へ横ばい。価格急変（+2.4%）、出来高急増（+500%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ストラテジー企業価値が保有ビットコイン比で過去最低、投げ売りの局面か＝JPモルガン",
@@ -51,11 +142,47 @@
         "fear_greed_value": 12,
         "volume_1h": 17537814.05
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-27T08:18:22.330385+00:00",
+          "price": 62098.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 105219485.29,
+          "delta_price_pct": 2.4
+        },
+        "1h": {
+          "t": "2026-11-27T08:18:22.330385+00:00",
+          "price": 62098.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 105219485.29,
+          "delta_price_pct": 2.4
+        },
+        "2h": {
+          "t": "2026-11-27T08:18:22.330385+00:00",
+          "price": 62098.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 105219485.29,
+          "delta_price_pct": 2.4
+        },
+        "4h": {
+          "t": "2026-11-27T08:18:22.330385+00:00",
+          "price": 62098.5,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 105219485.29,
+          "delta_price_pct": 2.4
+        }
+      },
+      "flags": [
+        "価格急変（+2.4%）",
+        "出来高急増（+500%）"
+      ],
+      "relevance": "high",
+      "summary": "「ストラテジー企業価値が保有ビットコイン比で過去最低、投げ売りの局面か＝JPモルガン」の報道後、BTCは4時間で+2.4%。Fear & Greedも12から12へ横ばい。価格急変（+2.4%）、出来高急増（+500%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "スイス初のビットコイン現物ETFが上場、運用資産350BTC（33億円相当）",
@@ -3043,59 +3170,7 @@
       "relevance": "low",
       "summary": "「ビットコイン採掘マシン約6万4000台分の乗っ取り発生　報酬アドレス書き換え」の報道後、BTCは4時間で-0.1%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン一時1000万円割れ、清算連鎖とアンソロピックIPOへの資金シフト懸念も｜仮想NISHI",
-      "link": "https://coinpost.jp/?p=748038",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-16T01:23:23+00:00",
-      "detected_at_utc": "2026-11-16T07:59:16.080473+00:00",
-      "baseline": {
-        "t": "2026-11-16T07:59:16.080473+00:00",
-        "price": 65020.11,
-        "funding_rate_pct": null,
-        "fear_greed_value": 10,
-        "volume_1h": 45629388.92
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-16T18:22:01.064967+00:00",
-          "price": 64928.2,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 43012419.71,
-          "delta_price_pct": -0.14
-        },
-        "1h": {
-          "t": "2026-11-16T18:22:01.064967+00:00",
-          "price": 64928.2,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 43012419.71,
-          "delta_price_pct": -0.14
-        },
-        "2h": {
-          "t": "2026-11-16T18:22:01.064967+00:00",
-          "price": 64928.2,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 43012419.71,
-          "delta_price_pct": -0.14
-        },
-        "4h": {
-          "t": "2026-11-16T18:22:01.064967+00:00",
-          "price": 64928.2,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 43012419.71,
-          "delta_price_pct": -0.14
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン一時1000万円割れ、清算連鎖とアンソロピックIPOへの資金シフト懸念も｜仮想NISHI」の報道後、BTCは4時間で-0.1%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-27T00:04:24.538317+00:00"
+  "updated_at_utc": "2026-11-27T08:18:22.330385+00:00"
 }
