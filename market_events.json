@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "title": "ビットコイン採掘、ブロック生成間隔が98分19秒で7月以来の最長",
+      "link": "https://coinpost.jp/?p=749658",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-26T21:40:15+00:00",
+      "detected_at_utc": "2026-11-27T00:04:24.538317+00:00",
+      "baseline": {
+        "t": "2026-11-27T00:04:24.538317+00:00",
+        "price": 60641.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 12,
+        "volume_1h": 17537814.05
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコインコアで問題発覚、約55円でプライバシー漏えいの恐れ",
+      "link": "https://coinpost.jp/?p=749659",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-26T21:20:16+00:00",
+      "detected_at_utc": "2026-11-27T00:04:24.538317+00:00",
+      "baseline": {
+        "t": "2026-11-27T00:04:24.538317+00:00",
+        "price": 60641.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 12,
+        "volume_1h": 17537814.05
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ストラテジー企業価値が保有ビットコイン比で過去最低、投げ売りの局面か＝JPモルガン",
+      "link": "https://coinpost.jp/?p=749660",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-26T21:00:18+00:00",
+      "detected_at_utc": "2026-11-27T00:04:24.538317+00:00",
+      "baseline": {
+        "t": "2026-11-27T00:04:24.538317+00:00",
+        "price": 60641.0,
+        "funding_rate_pct": null,
+        "fear_greed_value": 12,
+        "volume_1h": 17537814.05
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "スイス初のビットコイン現物ETFが上場、運用資産350BTC（33億円相当）",
       "link": "https://coinpost.jp/?p=749648",
       "source": "CoinPost",
@@ -13,11 +70,44 @@
         "fear_greed_value": 11,
         "volume_1h": 67131372.96
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-27T00:04:24.538317+00:00",
+          "price": 60641.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 17537814.05,
+          "delta_price_pct": 0.31
+        },
+        "1h": {
+          "t": "2026-11-27T00:04:24.538317+00:00",
+          "price": 60641.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 17537814.05,
+          "delta_price_pct": 0.31
+        },
+        "2h": {
+          "t": "2026-11-27T00:04:24.538317+00:00",
+          "price": 60641.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 17537814.05,
+          "delta_price_pct": 0.31
+        },
+        "4h": {
+          "t": "2026-11-27T00:04:24.538317+00:00",
+          "price": 60641.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 17537814.05,
+          "delta_price_pct": 0.31
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「スイス初のビットコイン現物ETFが上場、運用資産350BTC（33億円相当）」の報道後、BTCは4時間で+0.3%。Fear & Greedも11から12へ改善。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン、5万3250ドルへの下落を警戒＝21シェアーズ",
@@ -32,11 +122,44 @@
         "fear_greed_value": 11,
         "volume_1h": 67131372.96
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-27T00:04:24.538317+00:00",
+          "price": 60641.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 17537814.05,
+          "delta_price_pct": 0.31
+        },
+        "1h": {
+          "t": "2026-11-27T00:04:24.538317+00:00",
+          "price": 60641.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 17537814.05,
+          "delta_price_pct": 0.31
+        },
+        "2h": {
+          "t": "2026-11-27T00:04:24.538317+00:00",
+          "price": 60641.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 17537814.05,
+          "delta_price_pct": 0.31
+        },
+        "4h": {
+          "t": "2026-11-27T00:04:24.538317+00:00",
+          "price": 60641.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 17537814.05,
+          "delta_price_pct": 0.31
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン、5万3250ドルへの下落を警戒＝21シェアーズ」の報道後、BTCは4時間で+0.3%。Fear & Greedも11から12へ改善。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン準備金法案、米下院本会議の審議待ちリストに登録",
@@ -51,11 +174,44 @@
         "fear_greed_value": 11,
         "volume_1h": 67131372.96
       },
-      "checkpoints": {},
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-27T00:04:24.538317+00:00",
+          "price": 60641.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 17537814.05,
+          "delta_price_pct": 0.31
+        },
+        "1h": {
+          "t": "2026-11-27T00:04:24.538317+00:00",
+          "price": 60641.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 17537814.05,
+          "delta_price_pct": 0.31
+        },
+        "2h": {
+          "t": "2026-11-27T00:04:24.538317+00:00",
+          "price": 60641.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 17537814.05,
+          "delta_price_pct": 0.31
+        },
+        "4h": {
+          "t": "2026-11-27T00:04:24.538317+00:00",
+          "price": 60641.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 17537814.05,
+          "delta_price_pct": 0.31
+        }
+      },
       "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "relevance": "low",
+      "summary": "「ビットコイン準備金法案、米下院本会議の審議待ちリストに登録」の報道後、BTCは4時間で+0.3%。Fear & Greedも11から12へ改善。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ギャラクシー、ビットコイン底打ち判断を撤回　6月安値割れを警戒",
@@ -2939,165 +3095,7 @@
       "relevance": "low",
       "summary": "「ビットコイン一時1000万円割れ、清算連鎖とアンソロピックIPOへの資金シフト懸念も｜仮想NISHI」の報道後、BTCは4時間で-0.1%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "アンソロピック上場前のビットコイン安、スペースX時と酷似　ストライブCEO",
-      "link": "https://coinpost.jp/?p=748007",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-15T22:39:20+00:00",
-      "detected_at_utc": "2026-11-16T01:08:11.254780+00:00",
-      "baseline": {
-        "t": "2026-11-16T01:08:11.254780+00:00",
-        "price": 64864.01,
-        "funding_rate_pct": null,
-        "fear_greed_value": 10,
-        "volume_1h": 89240683.9
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-16T07:59:16.080473+00:00",
-          "price": 65020.11,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 45629388.92,
-          "delta_price_pct": 0.24
-        },
-        "1h": {
-          "t": "2026-11-16T07:59:16.080473+00:00",
-          "price": 65020.11,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 45629388.92,
-          "delta_price_pct": 0.24
-        },
-        "2h": {
-          "t": "2026-11-16T07:59:16.080473+00:00",
-          "price": 65020.11,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 45629388.92,
-          "delta_price_pct": 0.24
-        },
-        "4h": {
-          "t": "2026-11-16T07:59:16.080473+00:00",
-          "price": 65020.11,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 45629388.92,
-          "delta_price_pct": 0.24
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「アンソロピック上場前のビットコイン安、スペースX時と酷似　ストライブCEO」の報道後、BTCは4時間で+0.2%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン、200日線割れ1100万円台　エヌビディア決算とアンソロピックIPOが焦点｜bitbankアナリスト寄稿",
-      "link": "https://coinpost.jp/?p=747846",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-15T02:30:25+00:00",
-      "detected_at_utc": "2026-11-15T09:27:59.504921+00:00",
-      "baseline": {
-        "t": "2026-11-15T09:27:59.504921+00:00",
-        "price": 65624.17,
-        "funding_rate_pct": null,
-        "fear_greed_value": 10,
-        "volume_1h": 153234278.04
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-15T16:32:07.237665+00:00",
-          "price": 64672.92,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 42797575.3,
-          "delta_price_pct": -1.45
-        },
-        "1h": {
-          "t": "2026-11-15T16:32:07.237665+00:00",
-          "price": 64672.92,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 42797575.3,
-          "delta_price_pct": -1.45
-        },
-        "2h": {
-          "t": "2026-11-15T16:32:07.237665+00:00",
-          "price": 64672.92,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 42797575.3,
-          "delta_price_pct": -1.45
-        },
-        "4h": {
-          "t": "2026-11-15T16:32:07.237665+00:00",
-          "price": 64672.92,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 42797575.3,
-          "delta_price_pct": -1.45
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン、200日線割れ1100万円台　エヌビディア決算とアンソロピックIPOが焦点｜bitbankアナリスト寄稿」の報道後、BTCは4時間で-1.4%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "週刊仮想通貨ニュース（11/13）｜上場企業のBTC売却・米BTC準備金・DAT企業の指数除外のまとめ",
-      "link": "https://coinpost.jp/?p=747789",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-15T00:25:54+00:00",
-      "detected_at_utc": "2026-11-15T02:08:19.660886+00:00",
-      "baseline": {
-        "t": "2026-11-15T02:08:19.660886+00:00",
-        "price": 63569.65,
-        "funding_rate_pct": null,
-        "fear_greed_value": 10,
-        "volume_1h": 246210905.62
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-15T09:27:59.504921+00:00",
-          "price": 65624.17,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 153234278.04,
-          "delta_price_pct": 3.23
-        },
-        "1h": {
-          "t": "2026-11-15T09:27:59.504921+00:00",
-          "price": 65624.17,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 153234278.04,
-          "delta_price_pct": 3.23
-        },
-        "2h": {
-          "t": "2026-11-15T09:27:59.504921+00:00",
-          "price": 65624.17,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 153234278.04,
-          "delta_price_pct": 3.23
-        },
-        "4h": {
-          "t": "2026-11-15T09:27:59.504921+00:00",
-          "price": 65624.17,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 153234278.04,
-          "delta_price_pct": 3.23
-        }
-      },
-      "flags": [
-        "価格急変（+3.2%）"
-      ],
-      "relevance": "medium",
-      "summary": "「週刊仮想通貨ニュース（11/13）｜上場企業のBTC売却・米BTC準備金・DAT企業の指数除外のまとめ」の報道後、BTCは4時間で+3.2%。Fear & Greedも10から10へ横ばい。価格急変（+3.2%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-26T15:43:06.952549+00:00"
+  "updated_at_utc": "2026-11-27T00:04:24.538317+00:00"
 }
