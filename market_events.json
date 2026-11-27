@@ -13,11 +13,46 @@
         "fear_greed_value": 12,
         "volume_1h": 105219485.29
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-27T18:18:37.743293+00:00",
+          "price": 59918.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 43757507.65,
+          "delta_price_pct": -3.51
+        },
+        "1h": {
+          "t": "2026-11-27T18:18:37.743293+00:00",
+          "price": 59918.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 43757507.65,
+          "delta_price_pct": -3.51
+        },
+        "2h": {
+          "t": "2026-11-27T18:18:37.743293+00:00",
+          "price": 59918.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 43757507.65,
+          "delta_price_pct": -3.51
+        },
+        "4h": {
+          "t": "2026-11-27T18:18:37.743293+00:00",
+          "price": 59918.0,
+          "funding_rate_pct": null,
+          "fear_greed_value": 12,
+          "volume_1h": 43757507.65,
+          "delta_price_pct": -3.51
+        }
+      },
+      "flags": [
+        "価格急変（-3.5%）"
+      ],
+      "relevance": "medium",
+      "summary": "「メタプラネット傘下入り予定のスーパーリーグ、8ビットコインを追加購入」の報道後、BTCは4時間で-3.5%。Fear & Greedも12から12へ横ばい。価格急変（-3.5%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコイン採掘、ブロック生成間隔が98分19秒で7月以来の最長",
@@ -3172,5 +3207,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-27T08:18:22.330385+00:00"
+  "updated_at_utc": "2026-11-27T18:18:37.743293+00:00"
 }
