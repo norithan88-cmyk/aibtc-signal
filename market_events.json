@@ -1,6 +1,44 @@
 {
   "events": [
     {
+      "title": "「押し目買い転換は異例」　ビットコインのクジラ、9〜11月で12万BTC超を買い増し",
+      "link": "https://coinpost.jp/?p=749831",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-27T22:05:37+00:00",
+      "detected_at_utc": "2026-11-28T01:31:48.715748+00:00",
+      "baseline": {
+        "t": "2026-11-28T01:31:48.715748+00:00",
+        "price": 60187.34,
+        "funding_rate_pct": null,
+        "fear_greed_value": 10,
+        "volume_1h": 17838500.92
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
+      "title": "ビットコインがスーパーサイクル確立か、最高値突破なら20万3000ドルも視野に＝アナリスト",
+      "link": "https://coinpost.jp/?p=749833",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-27T21:12:41+00:00",
+      "detected_at_utc": "2026-11-28T01:31:48.715748+00:00",
+      "baseline": {
+        "t": "2026-11-28T01:31:48.715748+00:00",
+        "price": 60187.34,
+        "funding_rate_pct": null,
+        "fear_greed_value": 10,
+        "volume_1h": 17838500.92
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "メタプラネット傘下入り予定のスーパーリーグ、8ビットコインを追加購入",
       "link": "https://coinpost.jp/?p=749685",
       "source": "CoinPost",
@@ -3101,111 +3139,7 @@
       "relevance": "medium",
       "summary": "「米ストラテジー、53億円相当ビットコインを買い増し　3週連続」の報道後、BTCは4時間で-0.3%。Fear & Greedも10から12へ改善。出来高急増（+55%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "ビットコイン新規クジラの含み損80億ドル　投げ売りは限定的＝アナリスト",
-      "link": "https://coinpost.jp/?p=748127",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-16T06:00:41+00:00",
-      "detected_at_utc": "2026-11-16T07:59:16.080473+00:00",
-      "baseline": {
-        "t": "2026-11-16T07:59:16.080473+00:00",
-        "price": 65020.11,
-        "funding_rate_pct": null,
-        "fear_greed_value": 10,
-        "volume_1h": 45629388.92
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-16T18:22:01.064967+00:00",
-          "price": 64928.2,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 43012419.71,
-          "delta_price_pct": -0.14
-        },
-        "1h": {
-          "t": "2026-11-16T18:22:01.064967+00:00",
-          "price": 64928.2,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 43012419.71,
-          "delta_price_pct": -0.14
-        },
-        "2h": {
-          "t": "2026-11-16T18:22:01.064967+00:00",
-          "price": 64928.2,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 43012419.71,
-          "delta_price_pct": -0.14
-        },
-        "4h": {
-          "t": "2026-11-16T18:22:01.064967+00:00",
-          "price": 64928.2,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 43012419.71,
-          "delta_price_pct": -0.14
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン新規クジラの含み損80億ドル　投げ売りは限定的＝アナリスト」の報道後、BTCは4時間で-0.1%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
-    },
-    {
-      "title": "ビットコイン採掘マシン約6万4000台分の乗っ取り発生　報酬アドレス書き換え",
-      "link": "https://coinpost.jp/?p=748076",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-16T02:50:14+00:00",
-      "detected_at_utc": "2026-11-16T07:59:16.080473+00:00",
-      "baseline": {
-        "t": "2026-11-16T07:59:16.080473+00:00",
-        "price": 65020.11,
-        "funding_rate_pct": null,
-        "fear_greed_value": 10,
-        "volume_1h": 45629388.92
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-16T18:22:01.064967+00:00",
-          "price": 64928.2,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 43012419.71,
-          "delta_price_pct": -0.14
-        },
-        "1h": {
-          "t": "2026-11-16T18:22:01.064967+00:00",
-          "price": 64928.2,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 43012419.71,
-          "delta_price_pct": -0.14
-        },
-        "2h": {
-          "t": "2026-11-16T18:22:01.064967+00:00",
-          "price": 64928.2,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 43012419.71,
-          "delta_price_pct": -0.14
-        },
-        "4h": {
-          "t": "2026-11-16T18:22:01.064967+00:00",
-          "price": 64928.2,
-          "funding_rate_pct": null,
-          "fear_greed_value": 10,
-          "volume_1h": 43012419.71,
-          "delta_price_pct": -0.14
-        }
-      },
-      "flags": [],
-      "relevance": "low",
-      "summary": "「ビットコイン採掘マシン約6万4000台分の乗っ取り発生　報酬アドレス書き換え」の報道後、BTCは4時間で-0.1%。Fear & Greedも10から10へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-27T18:18:37.743293+00:00"
+  "updated_at_utc": "2026-11-28T01:31:48.715748+00:00"
 }
