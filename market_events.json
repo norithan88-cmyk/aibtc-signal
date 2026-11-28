@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "title": "米FRB12月利上げ約99％織り込み、実質金利上昇はビットコインと株の重荷に",
+      "link": "https://coinpost.jp/?p=749892",
+      "source": "CoinPost",
+      "published_at_utc": "2026-11-28T11:00:49+00:00",
+      "detected_at_utc": "2026-11-28T17:43:22.736153+00:00",
+      "baseline": {
+        "t": "2026-11-28T17:43:22.736153+00:00",
+        "price": 59480.66,
+        "funding_rate_pct": null,
+        "fear_greed_value": 10,
+        "volume_1h": 20386230.73
+      },
+      "checkpoints": {},
+      "flags": [],
+      "relevance": "unknown",
+      "summary": null,
+      "finalized": false
+    },
+    {
       "title": "「押し目買い転換は異例」　ビットコインのクジラ、9〜11月で12万BTC超を買い増し",
       "link": "https://coinpost.jp/?p=749831",
       "source": "CoinPost",
@@ -3155,61 +3174,7 @@
       "relevance": "low",
       "summary": "「「ビットコイン、経済悪化なら2018年のように一段安も長期的には強気」ビットワイズ幹部」の報道後、BTCは4時間で-0.8%。Fear & Greedも12から12へ横ばい。ただし相関の一致であり、因果関係は確定できません。",
       "finalized": true
-    },
-    {
-      "title": "米ストラテジー、53億円相当ビットコインを買い増し　3週連続",
-      "link": "https://coinpost.jp/?p=748183",
-      "source": "CoinPost",
-      "published_at_utc": "2026-11-16T13:20:44+00:00",
-      "detected_at_utc": "2026-11-16T18:22:01.064967+00:00",
-      "baseline": {
-        "t": "2026-11-16T18:22:01.064967+00:00",
-        "price": 64928.2,
-        "funding_rate_pct": null,
-        "fear_greed_value": 10,
-        "volume_1h": 43012419.71
-      },
-      "checkpoints": {
-        "30m": {
-          "t": "2026-11-17T01:56:44.491113+00:00",
-          "price": 64746.28,
-          "funding_rate_pct": null,
-          "fear_greed_value": 12,
-          "volume_1h": 66791956.09,
-          "delta_price_pct": -0.28
-        },
-        "1h": {
-          "t": "2026-11-17T01:56:44.491113+00:00",
-          "price": 64746.28,
-          "funding_rate_pct": null,
-          "fear_greed_value": 12,
-          "volume_1h": 66791956.09,
-          "delta_price_pct": -0.28
-        },
-        "2h": {
-          "t": "2026-11-17T01:56:44.491113+00:00",
-          "price": 64746.28,
-          "funding_rate_pct": null,
-          "fear_greed_value": 12,
-          "volume_1h": 66791956.09,
-          "delta_price_pct": -0.28
-        },
-        "4h": {
-          "t": "2026-11-17T01:56:44.491113+00:00",
-          "price": 64746.28,
-          "funding_rate_pct": null,
-          "fear_greed_value": 12,
-          "volume_1h": 66791956.09,
-          "delta_price_pct": -0.28
-        }
-      },
-      "flags": [
-        "出来高急増（+55%）"
-      ],
-      "relevance": "medium",
-      "summary": "「米ストラテジー、53億円相当ビットコインを買い増し　3週連続」の報道後、BTCは4時間で-0.3%。Fear & Greedも10から12へ改善。出来高急増（+55%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
-      "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-28T09:24:48.902488+00:00"
+  "updated_at_utc": "2026-11-28T17:43:22.736153+00:00"
 }
