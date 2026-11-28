@@ -13,11 +13,46 @@
         "fear_greed_value": 10,
         "volume_1h": 17838500.92
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-28T09:24:48.902488+00:00",
+          "price": 59596.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 38724734.88,
+          "delta_price_pct": -0.98
+        },
+        "1h": {
+          "t": "2026-11-28T09:24:48.902488+00:00",
+          "price": 59596.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 38724734.88,
+          "delta_price_pct": -0.98
+        },
+        "2h": {
+          "t": "2026-11-28T09:24:48.902488+00:00",
+          "price": 59596.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 38724734.88,
+          "delta_price_pct": -0.98
+        },
+        "4h": {
+          "t": "2026-11-28T09:24:48.902488+00:00",
+          "price": 59596.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 38724734.88,
+          "delta_price_pct": -0.98
+        }
+      },
+      "flags": [
+        "出来高急増（+117%）"
+      ],
+      "relevance": "medium",
+      "summary": "「「押し目買い転換は異例」　ビットコインのクジラ、9〜11月で12万BTC超を買い増し」の報道後、BTCは4時間で-1.0%。Fear & Greedも10から10へ横ばい。出来高急増（+117%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "ビットコインがスーパーサイクル確立か、最高値突破なら20万3000ドルも視野に＝アナリスト",
@@ -32,11 +67,46 @@
         "fear_greed_value": 10,
         "volume_1h": 17838500.92
       },
-      "checkpoints": {},
-      "flags": [],
-      "relevance": "unknown",
-      "summary": null,
-      "finalized": false
+      "checkpoints": {
+        "30m": {
+          "t": "2026-11-28T09:24:48.902488+00:00",
+          "price": 59596.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 38724734.88,
+          "delta_price_pct": -0.98
+        },
+        "1h": {
+          "t": "2026-11-28T09:24:48.902488+00:00",
+          "price": 59596.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 38724734.88,
+          "delta_price_pct": -0.98
+        },
+        "2h": {
+          "t": "2026-11-28T09:24:48.902488+00:00",
+          "price": 59596.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 38724734.88,
+          "delta_price_pct": -0.98
+        },
+        "4h": {
+          "t": "2026-11-28T09:24:48.902488+00:00",
+          "price": 59596.69,
+          "funding_rate_pct": null,
+          "fear_greed_value": 10,
+          "volume_1h": 38724734.88,
+          "delta_price_pct": -0.98
+        }
+      },
+      "flags": [
+        "出来高急増（+117%）"
+      ],
+      "relevance": "medium",
+      "summary": "「ビットコインがスーパーサイクル確立か、最高値突破なら20万3000ドルも視野に＝アナリスト」の報道後、BTCは4時間で-1.0%。Fear & Greedも10から10へ横ばい。出来高急増（+117%）の兆候が見られます。ただし相関の一致であり、因果関係は確定できません。",
+      "finalized": true
     },
     {
       "title": "メタプラネット傘下入り予定のスーパーリーグ、8ビットコインを追加購入",
@@ -3141,5 +3211,5 @@
       "finalized": true
     }
   ],
-  "updated_at_utc": "2026-11-28T01:31:48.715748+00:00"
+  "updated_at_utc": "2026-11-28T09:24:48.902488+00:00"
 }
